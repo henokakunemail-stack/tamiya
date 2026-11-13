@@ -1,0 +1,54 @@
+--
+--
+--
+-----@class LightweightViewAction:ViewBaseAction
+--LightweightViewAction = class("LightweightViewAction",ViewBaseAction)
+--
+--function LightweightViewAction:initialize()
+--    ViewBaseAction.initialize(self)
+--end
+--
+--function LightweightViewAction:OnRegisterEvents()
+--    self:AddNotificationEvent(UINotifyEvent.LightweightView_SetData, self.SetData)
+--    self:AddNotificationEvent(UINotifyEvent.LightweightView_UpdateScrollView, self.UpdateScollView)
+--    self:AddNotificationEvent(UINotifyEvent.LightweightView_ClickHole, self.OnClickHole)
+--    self:AddNotificationEvent(UINotifyEvent.LightweightView_OnClickSave, self.OnClickBtn_Save)
+--    self:AddNotificationEvent(UINotifyEvent.LightweightView_UpdateHoleState, self.UpdateHoleState)
+--end
+--
+-----@return LightweightView
+--function LightweightViewAction:View()
+--    return self.view
+--end
+--
+--function LightweightViewAction:SetData(carid)
+--    if self:View() then
+--        self:View():SetData(carid)
+--    end
+--end
+--
+--
+--function LightweightViewAction:UpdateScollView(node)
+--    if self:View() then
+--        self:View():UpdateScollView(node[1], node[2])
+--    end
+--end
+--
+--function LightweightViewAction:OnClickHole(idx, issave)
+--    if self:View() then
+--        self:View():OnClickHole(idx, issave)
+--    end
+--end
+--
+--function LightweightViewAction:OnClickBtn_Save()
+--    if self:View() then
+--        self:View():OnClickBtn_Save()
+--    end
+--end
+--function LightweightViewAction:UpdateHoleState()
+--    if self:View() then
+--        self:View():UpdateHoleState()
+--    end
+--end
+--
+--return LightweightViewAction()

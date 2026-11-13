@@ -1,0 +1,111 @@
+--
+-----@class PVE_Loading:LoadingBase
+--PVE_Loading = class("PVE_Loading", LoadingBase)
+--
+--function PVE_Loading:OnEnter(sceneid, rLevelId, racemodel)
+--    log("TrainLoading:OnEnter")
+--
+--    self.scenename = sceneid
+--
+--    self.rLevelId = rLevelId
+--    self.raceTrackAsset = nil
+--
+--    self:SequenceLoading(racemodel)
+--end
+--
+--function PVE_Loading:SequenceLoading(racemodel)
+--    UIManager:Get():CloseAllViews()
+--    UIManager:Get():OpenView("EmptyView", CanvasType.MainCanvas, nil)
+--    CommonHelper:OpenLoading(true, function()
+--        self:OnComplete()
+--    end)
+--
+--    --MeshCacheMgr:Get():ReleaseAllMesh()
+--
+--    BattleDataManager:Get():SetStateLoading()
+--
+--    cs_coroutine.start(function()
+--
+--        coroutine.yield()
+--        UINotify:Get():SendNotification(UINotifyEvent.UpdateLoadingViewProgress, 0)
+--
+--        local sceneAsset = AssetsManager.LoadScene(self.scenename, true, false)
+--
+--        while not sceneAsset.isDone do
+--            coroutine.yield()
+--            UINotify:Get():SendNotification(UINotifyEvent.UpdateLoadingViewProgress, sceneAsset.progress * 0.3)
+--        end
+--
+--        self:LoadTrackRes()
+--        if self.raceTrackAsset then
+--            while not self.raceTrackAsset.isDone do
+--                coroutine.yield()
+--            end
+--        end
+--        if SelfDefineTrack ~= nil then
+--            while not SelfDefineTrack:isDone() do
+--                coroutine.yield()
+--            end
+--        end
+--
+--
+--        coroutine.yield(cs_coroutine.start(function()
+--            RaceBulider:Get():Builder()
+--        end))
+--
+--        coroutine.yield()
+--        UINotify:Get():SendNotification(UINotifyEvent.UpdateLoadingViewProgress, 1)
+--        coroutine.yield()
+--        logError("TrainLoading Finish...")
+--
+--
+--        coroutine.yield()
+--        UINotify:Get():SendNotification(UINotifyEvent.UpdateLoadingViewProgress, 1)
+--        UINotify:Get():SendNotification(UINotifyEvent.UpdateLoadingFinish)
+--        --UINotify:Get():SendNotification(UINotifyEvent.CloseLoadingView)
+--
+--        --UIManager:Get():OpenView("BattleView", CanvasType.MainCanvas, "BattleView")
+--    end)
+--end
+--
+--function PVE_Loading:LoadTrackRes()
+--    --------- Track ---------------------------------------
+--    ---
+--    local levelData = ChapterDataManager:Get():GetLevelData(self.rLevelId)
+--
+--    if  levelData.trackresname ~= nil and  levelData.trackresname ~= "" then
+--
+--        if levelData.trackresname=="-1" then
+--           self.raceTrackAsset= CommonHelper:LoadingMiniTrack(MiniTrackType.LocalCustomTrack,levelData.configName)
+--           -- CommonHelper:LoadingMiniTrack(trackname,trackType)
+--        else
+--            self.raceTrackAsset=CommonHelper:LoadingMiniTrack(MiniTrackType.System,levelData.trackresname)
+--        end
+--    end
+--
+--
+--end
+--
+--
+--function PVE_Loading:OnUpdate()
+--
+--end
+--
+--function PVE_Loading:OnComplete()
+--    self:RaceStart()
+--end
+--
+---- 游戏正式开始
+--function PVE_Loading:RaceStart()
+--    BattleDataManager:Get():SetStateLoadFinish()
+--end
+--
+--function PVE_Loading:OnExit()
+--
+--    if self.raceTrackAsset ~= nil then
+--        AssetsManager.Unload( self.raceTrackAsset)
+--    end
+--    AssetsManager.UnloadScene(self.scenename)
+--end
+--
+--return PVE_Loading

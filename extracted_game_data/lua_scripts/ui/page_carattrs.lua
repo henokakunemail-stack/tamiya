@@ -1,0 +1,57 @@
+--
+-----@type table<number, PartAttrData>
+--local __AttrList = nil
+--
+--
+-----@class Page_CarAttrs
+--Page_CarAttrs = class("Page_CarAttrs")
+--
+--function Page_CarAttrs:initialize()
+--    self.attrList = nil
+--end
+--
+-----@param cardata CarData
+--function Page_CarAttrs:SetCarData(root, cardata)
+--    self.attrList = cardata:GetAttrList()
+--
+--    self:SaveAttrList()
+--
+--    self:SetUI(root)
+--end
+--
+--
+--function Page_CarAttrs:SetCustomData(root, cfg)
+--
+--
+--end
+--
+--function Page_CarAttrs:SaveAttrList()
+--    __AttrList = {}
+--    local list = self.attrList
+--    for i = 1, #list do
+--        local insert = true
+--        for k,v in pairs(BaseAttr) do
+--            if list[i].type == v then
+--                insert = false
+--                break
+--            end
+--        end
+--
+--        if insert then
+--            table.insert(__AttrList, list[i])
+--        end
+--    end
+--end
+--
+--
+--function Page_CarAttrs:SetUI(root)
+--    local scrollview = UIUtil.GetTypeChildWightInputPath("MoreRowScrollView_V", root, typeof(MoreRowScrollView))
+--    CommonHelper:InitMoreRowScrollView(scrollview, #__AttrList, 2,function(dataIndex, itemObj, scroll)
+--        local data = __AttrList[dataIndex + 1]
+--        CommonHelper:SetText("attrname", itemObj, CommonHelper:GetAttrName(data.type))
+--
+--        local reature = UIUtil.GetChild("PartFeature", itemObj)
+--        CommonHelper:SetAttrFeatureIcon(data.type, data.value, reature)
+--    end)
+--end
+--

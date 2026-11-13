@@ -1,0 +1,36 @@
+-----@class TopInfoRecruitView : ViewBase
+--TopInfoRecruitView = class("TopInfoRecruitView", ViewBase)
+--
+--function TopInfoRecruitView:initialize()
+--    ViewBase.initialize(self)
+--    ViewBase.RegisteAction(self, "TopInfoRecruitViewAction")
+--end
+--
+--function TopInfoRecruitView:Awake()
+--    log("---   TopInfoRecruitView awake")
+--
+--    CommonHelper:HButtonSetCallback("BtnAddDiamond", self.gameObject, function(data)
+--        CommonHelper:OpenPurchasePanel()
+--    end)
+--end
+--
+--function TopInfoRecruitView:SetCurrencyData()
+--    CommonHelper:SetText("###LabGold", self.gameObject, tostring(PlayerDataManager:Get():GetCurrency(CurrencyType.Gold)))
+--    CommonHelper:SetText("###LabDiamond", self.gameObject, tostring(PlayerDataManager:Get():GetCurrency(CurrencyType.Diamond)))
+--    CommonHelper:SetText("###LabFriendShip", self.gameObject, tostring(PlayerDataManager:Get():GetCurrency(CurrencyType.FriendShip)))
+--end
+--
+--function TopInfoRecruitView:InitViewInfo(recruitMoneyType, ticketId)
+--    --CommonHelper:SetText("###LabPlayerName", self.gameObject, PlayerDataManager:Get():GetPlayerName())
+--
+--    self:SetCurrencyData()
+--
+--    --self:SetRecruitTicket(recruitTicket)
+--
+--    CommonHelper:SetGameObjectActive("friendship", self.gameObject, recruitMoneyType == RecruitMoneyType.FriendShip)
+--end
+--
+--function TopInfoRecruitView:SetRecruitTicket(recruitTicket)
+--    CommonHelper:SetText("###LabTicket", self.gameObject, tostring(recruitTicket))
+--end
+--

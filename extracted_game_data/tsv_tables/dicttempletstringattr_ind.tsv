@@ -1,0 +1,126 @@
+string
+0
+ind
+Penilaian
+Mempengaruhi kecepatan maksimum langsung, semakin tinggi kecepatan putaran, semakin tinggi kecepatan maksimum.
+Mempengaruhi percepatan maksimum langsung, semakin besar torsi, semakin besar percepatan maksimum.
+Mempengaruhi kemampuan menikung saat melaju. Semakin besar nilai kemampuan menikung maka semakin stabil kendaraan Mini 4WD, serta semakin kuat ketahanannya terhadap menikung dan terguling saat mendarat.
+Tabrakan selama mobil 4WD bergerak akan mengurangi nilai tahan lama, setelah nilai tahan lama turun menjadi 0, mobil 4WD lebih mudah terbalik.
+Berat akan mempengaruhi berbagai situasi saat berkendara, secara keseluruhan, semakin besar nilai berat, semakin kecil percepatan, dan jarak terbang mobil 4WD lebih pendek.
+Udara pada arah vertikal mempengaruhi mobil 4WD, semakin besar tekanan udara di bawah, semakin pendek jarak terbang.
+Pengaruh udara pada kendaraan roda empat dalam arah mendatar, semakin besar nilainya maka hambatannya semakin besar.
+Mempengaruhi konsumsi daya baterai mobil 4WD, semakin besar nilai, semakin sedikit daya baterai yang dikonsumsi dalam situasi yang sama.
+Mempengaruhi transfer torsi dan kecepatan mobil 4WD, semakin tinggi efisiensi transfer, semakin rendah kerugian untuk kecepatan dan torsi.
+Elastisitas ban akan mempengaruhi stabilitas mobil 4WD saat mendarat. Semakin besar nilai elastisitas, semakin tidak stabil, tetapi semakin mudah untuk dipercepat.
+Menghambat pantulan mobil 4WD, semakin besar nilai, semakin sulit terjadi pantulan.
+Mempengaruhi batas atas tarikan mobil 4WD saat berkendara normal, semakin besar nilai, semakin besar batas atas tarikan.
+Mempengaruhi hambatan gesekan yang diterima mobil 4WD saat berkendara normal, semakin besar nilai, semakin besar gaya gesek yang diterima.
+Mempengaruhi kerugian kecepatan selama transfer, semakin besar nilai, semakin banyak kerugian kecepatan.
+Mempengaruhi kerugian torsi selama transfer, semakin besar nilai, semakin banyak kerugian torsi.
+Hal ini mempengaruhi besarnya gesekan pada saat roler bergesekan dengan dinding lintasan. Semakin besar nilainya maka semakin besar pula gesekannya. Ada nilai batas gesekan roler. Bila diturunkan sampai batas tersebut maka pengurangan nilai tidak akan lagi mempunyai efek apa pun.
+Mempengaruhi efek buffering ketika roler bertabrakan dengan dinding lintasan. Semakin besar nilainya, semakin kecil rasio perlambatannya. Efek elastis memiliki nilai batas, bila terlampaui maka tidak akan berpengaruh lagi.
+Mempengaruhi gesekan rem mobil 4WD, semakin besar nilai, semakin baik efek pengereman.
+Perbandingan gigi mengacu pada rasio diameter poros gerak dan poros gerak utama, ini adalah kunci interaksi antara mesin dan ban, secara keseluruhan, semakin besar perbandingan gigi, semakin lambat kecepatan tetapi percepatan semakin besar.
+Diameter roda akan mempengaruhi kecepatan maksimum mobil empat roda, semakin besar jari-jarinya, semakin cepat kecepatannya, tetapi percepatannya semakin lambat.
+Koefisien restorasi roda
+Diameter roda kemudi, roda kemudi dengan diameter kecil biasanya dipasang di kepala mobil empat roda, sedangkan roda kemudi dengan diameter besar biasanya dipasang di ekor mobil.
+Konsumsi daya mobil empat roda saat bergerak, semakin besar nilainya, semakin banyak daya yang dibutuhkan.
+Pusat gravitasi X
+Pusat gravitasi Y
+Pusat gravitasi Z
+Performa off-road
+Performa melintang gelombang
+Performa belok sudut
+Kemiringan roda kemudi
+Dapat mengurangi pengaruh negatif mobil balap pada trek miring, sehingga mobil dapat melewati dengan kecepatan tinggi.
+Hambatan suspensi
+Jarak sumbu roda
+Lebar depan mobil
+Lebar belakang mobil
+0
+Pengaruh yang menyeluruh terhadap berbagai performa mobil balap dalam lingkungan salju.
+Meningkatkan kecepatan mobil di atas air
+Meningkatkan kecepatan mobil di atas pasir
+Tingkatkan kecepatan di rumput
+Tingkatkan kecepatan di tanah berbatu
+Tingkatkan kecepatan di atas es
+Atribut ini menunjukkan apakah mobil mempunyai kekuatan yang cukup untuk terbang lurus ketika keluar dari tikungan.
+0
+0
+0
+0
+Deskripsi menyeluruh terhadap kecepatan maksimum mobil 4 roda, dipengaruhi oleh kecepatan putaran mesin, efisiensi transmisi, gesekan gulungan ban, kehilangan kecepatan putaran, dan rasio gigi.
+Deskripsi menyeluruh terhadap percepatan mobil 4 roda, dipengaruhi oleh torsi, efisiensi transmisi, hambatan udara, daya cengkeram ban, kehilangan torsi, dan rasio gigi.
+Mempengaruhi kemampuan menikung saat melaju. Semakin besar nilai kemampuan menikung maka semakin stabil kendaraan Mini 4WD, serta semakin kuat ketahanannya terhadap menikung dan terguling saat mendarat.
+Tabrakan selama mobil 4 roda berlari akan menghabiskan nilai tahan lama, ketika nilai tahan lama menjadi 0, mobil 4 roda akan lebih mudah terbalik.
+Berat mempengaruhi berbagai situasi dalam proses berlari, secara keseluruhan, semakin besar nilai berat, percepatan semakin kecil, dan jarak terbang mobil 4 roda semakin pendek.
+Bentuk aerodinamis
+Kehilangan daya
+Gesekan ban
+Penilaian
+0
+Penilaian
+Kecepatan putaran
+Torsi
+Sudut
+Daya tahan
+Berat
+Tekanan aerodinamika
+Hambatan udara
+Hemat energi
+Efisiensi transmisi
+Elastisitas ban
+Suspensi
+Grip ban
+Gesekan menggelinding ban
+Kehilangan putaran
+Kehilangan torsi
+Gesekan roda pandu
+Elastisitas roda pandu
+Performa rem
+Rasio gigi
+Radius ban
+Koefisien restorasi ban
+Diameter roda pandu
+Konsumsi listrik
+Pusat gravitasi X
+Pusat gravitasi Y
+Pusat gravitasi Z
+Performa off-road
+Performa di tikungan gelombang
+Performa di tikungan sudut
+Sudut kemiringan Roller
+Dukungan dinding samping
+Tahanan gantungan
+Jarak sumbu roda
+Lebar depan mobil
+Lebar belakang mobil
+0
+Kinerja di Salju
+Performa permukaan
+Performa Pasir
+Performa rumput
+Performa off-road
+Performa es
+Support dinding samping
+0
+0
+0
+0
+Kecepatan
+Akselerasi
+Sudut
+Daya Tahan
+Berat
+Bentuk Aerodinamis
+Kehilangan Daya
+Gesekan Ban
+Penilaian
+Informasi Dasar
+Kinerja Motor
+Kinerja Ban
+Keseimbangan
+Hambatan Gesekan
+Kehilangan Daya
+Kontrol Terbang
+Fitur spesial

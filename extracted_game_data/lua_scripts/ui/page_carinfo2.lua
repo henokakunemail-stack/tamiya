@@ -1,0 +1,165 @@
+--
+--
+--
+-----@class Page_CarInfo2
+--Page_CarInfo2 = class("Page_CarInfo2")
+--
+--function Page_CarInfo2:initialize()
+--    ---@type CarData
+--    self.cardata = nil
+--    ---@type CarReviewData
+--    self.CarReviewData = nil
+--    self.msgData = nil
+--    self.suitId = -1
+--    self.carname = ""
+--
+--    self.ModuleID = nil
+--    self.CurTog = -1
+--    self.TogGroup = {}
+--    self.PageRoot = {}
+--    self.CurPagePrefab = nil
+--
+--    self.CarEquipment = nil
+--end
+--
+-------------------------------------------------------------------------接口
+--
+-----@param data CarData
+--function Page_CarInfo2:SetCarData(colortype, root, data, moduleid)
+--
+--end
+--
+-----@param msgdata table<number, SC_PartInfo>
+--function Page_CarInfo2:SetCustomData(colortype, root, msgdata, moduleid)
+--    self.msgData = msgdata
+--    self.ModuleID = moduleid
+--    ---@type parts_config_cell
+--    local partcfg = CommonHelper:GetTableDataByID(ConfigNames.parts_config, msgdata[4].cId)
+--    ---@type carshell_config_cell
+--    local shellcfg = CommonHelper:GetTableDataByID(ConfigNames.carshell_config, (partcfg.NewShellId))
+--    self.carname = ClientDataManager:Get():GetTemplateString(shellcfg.carNameid)
+--    self:SetUI(colortype, root)
+--end
+--
+-----@param data CarReviewData
+--function Page_CarInfo2:SetCarReviewData(colortype, root, data, moduleid)
+--    self.CarReviewData = data
+--    self.ModuleID = moduleid
+--    self.carname = ClientDataManager:Get():GetTemplateString(data:GetShellCfg().carNameid)
+--    self:SetUI(colortype, root)
+--end
+--
+-----@param msgdata table<number, SC_PartInfo>
+--function Page_CarInfo2:SetCfgData(colortype, root, suitid, moduleid)
+--    self.suitId = suitid
+--    self.ModuleID = moduleid
+--
+--    ---@type car_config_cell
+--    local carcfg = CommonHelper:GetTableDataByID(ConfigNames.car_config, suitid)
+--    if carcfg then
+--        ---@type parts_config_cell
+--        local partcfg = CommonHelper:GetTableDataByID(ConfigNames.parts_config, carcfg.shellId)
+--        ---@type carshell_config_cell
+--        local shellcfg = CommonHelper:GetTableDataByID(ConfigNames.carshell_config, (partcfg.NewShellId))
+--        self.carname = ClientDataManager:Get():GetTemplateString(shellcfg.carNameid)
+--    end
+--
+--    self:SetUI(colortype, root)
+--
+--end
+--
+--
+--
+--function Page_CarInfo2:Release()
+--    if self.CurPagePrefab then PrefabCacheMgr:Get():RecyclePrefab(self.CurPagePrefab) end
+--    CommonHelper:ReleasePool(self.ModuleID)
+--    LuaButtonManager:Get():ReleasePool(self.ModuleID)
+--    self.cardata = nil
+--    self.msgData = nil
+--    self.ModuleID = nil
+--    self.CurTog = -1
+--    self.TogGroup = {}
+--    self.PageRoot = {}
+--    self.CurPagePrefab = nil
+--
+--    if self.CarEquipment then
+--        self.CarEquipment:Release()
+--        self.CarEquipment = nil
+--    end
+--end
+--
+--
+--
+--function Page_CarInfo2:SetColor(colortyp)
+--    for k, v in pairs(self.TogGroup) do
+--        CommonHelper:SetColorSystem_Btn(v.gameObject, colortyp)
+--    end
+--end
+--
+-------------------------------------------------------------------------接口
+--
+--
+--
+--function Page_CarInfo2:SetUI(colortype, root)
+--    self.PageRoot = {}
+--    for i = 1, 4 do
+--        self.PageRoot[i] = UIUtil.GetChild("pageroot"..i,root)
+--    end
+--
+--    self.TogGroup = {}
+--    for i = 1, 4 do
+--        self.TogGroup[i] = LuaButtonManager:Get():AddButton("Toggle"..i,root, self.ModuleID, self.OnClickTog, i, self)
+--    end
+--
+--    self:SetColor(colortype)
+--
+--    CommonHelper:SetText("Subheading1/title",root, self.carname)
+--
+--    self:OnClickTog(3, true)
+--end
+--
+--function Page_CarInfo2:UpdateMsg()
+--
+--    if self.CurTog == 3 then self:SetPageEquipment() end
+--end
+--
+--
+--
+--function Page_CarInfo2:OnClickTog(idx, refresh)
+--    if refresh == nil then refresh = false end
+--    if self.CurTog == idx and refresh == false then return end
+--
+--    for k, v in pairs(self.TogGroup) do
+--        CommonHelper:SetToggleState(v,k == idx)
+--    end
+--    self.CurTog = idx
+--
+--    if idx == 3 then self:SetPageEquipment() end
+--
+--    local tran = UIUtil.GetGameobjectComponent(self.TogGroup[idx].gameObject, typeof(RectTransform) )
+--    tran:SetAsLastSibling()
+--end
+--
+--
+--
+--
+--
+--function Page_CarInfo2:SetPageEquipment()
+--    if self.CurPagePrefab then
+--        PrefabCacheMgr:Get():RecyclePrefab(self.CurPagePrefab)
+--    end
+--
+--    PrefabCacheMgr:Get():SwapPrefabAsync("Page_CarEquipment.prefab", nil, nil, function(param, obj)
+--        ---@type Page_CarInfo2
+--        local class = param[1]
+--        class.CurPagePrefab = obj
+--        UIUtil.SetParentGameObject(class.PageRoot[param[2]], obj)
+--
+--        class.CarEquipment = Page_CarEquipment()
+--        if class.cardata then class.CarEquipment:SetCarData(obj, class.cardata, class.ModuleID) end
+--        if class.msgData then class.CarEquipment:SetPlayerData(obj, class.msgData, class.ModuleID) end
+--        if class.CarReviewData then class.CarEquipment:SetCarReviewData(obj, class.CarReviewData, class.ModuleID) end
+--        if class.suitId > 0 then class.CarEquipment:SetCfgData(obj, class.suitId, class.ModuleID) end
+--    end, {self, 3})
+--
+--end

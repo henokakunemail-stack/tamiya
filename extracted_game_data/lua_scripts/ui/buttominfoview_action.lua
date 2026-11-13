@@ -1,0 +1,24 @@
+--
+-----@class ButtomInfoViewAction:ViewBaseAction
+--ButtomInfoViewAction = class("ButtomInfoViewAction",ViewBaseAction)
+--
+--function ButtomInfoViewAction:initialize()
+--    ViewBaseAction.initialize(self)
+--end
+--
+--function ButtomInfoViewAction:OnRegisterEvents()
+--    self:AddNotificationEvent(UINotifyEvent.ButtomInfoView_SetState, self.SetState)
+--end
+--
+-----@return ButtomInfoView
+--function ButtomInfoViewAction:View()
+--    return self.view
+--end
+--
+--function ButtomInfoViewAction:SetState(idx)
+--    if self:View() then
+--        self:View():SetState(idx)
+--    end
+--end
+--
+--return ButtomInfoViewAction()

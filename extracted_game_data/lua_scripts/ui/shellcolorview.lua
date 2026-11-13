@@ -1,0 +1,227 @@
+--
+--local __SelectTitle = -1
+--local __SelectIndex = -1
+--
+-----@class ShellColorView : ViewBase
+--ShellColorView = class("ShellColorView", ViewBase)
+--
+--function ShellColorView:initialize()
+--    ViewBase.initialize(self)
+--    ViewBase.RegisteAction(self, "ShellColorViewAction")
+--
+--    ---@type table<string, table<number, article_config_cell>>
+--    self.CfgList = {}
+--
+--    print("---   ShellColorView 初始化完成")
+--end
+--
+--function ShellColorView:Awake()
+--    print("---   ShellColorView awake")
+--    self.ScrollView = UIUtil.GetTypeChildWightByParent("TitleScrollView", self.gameObject, typeof(TitleScrollView))
+--    --self.CarTitle = UIUtil.GetChild("CarTitle",self.gameObject)
+--
+--    CommonHelper:HButtonSetCallback("BtnBack",self.gameObject,function (hbtn)
+--        UIManager:Get():CloseView()
+--    end)
+--
+--    CommonHelper:HButtonSetCallback("BtnReset",self.gameObject,function (hbtn)
+--        UINotify:Get():SendNotification(UINotifyEvent.ShellColorView_ClickBtnReset)
+--    end)
+--
+--    CommonHelper:HButtonSetCallback("BtnSave",self.gameObject,function (hbtn)
+--        UINotify:Get():SendNotification(UINotifyEvent.ShellColorView_ClickBtnSave)
+--    end)
+--end
+--
+--function ShellColorView:OnOpen()
+--    --self.BtnSave = LuaButtonManager:Get():AddButton("BtnSave",self.gameObject,UIModuleID.ShellColor,self.OnClickBtn_Save, nil, self)
+--    --self.BtnReset = LuaButtonManager:Get():AddButton("BtnReset",self.gameObject,UIModuleID.ShellColor,self.OnClickBtn_Reset, nil, self)
+--    --
+--    --CommonHelper:SetHButtonClick(self.BtnSave, false, true)
+--end
+--
+--function ShellColorView:OnClose()
+--    --__SelectIndex = -1
+--    --LuaButtonManager:Get():ReleasePool(UIModuleID.ShellColor)
+--    CommonHelper:ReleasePool(UIModuleID.ShellColor)
+--    self.ScrollView:OutAni_Alpha(0)
+--end
+--
+--function ShellColorView:SetData(carid)
+--    ---@type article_config
+--    local tab = ClientDataManager:Get():GetDataTable(ConfigNames.article_config)
+--    local list = tab.GetArticleListType2(KnapsackType.Appearance, KnapsackSecondType.Appearance_Color)
+--    ---@type parttype_config
+--    local typecfg = ClientDataManager:Get():GetDataTable(ConfigNames.parttype_config)
+--    for k,v in pairs(list) do
+--        local key = ClientDataManager:Get():GetTemplateString(typecfg.GetDataByType3(KnapsackType.Appearance, KnapsackSecondType.Appearance_Color, k ))
+--        self.CfgList[key] = v
+--
+--    end
+--
+--    self:SortShowList()
+--    self.CurCar = CarDataManager:Get():GetCarDataByCarID(carid)
+--
+--    for k,v in pairs(self.CfgList) do
+--        for m = 1, #v do
+--            if v[m].id == self.CurCar:GetShellColor() then
+--                __SelectIndex = m - 1
+--                __SelectTitle = k
+--                break
+--            end
+--        end
+--    end
+--
+--
+--    --self:SetCarTitle()
+--
+--    self:SetScrollView()
+--
+--    --self:SetMesh(true)
+--
+--
+--end
+--
+--
+--function ShellColorView:SortShowList()
+--
+--    for k,v in pairs(self.CfgList) do
+--        table.sort(v,function (a, b)
+--            if a.quality > b.quality then
+--                return true
+--            end
+--            if a.quality < b.quality then
+--                return false
+--            end
+--            if a.id > b.id then
+--                return true
+--            end
+--            if a.id < b.id then
+--                return false
+--            end
+--            return false
+--        end)
+--    end
+--end
+--
+--function ShellColorView:SetScrollView()
+--
+--    local data = {}
+--    for k,v in pairs(self.CfgList) do
+--        table.insert( data, k )
+--        table.insert( data, #v)
+--    end
+--
+--
+--    CommonHelper:InitTitleScrollView( self.ScrollView,  data , 5, function(title, itemObj, dataIndex, scroll)
+--        UINotify:Get():SendNotification(UINotifyEvent.ShellColorView_UpdateScrollView, {title, dataIndex, itemObj})
+--    end)
+--    self.ScrollView:EnterAni_Alpha(0.2)
+--end
+--
+--
+--function ShellColorView:UpdateScollView(title, dataIndex, itemObj )
+--
+--    if dataIndex == -1 then
+--        CommonHelper:SetText("Text",itemObj,title)
+--        return
+--    end
+--
+--    local data = self.CfgList[title][dataIndex + 1]
+--    if data == nil then return end
+--
+--    local param = Param_AppearanceItem()
+--    param.moduleId = UIModuleID.ShellColor
+--    param.icon = data.NewIcon
+--    param.count = KnapsackDataManager:Get():GetArticleCountByCfgid(data.id)
+--    param.quality = CommonHelper:GetPartQualityImage(data.quality)
+--    param.select = (__SelectIndex == dataIndex and __SelectTitle == title)
+--    --param.possess = AppearanceKnapsackManager:Get():IsPossess(AppearanceKnapsackType.Color, data.id)
+--    CommonHelper:SetAppearanceItem(itemObj, param)
+--
+--
+--    CommonHelper:HButtonSetCallback("ItemBtn",itemObj,function (hbtn)
+--        UINotify:Get():SendNotification(UINotifyEvent.ShellColorView_ClickItem, {hbtn.stringData,hbtn.intData})
+--    end, dataIndex, title)
+--end
+--
+--function ShellColorView:ClickItem(title, index)
+--    __SelectTitle = title
+--    __SelectIndex = index
+--
+--    CommonHelper:TitleScrollView_RefreshCurList(self.ScrollView, false)
+--
+--    self.SelectColor = self.CfgList[title][index + 1]
+--
+--    --self:SaveColor()
+--
+--    UINotify:Get():SendNotification(UINotifyEvent.PViewAssembleCar_ReviewColor, tonumber(self.SelectColor.effectPara) )
+--end
+--
+--function ShellColorView:OnClickBtn_Save()
+--    if self.SelectColor ~= nil then
+--        local count = KnapsackDataManager:Get():GetArticleCountByCfgid(self.SelectColor.id)
+--        local carshellid = self.CurCar.assembleMgr:GetNodeByGrooveID(PartGrooveID.Shell):GetBagID()
+--        if count > 0 then
+--            AppearanceSubsystem:Get():SendMsg_ShellColor(carshellid , self.SelectColor.id)
+--        else
+--            CommonTipsHelper:ShowCenterTips(ClientDataManager:Get():GetTemplateString(TemplateStringID.ShellColorNoCount))
+--        end
+--    end
+--
+--end
+--
+--function ShellColorView:OnClickBtn_Reset()
+--    local cardata = CarDataManager:Get():GetCarDataByCarID(self.CurCar.carIdx)
+--    cardata:SetShellColor(0)
+--    UINotify:Get():SendNotification(UINotifyEvent.PViewAssembleCar_Reset)
+--end
+--
+--
+--
+--function ShellColorView:UpdateMsg()
+--    CommonHelper:TitleScrollView_RefreshCurList(self.ScrollView, false)
+--end
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+----function ShellColorView:SetCarTitle()
+----
+----    CommonHelper:SetCarTitleGroup(self.CarTitle, self.CurCar.carId)
+----end
+--
+--
+----
+----function ShellColorView:SaveColor()
+----    local temp = AppearanceKnapsackManager:Get():IsPossess(AppearanceKnapsackType.Color, self.SelectColor.id)
+----    temp = temp and self.CurCar.appearanceData.ColorID ~= self.SelectColor.id
+----    CommonHelper:SetHButtonClick(self.BtnSave, temp, true)
+----
+----    self:SetMesh(false)
+----end
+----
+----
+----function ShellColorView:SetMesh(resetTween)
+----    UINotify:Get():SendNotification(UINotifyEvent.CarShowPartView_SetMesh, {self.CurCar.carId, resetTween})
+----end

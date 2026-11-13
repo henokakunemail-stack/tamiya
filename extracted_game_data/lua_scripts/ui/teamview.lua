@@ -1,0 +1,335 @@
+--
+--
+--local __SelectPosIndex = 0
+--
+--
+-----@class TeamView : ViewBase
+--TeamView = class("TeamView", ViewBase)
+--
+--function TeamView:initialize()
+--    ViewBase.initialize(self)
+--    ViewBase.RegisteAction(self, "TeamViewAction")
+--
+--    print("---   TeamView 初始化完成")
+--
+--    ---@type table<number, CarData>
+--    self.CarList = {}
+--
+--    ---@type table<number, TeamData>
+--    self.CurTeam = {}
+--
+--    self.CurTeamIdx = 1
+--
+--    self.typeToggle = {}
+--    self.teamIdxToggle = {}
+--
+--    self.teamCarCompoent = {}
+--
+--end
+--
+--function TeamView:Awake()
+--    print("---   TeamView awake")
+--    self.scroll = UIUtil.GetTypeChildWightInputPath("Scroll", self.gameObject, typeof(InfinityScrollView))
+--
+--    --CommonHelper:HButtonSetCallback("BtnBack",self.gameObject,function (hbtn)
+--    --    UIManager:Get():CloseView()
+--    --end)
+--    CommonHelper:HButtonSetCallback("BtnTeam",self.gameObject,function (hbtn)
+--        --UIManager:Get():OpenView("TeamEditorView",CanvasType.MainCanvas,"TeamEditorView")
+--    end)
+--    CommonHelper:HButtonSetCallback("BtnAssemble",self.gameObject,function (hbtn)
+--        --UIManager:Get():OpenView("TransformView",CanvasType.MainCanvas,"TransformView")
+--        --UINotify:Get():SendNotification(UINotifyEvent.TransformView_SetData, {hbtn.longData, true})
+--    end)
+--end
+--
+--function TeamView:OnOpen()
+--    UINotify:Get():SendNotification(UINotifyEvent.PViewTeam_SetMainView, 1)
+--    --self:BindCompoent()
+--    --self:SetToggle_TeamEditor()
+--    --self:SetToggle_CarType()
+--    --
+--    --self:OnClickToggle_CarType(0)
+--    --self:SetCarBrowseView()
+--    --
+--    --self:OnClickToggle_TeamEditor(1)
+--end
+--function TeamView:ReOpen()
+--    UINotify:Get():SendNotification(UINotifyEvent.PViewTeam_SetMainView, 1)
+--    UINotify:Get():SendNotification(UINotifyEvent.PViewTeam_SetCameraView, 1)
+--end
+--function TeamView:OnClose()
+--    LuaButtonManager:Get():ReleasePool(UIModuleID.Team)
+--    CommonHelper:ReleasePool(UIModuleID.Team)
+--    self:ClearSelectState()
+--end
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+---------------------------------------------------------------------------------------------
+--function TeamView:SetToggle_TeamEditor()
+--    self.teamIdxToggle = {}
+--    local ToggleGroup = UIUtil.GetChild("TogGroup", self.gameObject)
+--    for i = 1, 5 do
+--        --local tog = LuaButtonManager:Get():AddButton("Team"..i,ToggleGroup,UIModuleID.Team,self.OnClickToggle_TeamEditor, i, self)
+--        if tog then self.teamIdxToggle[i] = tog end
+--    end
+--end
+--function TeamView:OnClickToggle_TeamEditor(param)
+--    for k, v in pairs(self.teamIdxToggle) do
+--        CommonHelper:SetToggleState(v,k == param)
+--    end
+--    self:SetCurTeam(param)
+--    self:ClearSelectState()
+--end
+--function TeamView:SetToggle_CarType()
+--    self.typeToggle = {}
+--    local TypeGroup = UIUtil.GetChild("taggroup", self.gameObject)
+--    for i = 0, 4 do
+--        --local tog = LuaButtonManager:Get():AddButton("ToggeCarType"..i,TypeGroup,UIModuleID.Team,self.OnClickToggle_CarType, i, self)
+--        --if tog then self.typeToggle[i] = tog end
+--    end
+--end
+--function TeamView:OnClickToggle_CarType(param)
+--    for k, v in pairs(self.typeToggle) do
+--        CommonHelper:SetToggleState(v,k == param)
+--    end
+--    self:SetCarList(param)
+--    self:SetCarBrowseView()
+--
+--    CommonHelper:RefreshCurItems(self.scroll)
+--end
+---------------------------------------------------------------------------------------------
+--
+--
+--
+--
+----------------------------------------------------------车列表
+--function TeamView:SetCarList(type)
+--    --self.CarList = CarDataManager:Get():GetCarListByType(type)
+--end
+--function TeamView:SetCarBrowseView()
+--    local funcUpdateItem = function (dataIndex, itemObj,scroll)
+--        UINotify:Get():SendNotification(UINotifyEvent.TeamView_UpdateScrollView, {dataIndex, itemObj,scroll})
+--    end
+--    CommonHelper:InitScroll_MoreRows(self.scroll, #self.CarList, 4, funcUpdateItem)
+--end
+--function TeamView:UpdateCarBrowseView(dataIndex, itemObj,scroll)
+--    --local carData = self.CarList[dataIndex + 1]
+--    --if carData == nil then return end
+--    --local carCfg = carData.carCfg
+--    --if carCfg == nil then return end
+--    --
+--    --local param = Param_CarGroup()
+--    --param.moduleId = UIModuleID.Team
+--    --param.carName = ClientDataManager:Get():GetTemplateString(carCfg.carNameid)
+--    --param.carIcon = "ui_3dicon_"..(carCfg.NewID)..".png"
+--    --param.quality = carCfg.quality
+--    --param.type = carCfg.carType
+--    --param.lv = carData.lv
+--    --param.star = carData.star
+--    --CommonHelper:SetCarGroup(itemObj, param)
+--    --
+--    --LuaButtonManager:Get():AddButton("ItemBtn",itemObj,UIModuleID.Team,self.OnClickBtn_CarBrowseCompoent, carData, self)
+--    --
+--    --local tween = UIUtil.GetTypeChildWightInputPath("CustomItem", itemObj, typeof(TweenRotation))
+--    --tween.enabled = __SelectPosIndex ~= 0
+--    --if __SelectPosIndex == 0 then
+--    --    tween.transform:LocalEulerAngles(Vector3.zero)
+--    --end
+--end
+--
+-----@param cardata CarData
+--function TeamView:OnClickBtn_CarBrowseCompoent(cardata)
+--    if __SelectPosIndex == 0 then return end
+--
+--    --local first = TeamManager:Get():GetTeamData(self.CurTeamIdx, __SelectPosIndex).carData
+--    --local second = TeamManager:Get():GetTeamDataByCar(self.CurTeamIdx, cardata.carId)
+--
+--    --TeamManager:Get():UpdateTeamData(self.CurTeamIdx, __SelectPosIndex, cardata)
+--    --if first == nil then
+--    --    if second ~= nil then
+--    --        TeamManager:Get():UpdateTeamData(self.CurTeamIdx, second.posIdx, nil)
+--    --    end
+--    --else
+--    --    if second ~= nil then
+--    --        TeamManager:Get():UpdateTeamData(self.CurTeamIdx, second.posIdx, first)
+--    --    end
+--    --end
+--
+--    self:SetTeamPosGroup()
+--    self:ClearSelectState()
+--
+--    CommonHelper:RefreshCurItems(self.scroll)
+--end
+----------------------------------------------------------车列表
+--
+--
+--
+----------------------------------------------------------车队编辑
+--function TeamView:ClearSelectState()
+--    __SelectPosIndex = 0
+--    self:UpdateSelectState(0)
+--end
+--function TeamView:OnClickBtn_TeamPos(index)
+--    local temp = TeamManager:Get():GetTeamData(self.CurTeamIdx, index)
+--    if temp.carID == -1 then
+--        CommonTipsHelper:Get():ShowCenterTips("车位未开启")
+--        return
+--    end
+--
+--    if __SelectPosIndex == 0 or __SelectPosIndex == index then
+--        __SelectPosIndex = index
+--        self:UpdateSelectState(index)
+--
+--    else
+--        local first = TeamManager:Get():GetTeamData(self.CurTeamIdx, __SelectPosIndex).carData
+--        local second = TeamManager:Get():GetTeamData(self.CurTeamIdx, index).carData
+--        --TeamManager:Get():UpdateTeamData(self.CurTeamIdx, __SelectPosIndex, second)
+--        --TeamManager:Get():UpdateTeamData(self.CurTeamIdx, index, first)
+--
+--        self:SetTeamPosGroup()
+--        self:ClearSelectState()
+--    end
+--
+--    CommonHelper:RefreshCurItems(self.scroll)
+--end
+--function TeamView:OnClickBtn_RemoveCar(index)
+--    self:ClearSelectState()
+--
+--    --TeamManager:Get():UpdateTeamData(self.CurTeamIdx, index, nil)
+--    self:SetTeamPosGroup()
+--end
+----------------------------------------------------------车队编辑
+--
+--
+--
+--
+----------------------------------------------------------车队编辑
+--function TeamView:SetCurTeam(index)
+--    self.CurTeam = TeamManager:Get():GetTeam(index)
+--    self.CurTeamIdx = index
+--    self:SetTeamPosGroup()
+--end
+--function TeamView:SetTeamPosGroup()
+--    for i = 1, #self.CurTeam do
+--        self:SetTeamPosCompoent(self.teamCarCompoent[i], self.CurTeam[i])
+--    end
+--end
+-----@param teamdata TeamData
+--function TeamView:SetTeamPosCompoent(obj, teamdata)
+--    if teamdata == nil then return end
+--
+--    --local cardata = teamdata.carData
+--    --local add = UIUtil.GetChild("add",obj)
+--    --local lock = UIUtil.GetChild("lock",obj)
+--    --local remove = UIUtil.GetChild("BtnRemove",obj)
+--    --local carobj = UIUtil.GetChild("CarCompoent",obj)
+--    --add:SetActive(teamdata.carID == 0)
+--    --carobj:SetActive(teamdata.carID > 0)
+--    --lock:SetActive(teamdata.carID == -1)
+--    --remove:SetActive(cardata ~= nil)
+--    --if cardata ~= nil then
+--    --    local carCfg = cardata.carCfg
+--    --    if carCfg ~= nil then
+--    --        local param = Param_CarGroup()
+--    --        param.moduleId = UIModuleID.Team
+--    --        param.carName = ClientDataManager:Get():GetTemplateString(carCfg.carNameid)
+--    --        param.carIcon = "ui_3dicon_"..(carCfg.NewID)..".png"
+--    --        param.quality = carCfg.quality
+--    --        param.type = carCfg.carType
+--    --        param.lv = cardata.lv
+--    --        param.star = cardata.star
+--    --        CommonHelper:SetCarGroup(carobj, param)
+--    --    end
+--    --end
+--end
+----------------------------------------------------------车队编辑
+--
+--
+--function TeamView:BindCompoent()
+--    self.teamCarCompoent = {}
+--    local CarGroup = UIUtil.GetChild("CarGroup", self.gameObject)
+--    for i = 1, 5 do
+--        local temp = UIUtil.GetChild("TeamCarCompoent"..i, CarGroup)
+--        table.insert(self.teamCarCompoent, temp)
+--        --LuaButtonManager:Get():AddButton("BtnPos",temp,UIModuleID.Team,self.OnClickBtn_TeamPos,i,self)
+--        --LuaButtonManager:Get():AddButton("BtnRemove",temp,UIModuleID.Team,self.OnClickBtn_RemoveCar,i,self)
+--    end
+--end
+--
+--
+--function TeamView:UpdateSelectState(index)
+--    for i = 1, #self.teamCarCompoent do
+--        local select = UIUtil.GetChild("select",self.teamCarCompoent[i])
+--        select:SetActive(index == i)
+--    end
+--end
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--

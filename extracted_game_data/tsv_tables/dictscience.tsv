@@ -1,0 +1,7 @@
+int	int	string	string	int	string	string
+0	0	0	0	0	0	0
+C_ID	prelev	consumeids	consumenums	initunlock	techids	name
+1	0	0	0	1	1:2:3:501:502:507	science_1
+2	1	12040101	200000	0	5:6:10:503	science_2
+3	2	12040101	500000	0	4:7:8:504	science_3
+4	3	12040101	1200000	0	9:11:505:506:508	science_4

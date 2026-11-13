@@ -1,0 +1,27 @@
+# Large binary packages & APKs
+*.xapk
+*.apk
+Mini4WD_16.0_APKPure(1)/
+Mini4WD_16.0_APKPure(1).xapk
+
+# Raw multi-gigabyte unpack dumps
+extracted/
+extracted_raw/
+video/
+*.mp4
+
+# Python & build caches
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+env/
+*.log
+
+# Large screenshots (keep small preview screenshots in mini4wd_standalone)
+device_screen.png
+device_screen_live.png
+
+# Empty temp dirs
+extracted_assets/
+extracted_lua/

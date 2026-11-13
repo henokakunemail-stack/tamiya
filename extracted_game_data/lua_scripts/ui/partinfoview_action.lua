@@ -1,0 +1,33 @@
+--
+--
+--
+-----@class PartInfoViewAction:ViewBaseAction
+--PartInfoViewAction = class("PartInfoViewAction",ViewBaseAction)
+--
+--function PartInfoViewAction:initialize()
+--    ViewBaseAction.initialize(self)
+--end
+--
+--function PartInfoViewAction:OnRegisterEvents()
+--    self:AddNotificationEvent(UINotifyEvent.PartInfoView_SetData, self.SetData)
+--    self:AddNotificationEvent(UINotifyEvent.PartInfoView_SetArticleData, self.SetArticleData)
+--end
+--
+-----@return PartInfoView
+--function PartInfoViewAction:View()
+--    return self.view
+--end
+--
+--function PartInfoViewAction:SetData(node)
+--    if self:View() then
+--        self:View():SetData(node[1], node[2], node[3])
+--    end
+--end
+--
+--function PartInfoViewAction:SetArticleData(node)
+--    if self:View() then
+--        self:View():SetArticleData(node[1], node[2])
+--    end
+--end
+--
+--return PartInfoViewAction()

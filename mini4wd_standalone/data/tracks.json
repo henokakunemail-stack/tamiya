@@ -1,0 +1,2759 @@
+[
+  {
+    "id": "0_301_mini",
+    "name": "0_301_mini",
+    "lanes": "Three",
+    "total_segments": 14,
+    "segments": [
+      {
+        "name": "line_full_mini_3",
+        "mesh": "line_full_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "lanechanger_mini_3",
+        "mesh": "lanechanger_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_mini_3",
+        "mesh": "line_full_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve90_right_mini_3",
+        "mesh": "curve90_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_mini_3",
+        "mesh": "line_full_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_mini_3",
+        "mesh": "line_full_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_mini_3",
+        "mesh": "line_full_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_mini_3",
+        "mesh": "line_full_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_mini_3",
+        "mesh": "line_full_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve180_right_mini_3",
+        "mesh": "curve180_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve180_left_mini_3",
+        "mesh": "curve180_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve180_right_mini_3",
+        "mesh": "curve180_right_mini_3_res.prefab",
+        "next": -1
+      }
+    ]
+  },
+  {
+    "id": "0_501_mini",
+    "name": "0_501_mini",
+    "lanes": "Three",
+    "total_segments": 14,
+    "segments": [
+      {
+        "name": "line_full_mini_5",
+        "mesh": "line_full_mini_5_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "lanechanger_mini_5",
+        "mesh": "lanechanger_mini_5_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_mini_5",
+        "mesh": "line_full_mini_5_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve90_right_mini_5",
+        "mesh": "curve90_right_mini_5_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_mini_5",
+        "mesh": "line_full_mini_5_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_5",
+        "mesh": "curve45_right_mini_5_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_5",
+        "mesh": "curve45_right_mini_5_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_mini_5",
+        "mesh": "line_full_mini_5_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_mini_5",
+        "mesh": "line_full_mini_5_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_mini_5",
+        "mesh": "line_full_mini_5_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_mini_5",
+        "mesh": "line_full_mini_5_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve180_right_mini_5",
+        "mesh": "curve180_right_mini_5_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve180_left_mini_5",
+        "mesh": "curve180_left_mini_5_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve180_right_mini_5",
+        "mesh": "curve180_right_mini_5_res.prefab",
+        "next": -1
+      }
+    ]
+  },
+  {
+    "id": "0_test_cut_mini",
+    "name": "0_test_cut_mini",
+    "lanes": "Three",
+    "total_segments": 13,
+    "segments": [
+      {
+        "name": "line_full_10_mini_3",
+        "mesh": "line_full_10_mini_3_res.prefab",
+        "next": 1
+      },
+      {
+        "name": "line_full_10_mini_3",
+        "mesh": "line_full_10_mini_3_res.prefab",
+        "next": 2
+      },
+      {
+        "name": "15_long_up_mini_3",
+        "mesh": "15_long_up_mini_3_res.prefab",
+        "next": 3
+      },
+      {
+        "name": "nullmini_3",
+        "mesh": "",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": 5
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": 6
+      },
+      {
+        "name": "curve180_right_mini_3",
+        "mesh": "curve180_right_mini_3_res.prefab",
+        "next": 7
+      },
+      {
+        "name": "line_full_10_mini_3",
+        "mesh": "line_full_10_mini_3_res.prefab",
+        "next": 8
+      },
+      {
+        "name": "line_full_10_mini_3",
+        "mesh": "line_full_10_mini_3_res.prefab",
+        "next": 9
+      },
+      {
+        "name": "line_full_10_mini_3",
+        "mesh": "line_full_10_mini_3_res.prefab",
+        "next": 10
+      },
+      {
+        "name": "line_full_10_mini_3",
+        "mesh": "line_full_10_mini_3_res.prefab",
+        "next": 11
+      },
+      {
+        "name": "lanechanger_mini_3",
+        "mesh": "lanechanger_mini_3_res.prefab",
+        "next": 12
+      },
+      {
+        "name": "curve180_right_mini_3",
+        "mesh": "curve180_right_mini_3_res.prefab",
+        "next": 13
+      }
+    ]
+  },
+  {
+    "id": "0_track_mini",
+    "name": "0_track_mini",
+    "lanes": "Five",
+    "total_segments": 14,
+    "segments": [
+      {
+        "name": "line_whole_mini_5",
+        "mesh": "line_whole_mini_5_mesh.FBX",
+        "next": 1
+      },
+      {
+        "name": "line_whole_mini_5",
+        "mesh": "line_whole_mini_5_mesh.FBX",
+        "next": 2
+      },
+      {
+        "name": "line_whole_mini_5",
+        "mesh": "line_whole_mini_5_mesh.FBX",
+        "next": 3
+      },
+      {
+        "name": "fly_changer_mini_5",
+        "mesh": "fly_changer_mini_5_mesh.FBX",
+        "next": 4
+      },
+      {
+        "name": "fly_changer_mini_5",
+        "mesh": "fly_changer_mini_5_mesh.FBX",
+        "next": 5
+      },
+      {
+        "name": "curve90_right_mini_5",
+        "mesh": "curve90_right_mini_5_mesh.FBX",
+        "next": 6
+      },
+      {
+        "name": "curve90_right_mini_5",
+        "mesh": "curve90_right_mini_5_mesh.FBX",
+        "next": 7
+      },
+      {
+        "name": "line_whole_mini_5",
+        "mesh": "line_whole_mini_5_mesh.FBX",
+        "next": 8
+      },
+      {
+        "name": "line_whole_mini_5",
+        "mesh": "line_whole_mini_5_mesh.FBX",
+        "next": 9
+      },
+      {
+        "name": "line_whole_mini_5",
+        "mesh": "line_whole_mini_5_mesh.FBX",
+        "next": 10
+      },
+      {
+        "name": "fly_changer_mini_5",
+        "mesh": "fly_changer_mini_5_mesh.FBX",
+        "next": 11
+      },
+      {
+        "name": "fly_changer_mini_5",
+        "mesh": "fly_changer_mini_5_mesh.FBX",
+        "next": 12
+      },
+      {
+        "name": "curve90_right_mini_5",
+        "mesh": "curve90_right_mini_5_mesh.FBX",
+        "next": 13
+      },
+      {
+        "name": "curve90_right_mini_5",
+        "mesh": "curve90_right_mini_5_mesh.FBX",
+        "next": -1
+      }
+    ]
+  },
+  {
+    "id": "0_track_test2_mini",
+    "name": "0_track_test2_mini",
+    "lanes": "Three",
+    "total_segments": 10,
+    "segments": [
+      {
+        "name": "line_full_13_mini_3",
+        "mesh": "line_full_13_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "15_long_up_12_mini_3",
+        "mesh": "self_15_long_up_12_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve180_left_mini_3",
+        "mesh": "curve180_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "15_long_down_12_mini_3",
+        "mesh": "self_15_long_down_12_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_13_mini_3",
+        "mesh": "line_full_13_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "lanechanger_11_mini_3",
+        "mesh": "lanechanger_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve180_left_mini_3",
+        "mesh": "curve180_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_12_mini_3",
+        "mesh": "line_full_12_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_12_mini_3",
+        "mesh": "line_full_12_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_13_mini_3",
+        "mesh": "line_full_13_mini_3_res.prefab",
+        "next": -1
+      }
+    ]
+  },
+  {
+    "id": "0_track_test_mini",
+    "name": "0_track_test_mini",
+    "lanes": "Three",
+    "total_segments": 14,
+    "segments": [
+      {
+        "name": "15_short_up_12_mini_3",
+        "mesh": "self_15_short_up_12_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_12_mini_3",
+        "mesh": "line_full_12_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve180_left_mini_3",
+        "mesh": "curve180_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_12_mini_3",
+        "mesh": "line_full_12_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "15_short_down_12_mini_3",
+        "mesh": "self_15_short_down_12_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_13_mini_3",
+        "mesh": "line_full_13_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_13_mini_3",
+        "mesh": "line_full_13_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve180_right_mini_3",
+        "mesh": "curve180_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "30_short_up_12_mini_3",
+        "mesh": "self_30_short_up_12_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_13_mini_3",
+        "mesh": "line_full_13_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve180_left_mini_3",
+        "mesh": "curve180_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_12_mini_3",
+        "mesh": "line_full_12_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "30_short_down_12_mini_3",
+        "mesh": "self_30_short_down_12_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_12_mini_3",
+        "mesh": "line_full_12_mini_3_res.prefab",
+        "next": -1
+      }
+    ]
+  },
+  {
+    "id": "1001001_wuding_02_mini",
+    "name": "1001001_wuding_02_mini",
+    "lanes": "Three",
+    "total_segments": 52,
+    "segments": [
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_10_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_12_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_12_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_12_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_13_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_13_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "lanechanger_mini_3",
+        "mesh": "lanechanger_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_13_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_12_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_12_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      }
+    ]
+  },
+  {
+    "id": "1001_second_02_01_mini",
+    "name": "1001_second_02_01_mini",
+    "lanes": "Three",
+    "total_segments": 64,
+    "segments": [
+      {
+        "name": "line_full_10_mini_3",
+        "mesh": "line_full_10_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "right_wave_mini_3",
+        "mesh": "self_right_wave_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "right_wave_mini_3",
+        "mesh": "self_right_wave_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "right_wave_mini_3",
+        "mesh": "self_right_wave_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "30_long_updown_mini_3",
+        "mesh": "self_30_long_updown_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "30_long_updown_mini_3",
+        "mesh": "self_30_long_updown_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "left_wave_mini_3",
+        "mesh": "self_left_wave_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "left_wave_mini_3",
+        "mesh": "self_left_wave_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "left_wave_mini_3",
+        "mesh": "self_left_wave_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "lanechanger_mini_3",
+        "mesh": "lanechanger_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "20_line_updown_mini_3",
+        "mesh": "self_20_line_updown_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "right_wave_mini_3",
+        "mesh": "self_right_wave_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "left_wave_mini_3",
+        "mesh": "self_left_wave_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "right_wave_mini_3",
+        "mesh": "self_right_wave_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "left_wave_mini_3",
+        "mesh": "self_left_wave_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "right_wave_mini_3",
+        "mesh": "self_right_wave_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "left_wave_mini_3",
+        "mesh": "self_left_wave_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "right_wave_mini_3",
+        "mesh": "self_right_wave_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "left_wave_mini_3",
+        "mesh": "self_left_wave_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "20_line_updown_mini_3",
+        "mesh": "self_20_line_updown_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      }
+    ]
+  },
+  {
+    "id": "1001_track_zhishi_mini",
+    "name": "1001_track_zhishi_mini",
+    "lanes": "Three",
+    "total_segments": 60,
+    "segments": [
+      {
+        "name": "line_full_10_mini_3",
+        "mesh": "line_full_10_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "right_wave_mini_3",
+        "mesh": "self_right_wave_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "15_long_up_mini_3",
+        "mesh": "self_15_long_up_12_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "15_long_down_mini_3",
+        "mesh": "self_15_long_down_12_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "15_short_up_mini_3",
+        "mesh": "self_15_short_up_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "15_short_down_mini_3",
+        "mesh": "self_15_short_down_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_12_mini_3",
+        "mesh": "line_full_12_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_12_mini_3",
+        "mesh": "line_full_12_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "15_long_up_mini_3",
+        "mesh": "self_15_long_up_13_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "lanechanger_mini_3",
+        "mesh": "lanechanger_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "15_long_down_mini_3",
+        "mesh": "self_15_long_down_12_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      }
+    ]
+  },
+  {
+    "id": "1001_wuding_01_201_mini",
+    "name": "1001_wuding_01_201_mini",
+    "lanes": "Three",
+    "total_segments": 64,
+    "segments": [
+      {
+        "name": "line_full_10_mini_3",
+        "mesh": "line_full_10_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "15_short_up_mini_3",
+        "mesh": "self_15_short_up_12_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_13_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_13_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_13_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_13_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "15_short_down_mini_3",
+        "mesh": "self_15_short_down_12_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "15_updown_mini_3",
+        "mesh": "self_15_updown_12_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_12_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_12_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_12_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_12_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "15_long_up_mini_3",
+        "mesh": "self_15_long_up_12_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "15_long_down_mini_3",
+        "mesh": "self_15_long_down_12_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "lanechanger_mini_3",
+        "mesh": "lanechanger_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "15_short_up_mini_3",
+        "mesh": "self_15_short_up_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "15_short_down_mini_3",
+        "mesh": "self_15_short_down_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      }
+    ]
+  },
+  {
+    "id": "1001_wuding_01_202_mini",
+    "name": "1001_wuding_01_202_mini",
+    "lanes": "Three",
+    "total_segments": 55,
+    "segments": [
+      {
+        "name": "line_full_10_mini_3",
+        "mesh": "line_full_10_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "right_wave_mini_3",
+        "mesh": "self_right_wave_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "right_wave_mini_3",
+        "mesh": "self_right_wave_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "right_wave_mini_3",
+        "mesh": "self_right_wave_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "right_wave_mini_3",
+        "mesh": "self_right_wave_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_12_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_12_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_12_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_12_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "15_long_updown_mini_3",
+        "mesh": "self_15_long_updown_13_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_12_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_12_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_12_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_12_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "right_wave_mini_3",
+        "mesh": "self_right_wave_13_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "right_wave_mini_3",
+        "mesh": "self_right_wave_13_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "right_wave_mini_3",
+        "mesh": "self_right_wave_13_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "right_wave_mini_3",
+        "mesh": "self_right_wave_13_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "15_long_up_mini_3",
+        "mesh": "self_15_long_up_12_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "15_long_down_mini_3",
+        "mesh": "self_15_long_down_12_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_13_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_13_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_13_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_13_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "15_long_up_mini_3",
+        "mesh": "self_15_long_up_12_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "15_long_down_mini_3",
+        "mesh": "self_15_long_down_12_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_13_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_13_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "15_long_up_mini_3",
+        "mesh": "self_15_long_up_13_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "15_long_down_mini_3",
+        "mesh": "self_15_long_down_13_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "lanechanger_mini_3",
+        "mesh": "lanechanger_11_mini_3_res.prefab",
+        "next": -1
+      }
+    ]
+  },
+  {
+    "id": "1001_wuding_02_01_mini",
+    "name": "1001_wuding_02_01_mini",
+    "lanes": "Three",
+    "total_segments": 39,
+    "segments": [
+      {
+        "name": "line_full_10_mini_3",
+        "mesh": "line_full_10_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "15_long_updown_mini_3",
+        "mesh": "self_15_long_updown_12_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "lanechanger_mini_3",
+        "mesh": "lanechanger_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "20_line_updown_mini_3",
+        "mesh": "self_20_line_updown_12_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "20_line_updown_mini_3",
+        "mesh": "self_20_line_updown_13_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      }
+    ]
+  },
+  {
+    "id": "1001_wuding_02_mini",
+    "name": "1001_wuding_02_mini",
+    "lanes": "Three",
+    "total_segments": 52,
+    "segments": [
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_10_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_12_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_12_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_12_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_13_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_13_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "lanechanger_mini_3",
+        "mesh": "lanechanger_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_13_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_12_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_12_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      }
+    ]
+  },
+  {
+    "id": "1001_zhisai_mini",
+    "name": "1001_zhisai_mini",
+    "lanes": "Three",
+    "total_segments": 0,
+    "segments": []
+  },
+  {
+    "id": "1002_track_zhishi_mini",
+    "name": "1002_track_zhishi_mini",
+    "lanes": "Three",
+    "total_segments": 50,
+    "segments": [
+      {
+        "name": "line_full_10_mini_3",
+        "mesh": "line_full_10_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_12_mini_3",
+        "mesh": "line_full_12_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_12_mini_3",
+        "mesh": "line_full_12_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_12_mini_3",
+        "mesh": "line_full_12_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_left_mini_3",
+        "mesh": "curve45_11_left_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_12_mini_3",
+        "mesh": "line_full_12_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_11_mini_3",
+        "mesh": "line_full_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "lanechanger_mini_3",
+        "mesh": "lanechanger_11_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "curve45_right_mini_3",
+        "mesh": "curve45_11_right_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_12_mini_3",
+        "mesh": "line_full_12_mini_3_res.prefab",
+        "next": -1
+      },
+      {
+        "name": "line_full_13_mini_3",
+        "mesh": "line_full_13_mini_3_res.prefab",
+        "next": -1
+      }
+    ]
+  },
+  {
+    "id": "2020_track_mini",
+    "name": "2020_track_mini",
+    "lanes": "Five",
+    "total_segments": 11,
+    "segments": [
+      {
+        "name": "line_whole_mini_5",
+        "mesh": "",
+        "next": 1
+      },
+      {
+        "name": "line_whole_mini_5",
+        "mesh": "",
+        "next": 2
+      },
+      {
+        "name": "line_whole_mini_5",
+        "mesh": "",
+        "next": 3
+      },
+      {
+        "name": "curve90_right_mini_5",
+        "mesh": "",
+        "next": 4
+      },
+      {
+        "name": "curve90_right_mini_5",
+        "mesh": "",
+        "next": 5
+      },
+      {
+        "name": "line_whole_mini_5",
+        "mesh": "",
+        "next": 6
+      },
+      {
+        "name": "line_whole_mini_5",
+        "mesh": "",
+        "next": 7
+      },
+      {
+        "name": "lanechanger_3_mini_5",
+        "mesh": "",
+        "next": 8
+      },
+      {
+        "name": "digitalcurve_right_mini_5",
+        "mesh": "",
+        "next": 9
+      },
+      {
+        "name": "digitalcurve_right_mini_5",
+        "mesh": "",
+        "next": 10
+      },
+      {
+        "name": "line_whole_mini_5",
+        "mesh": "",
+        "next": -1
+      }
+    ]
+  }
+]

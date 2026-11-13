@@ -1,0 +1,33 @@
+INT	INT	INT	STRING	INT	INT	INT	STRING	STRING
+0	0	0	0	0	0	0	0	0
+C_ID	chatType	sysType	templetId	showNum	showTime	banner	parm	remark
+1	1	1	sysInfo1	3	20	1	1800	频道类型
+2	1	2	sysInfo2	1	0	1	1,41	system = 1
+3	1	3	sysInfo3	5	600	1	11,21	guild = 2
+4	1	3	sysInfo4	1	0	1	11	0
+5	1	3	sysInfo5	3	600	1	11,21	系统类别
+6	1	3	sysInfo6	100	120	1	31	1-1 系统公告
+7	1	3	sysInfo7	100	120	1	31	1-2临时公告
+8	1	1	sysInfo8	1	0	1	1,31	1-3活动公告
+9	2	1	guildInfo1	1	0	1	1	1-4抽卡公告
+10	2	2	guildInfo2	1	0	1	1	1-5PVP公告
+11	2	3	guildInfo3	1	0	1	1	0
+12	2	4	guildInfo4	1	0	1	1	2-1加入工会
+13	2	5	guildInfo5	1	0	1	1	2-2离开公会
+14	2	6	guildInfo6	1	0	1	1	2-3职位变更
+15	1	1	sysInfo9	1	0	1	1	2-4开除工会
+16	1	1	sysInfo10	1	0	1	1	0
+17	1	1	sysInfo11	1	0	1	1	显示间隔  秒单位
+18	1	1	sysInfo12	1	0	1	1	0
+19	1	1	sysInfo13	1	0	1	1	跑马灯
+0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0

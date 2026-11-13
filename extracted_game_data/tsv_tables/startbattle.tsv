@@ -1,0 +1,4 @@
+int	int	int	int	string	string	string
+0	0	0	0	0	0	0
+C_ID	sceneId	trackId	round	npcs	track	view
+1	29000010	353505	5	9006,9007,9008,9009,9010	1,2,3,4,5	3:100101

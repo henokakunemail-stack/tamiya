@@ -1,0 +1,104 @@
+--
+--
+--
+-----@class CarInfoView : ViewBase
+--CarInfoView = class("CarInfoView", ViewBase)
+--
+--function CarInfoView:initialize()
+--    ViewBase.initialize(self)
+--    ViewBase.RegisteAction(self, "CarInfoViewAction")
+--
+--    print("---   CarInfoView 初始化完成")
+--
+--    ---@type Page_CarInfo2
+--    self.Page = nil
+--    self.PagePrefab = nil
+--
+--    ---@type table<number, SC_PartInfo>
+--    self.MsgData = nil
+--    ---@type CarReviewData
+--    self.CarReviewData = nil
+--    self.SuitID = -1
+--end
+--
+--function CarInfoView:Awake()
+--    print("---   CarInfoView awake")
+--
+--    CommonHelper:HButtonSetCallback("BtnClose",self.gameObject,function (hbtn)
+--        UIManager:Get():ClosePopup()
+--    end)
+--
+--    self.PageRoot = UIUtil.GetChild("pagebase",self.gameObject)
+--
+--end
+--
+--function CarInfoView:OnOpen()
+--
+--end
+--
+--function CarInfoView:OnClose()
+--
+--    if self.Page then
+--        self.Page:Release()
+--        self.Page = nil
+--    end
+--
+--    if self.PagePrefab then
+--        PrefabCacheMgr:Get():RecyclePrefab(self.PagePrefab)
+--        self.PagePrefab = nil
+--    end
+--
+--end
+--
+--function CarInfoView:OnOpenAnimEnd()
+--
+--
+--end
+--
+--function CarInfoView:SetMsgData(data)
+--    self.MsgData = data
+--    self:SetPage()
+--end
+--
+--function CarInfoView:SetCarReviewData(data)
+--    self.CarReviewData = data
+--    self:SetPage()
+--end
+--
+--function CarInfoView:SetCfgData(id)
+--    self.SuitID = id
+--    self:SetPage()
+--end
+--
+--
+--function CarInfoView:SetPage()
+--    if self.Page then
+--        self:SetPageCarInfo(self.PagePrefab)
+--    else
+--        PrefabCacheMgr:Get():SwapPrefabAsync("Page_CarInfo2.prefab", nil, nil, self.LoadPageFinish, nil, self)
+--    end
+--
+--end
+--
+--function CarInfoView:LoadPageFinish(param, obj)
+--    self.PagePrefab = obj
+--    UIUtil.SetParentGameObject(self.PageRoot, obj)
+--    self.Page = Page_CarInfo2()
+--    self:SetPageCarInfo(obj)
+--
+--end
+--
+--function CarInfoView:SetPageCarInfo(obj)
+--    if self.MsgData then self.Page:SetCustomData(UIColor.Blue, obj,  self.MsgData, UIModuleID.CarInfo) end
+--    if self.CarReviewData then self.Page:SetCarReviewData(UIColor.Blue, obj,  self.CarReviewData, UIModuleID.CarInfo) end
+--    if self.SuitID > 0 then self.Page:SetCfgData(UIColor.Blue, obj,  self.SuitID, UIModuleID.CarInfo) end
+--end
+--
+--function CarInfoView:UpdateMsg()
+--    if self.Page then
+--        self.Page:UpdateMsg()
+--    end
+--end
+--
+--
+--

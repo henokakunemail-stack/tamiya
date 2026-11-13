@@ -1,0 +1,9 @@
+INT	INT	INT	INT	STRING	STRING	STRING
+0	0	0	0	0	0	0
+C_ID	targid	articleid	tag	icon	tagname	projectname
+1	100301	15040201	3	uitex_sucai_bg_laboratory_bg_fanghu_dt	laboratorytag1	laboratoryproject1
+2	100302	15040202	3	uitex_sucai_bg_laboratory_bg_fanghu_dt	laboratorytag1	laboratoryproject19
+3	100401	15040301	4	uitex_sucai_bg_laboratory_bg_fanghu_dt	laboratorytag2	laboratoryproject2
+4	100402	15040302	4	uitex_sucai_bg_laboratory_bg_fanghu_dt	laboratorytag2	laboratoryproject21
+5	100701	15040701	7	uitex_sucai_bg_laboratory_bg_fanghu_dt	laboratorytag4	laboratoryproject6
+6	101001	15041001	10	uitex_sucai_bg_laboratory_bg_tire_dt	laboratorytag5	laboratoryproject8

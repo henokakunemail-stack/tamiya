@@ -1,0 +1,110 @@
+--
+--
+--local __SelectIndex = -1
+--local __SetItemFront = function(item, front)
+--    if front == false then
+--        return
+--    end
+--
+--    local tran = UIUtil.GetGameobjectComponent(item, typeof(RectTransform))
+--    tran:SiblingIndex(item.transform.parent.childCount - 1)
+--
+--
+--    tran = UIUtil.GetGameobjectComponent(item.transform.parent.gameObject, typeof(RectTransform))
+--    tran:SiblingIndex(item.transform.parent.parent.childCount - 1)
+--end
+--
+--
+--
+-----@class TeamEditorPartView : ViewBase
+--TeamEditorPartView = class("TeamEditorPartView", ViewBase)
+--
+--function TeamEditorPartView:initialize()
+--    print("---   TeamEditorPartView 初始化完成")
+--
+--    ViewBase.initialize(self)
+--    ViewBase.RegisteAction(self, "TeamEditorPartViewAction")
+--end
+--
+--function TeamEditorPartView:Awake()
+--    print("---   TeamEditorPartView awake")
+--    --self.toggleLV = LuaButtonManager:Get():AddButton("Center/TogLV", self.gameObject,UIModuleID.TeamEditorPart,self.OnClickToggle, 1, self)
+--    --self.toggleType = LuaButtonManager:Get():AddButton("Center/TogType", self.gameObject,UIModuleID.TeamEditorPart,self.OnClickToggle, 2, self)
+--
+--    CommonHelper:HButtonSetCallback("BtnChangeTeam", self.gameObject, function ()
+--        print("---   排序")
+--    end)
+--
+--    self.scrollView = UIUtil.GetTypeChildWightByParent("ScrollVerticalMoreRow", self.gameObject, typeof(InfinityScrollView))
+--
+--end
+--
+--function TeamEditorPartView:OnOpen()
+--    __SelectIndex = -1
+--
+--
+--    self:SetScroll_MoreRows()
+--end
+--function TeamEditorPartView:OnClose()
+--    LuaButtonManager:Get():ReleasePool(UIModuleID.TeamEditorPart)
+--end
+--
+--
+--
+--
+--function TeamEditorPartView:SetScroll_MoreRows()
+--    local funcUpdateItem = function (dataIndex, itemObj,scroll)
+--        UINotify:Get():SendNotification(UINotifyEvent.TeamEditorPartView_SetCarData, {itemObj, dataIndex})
+--    end
+--
+--    local list = CarDataManager:Get():GetCarList()
+--    CommonHelper:InitScroll_MoreRows(self.scrollView, #list, 4, funcUpdateItem)
+--end
+--
+--function TeamEditorPartView:SetCarData(itemObj, dataIndex)
+--
+--    --local TeamGroup = UIUtil.GetChild("TeamGroup",itemObj)
+--    --TeamGroup:SetActive(false)
+--    --
+--    --__SetItemFront(itemObj,__SelectIndex == dataIndex)
+--    --
+--    --
+--    --local cardata = CarDataManager:Get():GetCarDataByIndex(dataIndex + 1)
+--    -----@type car_config_cell
+--    --local carcfg = CommonHelper:GetTableDataByID(ConfigNames.car_config, cardata.carId)
+--    --local param = Param_CarGroup()
+--    --param.moduleId = UIModuleID.TeamEditorPart
+--    --param.carName = ClientDataManager:Get():GetTemplateString(carcfg.carNameid)
+--    ----param.carIcon = "ui_3dicon_"..(carcfg.id)..".png"
+--    --param.lv = "等级"..cardata.lv
+--    --param.quality = carcfg.quality
+--    --param.type = 1 % 3 + 1
+--    --param.star = cardata.star
+--    --param.selectState = (__SelectIndex == dataIndex)
+--    --param.clickfunc = self.OnClickBtn_Car
+--    --param.clickparam = dataIndex
+--    --param.clickclass = self
+--    --
+--    --
+--    --CommonHelper:SetCarGroup(itemObj, param)
+--end
+--
+--
+--
+--
+--
+--
+--
+--function TeamEditorPartView:UpdateUICacheData(index)
+--    __SelectIndex = index
+--    CommonHelper:RefreshCurItems(self.scrollView)
+--end
+--
+--function TeamEditorPartView:OnClickToggle(index)
+--    CommonHelper:SetToggleState(self.toggleLV, index == 1)
+--    CommonHelper:SetToggleState(self.toggleType, index == 2)
+--end
+--
+--function TeamEditorPartView:OnClickBtn_Car(index)
+--    UINotify:Get():SendNotification(UINotifyEvent.TeamView_ClickEditorPartItem, index)
+--end

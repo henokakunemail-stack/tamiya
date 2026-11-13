@@ -1,0 +1,130 @@
+--
+--
+--local _CarBuilderId
+--
+--
+-----@class PViewAssembleCar : ViewBase
+--PViewAssembleCar = class("PViewAssembleCar", ViewBase)
+--
+--function PViewAssembleCar:initialize()
+--    ViewBase.initialize(self)
+--    ViewBase.RegisteAction(self, "PViewAssembleCarAction")
+--
+--    print("---   ButtomInfoView 初始化完成")
+--end
+--
+--function PViewAssembleCar:Awake()
+--    print("---   PViewAssembleCar awake")
+--
+--    CommonHelper:HButtonSetCallback("BtnBack",self.gameObject,function (hbtn)
+--        UIManager:Get():CloseView()
+--        CommonHelper:PlayScreenEffectUIMask()
+--        if NewBieGuideDataManager:Get():IsNeedShowGuide(self.gameObject.name) then
+--            UINotify:Get():SendNotification(UINotifyEvent.StartNewBieGuide)
+--        end
+--    end)
+--
+--    self.fullbg = UIUtil.GetTypeChildWightInputPath("fullbg", self.gameObject, typeof(FillRawImage))
+--    self.maskRect =  UIUtil.GetTypeChildWightByParent("maskRect", self.gameObject, typeof(RectTransform))
+--    self.maskTopRect =  UIUtil.GetTypeChildWightByParent("maskTopRect", self.gameObject, typeof(RectTransform))
+--
+--
+--
+--    local temp = PrefabCacheMgr:Get():SwapPrefab("fx_ui_dissolve_blue.prefab")
+--    UIUtil.SetParentGameObject(UIUtil.GetChild("dissolveroot", self.gameObject), temp, true, true)
+--    self.dissolve = UIUtil.GetGameobjectComponent(temp, typeof(FxDissolve))
+--    self.dissolve.downDuring = 0.7
+--    self.dissolve.upDuring = 0.7
+--end
+--
+--function PViewAssembleCar:OnOpen()
+--    print("---   OnOpen ")
+--
+--    CommonHelper:SetImageFillAmount("fillBg", self.gameObject, 1)
+--
+--    self:SetFillBg()
+--
+--    TimerManager:Get():CreateTimer(0.2, function()
+--        self.dissolve:PlayDown()
+--    end)
+--
+--end
+--
+--function PViewAssembleCar:OnClose()
+--    print("---   OnClose ")
+--    HomeSceneHelper:SetHomeScene_MeshCtrlAssembleEnable(false)
+--    CarBuilderManager:Get():Recycle(_CarBuilderId)
+--end
+--
+--function PViewAssembleCar:OnOpenAnimEnd()
+--    print("---   PViewAssembleCar:OnOpenAnimEnd ")
+--
+--    HomeSceneHelper:SetCameraAssemble()
+--
+--    HomeSceneHelper:SetHomeScene_MeshCtrlAssembleEnable(true)
+--    HomeSceneHelper:SetMeshCtrlTarger_Assemble()
+--
+--    TimerManager:Get():CreateTimer(0.2, function()
+--        self.dissolve:PlayUp()
+--    end)
+--
+--end
+--
+--function PViewAssembleCar:SetFillBg()
+--    local h = self.maskRect.rect.height - self.maskTopRect.rect.height
+--    self.fullbg.rectValue = h
+--
+--    local temp=  UIUtil.GetGameobjectComponent(self.fullbg.gameObject, typeof(RectTransform))
+--    h = (temp.rect.height - self.maskRect.rect.height) / temp.rect.height
+--    self.fullbg.FillValue = h
+--end
+--
+--
+--
+--function PViewAssembleCar:SetData(carid, type)
+--    CarBuilderManager:Get():Recycle(_CarBuilderId)
+--    local param = CarBuilderParam()
+--    param.newCarId = carid
+--    param.parent = HomeSceneHelper:GetAssembleCarRoot()
+--    param.buildType = type
+--    param.finishEvt = function(id, obj)
+--        print("----   pviewassemble:finish   ", id, obj)
+--    end
+--    _CarBuilderId = CarBuilderManager:Get():BuildCar(param)
+--end
+--
+--function PViewAssembleCar:ResetCar()
+--    CommonHelper:RebuildSelfCar(_CarBuilderId)
+--end
+--
+--function PViewAssembleCar:RebuildColor(id)
+--    CarBuilderManager:Get():ReviewColor(_CarBuilderId, id)
+--end
+--
+--function PViewAssembleCar:RebuildSticker(id)
+--    CarBuilderManager:Get():ReviewSticker(_CarBuilderId, id)
+--end
+--
+--function PViewAssembleCar:ReviewHole(state, selectidx)
+--    CarBuilderManager:Get():ReviewHole(_CarBuilderId, state, selectidx)
+--end
+--
+--function PViewAssembleCar:RebuildGrid(idx, gridid)
+--    CarBuilderManager:Get():ReviewGrid(_CarBuilderId, idx, gridid)
+--
+--
+--end
+--
+-----@param article ArticleCell
+--function PViewAssembleCar:ReviewPart(article, grooveid)
+--    local partid = article:GetPartConfig().id
+--    local composeids = article:GetPartComposeIds()
+--    local sticker = article:GetPartShellSticker()
+--    local grids = article:GetPartShellGridList()
+--    local color = article:GetPartShellColor()
+--    local lightweight = article:GetPartLightweight()
+--
+--    CarBuilderManager:Get():ReviewPart(_CarBuilderId, grooveid, partid, composeids, sticker, grids, color, lightweight)
+--end
+--
+--

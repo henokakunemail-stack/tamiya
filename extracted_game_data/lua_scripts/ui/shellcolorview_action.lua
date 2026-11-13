@@ -1,0 +1,60 @@
+--
+-----@class ShellColorViewAction:ViewBaseAction
+--ShellColorViewAction = class("ShellColorViewAction",ViewBaseAction)
+--
+--function ShellColorViewAction:initialize()
+--    ViewBaseAction.initialize(self)
+--end
+--
+--function ShellColorViewAction:OnRegisterEvents()
+--    self:AddNotificationEvent(UINotifyEvent.ShellColorView_UpdateScrollView, self.UpdateScollView)
+--    self:AddNotificationEvent(UINotifyEvent.ShellColorView_ClickItem, self.ClickItem)
+--    self:AddNotificationEvent(UINotifyEvent.ShellColorView_SetData, self.SetData)
+--    self:AddNotificationEvent(UINotifyEvent.ShellColorView_ClickBtnReset, self.OnClickBtn_Reset)
+--    self:AddNotificationEvent(UINotifyEvent.ShellColorView_ClickBtnSave, self.OnClickBtn_Save)
+--
+--end
+--
+-----@return ShellColorView
+--function ShellColorViewAction:View()
+--    return self.view
+--end
+--
+--function ShellColorViewAction:UpdateScollView( node)
+--    if self:View() then
+--        self:View():UpdateScollView(node[1], node[2], node[3])
+--    end
+--end
+--
+--function ShellColorViewAction:ClickItem(node)
+--    if self:View() then
+--        self:View():ClickItem(node[1], node[2])
+--    end
+--end
+--
+--function ShellColorViewAction:SetData(carid)
+--    if self:View() then
+--        self:View():SetData(carid)
+--    end
+--end
+--
+--function ShellColorViewAction:OnClickBtn_Reset()
+--    if self:View() then
+--        self:View():OnClickBtn_Reset()
+--    end
+--end
+--
+--function ShellColorViewAction:OnClickBtn_Save()
+--    if self:View() then
+--        self:View():OnClickBtn_Save()
+--    end
+--end
+--
+--function ShellColorViewAction:UpdateMsg()
+--    if self:View() then
+--        self:View():UpdateMsg()
+--    end
+--end
+--
+--
+--return ShellColorViewAction()

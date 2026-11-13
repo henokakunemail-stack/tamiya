@@ -1,0 +1,29 @@
+--
+--
+--
+--
+--
+--
+--function PlotView:BackgroundReset()
+--
+--
+--end
+--
+--
+----{{{
+-----@param config storyactionbackground_config_cell
+--function PlotView:SetBackground(config , quick)
+--    if config.type == 1 then
+--       CommonHelper:SetGameObjectActive("background", self.gameObject, false)
+--    end
+--
+--    if config.type == 2 then
+--        CommonHelper:SetGameObjectActive("background", self.gameObject, true)
+--        CommonHelper:GetComponentSetUITexture("background", self.gameObject, config.bgFile, UIModuleID.Plot)
+--        --image.rectTransform:SetWidth(config.bgSize[1])
+--        --image.rectTransform:SetHeight(config.bgSize[2])
+--        --image.color = UIUtil:HexToColor(config.bgColor)
+--    end
+--end
+----}}}
+--

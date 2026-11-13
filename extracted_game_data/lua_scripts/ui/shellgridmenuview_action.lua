@@ -1,0 +1,42 @@
+--
+--
+--
+-----@class ShellGridMenuViewAction:ViewBaseAction
+--ShellGridMenuViewAction = class("ShellGridMenuViewAction",ViewBaseAction)
+--
+--function ShellGridMenuViewAction:initialize()
+--    ViewBaseAction.initialize(self)
+--end
+--
+--function ShellGridMenuViewAction:OnRegisterEvents()
+--    self:AddNotificationEvent(UINotifyEvent.ShellGridMenuView_SetData, self.SetData)
+--    self:AddNotificationEvent(UINotifyEvent.ShellGridMenuView_UpdateScroll, self.UpdateScollView)
+--    self:AddNotificationEvent(UINotifyEvent.ShellGridMenuView_ClickItem, self.ClickItem)
+--end
+--
+-----@return ShellGridMenuView
+--function ShellGridMenuViewAction:View()
+--    return self.view
+--end
+--
+--function ShellGridMenuViewAction:SetData(carid)
+--    if self:View() then
+--        self:View():SetData(carid)
+--    end
+--end
+--
+--function ShellGridMenuViewAction:UpdateScollView(node)
+--    if self:View() then
+--        self:View():UpdateScrollView(node[1], node[2])
+--    end
+--end
+--
+--function ShellGridMenuViewAction:ClickItem(index)
+--    if self:View() then
+--        self:View():ClickItem(index)
+--    end
+--end
+--
+--
+--
+--return ShellGridMenuViewAction()

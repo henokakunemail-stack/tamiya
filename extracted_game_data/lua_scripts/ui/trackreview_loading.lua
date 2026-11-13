@@ -1,0 +1,84 @@
+--
+--
+-----@class TrackReviewLoading:LoadingBase
+--TrackReviewLoading = class("TrackReviewLoading", LoadingBase)
+--
+--function TrackReviewLoading:initialize()
+--    self.sceneRes = ""
+--end
+--local _MiniTrackType=-1
+--local _TrackId=""
+--local _TrackData=nil
+--function TrackReviewLoading:OnEnter(sceneid,trackData)
+--    if self.sceneRes ~= "" then
+--        return
+--    end
+--    _TrackData=trackData
+--   -- _TrackId=trackName
+--    --_MiniTrackType=miniTrackType
+--    ---@type scene_config_cell
+--    local cfg = CommonHelper:GetTableDataByID(ConfigNames.scene_config, sceneid)
+--    self.sceneRes = cfg.resName..".unity"
+--
+--    self:SequenceLoading()
+--end
+--
+--function TrackReviewLoading:SequenceLoading()
+--    ---@param param TrackReviewLoading
+--    local loadTime=CSTime.time
+--    cs_coroutine.start(function(param)
+--       -- print(CSTime.time-loadTime,"1加载时间")
+--        CommonHelper:PlayScreenEffectWaiting(true)
+--       -- CommonHelper:OpenLoading(false)
+--        --print(CSTime.time-loadTime,"2加载时间")
+--        coroutine.yield()
+--        local sceneAsset = AssetsManager.LoadScene(param.sceneRes, true, false)
+--
+--        while not sceneAsset.isDone do
+--           -- UINotify:Get():SendNotification(UINotifyEvent.UpdateLoadingViewProgress, sceneAsset.progress)
+--            coroutine.yield()
+--        end
+--        --print(CSTime.time-loadTime,"3加载时间")
+--        coroutine.yield()
+--
+--       -- UINotify:Get():SendNotification(UINotifyEvent.UpdateLoadingViewProgress, 1)
+--        --coroutine.yield(CS.UnityEngine.WaitForSeconds(0))
+--        --print(CSTime.time-loadTime,"4加载时间")
+--        --UINotify:Get():SendNotification(UINotifyEvent.UpdateLoadingFinish)
+--
+--        param:OnEnterFinish()
+--
+--        --print(CSTime.time-loadTime,"5加载时间")
+--        CommonHelper:PlayScreenEffectWaiting(false)
+--       -- CS.UnityEditor.EditorApplication.isPaused = true
+--    end, self)
+--end
+--
+--
+--function TrackReviewLoading:OnUpdate()
+--
+--end
+--
+--function TrackReviewLoading:OnEnterFinish()
+--    --UIManager:Get():HidePersistentView("RaceRoomChangeView")
+--    --UIManager:Get():CloseAllPopups()
+--
+--end
+--
+--function TrackReviewLoading:OnExit()
+--    self:OnExitFinish()
+--    AssetsManager.UnloadScene(self.sceneRes)
+--end
+--
+--function TrackReviewLoading:OnExitFinish()
+--  --  CSCameraManager:Get():DisableCustomTrackCamera()
+--    self:ClearData()
+--    CommonHelper:UnloadTrack(self.miniTrackType,self.trackData)
+--
+--end
+--
+--function TrackReviewLoading:ClearData()
+--    self.sceneRes = ""
+--end
+--
+--return TrackReviewLoading

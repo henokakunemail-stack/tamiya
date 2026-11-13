@@ -1,0 +1,17 @@
+--
+--
+--
+-----@class CommonBgPinkView : ViewBase
+--CommonBgPinkView = class("CommonBgPinkView", ViewBase)
+--
+--function CommonBgPinkView:initialize()
+--
+--end
+--
+--function CommonBgPinkView:Awake()
+--
+--end
+--
+--function CommonBgPinkView:OnOpen()
+--
+--end

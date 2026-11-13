@@ -1,0 +1,165 @@
+--
+--
+--
+-----@class RaceRankSpeedView : ViewBase
+--RaceRankSpeedView = class("RaceRankSpeedView", ViewBase)
+--
+--function RaceRankSpeedView:initialize()
+--    ViewBase.initialize(self)
+--    ViewBase.RegisteAction(self, "RaceRankSpeedViewAction")
+--
+--    self.CurTrackIdx = -1
+--
+--    ---@type table<number, table<number, RaceRankSpeedRankData>>
+--    self.RankList = {}
+--    ---@type table<number, RaceRankSpeedRankData>
+--    self.MyRank = {}
+--    ---@type table<number, RaceRankSpeedRankData>
+--    self.ShowList = {}
+--end
+--
+--function RaceRankSpeedView:Awake()
+--    CommonHelper:HButtonSetCallback("BtnBack",self.gameObject,function (hbtn)
+--        UIManager:Get():CloseView()
+--    end)
+--
+--    self.TogList = {}
+--    for i = 1, 5 do
+--        local tog = CommonHelper:HButtonSetCallback("Tog"..i,self.gameObject,function (hbtn)
+--            self:ClickTog(i, true)
+--        end)
+--        self.TogList[i] = tog
+--    end
+--
+--    self.ScrollRank = UIUtil.GetTypeChildWightInputPath("MoreRowScrollView_V", self.gameObject, typeof(MoreRowScrollView))
+--    self.MyRankGoup = UIUtil.GetChild("MyRank", self.gameObject)
+--end
+--
+--function RaceRankSpeedView:OnOpen()
+--    self.TrackList = RaceRankManager:Get():GetTrackList()
+--    self:AutoSelect()
+--end
+--
+--function RaceRankSpeedView:OnClose()
+--    CommonHelper:ReleasePool(UIModuleID.RaceRankSpeed)
+--    self.RankList = {}
+--    self.MyRank = {}
+--end
+--
+--function RaceRankSpeedView:AutoSelect()
+--    self:ClickTog(1)
+--end
+--
+--function RaceRankSpeedView:ClickTog(idx, ischeck)
+--    for i = 1, #self.TogList do
+--        CommonHelper:SetToggleState(self.TogList[i], i == idx)
+--    end
+--
+--    self.CurTrackIdx = idx
+--
+--    self:SetTrackData()
+--
+--    local data = self.TrackList[idx]
+--    RaceRankSubsystem:Get():SendMsg_SpeedRank(data:GetId())
+--end
+--
+--function RaceRankSpeedView:SetTrackData()
+--    local data = self.TrackList[self.CurTrackIdx]
+--    CommonHelper:GetComponentSetTrackIconByData("trackicon", self.gameObject, data, UIModuleID.RaceRankSpeed)
+--end
+--
+--
+--function RaceRankSpeedView:SetRankScrollView()
+--    CommonHelper:InitMoreRowScrollView(self.ScrollRank, #self.ShowList, 1,function(dataIndex, itemObj, scroll)
+--        self:UpdateRankScrollView(dataIndex, itemObj)
+--    end)
+--end
+--
+--function RaceRankSpeedView:UpdateRankScrollView(dataIndex, itemObj)
+--    local data = self.ShowList[dataIndex + 1]
+--
+--    CommonHelper:SetText("rankvalue", itemObj, "第".. data:GetRank().."名")
+--    CommonHelper:SetText("playername", itemObj, data:GetName())
+--    CommonHelper:GetComponentTransferTime("timevalue", itemObj, data:GetTime())
+--    --CommonHelper:GetComponentSetUITexture("RawIcon",itemObj,data:GetIcon(),UIModuleID.RaceRankSpeed)
+--
+--    -----@type qualifyingrank_config_cell
+--    --local curcfg = CommonHelper:GetRankCfgByScore(1)
+--    --CommonHelper:SetText("scorename", itemObj, curcfg.name)
+--end
+--
+--function RaceRankSpeedView:SetMyRankData()
+--    local trackdata = self.TrackList[self.CurTrackIdx]
+--    local data = self.MyRank[trackdata:GetId()]
+--    if data:GetRank() > 0 then
+--        CommonHelper:SetText("rankvalue", self.MyRankGoup, "第".. data:GetRank().."名")
+--    else
+--        CommonHelper:SetText("rankvalue", self.MyRankGoup, "未上榜")
+--    end
+--
+--    CommonHelper:SetText("playername", self.MyRankGoup, data:GetName())
+--    local time =  data:GetTime()
+--    if time == -1 then
+--        CommonHelper:SetText("timevalue", self.MyRankGoup, "--:--:--")
+--    else
+--        CommonHelper:GetComponentTransferTime("timevalue", self.MyRankGoup, data:GetTime())
+--    end
+--
+--    -----@type qualifyingrank_config_cell
+--    --local curcfg = CommonHelper:GetRankCfgByScore(1)
+--    --CommonHelper:SetText("scorename", self.MyRankGoup, curcfg.name)
+--
+--    --CommonHelper:GetComponentSetUITexture("RawIcon",self.MyRankGoup,data:GetIcon(),UIModuleID.RaceRankSpeed)
+--end
+--
+--function RaceRankSpeedView:UpdateCurRank(trackid)
+--    local data = self.TrackList[self.CurTrackIdx]
+--    if trackid == data:GetId() then
+--        self.ShowList = self:GetRankList(trackid)
+--        self:SetRankScrollView()
+--        self:SetMyRankData()
+--    end
+--end
+--
+--
+--
+--
+--
+--
+--
+--
+-----@return table<number, RaceRankSpeedRankData>
+--function RaceRankSpeedView:GetRankList(trackid)
+--    return self.RankList[trackid]
+--end
+--
+-----@param msg SC_GetGlobalRankRankInfoRes
+--function RaceRankSpeedView:SaveRankList(msg)
+--    if msg == nil then return end
+--
+--    local trackid = msg.trackId
+--
+--    ---@type table<number, RaceRankSpeedRankData>
+--    local list = {}
+--    for i = 1, #msg.rankInfos do
+--        local data = RaceRankSpeedRankData()
+--        data:InitData(i, msg.rankInfos[i])
+--        table.insert(list, data)
+--    end
+--    self.RankList[trackid] = list
+--
+--
+--    local temp = true
+--    for i = 1, #list do
+--        if list[i]:GetPid() == PlayerDataManager:Get():GetPlayerID() then
+--            self.MyRank[trackid] = list[i]
+--            temp = false
+--            break
+--        end
+--    end
+--    if temp then
+--        local data = RaceRankSpeedRankData()
+--        data:SetSelfData(msg.myRank, msg.myScore)
+--        self.MyRank[trackid] = data
+--    end
+--end

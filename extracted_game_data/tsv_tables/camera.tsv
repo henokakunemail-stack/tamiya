@@ -1,0 +1,10 @@
+INT	STRING	STRING	INT	STRING	STRING	STRING
+0	0	0	0	0	0	0
+C_ID	scene_camera	scene_camera_time	battle_camera_mode	start_camera	end_camera	cameraId
+100101	cv_xiaohaojia	5000	1	1010	-1	100101
+100102	cv_xiaohaojia	5000	1	1010	-1	100102
+100103	cv_xiaohaojia	5000	1	1010	-1	100103
+100104	cv_xiaohaojia	5000	1	1011	-1	100104
+100105	cv_xiaohaojia	5000	1	1012	-1	100105
+100106	cv_xiaohaojia	5000	1	1013	-1	100106
+100107	cv_xiaohaojia	5000	1	1014	-1	100107

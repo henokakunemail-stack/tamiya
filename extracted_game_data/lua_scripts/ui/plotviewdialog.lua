@@ -1,0 +1,138 @@
+--
+--
+--
+--
+--
+--function PlotView:DialogReset()
+--    for i = 1, #self.DialogTitleTypeList do
+--        local obj = self.DialogTitleTypeList[i]
+--        if obj then CommonHelper:CSGameObjectSetActive(obj,false) end
+--    end
+--    CommonHelper:SetText("dialogtitle",self.gameObject,"" )
+--    CommonHelper:SetText("dialogdes",self.gameObject,"" )
+--end
+--
+--
+--
+----{{{
+-----@param config storyactiondialog_config_cell
+--function PlotView:SetDialog(config, quick)
+--    self:SetDialogBoxType(config)
+--    --self:SetDialogBoxPos(config)
+--    self:SetDialogContent(config)
+--    --self:SetDialogWaterMask(config)
+--end
+----}}}
+--
+--
+----{{{设置对话框样式
+-----@param config storyactiondialog_config_cell
+--function PlotView:SetDialogBoxType(config)
+--    for i = 1, #self.DialogTitleTypeList do
+--        if self.DialogTitleTypeList[i] then
+--            CommonHelper:CSGameObjectSetActive(self.DialogTitleTypeList[i],i == config.dialogBoxType)
+--        end
+--    end
+--end
+----}}}
+--
+--
+----{{{设置对话框文本
+-----@param config storyactiondialog_config_cell
+--function PlotView:SetDialogContent(config)
+--    local title = ""
+--    local des = ""
+--    local playername = PlayerDataManager:Get():GetPlayerName()
+--    local carname = "无名车"
+--    local cardata =  CarDataManager:Get():GetCarDataByCarID(0)
+--    if cardata then carname = cardata:GetName() end
+--
+--    if config.roleType == 0 then title = CommonHelper:GetTempStr_Default(config.roleName) end
+--    if config.roleType == 1 then title = playername end
+--
+--    if config.contentType == 0 then des = CommonHelper:GetTempStr_Default(config.content) end
+--    if config.contentType == 1 then des = CommonHelper:GetTempStr_Default(config.content, playername) end
+--    if config.contentType == 2 then des = CommonHelper:GetTempStr_Default(config.content, carname) end
+--    if config.contentType == 3 then des = CommonHelper:GetTempStr_Default(config.content, playername, carname) end
+--    if config.contentType == 4 then des = CommonHelper:GetTempStr_Default(config.content, carname, playername) end
+--
+--    CommonHelper:SetText("dialogtitle",self.gameObject, title )
+--    CommonHelper:SetText("dialogdes",self.gameObject, des )
+--end
+----}}}
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--local __TalkGroup = nil
+--
+--
+--
+--------------------------------------------------------------action_dialog
+--
+--
+-----@param config storyactiondialog_config_cell
+--function PlotView:SetDialogBoxPos(config)
+--    --if config.dialogBoxPos == 1 then
+--    --    __TalkGroup.transform.localPosition = Vector3(0,0,0)
+--    --else
+--    --    __TalkGroup.transform.localPosition = Vector3(0,-400,0)
+--    --end
+--end
+--
+--
+-----@param config storyactiondialog_config_cell
+--function PlotView:SetDialogWaterMask(config)
+--    if config.heroId == -1 then return end
+--
+--    ---@type hero_config_cell
+--    local roleData =  CommonHelper:GetTableDataByID(ConfigNames.hero_config, config.heroId)
+--
+--    local bg = UIUtil.GetTypeChildWightByParent("talkBg",__TalkGroup,typeof(Image))
+--
+--    if roleData then
+--        CommonHelper:ImageSetWaterMask(true, bg, roleData.icon..".png", UIModuleID.Plot)
+--    else
+--        CommonHelper:ImageSetMaterialDefault(bg)
+--    end
+--
+--end
+--------------------------------------------------------------

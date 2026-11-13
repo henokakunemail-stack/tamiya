@@ -1,0 +1,127 @@
+
+
+
+--Param_ItemPartParam = class("Param_ItemPartParam")
+--
+--function Param_ItemPartParam:initialize()
+--    self.quality = nil
+--    self.star = nil
+--    self.lv = nil
+--    self.using = nil
+--    self.lock = nil
+--    self.awaken=nil
+--    self.generation = nil
+--end
+--
+--
+-----@param param Param_ItemPartParam
+-----@param uiType ItemPartUIType
+--function CommonHelper:SetItemPartGroup(gameObject, moduleId, cfgId, uiType, param, func, clickparam)
+--    if uiType == nil then uiType = ItemPartUIType.Simple end
+--
+--
+--    local moduleid = moduleId   --功能模块id，必填
+--    local cfgid = cfgId         --配置id，必填
+--    local uitype = uiType       --ui排版样式，必填
+--
+--    local icon = ""
+--    local name = ""
+--    local quality = -1
+--    local star = -1
+--    local starmax = -1
+--    local lv = -1
+--    local flag = -1
+--    local using = -1
+--    local lock = -1
+--    local awaken = false
+--    local generation=-1
+--
+--
+--    ---@type dictparts_config_cell
+--    local partCfg = CommonHelper:GetTableDataByID(ConfigNames.parts_config,cfgid)
+--    ---@type dictpartbase_config_cell
+--    local partBaseCfg = CommonHelper:GetPartBaseCfg(cfgid)
+--    if partCfg then
+--        icon = partCfg.icon
+--
+--        name = CommonHelper:GetTempStr_Default(partCfg.partname)
+--        quality = partBaseCfg.fabric
+--        star = 1
+--        starmax = partBaseCfg.maxstar
+--        lv = 1
+--        flag = partCfg.sign
+--        using = -1
+--        lock = -1
+--        generation=partBaseCfg.generation
+--        awaken=false
+--
+--        if param then
+--            if param.quality then quality = param.quality end
+--            if param.lv then lv = param.lv end
+--            if param.star then star = param.star end
+--            if param.using then using = param.using end
+--            if param.lock then lock = param.lock end
+--            if param.awaken then awaken = param.awaken end
+--            if param.generation then generation = param.generation end
+--        end
+--
+--        if generation and generation>1 then
+--            if generation==2 then
+--                icon= partCfg.icon2
+--            end
+--            if generation==3 then
+--                icon= partCfg.icon3
+--            end
+--            if generation==4 then
+--                icon= partCfg.icon4
+--            end
+--        end
+--    end
+--
+--
+--
+--    --设置ui排版
+--    CommonHelper:SetGameObjectActive("groupNormal",gameObject, uitype == ItemPartUIType.Normal)
+--    CommonHelper:SetGameObjectActive("groupName",gameObject, uitype == ItemPartUIType.Name)
+--    CommonHelper:SetGameObjectActive("PartStarAwaken",gameObject, awaken)
+--    CommonHelper:SetGameObjectActive("PartStar",gameObject, not awaken)
+--
+--    --设置配件icon
+--    CommonHelper:GetComponentSetUITexture("icon", gameObject, icon, moduleid)
+--
+--    --设置配件名字
+--    CommonHelper:SetText("###name",gameObject,name)
+--
+--    --设置配件品质
+--    for i = 1, 6 do CommonHelper:SetGameObjectActive(string.format("quality%d",i), gameObject, quality == i) end
+--
+--    --设置配件星级
+--    CommonHelper:SetPartStar("PartStar",gameObject,star,starmax)
+--
+--    CommonHelper:SetPartStar("PartStarAwaken",gameObject,star,starmax)
+--
+--    --设置配件等级
+--    CommonHelper:SetText("###lv",gameObject,CommonHelper:GetTempStr_Default(TemplateStringID.ItemPartLvFormat,lv))
+--
+--    --设置配件特征角标icon
+--    CommonHelper:GetComponentSetImage("flag", gameObject, CommonHelper:GetTrackFeatureIcon(flag), moduleid)
+--
+--    --设置配件所属车位
+--    for i = 0, 4 do CommonHelper:SetGameObjectActive(string.format("caridx%d",i), gameObject, using == i+1) end
+--
+--    --设置配件锁
+--    CommonHelper:GetComponentSetImage("lock", gameObject, CommonHelper:GetPartLockIcon(lock), moduleid)
+--
+--    --设置配件点击事件
+--    local btn = CommonHelper:HButtonSetCallback("ItemBtn",gameObject,function (hbtn)
+--        if func then func(clickparam) end
+--    end)
+--    CommonHelper:SetHButtonClick(btn, (func ~= nil), true)
+--    CommonHelper:SetGameObjectActive("wenli", gameObject, generation>=2)
+--    --设置配件所属车位
+--    for i = 1, 4 do CommonHelper:SetGameObjectActive(string.format("generation_%d",i), gameObject, generation == i) end
+--
+--
+--end
+--
+

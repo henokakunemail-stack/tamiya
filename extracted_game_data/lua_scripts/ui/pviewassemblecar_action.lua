@@ -1,0 +1,75 @@
+--
+-----@class PViewAssembleCarAction:ViewBaseAction
+--PViewAssembleCarAction = class("PViewAssembleCarAction",ViewBaseAction)
+--
+--function PViewAssembleCarAction:initialize()
+--    ViewBaseAction.initialize(self)
+--end
+--
+--function PViewAssembleCarAction:OnRegisterEvents()
+--    self:AddNotificationEvent(UINotifyEvent.PViewAssembleCar_SetData, self.SetData)
+--    self:AddNotificationEvent(UINotifyEvent.PViewAssembleCar_Reset, self.ResetCar)
+--    self:AddNotificationEvent(UINotifyEvent.PViewAssembleCar_ReviewColor, self.RebuildColor)
+--    self:AddNotificationEvent(UINotifyEvent.PViewAssembleCar_ReviewSticker, self.RebuildSticker)
+--    self:AddNotificationEvent(UINotifyEvent.PViewAssembleCar_ReviewHole, self.ReviewHole)
+--    self:AddNotificationEvent(UINotifyEvent.PViewAssembleCar_ReviewGrid, self.RebuildGrid)
+--    self:AddNotificationEvent(UINotifyEvent.PViewAssembleCar_ReviewPart, self.ReviewPart)
+--
+--
+--end
+--
+-----@return PViewAssembleCar
+--function PViewAssembleCarAction:View()
+--    return self.view
+--end
+--
+--function PViewAssembleCarAction:SetData(node)
+--    if self:View() then
+--        self:View():SetData(node[1], node[2])
+--    end
+--end
+--
+--function PViewAssembleCarAction:ResetCar()
+--    if self:View() then
+--        self:View():ResetCar()
+--    end
+--end
+--
+--function PViewAssembleCarAction:RebuildColor(colorid)
+--    if self:View() then
+--        self:View():RebuildColor(colorid)
+--    end
+--end
+--
+--function PViewAssembleCarAction:ReviewHole(node)
+--    if self:View() then
+--        self:View():ReviewHole(node[1], node[2])
+--    end
+--end
+--
+--function PViewAssembleCarAction:RebuildSticker(stickerid)
+--    if self:View() then
+--        self:View():RebuildSticker(stickerid)
+--    end
+--end
+--
+--function PViewAssembleCarAction:RebuildGrid(param)
+--    if self:View() then
+--        self:View():RebuildGrid(param[1], param[2])
+--    end
+--end
+--
+--function PViewAssembleCarAction:ReviewPart(param)
+--    if self:View() then
+--        self:View():ReviewPart(param[1], param[2])
+--    end
+--end
+--
+--
+--
+--
+--
+--
+--
+--
+--return PViewAssembleCarAction()

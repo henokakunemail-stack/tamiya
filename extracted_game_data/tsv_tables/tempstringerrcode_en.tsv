@@ -1,0 +1,1822 @@
+string
+0
+en
+Insufficient materials for a perfect transformation
+Insufficient Selected spray painting quantity
+Body shell color change successfully
+Insufficient body shell sticker items
+Body shell sticker change successfully
+Insufficient Mesh item
+Mesh change successfully
+No replaceable accessories available
+Replace accessory successfully
+Remove accessory successfully
+Level not unlocked
+Chapter not unlocked
+Current level not at full stars, unable to sweep
+Insufficient vouchers
+Insufficient Stamina
+Confirm quick challenge
+Install location not unlocked
+Not eligible to receive reward
+Already received reward
+Redeem code cannot be empty
+You have successfully used an item
+Insufficient item
+Purchase function temporarily not open
+Not connected to chat server
+Sent message cannot be empty
+Battle server connection failed
+Deleted
+No mail
+No read mail to delete
+No attachment mail to receive
+Already received
+yyyy.MM.dd
+Remaining %d days
+Click to receive
+Click to receive (%d)
+Expired
+Already applied, please wait patiently for review
+There are currently no clubs to join, please create one first
+You have been kicked out of the club
+Club name is too short
+Club declaration is too short (4-40 characters)
+You already have a club, please exit first
+Please enter the name of the club you want to search for
+Please remove their administrator status first
+Please set the track first
+The track is not complete, please contact the club administrator
+Training results have been uploaded
+Input cannot be empty
+Please enter a username
+This level has not yet been unlocked
+You have successfully used the item
+Insufficient merge materials
+No materials found that meet the requirements
+The track is not edited and cannot be used
+The track is not edited and cannot be previewed
+The track is not edited and cannot be used
+Delete track successfully
+Save track successfully
+Out of range
+Overlapping
+Pieced under the floor
+Too high
+Track is closed
+Track is closed but no track changer
+Starting block cannot be replaced
+Starting block cannot be deleted
+Select the challenge match ticket you want to use
+Please select the duration of the challenge match and the total number of levels
+According to the total number of levels, the number of difficult levels that can be configured varies. Players can choose scenes, tracks and competitors themselves
+Please select the clearance rewards you want
+Please confirm your competition settings and give your competition a name
+Select the date first and then change
+Operation time is too long and the time has been automatically reselected
+The event ended abnormally
+Not unlocked temporarily
+Copied to clipboard
+No event found
+Plan uses successfully
+Please select the accessory first.
+Please select the chassis first.
+Please select the body shell first.
+The accessory is in use on another vehicle.
+The accessory has already been installed in another location.
+Cannot install the same type of enhancement accessory simultaneously.
+The current chassis does not support the installation of the selected tail.
+The diameters of the front and rear wheels need to be kept consistent.
+The diameters of the tires and wheel need to be kept consistent.
+The current chassis does not support the installation of the selected motor.
+This accessory has already been used in this scheme, try a different one.
+The accessory is already installed in the current slot, try a different one.
+Please assemble the complete vehicle first.
+Room not found.
+Already in the room.
+Spectating is not open.
+Prohibited.
+Are you sure you want to disband the room?
+Score not reached, unable to receive.
+Reward has been received.
+Ladder match is being matched, cannot perform this operation...
+Tournament configuration table is empty.
+%d-%02d-%02d
+Season %d
+...%d seconds
+%d seconds
+Vehicle is not complete, cannot be selected
+playerdefaultsign1
+Parking space is empty
+Please select a server
+%d/%d
+%s/%s
+%s%s
+Fly out of the track
+Crash the track
+Player nickname cannot be empty
+Player not found
+Friend count has reached the maximum
+Adding to the blacklist will delete friend information, do you want to blacklist the friend?
+Do you want to delete the friend?
+Friend request sent
+Reached character limit
+You have been permanently silenced
+You are speaking too fast
+Illegal nickname
+Content contains illegal material
+Your account has been banned, please contact customer service.
+You have been kicked offline
+Your account has been banned until %s
+The server is undergoing maintenance, please check the official website for specific opening time.
+Login failed
+Received
+Not received
+Unlock function:
+Function not unlocked
+Will be unlocked at level %d
+tasktime001
+tasktime002
+Daily activie
+Weekly active
+(%d/%d)
+Reward preview
+Reward received
+Game reminder
+Refresh
+Confirm
+Cancel
+Input
+Please input...
+Insufficient refresh
+Insufficient currency
+shoprefreshtips0
+shoprefreshtips1
+Today's refresh count has been used up
+Refresh
+Refresh (%d)
+Next refresh time left:
+Next refresh time left: %02d:%02d:%02d
+Next refresh time left: %02d days %02d hours
+Insufficient purchase
+Insufficient currency
+<color=red>%d</color>
+%d/%d
+Settings
+Personal information
+Competition history
+Modifying the graphics quality requires restarting the game to take effect
+Not yet joined a club
+Edit personal signature
+Edit name
+Modifying the name successfully consumes one name change card
+Not enough name change cards
+Star up accessory unlock transformation slot
+%d%%
+%d/%d
+Unrestricted
+<color=#00ff00>(+%s)</color>
+<color=#ff0000>(%s)</color>
+Unlock transformation slot
+Already perforated, cannot perforate again
+Perforate first, then install the mesh.
+<color=#ff0000>%d/%d</color>
+<color=#00ff00>%d/%d</color>
+Server maintenance in progress
+%s%d
+--:--:--
+This player's friend feature is not unlocked
+This player rejected your invitation
+Invitation success
+Invitation link has expired
+Unlocked
+<color=green>%d</color>
+<color=green>(+%0.3f)</color>
+<color=red>(%0.3f)</color>
+Level has reached the maximum enhancement
+The server is under maintenance, please stay tuned for the official announcement on the website for the specific opening time.
+Max level
+Room race invitation
+Are you sure you want to add the other person to your blacklist?
+The network connection is disconnected, click to log out
+The network connection is disconnected, click to reconnect
+The server connection is not responding, please make sure your network is normal
+Room race invitation
+Do you want to add this player to your blacklist?
+Function not opened, please look forward to it
+Search by nickname
+Search by ID
+Account data status abnormal
+Are you sure you want to quit the club?
+Insufficient diamonds, do you want to purchase?
+The leader needs to be transferred before quitting the club
+Share successfully
+Disagreement with the Member Agreement cannot enter the game
+Three-track straight track
+Three-track curve track
+Three-track switch gear
+Three-track special
+Five-track straight track
+Five-track curve track
+Five-track switch gear
+Five-track special
+Speed
+Curve
+Slope
+Off-road
+Integrated
+Three-track race track
+Five-track race track
+Server connection failed, please check network settings
+Challenge race invitation
+Server disconnected, please reconnect to the server
+Club invitation
+<color=white>stock:%d</color>
+Sort by time
+Sort by level
+Game server %s
+Friend recommendation
+Friend search
+Name contains special characters
+Spend %d%s to draw a lottery
+Current quantity:
+Daily lottery limit:
+Notification
+Current stamina
+Item description:
+Purchase (%d)
+First time free
+Purchase
+Your account has been logged in on other device
+%s h:%s m:%s s
+Completed
+Merge list
+Level up list
+Insufficient materials
+Spend 100 diamonds to speed up?
+Selected materials have reached the limit
+The selected accessories include those with purple quality and above! Upgraded accessories will not be returned. Upgraded, star-upgraded, transformed, and strengthened accessories will be returned at 60% of the successfully invested resources, and 100% of awakening stones will be returned! \nDo you want to confirm the decomposition?
+No accessories selected to disassemble
+Merge failed
+Please enter the declaration (%d-%d characters)
+Save changes?
+Level up successfully
+Today's challenge has reached the upper limit
+Got it
+Your game time has ended today. We will end your login status later. Please arrange your time reasonably and take a rest~
+Spend %d diamonds to speed up?
+The technology has not yet been opened
+Use a maximum of one
+Payment failed
+By level
+By time
+Cannot be challenged again after passing
+No corresponding accessories
+Remaining %d hours
+Application sent
+No road change realized, need to adjust the number of switchovers
+%d/%d people
+Choose at least one feature
+LV.%d: %s
+None
+Today's ranking attempts have been used up
+Do you want to continue watching the battle?
+You have been muted until
+Do you want to delete the player's chat record and remove them from your private chat list?
+World
+This server
+Club
+Logging in, please wait...
+Please check the network
+Please try again later
+Function not yet opened
+Insufficient level
+Do you want to kick the member out?
+Do you want to transfer the leader?
+Level %d
+My track-%d
+Please choose a track
+%d
+Lv:%02d
+Accessories already installed on the car
+The accessories are not installed on the car and cannot be removed
+This accessory is not allowed to be removed
+<color=#ff0000>%s</color>
+<color=#00ff00>%s</color>
+No hole selected
+No paint selected
+No sticker selected
+No mesh selected
+Already star up to the highest level
+Already level up to the highest level
+Do you want to exit the garage?
+Current equipment
+<color=#00ff00>(+%0.2f)</color>
+<color=#ff0000>(%0.2f)</color>
+No transformation terms selected
+%s:%s
+No save currently, save now?
+Save now?
+%d/%d
+<color=red><b>%d</b></color>/%d
+Free
+Top view
+Add
+Replace
+Expiration date: %d days
+From: %s
+Win
+Cleared within %s seconds
+Cleared with equipment %s
+Can't use %s to clear
+Participation confirmation
+Consume %d diamonds to participate in the competition?
+Your rank: %d
+Not generated
+Sign up successfully
+Host: %s
+Current progress: %d/%d
+Number of participants: %d
+%d times
+Lv:%d
+Lv:%d
+All
+%d people
+Remaining time: %d days %d hours
++%d
+Custom race track unavailable
+Story
+Custom race
+Race against
+Club Challenge Race
+Club Race Event
+Challenge Race
+Low-%s
+Intermediate-%s
+High-%s
+Sweep successfully
+Sweep only possible with three-star clearance
+Default avatar
+Permanent limited purchase once
+Limited time purchase: %d hours
+X%d
+No one has cleared it yet
+No car in the current parking space
+Rank.%d
+X %d
+<color=#ff0000>%d</color>
+<color=#00ff00>%d</color>
+The official
+Remaining challenge times: %d
+Insufficient entry tickets
+Insufficient hosting tickets
+%02d
+Cannot receive due to insufficient stars
+Reward already received
+--:--:--
+Preview not available for off-road tracks
+Completed %s
+%s left the room
+(%d/%d)
+Insufficient clearances
+The Black Saber is a four-wheel drive equipped with the original S1 chassis, characterized by its balance and friendliness to new four-wheel drive players.
+The Sonic Saber is equipped with the S1 chassis, and its stability in turns is good due to the installation of guides on the body shell.
+The Magnum Saber is equipped with the S1 chassis, and due to its lightweight body transformation, it has fast acceleration on straight lines, but slows down more in turns.
+%d~%d
+Additional gift of <color=#1768d6><size=32>%d</size></color> diamonds
+Slot %d
+Parking spot not unlocked
+Opening a parking spot will consume a item, are you sure to open it?
+Server connection failed, click to exit the game
+This accessory is temporarily not supported for transformation
+Race created by %s
+<color=#ff0000>%d/%d</color>
+<color=#00ff00>%d/%d</color>
+LV: %d/%d
+Star up to %d ★ unlock
+<color=#ffffff>%d</color>/%d
+<color=#e01b1b>%d</color>/%d
+LV:%d
+<color=#11ffae>%s</color>
+<color=#ff6a7f>%s</color>
+Reforging failed
+Already at highest level, no need to reforge
+Modification Failed
+<color=#FFFFFF00>-----</color>%s
+Received reward times (<color=yellow>%d/%d</color>)
+%d
+<color=red><b>%d</b></color>
+Open Date:
+Survey questionnaire
+Reward
+x
+Not on the list
+Default avatar
+Permanent
+Coins
+Diamonds
+Level reached
+Consumption
+None
+Avatar name:
+Avatar frame name:
+Empty slot
+Number of members:
+Number of applications:
+Join
+Apply
+Offline
+Online
+Lacking necessary accessories
+http data exception: code = %s "
+http request error: code = %s"
+Login timeout, please check your network
+Unexpected request error
+Request terminated unexpectedly
+Connection timeout
+Request timeout
+Visit error
+Combat server room data exception, forced return
+Combat settlement exception, forced return
+Chassis
+Body Shell
+Motor
+Gear Set
+Front Wheel
+Rear Wheel
+Front Tire
+Rear Tire
+No complete car, cannot participate in the ladder race
+No complete car, cannot participate in the ladder race
+Race track updated successfully
+Data abnormality: code = %d moduleid = %d
+You were kicked out of the room
+%s was kicked out of the room
+%s was kicked out of the room
+Insufficient host tickets
+Purchase successfully
+Purchase successfully
+Day <size=64>%s</size>
+Purchase failed
+Configuration error, please try again later
+The %dth slot did not choose an item
+You were muted until
+Password requires 8 or more valid characters
+Feature not yet opened, please look forward to it
+This parking spot has no car, change to another spot
+Server data abnormality
+%s is not ready
+Current level cannot participate in the training
+Current training is not yet open
+Retry
+Delete friend
+Block friend
+Diamond purchase
+Insufficient diamonds, do you want to purchase?
+Notification
+3 days ago
+1 Days ago
+12 hours ago
+6 hours ago
+3 hours ago
+2 hours ago
+1 hour ago
+30 min ago
+10 min ago
+5 min ago
+Just now
+Login timed out, please check your network
+%d times
+Unlimited times
+Event open time: %s-%s
+Event not open
+Event has ended
+Unable to open Play Store
+Duplicate purchase
+Order already exists
+Payment declined
+Product does not exist
+Not purchasable
+Purchase canceled
+Login failed, please check if you are logged into the Play game
+Season not open
+Number of participants has reached the maximum
+Insufficient number of challenges
+The number of participation in the competition has reached the maximum
+%d days remaining
+%s insufficient
+Time remaining %d days
+Password incorrect
+$ %.2f
+You are not within the scope of this test.
+Rank data is blank
+The backpack is full, extra equipment is placed in the warehouse.
+New mail has arrived.
+Cannot install a mass damper.
+The accessory star level is too low, the transformation is not open.
+[Room Race Sharing]
+Three-rail track
+Five-rail track
+Race track cannot be trial run if not edited completely.
+Race track can't be added if it's over 100.
+Do you want to spend %d coins to open %s?
+Straight track
+Curve track
+Track changer
+Wave curve
+Jumping platform
+AB jump
+Dragon's ridge
+Special fast
+Other
+Insufficient race track block
+%d/%d
+LV.%d
+Expiration time of Pass S%d
+%d Days <color=#FF6800>%d:%d:%d</color>
+Purchase <color=#DC5603>%d</color> levels
+%s purchase
+Season Pass purchase successfully
+Season Pass already purchased
+Season Pass level has reached its limit and cannot be purchased
+Season Pass remaining levels can be purchased within 7 days
+Already purchased
+This chapter has already been cleared and cannot be repeated
+Me
+Player
+Creator:%s
+Club:%s
+Total
+Settlement time: %d month %d day %d:%d
+Participate
+Continue to participate
+Create a challenge
+Reward preview
+Sign up for challenge
+Track not uploaded
+Go to track editor
+Difficulty
+Today's remaining challenges:%d
+Please enter the creator ID
+Search
+Remaining rooms in the competition:%d
+Are you sure you want to exit the game?
+Not participated
+Remaining number of times:%d
+1st
+2nd
+3rd
+This challenge has insufficient challenge times.
+Temporary no one is on the leaderboard.
+Temporary no replay data.
+Insufficient challenge tickets.
+You do not have available tracks.
+Settling.
+You have not yet selected the challenge ticket.
+After destroying this account, all data under this account will be cleared, are you sure you want to destroy it?
+After enrolling in this event, you can like it.
+You have already liked it.
+The track is not assembled yet.
+The challenge has ended.
+Share timeout.
+Mikuni Tokichi growth assistance.
+Open Luxury Rewards, Get a total of %d
+18 times.
+Lacks %s.
+Level restrictions not applied.
+Level remaining: %d times.
+Insufficient Sweep times
+Currently in guest status, cannot be destroyed, please perform account binding first.
+Modify Signature successfully.
+Modify Profile picture successfully.
+Modify Profile picture frame successfully.
+Day %d.
+Designated materials can be exchanged for rare items during the event.
+Event time: %s - %s.
+Do you want to spend %d diamonds to draw lots?
+Insufficient redeem times.
+Insufficient Diamonds.
+Inventory:%d
+%d off
+%s.%s Open
+Grand Prize
+Not open
+Purchased
+Can be claimed after all purchases
+Each gift package can only be purchased once during the event
+Not the time
+Claim
+The current event has ended
+Do you want to consume %d %s to investigate opponent's equipment
+Investigation confirmed
+Refresh (%d)
+Accessories are not applicable to this type of chassis
+Opponent can only be reset once per battle
+Track can only be reset once per battle
+Reset opponent
+Reset track
+Reset track
+Do you want to consume %s to reset the track
+Reset opponent
+Do you want to consume %s to reset the opponent
++%d
+Pass rate: %d%%
+Still need <color=#3B3B3B><size=32>%d</size></color> points
+(X:%.2f, Y:%.2f, Z:%.2f)
+Free times ( %d / %d )
+Consume %d pieces of %s to participate?
+Participation consumption
+Times ( %d / %d )
+x%d
+Available
+<color=#FF0000> Insufficient star level </color>
+The body shell does not need to be restored if it has not been drilled
+The mesh does not need to be restored if it has not been installed
+Color does not need to be restored
+Sticker does not need to be restored
+Consume %s to restore the drilled body shell? Note: the corresponding mesh will also be restored.
+Consume %s to restore the body shell mesh?
+Consume %s to restore the body shell color?
+Consume %s to restore the body shell sticker?
+Restore drilled body shell
+Restore body shell mesh
+Restore body shell color
+Restore body shell sticker
+Successfully restored
+Remaining points: %d
+Need to consume %d points
+Insufficient points
+No position for the item
+Put in storage box
+Display
+Answer is incorrect.
+Today's exam has already been fully scored.
+No such avatar frame.
+Get 7 days of luxurious rewards after purchase.
+Total obtained %s points.
+Return sign-in
+Return missions
+Return pack
+Dear <color=#fe9445>%s</color>: <color=#FFFFFF00>-----</color> Welcome back to the 4x4 world! We have lost contact with you for <color=#fe9445>%s</color> days, but we have always believed that one day you will return to the 4x4 world and enjoy the joy brought by the 4x4 races. Do you still remember the day of <color=#fe9445>%s</color> year <color=#fe9445>%s</color> month <color=#fe9445>%s</color>? That was the day when you first entered the race and started your journey to the world champion. <color=#FFFFFF00>-----</color> On the road to growth as a 4x4 racer, we have competed in <color=#fe9445>%s</color> races and have grown from overcoming obstacles to level <color=#fe9445>%s</color> and collected <color=#fe9445>%s</color> body shells. <color=#FFFFFF00>-----</color> We have prepared a gift for you. Go to the email to receive it! Don't forget to join the exclusive event!
+Unactivated luxury sign-in
+Event deadline:%s
+3 times experience before level 35:%d year %d month %d day
+3 times experience
+Event deadline:%s
+Super cup not open
+Super cup has ended
+Not yet registration time
+Registration start countdown:
+Event not yet started
+Event start countdown:
+Not yet registered
+No eligible vehicles
+The current vehicle has already participated
+Leader
+Vice-leader
+Official
+Member
+Failed
+Already registered
+Registration time has passed
+Not yet added registration vehicle
+Not yet registration time
+Vehicle has been used
+Front middle guide wheel
+Club level %d opens
+Countdown %d:%d:%d
+Today's challenge times: %d/%d
+%d
+Competition time within %s, add %d points.
+Competition time less than %s, add %d points.
+Club event score reached %d.
+Individual event score reached %d.
+%d/%d
+Club race participation is not enough.
+The Super Bowl is about to begin, are you sure to register?
+At most <color=#FAE97B>%d</color> times will result in orange accessories being mandatory.
+Please select at least one vehicle to compete.
+Checked in <color=#fe9445>%s</color> days
+Daily limit purchase (%d/%d)
+Event time: %d month %d day %d:%d - %d month %d day %d:%d
+Not yet open
+Sold out
+Resign-in times have reached the limit.
+Insufficient funds to resign-in.
+Spend %d diamonds to resign-in?
+%d days
+%d month sign-in
+This month's sign-in countdown: %d days %d hours %d minutes
+Stamina has been received
+Free
+Daily limit of one purchase, updated at zero o'clock.
+Click the + sign to select items.\n Each pack can only be purchased once during the event, and cannot be changed once locked
+gift growth days
+Full Purchase
+You can earn up to 5 times the diamonds
+Please select all the items you want to purchase after completing your selection
+Consumption: 1/%d
+Name has not changed
+Only one track changer can be installed
+%d days %d hours %d minutes
+%d hours %d minutes %d seconds
+1.When you start using the "AR" function, we will request access to your camera, you can choose to grant us access to your camera or album so that you can take photos with the AR function on your personal device, and we will use a third-party provided SDK to process the photos. We will not store or share your photos with any third parties. \nThe above explanation is a necessary explanation of the contract, to ensure that you understand the operation of this function. \n2. The "AR" function is currently under testing and is in the beta stage, so when you use the AR function, we will install an built-in AR plug-in for you, the built-in AR plug-in may not be compatible with your current phone model, causing the game to crash, so please use it after consideration.
+Your own vehicle
+Example vehicle
+Switch position
+Rotate vehicle
+Play animation
+Pause animation
+Disassemble vehicle
+Mission details
+Please obtain the mission
+All missions have been completed
+Mission progress
+AR notification
+Mobile phone does not support AR
+Please install the AR plug-in first
+No detectable plane to place on
+Not opened
+Event end countdown:%d:%d:%d
+%d:%d:%d
+Start Challenge (%d/%d)
+Off Season
+Audition
+Peak race
+B race
+Promote to top 32
+Promote to top 16
+Promote to top 8
+Promote to top 4
+Championship Match
+Top 32 match in Progress
+Top 16 match in Progress
+Top 8 match in Progress
+Top 4 match in Progress
+Finals in Progress
+Championship in Progress
+Pass not yet opened
+Not enough Gingerbread People to redeem
+All missions unlocked
+Locked
+Already locked
+Confirm lock of custom gift pack
+Please choose the items you want to customize and lock them
+Speak cooldown
+Content cannot be empty
+Max %s characters
+Settlement stage
+Top 32 group details
+Top 16 group details
+Top 8 group details
+Top 4 group details
+Top 2 group details
+Eliminated in peak competition stage, cannot continue to participate
+Challenge times insufficient
+Group details
+Base selection: %s
+Wish fulfilled
+Not selected
+Spin lottery ticket insufficient
+Draw %d times.
+Currently possessing: %s
+%s*%s
+X%s
+Direction deviation too large, unable to connect
+Distance too far, unable to connect
+Already liked
+Past like time
+Bye
+Eliminated
+Promotion stage
+Already drawn today
+Please select two cards
+%s*%s
+%s/%s
+Holding: %s
+Exchange times %s
+Exchange times exceeded the limit
+Insufficient item
+x%s
+%d days,%d hours,%d minutes
+Event end countdown: %d days %d hours %d minutes
+Guaranteed base not changed, no need to make a wish
+%0.2f > %0.2f
+Awakening success rate: %s
+Merge can gain experience: %s
+Merge awaken probability: %s
+No accessories to merge in this category
+Please click the view button first to switch to a top view
+%d/∞
+No unlocking permission for this accessory
+This accessory can be unlocked without special item
+Merge: 80%
+No awakenable accessories in this category
+Insufficient quantity, unable to select
+You have not selected any awakening item
+This accessory cannot be awakened
+This accessory has been awakened
+Do you want to switch to %s? Click confirm to exit game
+Simplified Chinese
+Traditional Chinese
+English
+Lack of merge materials
+There are still materials not selected
+You don't have any relevant accessories to choose from
+The accessory has been awakened
+Lack of merge materials
+Some materials have not been selected
+There are no relevant parts available to select
+Members cannot sign up, only leader and officials have registration permissions
+Game time: %s~%s
+Sign-up successfully
+%d hour(s) %d minute(s) %d second(s)
+%d day(s) %d hour(s) %d minute(s)
+Registration phase: %s
+Matching phase: %s
+Round 1
+Round 1 settlement in progress
+Round 2
+Round 2 settlement in progress
+Round 3
+Round 3 settlement in progress
+The club points race is being settled.
+Bye
+Begin battle (%d/%d)
+%d/%d
+Purchase <color=#DC5603>%d</color> level(s)
+%s purchase
+Bi-weekly pass purchased successfully
+The bi-weekly pass has reached the level limit and cannot be purchased
+Levels can be purchased within the remaining 7 days of the bi-weekly pass
+Already purchased
+During the event, using %s will receive <color=#eb625e><size=60>double</size></color> drop rewards!
+There are no rewards to claim
+Awakening failed
+Event time: %s.%s %s:%s --- %s.%s %s:%s
+Receive
+Viewing failed
+The number of viewings has been exhausted
+Guarantee
+probability
+Speed comparison
+Suspension comparison
+Stability comparison
+There are no draws
+Diamonds are less than 100 and the accessory cannot be restored
+Whether it costs %d diamonds to restore
+There are no suitable accessories to choose from
+Select insufficient material, please continue
+You have selected enough consumables
+The name is too long to exceed 16 characters
+This accessory cannot be advanced
+Guide levels can only be cleared once
+ไทย
+Custom tracks are only available on the last piece
+There is no closure
+%d-%d-%d %d:%d
+No ads to play
+Season %d
+Surpass the %d place: %s reward
+My speed: %s
+Indonesia
+Click OK to skip the onboarding? If you choose to skip, this stage will no longer appear
+Free for beginner
+Day<size=38><color=#DC5603>%s</color></size>
+Total race time: %s / %s
+Português
+%s is not turned on
+Gold League
+Club Points Race
+Peak Competition
+Club Race Event
+Super Cup
+Legend of the car god
+%d-%d-%d %d:%d~%d-%d-%d %d:%d
+There are parking spaces and no vehicles are configured
+This parking space is not equipped with vehicles
+Game 1
+Game 2
+Game 3
+Game 4
+Game 5
+There is no such item
+Treasure chests are opened to get
+The unlock condition is not met
+Do you want to cancel the chest being opened
+Unlock Deluxe Rewards and receive rare materials such as Super Stamina Elixir and Universal ZMC
+22 times.
+Do you want to rent %s
+Reset in %s
+Please select the item to redeem
+Single-day purchase
+Total purchase gift
+Total purchase %s %s
+Progress: $ %s
+Exit the game for asset repair, and the asset will be repaired when the game starts again
+Accessories are out of date
+%s after unlocking
+Today's challenge times: %d/%d
+Insufficient number of test runs
+There are currently no spare accessories requested
+%s Request this accessory
+Borrowed by %s
+Rent this accessory from %s
+The player has not yet agreed
+Employment management
+Employment application
+Hired
+My employment
+Leasing management
+Leasing application
+Loaned
+My lease
+Are you sure you redeem
+Refresh time: %s
+Are you sure you want to rent this accessory?
+Are you sure you want to hire this accessory?
+Insufficient materials have been selected
+You have not selected any materials for redemption
+Finish the game
+%s time to complete
+Use %s accessories
+%s accessories are not used
+Won first place
+Defeat any opponent
+Win top %d
+Do not use brakes
+After the game, you can collect the reward, do you want to give up the reward and return to the main city
+Stats
+Transform
+skill
+You have sent employment message successfully
+Go to Game Error and click OK to return to the repair game
+Google Play Services for AR
+You need to go to the store and install the latest version of the "Google PLay Services fr AR" plugin to use this feature
+Copy the plug-in name
+No transformation
+No skills
+No eligible accessories
+Configuration table loading error
+Image loading error
+Material loading error
+Model loading error
+Resource loading error
+Skill
+Accessory skills
+Already employed by %s
+Hire this accessory from %s
+Claim successfully
+Send successfully
+The invitation was sent successfully
+You have successfully sent the rental information
+Until the end of the pass: %s
+Time remaining in the current phase: %s
+%d parking spaces are placed in the vehicle
+Less than three vehicles cannot participate
+Those who have been eliminated cannot continue to participate
+Successfully registered for Brawl Championship
+The vehicle has been uploaded successfully. If there are any changes, please continue uploading. The participating vehicles will take the last uploaded data.
+Vehicle battle sequence confirmed
+Registration is not possible
+Participation rewards
+Play-off prizes
+Top %d reward
+Day %d%s~%s
+%d-%d-%d %s~%d-%d-%d %s
+Day %d%s~Day %d%s
+None
+The banned tracks are full
+The banned tracks are completed
+Selected(%d/%d)
+The banned tracks must be %d
+final
+Group A
+Group B
+Group C
+Group D
+Group E
+Group F
+Group G
+Group H
+Day %d.
+Bet successfully
+Do you want to consume %s of %d to bet player %s to promote
+brawl championship
+First parking space
+Second parking space
+Third parking space
+Fourth parking space
+Fifth parking space
+Audition
+Play-off
+%s sharing is cooling down
+Room race
+Club
+Challenge Race
+The number of gashapon coupons is insufficient. Do you want to use %s%s to redeem %s gashapon coupons and continue the draw?
+No more reminders to redeem today
+You still need %s
+open tomorrow
+%d.%d open
+%d days %d hours
+%d minutes %d seconds
+Level %d
+Completed
+Uncompleted
+<color=#105C7C>%s</color>
+<color=#37474D>%s</color>
+<color=#FFFFFF>%s</color>
+Not unlocked
+Unacommpolished
+Already received
+achieved
+%s cannot pass %d levels
+More than the 2nd place %s cleared the level
+protect the racing car
+Magnum Saber—Seiba Go's favorite car
+Sonic Saber—Seiba Retsu's favorite car
+Black Saber - Kurosawa's favorite car
+Jiromaru Special - Jiromaru's favorite car
+Event time: %s.%s %s:%s - %s.%s %s:%s
+%s.%s %s:%s - %s.%s %s:%s
+한국어
+You have reached the mission of the first chapter
+You have reached the last chapter mission
+crazy button click
+Target: %s
+Opening time %d day %d hour %d minute %d second
+End time %d day %d hour %d minute %d second
+The mission of the next chapter has not been opened
+Sunday
+Monday
+Tue
+Wednesday
+Thursday
+Friday
+SATURDAY
+Year%smonths%s
+The remaining %d times of free re-signing this month
+Question ( %s / %s )
+Sold Out
+Z:(%.2f)
+Do you want to return to the main city
+Current color
+Other colors
+%s:%s%s%s
+Accessory Painting Successful
+Number of times reward has been collected:%d/%d
+Racing configuration information will be cleared after switching
+Track start time:%s
+Inventory: <color=#43BEFC>%d</color>
+Type:%s
+%d Star to transform
+Maximum Level
+Minimum Level
+Current Level %d
+%s function on
+Reward has been received.
+Reward cannot be claimed
+You need to agree to the rules before you can participate
+Cancel or not cancel the opening of the treasure chest
+The conditions for opening the chest have not been met.
+No treasure chest
+There is no treasure chest location at the moment
+%s probability display
+This friend is in the blacklist, you can't chat privately.
+Click on the avatar to chat with your friends~
+You haven't joined a club yet, find your own club now!
+The World is Empty
+You have not received any invitations
+Free
+Insufficient speakers
+Is the invitation sent?
+(%s seconds)
+The friend level is insufficient and cannot be invited.
+Friend is not online and cannot be invited
+The room match is not unlocked and cannot be joined.
+%s.%s.%s %s: Ending after %s
+Level %s
+Max
+Cannot send blank messages
+%sP
+Permanent purchase limit %s times
+Completeness: %s
+Level %s
+Reward for reaching %s
+Gacha %d times
+Gacha %d times
+None at the moment
+Failed to save during track assembly
+Universal blocks cannot be used for replacement
+The track has been closed and cannot be added anymore
+No need to jump
+The current server is full and cannot be entered.
+The current boot cannot be skipped, please click according to the boot instructions.
+Click to select a shortcut statement (%s level can chat freely)
+<color=#ff6a7f>%d</color>
+<color=#11ffae>%d</color>
+Are you sure to receive the internal beta rebate reward?
+Season end time: %s
+The system has detected an abnormality in your settlement. This battle will not be included in the game results.
+You cannot return to the main city during the preparation period for the room match.
+Not registered
+The participating vehicle number %s still lacks accessories and has not been installed, so it cannot be selected.
+Input cannot be empty
+The entry has been successfully deleted
+Deleting the entry will consume %s\nNote: <color=red> After deleting the entry, the current rarity (including: perfection, efficiency, general) will not be restored, and the materials consumed after deletion will not be returned! Please confirm whether to delete this entry! </color>
+Available times today %s/%s
+Not enough 5 times in a row
+Not enough times today
+Accidentally triggered <color=#f21b1b> critical hit × %s! ! ! </color>Get <color=#FAC900>%s</color>
+Whether to report player %s for game anomalies
+Report successful
+No vehicle selected
+There are currently no levels to filter in "The Legend of the God of Cars"
+all
+undone
+Purchase limit %s/%s
+The task has not been received
+The replay data version is too old and the replay cannot be viewed.
+The materials consumed for restored accessories, such as those that have been upgraded, upgraded, transformed, or strengthened, will be returned at 60% of the successfully invested resources. Accessories consumed for awakening stones and advancements and the current accessory body will be 100% returned! \nAre you sure to restore?
+Redemption successful! Get <color=#FAC900>%s</color>
+Accessories will be consumed directly. If you use accessories that have been upgraded, upgraded, transformed, strengthened, or awakened, the materials will not be returned. It is recommended to restore the accessories first and then synthesize them! \nAre you sure to synthesize new accessories?
+This upgrade will consume %s
+Enabling slots:%s
+Banned slots:%s
+Special Rules:%s
+There are currently no rewards to claim
+Diamond consumption
+ordinary
+Critical hit×
+Probability announcement
+Gold coin critical hit probability details
+Use %s
+Get %s
+Critical hit×%s
+<color=#white>%d/%d</color>
+%s*%d(owns:%d)
+and
+Diagnostic record naming
+You can enter up to 8 characters
+History-%d
+Please enter password
+View diagnostic records
+Diagnostic record keeping
+Record(%d/%d)
+%d/%d
+Accumulated points rewards
+Earn %d points in total in Brawl Championship matches
+Dr. Tsuchiya: I will help you test the basic performance of the four-wheel drive vehicle. It does not include the Body Shell skills and other additional additions. Please be sure to pay attention! This performance is for reference only
+Dr. Tsuchiya
+Bye
+<color=#ff6a7f>%s</color>
+<color=#11ffae>%s</color>
+<color=#FDDE0A>%s</color>
+Whether to consume vehicle inspection card*1 for vehicle inspection
+Upload successful
+Coverage successful
+
+The awakening materials previously consumed after restoration will be removed, and the modification operations such as upgrading, modifying, strengthening, and upgrading of accessories will not disappear. Are you sure to proceed with the restoration operation?
+Please select a legacy entry
+Please select an inheritance consumption
+Whether to consume<color=#ee7800>[%sx%d]</color> accessory inheritance <color=#ee7800>[%s]</color>
+Whether to consume <color=#3eb370>[%sx%d]</color> prop inheritance <color=#ee7800>[%s]</color>
+Whether to consume <color=#ee7800>[%sx%d]</color> accessories to replace inheritance <color=#ee7800>[%s]</color> with <color=#ee7800>[%s]</color>
+Whether to consume <color=#3eb370>[%sx%d]</color> props to replace inheritance <color=#ee7800>[%s]</color> with <color=#ee7800>[%s]</color>
+Insufficient quantity of inheritance consumable accessories %s
+Insufficient quantity of inheritance consumable props %s
+Successful inheritance
+Successful inheritance upgrade
+Heritage and recasting success
+LV:%d/%d
+The inheritance is already at the highest level and there is no need to upgrade.
+The inheritance cannot be recast if it has not reached the highest level.
+Items consumed: %d
+Consumable accessories: %d
+Lv:%d
+%d<color=#3eb370>(+%d)</color>/<color=#FFD409>%d</color>
+%d<color=#3eb370>(+%d)</color>/<color=#FFD409>%d</color>
+%d/%d
+Experience value +%s
+Skill book consumption: %d/%d
+Skill book consumption: <color=#ff0000>%d/%d</color>
+Exceeding the maximum experience value and selecting failed
+Please select upgrade props or accessories
+Golden League is not started
+Number of remaining challenges %d/%d
+The level is not unlocked or does not exist. The search failed.
+The event is not started
+Promoting
+There is nothing here...
+System
+%d%%
+<color=red>X%d</color>
+<color=#E5E201>%d</color>/%d
+Skill inheritance replacement successful
+Consume accessories
+Consume materials
+Does not meet inheritance requirements
+This upgrade will consume the following orange quality accessories:
+Spend %s%d to select %d starting lane and start the race?
+Car shell transformation successful
+Please select a starting track
+Today's starting track selection count: %d/%d
+Attributes have reached the maximum value, no need to recast
+LV:  %d  /   %d
+%d.%d %02d:%02d-%d.%d %02d:%02d
+%s day %s h: %s m: %s s
+Currently unlocking quantity: %s
+Deleting an inherited skill will not return any materials. Are you sure you want to delete the inherited skill
+The club name is changed successfully,one club name change card is consumed.
+Delete inherited skills successfully
+The game continues
+be usable
+To be restored
+Awakened
+Star-raised
+Level-upgraded.
+Tier-upgraded.
+Inherited.
+Already locked
+Equipped with %d vehicles.
+Accessory "%s" cannot be used.
+Exceeds maximum consumption limit.
+Insufficient quantity selected.
+Avatar.
+Avatar frame.
+Background strip.
+Trophy.
+Background strip settings.
+Trophy settings.
+all
+No disabled accessories.
+Disable prompt.
+Vehicle has disabled accessories:
+Please select the accessories to be placed.
+No available slots to add accessories.
+All 5 accessories must be selected before spinning.
+There are still empty accessory slots, please select them before spinning.
+Please click "Confirm Wish" to lock the accessories before drawing.
+Current level: %d
+<color=#f39801>%s</color>Remainder:
+%s points
+%s: Add <color=#%s>%s</color>
+%s:Reduce <color=#%s>%s</color>
+%s: Consumption per second <color=#e6e300>%.2f</color>
+Insufficient number of Golden League challenges
+The trophy has already been selected
+Trophy not unlocked
+Background not unlocked
+Insufficient upgrade accessories available
+Successfully participated in the assembly competition
+Please modify the vehicle after registration
+Success selected a transformation item
+Success changed the background bar
+Success changed the trophy
+Assembly competition is not in the registration time
+Insufficient number of challenges in assembly competition
+The mall has been refreshed, please reselect
+Rent & Hire
+Rent
+Hire
+Guess successfully
+%d:%d-%s win
+%d:%d-draw
+%d:%d-%s fail
+Bet on %s win
+Bet on %s draw
+Bet on %s lose
+Not generated
+%d:%d
+Guessed %s win
+%d/%d/%d-%d/%d/%d
+Whether to consume %sX%d to guess %s is the champion
+Whether to consume %sX%d to guess %s-%s win
+Whether to consume %sX%d to guess %s-%s draw
+Whether to consume %sX%d to guess %s-%s lose
+Guess deadline: %d year %d month %d day %d: %d
+The assembly race is over.
+White Accessories
+Green Accessories
+Blue Accessories
+Purple Accessories
+Orange Accessories
+White Item
+Green Item
+Blue Item
+Purple Item
+Orange Item
+Please select all consumed accessories
+Station: %d
+Scoreboard
+Other stickers
+Accessory stickers replaced successfully
+Do you want to consume 【%s*%d】to purchase
+You have insufficient race vehicles. Obtain the【Car Slot Box】through star rewards in Chapters 2-5 to unlock more 4WD cars.
+Insufficient 【Car Slot Box】, You can obtain more through star rewards in Chapters 2-5
+Inheritable
+Switch to Battle Mode?
+Bindable
+Not Bound
+Can be rebound in %d hours %d minutes %d seconds
+Bind %s's %s to %s?
+Purchase Limit:%d/%d
+Unlimited Purchases
+Free
+Unbound 4WD mode data detected. Go to bind?
+1.Energy Crystals can only be obtained during the event period\n2.Energy Crystals will not be saved after the event ends. Please use them all during the event!
+1.Energy Crystals can only be obtained during the event period\n2.Energy Crystals will not be saved after the event ends. Please use them all during the event!
+0
+Red Quality
+No Skills
+No Skills
+Entry
+End
+Unlock %d gachas
+Decompose %d %s ?
+Japanese
+Part removal succeeded
+Only %s Required
+Super Championship not open
+Confirm you want to transfer current character data to account %s? Cannot be modified after confirmation.
+Operation completed. If any issues, contact customer service on Discord.
+Transfer target ID=%d submitted. If any issues, contact customer service on Discord.
+You must read all instructions before performing data transfer.
+Input cannot be empty.
+GT League
+The GT League is about to start. Confirm registration?
+Ad Playback Failed
+Server test status
+Internal class error
+Registration failed, UID duplicate
+Server not opened
+Data anomaly
+Version mismatch
+Your account is logged in on another device, please log in again
+Verification token failed, please log in again
+User is banned
+Illegal user connection, please log in again
+Silenced
+Illegal data package
+Nickname cannot exceed 8 characters
+Message sequence number incorrect
+Nickname cannot be blank
+Nickname contains illegal characters
+Initial plan abnormal
+User creation error
+Nickname repeat
+Energy is full
+No such item
+Item type incorrect
+Quantity error
+Insufficient quantity
+Unable to open garage
+No such parking space
+Parking space not unlocked
+Unable to unload
+No such accessory
+No such slot number
+This location cannot install this type of accessory
+This location is not unlocked
+Prerequisite not installed
+Exceeded the level limit
+Insufficient gold coins
+Insufficient diamonds
+Reached the maximum star level
+No such slot
+This item is already in the modification list
+Not enough level to upgrade
+No such item
+Insufficient materials
+Unable to upgrade
+Upgrade level limit reached
+Item limit reached
+Already perfect, unable to reforge
+Accessory in use cannot be decomposed
+No such task
+Task expired
+Task not completed
+Task already claimed
+Active synthesis chart
+Error slot
+Insufficient cost
+No such mall
+Inadequate refresh
+Insufficient funds for gashapon
+Free gashapon time has not cooled down
+Today's gashapon times have reached the limit
+No such gashapon
+Gashapon prize pool warehouse dictionary error
+Wrong frequency
+Time-limited gashapon has ended
+Rename card item insufficient
+Insufficient quantity of accessories in the warehouse
+No such race
+Name does not meet requirements
+Track number less than 3
+Too few track blocks, cannot be saved
+Track save failed
+No such item
+Item inventory is 0
+CD not yet
+No such hole
+Not a hole that can be opened
+Hole cannot be equipped with netting
+Wrong type of active value reward to claim
+No reward to claim
+Accessory has been used
+Accessory type does not match
+This redemption code cannot be used
+Not enough quantity of accessories in the warehouse to be extracted
+Race block production limit reached
+This redemption code has been used
+This package code has expired
+The event has ended.
+The sign-in days are incorrect.
+The make-up sign-in days are incorrect.
+Already checked in.
+The purchase has reached the limit.
+Gingerbread man is insufficient and cannot redeem.
+Purchase conditions for the product are not met.
+No detachable mesh.
+The return event has expired.
+Return to sign-in after purchase.
+This avatar does not exist.
+This avatar frame does not exist.
+This treasure box does not exist.
+Conditions for receiving the treasure box have not been met.
+The treasure box has already been claimed.
+No such email ID
+Email has expired
+Email has attachments not claimed
+Email has no attachments
+Attachment cannot be claimed without opening the email
+This order is not in a state that can be shipped
+No such level
+This level has been unlocked
+Unlocked by activating the previous level race technology arbitrarily
+No such Talent ID
+Already activated or in activation
+Activation list limit
+Cannot be completed
+This race block cannot be produced
+Race block production list is full
+Race block not produced
+Production time not completed
+No such recipe ID
+Synthesis list limit
+Synthesis accessories do not match
+Cannot complete synthesis
+Synthesis time not arrived
+Recipe level has reached the limit
+Cannot complete research
+Research time not arrived
+Diagrams do not match
+No such recharge item
+Unable to purchase
+Duplicate purchase
+Days incorrect
+First recharge event has expired
+Not effective, cannot be purchased
+Purchase limit
+Passport level abnormality
+Rewards have been claimed
+Not reached the renewal fee days
+This card has expired
+Daily rewards already claimed
+Daily purchase limit reached
+sign-in has exceeded 7 days
+Already checked in
+sign-in days incorrect
+Recipe is being upgraded
+Player has not purchased this card
+Not available for redemption before time
+Already claimed
+No free times
+The number of accessories in the backpack has reached the upper limit. Please disassemble some appropriately.
+The pass activity is not yet open
+Pass has been purchased
+No rewards to be claimed
+Pass level has reached its maximum limit
+The time to purchase pass level has not yet arrived
+Track blocks are insufficient
+Seasonal data has changed
+Current step error
+Error in choosing opponent
+Reached the upper limit and cannot be reset
+Golden League season has changed
+Golden League is not in the competition time
+Golden League free times are used up
+Golden League racing car cannot be used
+Insufficient league challenge cards
+Golden League season has not started
+Today's challenge times have reached the upper limit
+Not enough reconnaissance roll
+Scouting opponents do not exist
+There is no such custom pack
+Please select all the items you want before purchasing
+Custom packs are incorrect
+Re-signatures are not possible
+Wrong pickup location
+Stamina has been received
+The time for receiving physical strength has passed
+No retroactive claim
+The accessory is locked
+Insufficient material consumption
+The number of unextracted tasks is insufficient
+The pack has been customized
+Today's lucky draw has been used
+The number of redemptions is exhausted
+The quality of the accessories does not meet the requirements
+Limited accessories are unlocked
+Limited accessories need to be unlocked
+This accessory cannot be synthesized at this level
+The level conditions of the upgrade engineer are insufficient
+The upper limit of the level of the Transformation Master has been reached
+Not enough number of fortune wheels
+This accessory cannot be unlocked
+This accessory is not awakened
+This accessory is rented and cannot be changed
+This accessory has expired
+This accessory has been used up to the limit
+The aid is in the wrong location
+Assistance is already available for this location
+The same assistance already exists
+The aid location is not unlocked
+Not in the club review list
+Abnormal club review application data
+The club has reached the maximum number of members
+Club information is abnormal
+Insufficient authority
+Club reviewer data anomaly
+Other club administrators are in operation, please try again later
+Club does not exist
+Setting application to join club level restriction data error
+Not in the club
+Already in the club
+No club name
+Not enough funds to create club
+Club name is too long
+Parameter error
+Club already exists
+Cannot kick out the president
+Cannot kick out oneself
+Please transfer out the president first
+Already entered another club
+Level is not enough
+Club application reached maximum
+CD cooling down
+Maximum contribution
+Club already exists
+Order creation failed
+Club name contains non-compliant characters
+Club name length cannot be 0
+Already signed in today
+The number is insufficient and cannot be advanced
+Non-1st generation accessories
+Non-compliant accessories
+The level has reached the maximum and cannot be advanced
+Accessories do not need to be restored
+The advance has reached the upper limit
+The maximum number of requests for rental parts has been reached
+Accessories cannot be rented
+Accessories cannot be loaned
+The lease status has changed
+No such application
+The application was not approved
+Acquired
+I have agreed that the request cannot be deleted
+The maximum number of applications for employment parts has been reached
+Accessories are not available for hire
+The number of spare parts hires has reached the limit
+The same parts have been hired
+Insufficient level
+Insufficient vehicle inspection card
+Friend is in the process, please try again later
+Your friend has reached the maximum number
+The other party's friend has reached the maximum number
+Maximum number
+Adding oneself as a friend
+Cannot receive friend gifts
+Already received friend gifts
+Already a friend
+Not a friend
+Cannot search oneself
+Maximum number of withdrawals
+The other party's application list has reached the maximum number
+Chapter does not exist
+Chapter not unlocked
+No chapter rewards
+No such reward
+Already received
+Not enough stars
+This level does not exist
+Level not unlocked
+Not enough energy
+Vehicle cannot engage in combat
+Sweeping times of the level has reached the upper limit
+Not enough sweeping tickets
+Level not enough
+No playback records.
+The playback time is abnormal.
+Incorrect serial number.
+Playback has reached the limit.
+Already in a self-created room
+No suitable self-created room
+Reached maximum number of players
+Room password is incorrect
+Waiting to start
+Not in room
+Not the room owner
+Not in room
+Competition has already started
+Matching degree data abnormality
+Some participants have not confirmed
+Room race upgrading process, please try again later
+Room race self-created competition track abnormality
+The room number doesn't exist.
+No this inherited skill
+No this inherited attribute
+Repeated Inheritance
+No season
+Not during competition time
+In competition
+Four-wheel drive malfunction
+No competition
+No challenge attempts remaining
+Matching data abnormality
+No competition room
+Matching abnormality
+Matching successful, cannot cancel
+Not participating in matchmaking, cannot cancel
+Not participating in matchmaking, cannot confirm
+Matchmaking server upgrading, please try again later
+There are no test runs
+Matchmaking competition confirmation abnormality
+Challenge server data anomaly
+Challenge server is upgrading, please wait
+Insufficient tickets, cannot create a challenge race
+Error in creating a challenge race
+Your challenge race is unsettled
+Exceeded the maximum number of challenge race creations
+The created challenge race has not ended
+Error in creating challenge race track
+Challenge race has already signed up
+Insufficient fee for signing up for a challenge race
+Insufficient number of attempts to participate in a challenge race
+Challenge race sign-up time has passed
+Challenge race has not yet signed up
+Insufficient number of attempts in a challenge race
+Challenge race time has exceeded
+Challenge race vehicle is not complete
+Challenge race does not exist
+Challenge race has already been scored
+Challenge race has been refreshed, please re-enter the challenge race
+Track data does not exist when creating a challenge race
+Cannot sign up or participate in a challenge race within 10 minutes of challenge race ending
+The state is incorrect and cannot be claimed.
+The slot number is wrong
+The slot is occupied
+The slot is not unlocked
+Empty slots
+CD time has not yet arrived
+Unlocked
+Diamonds cannot be unlocked
+Exceeding the redemption limit
+The target task of this chapter has not been completed and cannot be claimed
+Unblockable
+This player has been blocked
+Not in the block list
+Cannot be transformed into this accessory
+Super cup upgrade in progress, please try again later
+Super cup has not been opened
+Match successful, cannot be cancelled
+Competition is not in registration time
+Competition registered vehicle cannot be used
+Competition registered vehicle has limited type accessories
+Competition registered vehicle has not used mandatory accessories
+Competition time has passed
+Current competition does not exist
+Current competition session does not exist
+Need to sign up before participating in super cup
+Super cup has been registered
+Competition matching abnormal
+Match successful, cannot be cancelled
+Competition has not participated in matching, cannot be cancelled
+Competition cancellation abnormal
+Competition matching abnormal
+Super cup confirmation abnormal
+Competition has not participated in matching, cannot be confirmed
+Current racing car does not exist or has already been used
+Super cup is not in competition time
+Club event is not in competition time
+You have quit the club, unable to participate in club events
+Today's count is insufficient and unable to participate in club events.
+Vehicles participating in club events cannot be used.
+Club event is not open.
+The vehicle has already participated in the club event.
+You have exited the club and cannot receive rewards.
+The club event rewards have already been redeemed.
+The club event rewards score is insufficient.
+The club event personal rewards have already been redeemed.
+The club event personal rewards score is insufficient.
+Peak race not started
+Peak race personal data abnormal
+Insufficient peak race times
+Peak race not in competition time
+Peak race vehicle cannot be used
+Peak race not in 32-strong competition time
+Peak race not in 16-strong competition time
+Peak race not in 8-strong competition time
+Peak race not in 4-strong competition time
+Peak race not in final competition time
+Peak race did not find opponent data
+Peak race not in competition time
+Peak race not in thumbs-up stage
+Peak race not in thumbs-up time
+Peak race no matchup table
+Peak race current stage not thumbs-up stage
+Peak race current stage already thumbs-up
+Peak race thumbs-up person not in thumbs-up range
+Insufficient participants for peak race, cannot start B-class race
+Insufficient participants for peak race, competition ended
+Club points race is not open.
+You do not have the permission to sign up for the club points race.
+You are not a member of the club for the club points race.
+Your club has not signed up for the club points race.
+Your club has not completed matching for the club points race.
+You do not have enough entries for the club points race.
+The club points race is not in the competition phase.
+The race track for the club points race is incorrect.
+The vehicle is not available for the club points race.
+Settlement cannot be made if the club points race exceeds the race time.
+You have already signed up for the club points race.
+The club points race is not in the registration period.
+You cannot perform club operations after signing up for the club points race.
+The club does not exist for the club points race.
+The club points race rankings are being refreshed.
+Horn cannot send empty messages
+Horn cannot send shielded word messages
+Insufficient small horns
+Insufficient small horn interval time
+Small horn maximum word limit
+0
+No such order
+Accessories Unavailable for Rent
+Brawl Championship is not started
+Brawl Championship is not open for registration
+Registration for the Brawl Championship has been successful
+You cannot participate in the Brawl Championship without registering
+Brawl Championship is no longer in the garage time range adjustment
+Brawl Championship is not within the confirmed schedule
+Not enough vehicles in Brawl Championship
+Maximum number of banned tracks in Brawl Championship
+The Brawl Championship circuit is not a knockout circuit
+The Brawl Championship is not within the elimination period of the track ban
+This match does not exist in Brawl Championship
+Brawl Championship is out of scope
+Brawl Championship is not within the guessing time range
+Brawl Championship You have already guessed a match in this time period
+Brawl Championship Guess Result Insufficient Money
+There is no registration for the Brawl Championship and there is no competition.
+Brawl Championship does not have this phase and no matches
+Brawl Championship has no points
+Points reward has been collected
+The mini-game is not open
+The mini-game has been claimed
+Level rewards have been received
+Level rewards cannot be claimed
+The replay data version is too old and the replay cannot be viewed.
+0
+Reached the maximum number of track selections
+Insufficient currency to select a track
+Insufficient number of rename cards
+Slow
+Quick
+The European Cup has not started
+The time for selecting the European Cup champion has passed
+The European Cup champion has been selected
+Insufficient guessing coins
+The European Cup guessing match does not exist
+The time for selecting the European Cup guessing match has expired
+Insufficient guessing coins
+The European Cup guessing match has been selected
+The European Cup guessing match has not been selected
+The time for claiming the prize has not arrived
+This guessing match is incorrect
+This guessing reward has been received
+The European Cup guessing champion reward has been received
+The result of the European Cup guessing champion competition is incorrect
+You did not participate in the European Cup guessing champion
+Assembly competition has not started
+Assembly competition has been registered
+Insufficient funds for assembly competition registration
+Not registered for assembly competition
+The assembly competition has been liked
+The time for liking the assembly competition has expired
+Insufficient assembly competition times
+The assembly race time has expired
+Assembly race vehicles cannot be used
+Not enough space in the accessories backpack
+Transfer character already bound.

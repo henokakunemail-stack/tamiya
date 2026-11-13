@@ -1,0 +1,5 @@
+INT	STRING	STRING	INT	STRING
+0	0	0	0	0
+C_ID	begintime	endtime	powernum	showTime1
+0	03:00:00	08:00:00	60	11:00:00-16:00:00
+1	10:00:00	15:00:00	60	18:00:00-23:00:00

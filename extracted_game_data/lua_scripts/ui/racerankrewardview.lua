@@ -1,0 +1,86 @@
+--
+--
+--
+-----@class RaceRankRewardView : ViewBase
+--RaceRankRewardView = class("RaceRankRewardView", ViewBase)
+--
+--function RaceRankRewardView:initialize()
+--    ViewBase.initialize(self)
+--    ViewBase.RegisteAction(self, "RaceRankRewardViewAction")
+--end
+--
+--function RaceRankRewardView:Awake()
+--    CommonHelper:HButtonSetCallback("BtnClose",self.gameObject,function (hbtn)
+--        UIManager:Get():HidePersistentView("RaceRankRewardView")
+--    end)
+--
+--    self.ScrollView = UIUtil.GetTypeChildWightInputPath("MoreRowScrollView_V", self.gameObject, typeof(MoreRowScrollView))
+--end
+--
+--function RaceRankRewardView:OnOpen()
+--    self:SetData()
+--end
+--
+--function RaceRankRewardView:OnClose()
+--    CommonHelper:ReleasePool(UIModuleID.RaceRankReward)
+--end
+--
+--function RaceRankRewardView:SetData()
+--    self:SetScrollView()
+--    --self:SetMaxItem()
+--end
+--
+--function RaceRankRewardView:SetScrollView()
+--    ---@type table<number, RaceRankScoreRewardData>
+--    self.RewardList = RaceRankManager:Get():GetScoreRewardList()
+--    CommonHelper:InitMoreRowScrollView(self.ScrollView, #self.RewardList, 1,function(dataIndex, itemObj, scroll)
+--        self:UpdateScrollView(dataIndex, itemObj)
+--    end)
+--end
+--
+--
+--function RaceRankRewardView:UpdateScrollView(dataIndex, itemObj)
+--    local data = self.RewardList[dataIndex + 1]
+--    self:SetItemData(data,itemObj)
+--end
+--
+--function RaceRankRewardView:SetMaxItem()
+--    local count = #self.RewardList
+--    local data = self.RewardList[count]
+--    local obj = UIUtil.GetChild("MaxItem", self.gameObject)
+--    self:SetItemData(data, obj)
+--end
+--
+-----@param data RaceRankScoreRewardData
+--function RaceRankRewardView:SetItemData(data, itemObj)
+--    local rewardlist = data:GetRewardList()
+--    local curcfg, minscore, maxscore = CommonHelper:GetRankCfgByScore(data:GetScore())
+--    CommonHelper:SetText("rankvalue", itemObj,curcfg.name )
+--    --CommonHelper:SetBoxState("BoxState3", itemObj, data:GetState())
+--    --CommonHelper:SetBoxState("BoxState4", itemObj, data:GetState())
+--    local BtnGet = CommonHelper:HButtonSetCallback("BtnGet",itemObj,function (hbtn)
+--        RaceRankSubsystem:Get():SendMsg_GetScoreReward( hbtn.intData- 1)
+--    end,data:GetIdx())
+--    CommonHelper:SetRankLvGroup("RankLvMiddle",itemObj,1,data:GetScore(),UIModuleID.RaceRankReward)
+--    CommonHelper:SetHButtonClick(BtnGet,data:GetState()==1,true)
+--    CommonHelper:SetGameObjectActive("noacrive",itemObj,data:GetState()==0)
+--    CommonHelper:SetGameObjectActive("geted",itemObj,data:GetState()==2)
+--    for i = 1, 2 do
+--        local reward = rewardlist[i]
+--        local articleObj = CommonHelper:SetGameObjectActive("PropCompoent"..i, itemObj, reward ~= nil)
+--        if reward then
+--            local param = Param_PropSquareParam()
+--            param.moduleId = UIModuleID.RaceRankReward
+--            param.id = reward.id
+--            param.count = reward.num
+--            CommonHelper:SetPropSquareGroup(articleObj, param)
+--        end
+--    end
+--end
+--
+--
+--
+--function RaceRankRewardView:UpdateRewardState()
+--    CommonHelper:MoreRowView_RefreshCurList(self.ScrollView, false)
+--    --self:SetMaxItem()
+--end

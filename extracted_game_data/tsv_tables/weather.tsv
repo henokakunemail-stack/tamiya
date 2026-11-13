@@ -1,0 +1,6 @@
+int	string	string	string	STRING	string
+0	0	0	0	0	0
+C_ID	name	desc	icon	resources	buff
+1	weatherName_1	weatherDesc_1	0	0	0
+2	weatherName_2	weatherDesc_2	0	0	0
+3	weatherName_3	weatherDesc_3	0	0	2007,2008,2009,2010,2011,2012

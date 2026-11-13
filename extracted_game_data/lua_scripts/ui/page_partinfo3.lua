@@ -1,0 +1,168 @@
+--
+--
+--
+-----@class Page_PartInfo3
+--Page_PartInfo3 = class("Page_PartInfo3")
+--
+--function Page_PartInfo3:initialize()
+--    ---@type ArticleCell
+--    self.ArticleData = nil
+--
+--    ---@type parts_config_cell
+--    self.PartCfg = nil
+--
+--    self.ModuleID = nil
+--    self.CurTog = -1
+--    self.TogGroup = {}
+--    self.PageRoot = {}
+--    self.CurPagePrefab = nil
+--
+--end
+--
+-------------------------------------------------------------------------接口
+--
+-----@param data ArticleCell
+--function Page_PartInfo3:SetArticleData(colortype, root, data, moduleid)
+--    self.ArticleData = data
+--    self.ModuleID = moduleid
+--    self:SetUI(colortype, root)
+--end
+--
+-----@param cfg parts_config_cell
+--function Page_PartInfo3:SetCfgData(colortype, root, cfg, moduleid)
+--    self.PartCfg = cfg
+--    self.ModuleID = moduleid
+--    self:SetUI(colortype, root)
+--end
+--
+--
+--function Page_PartInfo3:Release()
+--    if self.CurPagePrefab then PrefabCacheMgr:Get():RecyclePrefab(self.CurPagePrefab) end
+--    CommonHelper:ReleasePool(self.ModuleID)
+--    LuaButtonManager:Get():ReleasePool(self.ModuleID)
+--    self.ArticleData = nil
+--    self.PartCfg = nil
+--    self.ModuleID = nil
+--    self.CurTog = -1
+--    self.TogGroup = {}
+--    self.PageRoot = {}
+--    self.CurPagePrefab = nil
+--end
+--
+--function Page_PartInfo3:UpdateMsg()
+--    if self.CurTog == 1 then self:SetPageBase() end
+--    if self.CurTog == 2 then self:SetPageAttr() end
+--    if self.CurTog == 4 then self:SetPageTips() end
+--end
+--
+--function Page_PartInfo3:SetColor(colortyp)
+--    for k, v in pairs(self.TogGroup) do
+--        if k ~= 3 then
+--            CommonHelper:SetColorSystem_Btn(v.gameObject, colortyp)
+--        end
+--    end
+--
+--end
+--
+-------------------------------------------------------------------------接口
+--
+--
+--
+--function Page_PartInfo3:SetUI(colortype, root)
+--    self.PageRoot = {}
+--    for i = 1, 4 do
+--        self.PageRoot[i] = UIUtil.GetChild("pageroot"..i,root)
+--    end
+--
+--    self.TogGroup = {}
+--    for i = 1, 4 do
+--        self.TogGroup[i] = LuaButtonManager:Get():AddButton("Toggle"..i,root, self.ModuleID, self.OnClickTog, i, self)
+--    end
+--
+--    self:SetColor(colortype)
+--
+--    if self.ArticleData then
+--        CommonHelper:SetText("Subheading1/title",root, ClientDataManager:Get():GetTemplateString(self.ArticleData:GetPartConfig().name))
+--    end
+--    if self.PartCfg then
+--        CommonHelper:SetText("Subheading1/title",root, ClientDataManager:Get():GetTemplateString(self.PartCfg.name))
+--    end
+--
+--    self:OnClickTog(1, true)
+--end
+--
+--
+--function Page_PartInfo3:OnClickTog(idx, refresh)
+--
+--    if refresh == nil then refresh = false end
+--    if self.CurTog == idx and refresh == false then return end
+--
+--    for k, v in pairs(self.TogGroup) do
+--        if k ~= 3 then
+--            CommonHelper:SetToggleState(v,k == idx)
+--        end
+--    end
+--    self.CurTog = idx
+--
+--    if idx == 1 then self:SetPageBase() end
+--    if idx == 2 then self:SetPageAttr() end
+--    if idx == 4 then self:SetPageTips() end
+--end
+--
+--
+--
+--function Page_PartInfo3:SetPageBase()
+--    if self.CurPagePrefab then
+--        PrefabCacheMgr:Get():RecyclePrefab(self.CurPagePrefab)
+--    end
+--
+--    PrefabCacheMgr:Get():SwapPrefabAsync("Page_PartBase.prefab", nil, nil, function(param, obj)
+--        ---@type Page_PartInfo3
+--        local class = param[1]
+--        class.CurPagePrefab = obj
+--        UIUtil.SetParentGameObject(class.PageRoot[param[2]], obj)
+--        local temp = Page_PartBase()
+--        if class.ArticleData then temp:SetArticleData(obj,  class.ArticleData, class.ModuleID) end
+--        if class.PartCfg then temp:SetCfgData(obj,  class.PartCfg, class.ModuleID) end
+--
+--    end, {self, 1})
+--
+--end
+--
+--function Page_PartInfo3:SetPageAttr()
+--    if self.CurPagePrefab then
+--        PrefabCacheMgr:Get():RecyclePrefab(self.CurPagePrefab)
+--    end
+--
+--    PrefabCacheMgr:Get():SwapPrefabAsync("Page_PartAttrs.prefab", nil, nil, function(param, obj)
+--        ---@type Page_PartInfo3
+--        local class = param[1]
+--        class.CurPagePrefab = obj
+--        UIUtil.SetParentGameObject(class.PageRoot[param[2]], obj)
+--        local temp = Page_PartAttrs()
+--        if class.ArticleData then temp:SetArticleData(obj,  class.ArticleData, class.ModuleID) end
+--        if class.PartCfg then temp:SetCfgData(obj,  class.PartCfg, class.ModuleID) end
+--
+--    end, {self, 2})
+--
+--end
+--
+--
+--function Page_PartInfo3:SetPageTips()
+--    if self.CurPagePrefab then
+--        PrefabCacheMgr:Get():RecyclePrefab(self.CurPagePrefab)
+--    end
+--
+--    PrefabCacheMgr:Get():SwapPrefabAsync("Page_PartTips.prefab", nil, nil, function(param, obj)
+--        ---@type Page_PartInfo3
+--        local class = param[1]
+--        class.CurPagePrefab = obj
+--        UIUtil.SetParentGameObject(class.PageRoot[param[2]], obj)
+--        local temp = Page_PartTips()
+--        if class.ArticleData then temp:SetArticleData(obj,  class.ArticleData, class.ModuleID) end
+--        if class.PartCfg then temp:SetCfgData(obj,  class.PartCfg, class.ModuleID) end
+--
+--    end, {self, 4})
+--
+--end
+--

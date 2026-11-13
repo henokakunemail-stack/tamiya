@@ -1,0 +1,171 @@
+-----@class PVPRankResultView : ViewBase
+--PVPRankResultView = class("PVPRankResultView", ViewBase)
+--local _selfBtnIndex=0
+-----@type table<number, BattleResultPlayerData>
+--local _PlayerResultList=nil
+--function PVPRankResultView:initialize()
+--    ViewBase.initialize(self)
+--    ViewBase.RegisteAction(self, "PVPRankResultViewAction")
+--end
+--
+--function PVPRankResultView:Awake()
+--    CommonHelper:HButtonSetCallback("BtnClose", self.gameObject, function(hbtn)
+--        BattleDataManager:Get():SetStateBattleExit()
+--        SceneManager:Get():LoadingMainCity()
+--    end)
+--end
+--function PVPRankResultView:InitPvPCompareView()
+--    self.PvPCompareCanvasGroup = self:GetChildWightByParent("PVPCompareView", self.gameObject, typeof(CanvasGroup))
+--    self.SceneRawImage=self:GetChildWightByParent("SceneRawImage",self.PvPCompareCanvasGroup.gameObject,typeof(RawImage))
+--    self.Record_1=self:GetChildByParent("Record_1",self.PvPCompareCanvasGroup.gameObject)
+--    self.Record_2=self:GetChildByParent("Record_2",self.PvPCompareCanvasGroup.gameObject)
+--    self.TrackImages_1=self:InitPvPCompareTrackImage(self.Record_1)
+--    self.TrackImages_2=self:InitPvPCompareTrackImage(self.Record_2)
+--    UIUtil.ShowCanvasGroup(self.PvPCompareCanvasGroup, false)
+--end
+--function PVPRankResultView:OnOpen()
+--    local data=BattleDataManager:Get():GetBattleResultData()
+--    _PlayerResultList=data:GetPlayerList()
+--    self:SetRankList()
+--end
+--function PVPRankResultView:SetRankList()
+--   -- local isSelfFlyOut=self.ResultList[_selfBtnIndex].Error~=BattleFailError.None
+--    for i = 1, 5 do
+--        local obj = UIUtil.GetChild("rank" .. i, self.gameObject)
+--        ---@type BattleResultPlayerData
+--        local data = _PlayerResultList[i]
+--        if data then
+--            obj:SetActive(true)
+--            CommonHelper:SetText("rankIdx",obj,CommonHelper:GetRankString(data:GetRank()))
+--            CommonHelper:SetText("playername", obj, data:GetName())
+--            CommonHelper:SetText("clubname", obj, data:GetClubName())
+--            local BtnCompare = self:GetChildWightByParent("BtnCompare", obj, typeof(HButton))
+--
+--            --if isSelfFlyOut then
+--            --    CommonHelper:SetHButtonClick(BtnCompare, false, true)
+--            --else
+--            --    CommonHelper:SetHButtonClick(BtnCompare, data.CarName ~= "", true)
+--            --    CommonHelper:SetHButtonClick(BtnCompare, data.ID ~= PlayerDataManager:Get():GetPlayerID(), true)
+--            --end
+--            if data:GetError() == BattleFailError.None then
+--                CommonHelper:GetComponentTransferTime("time", obj, data:GetTime())
+--            elseif data:GetError() == BattleFailError.FlyOut then
+--                CommonHelper:SetText("time", obj, "飞出赛道")
+--               -- CommonHelper:SetHButtonClick(BtnCompare, false, true)
+--            else
+--                CommonHelper:SetText("time", obj, "撞击赛道")
+--                --CommonHelper:SetHButtonClick(BtnCompare, false, true)
+--            end
+--            CommonHelper:SetText("carname", obj, data:GetCarPlanName())
+--
+--            CommonHelper:GetComponentSetImage("trackidx", obj, CommonHelper:GetCarTrackIdxIcon(data:GetTrackIdx()))
+--            ---@type qualifyingrank_config_cell
+--            local qualifyRankData = CommonHelper:GetRankCfgByScore(data:GetRankScore())
+--            CommonHelper:GetComponentSetUITexture("rankIcon",obj,qualifyRankData.icon..".png",UIModuleID.PVPRank)
+--            CommonHelper:SetText("rankValue", obj, qualifyRankData.name)
+--
+--            for i = 1, 5 do
+--                CommonHelper:SetGameObjectActive("stargroup"..i,obj,qualifyRankData.star == i)
+--            end
+--
+--
+--
+--
+--            UIUtil.GetChild("select", obj):SetActive(data:GetPid() == PlayerDataManager:Get():GetPlayerID())
+--            --local BtnCarInfo = self:GetChildWightByParent("BtnCarInfo", obj, typeof(HButton))
+--            --CommonHelper:SetHButtonClick(BtnCarInfo, data:GetCarPlanName() ~= "", true)
+--
+--
+--            CommonHelper:HButtonSetCallback("BtnCarInfo", obj, function(hbtn)
+--                self:OnClickBtn_CarInfo(hbtn.intData)
+--            end, i)
+--            --CommonHelper:HButtonSetCallback("BtnCompare", obj, function(hbtn)
+--            --    self:SetPvPDetailViewData(hbtn.intData)
+--            --    local data = self.ResultList[hbtn.intData]
+--            --    UIUtil.ShowCanvasGroup(self.PvPCompareCanvasGroup, true)
+--            --    self:SetPvPCompareViewData()
+--            --    CSLuaHelper.BattleCompareResult(data.ID)
+--            --end, i)
+--
+--        else
+--            obj:SetActive(false)
+--        end
+--    end
+--end
+----{{{详情界面
+--local _btnIndex = 0
+--function PVPRankResultView:UpdatePvPDetailView()
+--    UIUtil.ShowCanvasGroup(self.PvPDetailCanvasGroup, true)
+--    if _btnIndex > 0 then
+--        local data = self.ResultList[_btnIndex]
+--        if data.ID == PlayerDataManager:Get():GetPlayerID() then
+--            CommonHelper:SetHButtonClick(self.BtnCompare, false, true)
+--        else
+--            CommonHelper:SetHButtonClick(self.BtnCompare, true, true)
+--        end
+--    end
+--end
+--
+--function PVPRankResultView:InitPvPDetailView()
+--    self.PvPDetailCanvasGroup = self:GetChildWightByParent("PVPDetailView", self.gameObject, typeof(CanvasGroup))
+--    self.BtnCompare = CommonHelper:HButtonSetCallback("BtnCompare", self.PvPDetailCanvasGroup.gameObject, function()
+--        local data = self.ResultList[_btnIndex]
+--        UIUtil.ShowCanvasGroup(self.PvPCompareCanvasGroup, true)
+--        self:SetPvPCompareViewData()
+--        CSLuaHelper.BattleCompareResult(data.ID)
+--    end)
+--    self.BtnCarInfo = CommonHelper:HButtonSetCallback("BtnCarInfo", self.PvPDetailCanvasGroup.gameObject, function()
+--        self:OnClickBtn_CarInfo(_btnIndex)
+--    end)
+--    CommonHelper:HButtonSetCallback("BgBtn", self.PvPDetailCanvasGroup.gameObject, function()
+--        UIUtil.ShowCanvasGroup(self.PvPDetailCanvasGroup, false)
+--    end)
+--    UIUtil.ShowCanvasGroup(self.PvPDetailCanvasGroup, false)
+--end
+--function PVPRankResultView:OnClickBtn_CarInfo(idx)
+--
+--    local data = _PlayerResultList[idx]
+--    if data then
+--        CommonHelper:ShowCarInfoByCarReviewData(data:GetCarReview())
+--    end
+--end
+----}}}
+--
+----{{{      车辆对比界面
+--function PVPRankResultView:SetPvPDetailViewData(btnIndex)
+--    _btnIndex = btnIndex
+--end
+--function PVPRankResultView:SetPvPCompareViewData()
+--    local rawTexture= CSLuaHelper.GetBattleCompareRenderTexture()
+--    self.SceneRawImage.texture=rawTexture
+--
+--    local Record_1_data=self.ResultList[_selfBtnIndex]
+--    CommonHelper:GetComponentTransferTime("RecordTimeText",self.Record_1,Record_1_data.Time)
+--    self:SetPvPCompareTrackImage(self.TrackImages_1,Record_1_data.TrackIdx)
+--
+--    local Record_2_data=self.ResultList[_btnIndex]
+--    CommonHelper:GetComponentTransferTime("RecordTimeText",self.Record_2,Record_2_data.Time)
+--    CommonHelper:SetText("CompareNameText",self.Record_2,Record_2_data.Name)
+--    self:SetPvPCompareTrackImage(self.TrackImages_2,Record_2_data.TrackIdx)
+--end
+--function PVPRankResultView:InitPvPCompareTrackImage(parent)
+--    local TrackImages={}
+--    for i = 1, 5 do
+--        local image=self:GetChildByParent(tostring(i),parent)
+--        table.insert(TrackImages,image)
+--    end
+--    return TrackImages
+--end
+--function PVPRankResultView:SetPvPCompareTrackImage(trackImages,trackIndex)
+--    for i = 1, 5 do
+--        if i==trackIndex then
+--            trackImages[i].gameObject:SetActive(true)
+--        else
+--            trackImages[i].gameObject:SetActive(false)
+--        end
+--    end
+--end
+-- --}}}
+--
+--
+--

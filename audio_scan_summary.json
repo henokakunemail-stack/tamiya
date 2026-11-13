@@ -1,0 +1,116 @@
+{
+  "total_bundles": 413,
+  "bundles_with_audioclip": 412,
+  "total_audioclips": 453,
+  "categories": {
+    "BGM": {
+      "count": 11,
+      "total_size_bytes": 3818304,
+      "total_duration_sec": 528.94,
+      "sample_clips": [
+        "bgm_06",
+        "bgm_battle_01",
+        "bgm_battle_02",
+        "bgm_battle_03",
+        "bgm_battle_04",
+        "bgm_battle_05",
+        "bgm_battle_08",
+        "bgm_cheku",
+        "bgm_luckdraw_01",
+        "bgm_main"
+      ]
+    },
+    "Engine Sound": {
+      "count": 17,
+      "total_size_bytes": 335072,
+      "total_duration_sec": 52.49,
+      "sample_clips": [
+        "4cfd.acb.00001",
+        "4cfd.acb.00002",
+        "4cfd.acb.00006",
+        "4cfd.acb.00010",
+        "audio_battle_car_101",
+        "audio_battle_car_102",
+        "audio_battle_car_103",
+        "guide_slowmotion",
+        "high_torque",
+        "idaten"
+      ]
+    },
+    "SFX": {
+      "count": 14,
+      "total_size_bytes": 141216,
+      "total_duration_sec": 21.51,
+      "sample_clips": [
+        "audio_sfx_curvecollsion",
+        "audio_sfx_curvecollsion1",
+        "audio_sfx_digital_curve",
+        "audio_sfx_landdown1",
+        "audio_sfx_landdown2",
+        "audio_sfx_line1",
+        "audio_sfx_line_xn",
+        "audio_sfx_spectator",
+        "audio_sfx_curve",
+        "audio_sfx_curve2"
+      ]
+    },
+    "UI Click": {
+      "count": 43,
+      "total_size_bytes": 308160,
+      "total_duration_sec": 45.14,
+      "sample_clips": [
+        "cat_ui_flash",
+        "audio_ui_part_other",
+        "audio_ui_part_pulley",
+        "audio_ui_decompose",
+        "audio_ui_synthesis",
+        "audio_ui_click_301",
+        "audio_ui_toggle_click",
+        "audio_ui_click_102",
+        "audio_ui_click_battlestart",
+        "audio_ui_advanced_done"
+      ]
+    },
+    "SFX / Misc": {
+      "count": 4,
+      "total_size_bytes": 12960,
+      "total_duration_sec": 2.86,
+      "sample_clips": [
+        "startcooldown_1",
+        "startcooldown_2",
+        "startcooldown_3",
+        "misanswer"
+      ]
+    },
+    "Voice": {
+      "count": 364,
+      "total_size_bytes": 5910208,
+      "total_duration_sec": 995.33,
+      "sample_clips": [
+        "cv_kr_10",
+        "cv_kr_11",
+        "cv_kr_12",
+        "cv_kr_13",
+        "cv_kr_14",
+        "cv_kr_15",
+        "cv_kr_16",
+        "cv_kr_17",
+        "cv_kr_19",
+        "cv_kr_2"
+      ]
+    }
+  },
+  "raw_formats": {
+    "FSB5": 453
+  },
+  "compression_formats": {
+    "Vorbis": 453
+  },
+  "sample_rates": {
+    "22050": 453
+  },
+  "channels": {
+    "1": 453
+  },
+  "sample_extracted_dir": "D:\\Henok\\Projects\\Game\\sample_audio_extraction"
+}

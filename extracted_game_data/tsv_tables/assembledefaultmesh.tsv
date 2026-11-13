@@ -1,0 +1,9 @@
+INT	STRING	STRING	STRING	STRING
+0	0	0	0	0
+C_ID	point1	offset1	point2	offset2
+5800	lp_battery_left	0,0,0	lp_battery_right	0,0,0
+5100	lp_battery_slice	0,0,0	-1	0,0,0
+5300	l_back_axle	0,0,0	l_front_axle	0,0,0
+5400	lp_transmission_axle	0,0,0	-1	0,0,0
+10000	lp_lock	0,0,0	-1	0,0,0
+40000	Switch	0,0,0	-1	0,0,0

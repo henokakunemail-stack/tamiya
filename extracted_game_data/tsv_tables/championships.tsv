@@ -1,0 +1,6 @@
+INT	INT	INT	STRING	STRING	STRING	INT	INT	INT	INT	INT	STRING	INT	INT	string	string	string
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+C_ID	type	week	cost	condition	rules	time	duration	times	timeLimit	price	reward	sceneId	trackId	name	rulename	icon
+1	1	5	12010101,5	-1	5,1;5,1;5,1	20	30	2	5	50	12010101,5|12010102,5|12010104,5|12010105,2|12010106,2	29000006	28050002	周五赛事	周赛赛制	uitex_sucai_default.png
+2	1	6	12010101,5	-1	5,1;5,1;5,1	20	30	2	5	50	12010101,5|12010102,5|12010104,5|12010105,2|12010106,3	29000006	28050003	周六赛事	周赛赛制	uitex_sucai_default.png
+3	1	7	12010101,5	-1	5,1;5,1;5,1	20	30	2	5	50	12010101,5|12010102,5|12010104,5|12010105,2|12010106,4	29000006	28050004	周日赛事	周赛赛制	uitex_sucai_default.png

@@ -1,0 +1,67 @@
+--
+--
+--local __CurIndex
+--
+-----@class ButtomInfoView : ViewBase
+--ButtomInfoView = class("ButtomInfoView", ViewBase)
+--
+--function ButtomInfoView:initialize()
+--    ViewBase.initialize(self)
+--    ViewBase.RegisteAction(self, "ButtomInfoViewAction")
+--
+--    print("---   ButtomInfoView 初始化完成")
+--end
+--
+--function ButtomInfoView:Awake()
+--    print("---   ButtomInfoView awake")
+--
+--    self.TogMain = CommonHelper:HButtonSetCallback("TogFunctionOther", self.gameObject, function (data)
+--
+--        if UIManager:Get():GetTopViewName() ~= CommonHelper:GetMainMenuViewName() then
+--            UINotify:Get():SendNotification(UINotifyEvent.ButtomInfoView_SetState, ButtomFuncIdxMain)
+--            UIManager:Get():OpenView(CommonHelper:GetMainMenuViewName(), CanvasType.MainCanvas, CommonHelper:GetMainMenuViewName(),false,true)
+--            CommonHelper:PlayScreenEffectUIMask()
+--        end
+--
+--    end)
+--
+--    self.TogClub = CommonHelper:HButtonSetCallback("TogFunctionClub", self.gameObject, function (data)
+--        if __CurIndex ~= ButtomFuncIdxClub then
+--            if not RaceRankManager:Get():IsMatching() then
+--                UINotify:Get():SendNotification(UINotifyEvent.ButtomInfoView_SetState, ButtomFuncIdxClub)
+--                UINotify:Get():SendNotification(UINotifyEvent.ClubListView_OpenWhichView)
+--                CommonHelper:PlayScreenEffectUIMask()
+--            end
+--
+--        end
+--    end)
+--    self.TogShop= CommonHelper:HButtonSetCallback("TogFunctionShop", self.gameObject, function (data)
+--        if __CurIndex ~= ButtomFuncIdxShop then
+--            UINotify:Get():SendNotification(UINotifyEvent.ButtomInfoView_SetState, ButtomFuncIdxShop)
+--            UIManager:Get():OpenView("ShopView",CanvasType.MainCanvas,"ShopView")
+--            ShopSubsystem:Get():SendMsg_ShopInfo(ShopID.Gold)
+--            --UINotify:Get():SendNotification(UINotifyEvent.ShopView_SetData)
+--            --CommonHelper:PlayScreenEffectUIMask()
+--        end
+--    end)
+--    self.TogKnapsack= CommonHelper:HButtonSetCallback("TogFunctionKnapsack", self.gameObject, function (data)
+--        if __CurIndex ~= ButtomFuncIdxKnapsack then
+--            if not RaceRankManager:Get():IsMatching() then
+--                UINotify:Get():SendNotification(UINotifyEvent.ButtomInfoView_SetState, ButtomFuncIdxKnapsack)
+--                UIManager:Get():OpenView("BagMenuView",CanvasType.MainCanvas,"BagMenuView")
+--            end
+--
+--        end
+--    end)
+--end
+--
+--function ButtomInfoView:SetState(idx)
+--    CommonHelper:SetToggleState(self.TogMain, idx == ButtomFuncIdxMain)
+--    CommonHelper:SetToggleState(self.TogClub, idx == ButtomFuncIdxClub)
+--    CommonHelper:SetToggleState(self.TogShop, idx == ButtomFuncIdxShop)
+--    CommonHelper:SetToggleState(self.TogKnapsack, idx == ButtomFuncIdxKnapsack)
+--    __CurIndex = idx
+--
+--    if idx == ButtomFuncIdxMain then HomeSceneHelper:SetHome() end
+--    if idx == ButtomFuncIdxGarage then  HomeSceneHelper:SetGarageBlue() end
+--end

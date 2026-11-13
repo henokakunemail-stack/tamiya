@@ -1,0 +1,248 @@
+--
+--
+--local __SelectIndex = -1
+--local __SelectTitle = -1
+--
+-----@class ShellGridView : ViewBase
+--ShellGridView = class("ShellGridView", ViewBase)
+--
+--function ShellGridView:initialize()
+--    ViewBase.initialize(self)
+--    ViewBase.RegisteAction(self, "ShellGridViewAction")
+--
+--    ---@type table<string, table<number, article_config_cell>>
+--    self.CfgList = {}
+--
+--    print("---   ShellGridView 初始化完成")
+--end
+--
+--function ShellGridView:Awake()
+--    print("---   ShellGridView awake")
+--    self.ScrollView_GridList = UIUtil.GetTypeChildWightByParent("TitleScrollView", self.gameObject, typeof(TitleScrollView))
+--    --self.CarTitle = UIUtil.GetChild("CarTitle",self.gameObject)
+--
+--    CommonHelper:HButtonSetCallback("BtnClose",self.gameObject,function (hbtn)
+--        UIManager:Get():CloseView()
+--    end)
+--    CommonHelper:HButtonSetCallback("BtnBack",self.gameObject,function (hbtn)
+--        UINotify:Get():SendNotification(UINotifyEvent.ShellGridView_ClickBtnBack)
+--    end)
+--
+--    CommonHelper:HButtonSetCallback("BtnReset",self.gameObject,function (hbtn)
+--        UINotify:Get():SendNotification(UINotifyEvent.ShellGridView_ClickBtnReset)
+--    end)
+--
+--    CommonHelper:HButtonSetCallback("BtnSave",self.gameObject,function (hbtn)
+--        UINotify:Get():SendNotification(UINotifyEvent.ShellGridView_ClickBtnSave)
+--    end)
+--
+--    self.HoleIdx = 0
+--
+--
+--end
+--
+--function ShellGridView:OnOpen()
+--
+--
+--end
+--
+--function ShellGridView:OnClose()
+--
+--    CommonHelper:ReleasePool(UIModuleID.ShellGrid)
+--    UINotify:Get():SendNotification(UINotifyEvent.PViewAssembleCar_Reset)
+--end
+--
+--function ShellGridView:SetData(carid, holeidx)
+--    ---@type article_config
+--    local tab = ClientDataManager:Get():GetDataTable(ConfigNames.article_config)
+--    local list = tab.GetArticleListType2(KnapsackType.Appearance, KnapsackSecondType.Appearance_Grid)
+--    ---@type parttype_config
+--    local typecfg = ClientDataManager:Get():GetDataTable(ConfigNames.parttype_config)
+--    for k,v in pairs(list) do
+--        local key = ClientDataManager:Get():GetTemplateString(typecfg.GetDataByType3(KnapsackType.Appearance, KnapsackSecondType.Appearance_Color, k ))
+--        self.CfgList[key] = v
+--
+--    end
+--
+--
+--
+--    self.CurCar = CarDataManager:Get():GetCarDataByCarID(carid)
+--
+--
+--
+--    self:SetScrollView_GridList()
+--
+--    self.HoleIdx = holeidx
+--
+--    --self:SetCarTitle()
+--    --
+--    --self:SetScrollView()
+--    --
+--    --self:SetMesh(true)
+--    --
+--    --self:OnClickTog_Index(idx)
+--end
+--
+--function ShellGridView:SortShowList()
+--    for k,v in pairs(self.CfgList) do
+--        table.sort(v,function (a, b)
+--            if a.quality > b.quality then
+--                return true
+--            end
+--            if a.quality < b.quality then
+--                return false
+--            end
+--            if a.id > b.id then
+--                return true
+--            end
+--            if a.id < b.id then
+--                return false
+--            end
+--            return false
+--        end)
+--    end
+--end
+--
+--function ShellGridView:SetScrollView_GridList()
+--
+--    local data = {}
+--    for k,v in pairs(self.CfgList) do
+--        table.insert( data, k )
+--        table.insert( data, #v)
+--    end
+--
+--
+--    CommonHelper:InitTitleScrollView( self.ScrollView_GridList, data, 5, function(title, itemObj, dataIndex, scroll)
+--        UINotify:Get():SendNotification(UINotifyEvent.ShellGridView_UpdateScroll_Grid, {title, dataIndex, itemObj})
+--    end)
+--    self.ScrollView_GridList:EnterAni_Alpha(0.2)
+--end
+--
+--function ShellGridView:UpdateScollView_GridList(title, dataIndex, itemObj)
+--    if dataIndex == -1 then
+--        CommonHelper:SetText("Text",itemObj,title)
+--        return
+--    end
+--
+--    local data = self.CfgList[title][dataIndex + 1]
+--    if data == nil then return end
+--
+--    local param = Param_AppearanceItem()
+--    param.moduleId = UIModuleID.ShellGrid
+--    param.icon = data.NewIcon
+--    param.count = KnapsackDataManager:Get():GetArticleCountByCfgid(data.id)
+--    param.quality = CommonHelper:GetPartQualityImage(data.quality)
+--    param.select = (__SelectIndex == dataIndex and __SelectTitle == title)
+--    --param.possess = AppearanceKnapsackManager:Get():IsPossess(AppearanceKnapsackType.Grid, data.id)
+--    CommonHelper:SetAppearanceItem(itemObj, param)
+--
+--
+--    CommonHelper:HButtonSetCallback("ItemBtn",itemObj,function (hbtn)
+--        UINotify:Get():SendNotification(UINotifyEvent.ShellGridView_ClickItem_Grid, {hbtn.stringData,hbtn.intData})
+--    end, dataIndex, title)
+--end
+--
+--function ShellGridView:ClickItem_GridList(title, index)
+--    __SelectIndex = index
+--    __SelectTitle = title
+--
+--    CommonHelper:TitleScrollView_RefreshCurList(self.ScrollView_GridList, false)
+--    --CommonHelper:RefreshCurItems(self.ScrollView)
+--
+--    self.SelectGrid = self.CfgList[title][index + 1]
+--
+--    --self:SaveGrid()
+--    --
+--    --self:ReviewGrid()
+--    UINotify:Get():SendNotification(UINotifyEvent.PViewAssembleCar_ReviewGrid, {self.HoleIdx + 1, tonumber(self.SelectGrid.effectPara)})
+--end
+--
+--function ShellGridView:OnClickBtn_Save()
+--    local count = KnapsackDataManager:Get():GetArticleCountByCfgid(self.SelectGrid.id)
+--    local carshellid = self.CurCar.assembleMgr:GetNodeByGrooveID(PartGrooveID.Shell):GetBagID()
+--    if count > 0 then
+--        AppearanceSubsystem:Get():SendMsg_ShellGrid(carshellid, self.HoleIdx + 1, self.SelectGrid.id)
+--    else
+--        CommonTipsHelper:ShowCenterTips(ClientDataManager:Get():GetTemplateString(TemplateStringID.ShellGridNoCount))
+--    end
+--
+--end
+--
+--function ShellGridView:OnClickBtn_Reset()
+--    local cardata = CarDataManager:Get():GetCarDataByCarID(self.CurCar.carIdx)
+--    cardata:SetShellGrid(self.HoleIdx, 0)
+--    UINotify:Get():SendNotification(UINotifyEvent.PViewAssembleCar_Reset)
+--end
+--
+--function ShellGridView:UpdateMsg()
+--    CommonHelper:TitleScrollView_RefreshCurList(self.ScrollView_GridList, false)
+--end
+--
+--
+--
+----function ShellGridView:ChangePanel(showhole)
+----    if self.MenuPanel then self.MenuPanel:SetActive(showhole) end
+----    if self.GridPanel then self.GridPanel:SetActive(not showhole) end
+----    if showhole then
+----        self:SetScrollView_HoleList()
+----    else
+----        self:SetScrollView_GridList()
+----    end
+----end
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+----function ShellGridView:SetCarTitle()
+----    CommonHelper:SetCarTitleGroup(self.CarTitle, self.CurCar.carId)
+----end
+--
+--
+--
+--
+--
+----function ShellGridView:SaveGrid()
+----    local temp = AppearanceKnapsackManager:Get():IsPossess(AppearanceKnapsackType.Grid, self.SelectGrid.id)
+----    temp = temp and self.CurCar.appearanceData.GridList[__CurHoldIndex] ~= self.SelectGrid.id
+----    CommonHelper:SetHButtonClick(self.BtnSave, temp, true)
+----
+----    self:SetMesh(false)
+----end
+--
+--
+--
+--
+----function ShellGridView:OnClickTog_Index(param)
+----    for k, v in pairs(self.indexToggle) do
+----        CommonHelper:SetToggleState(v,k == param)
+----    end
+----
+----    __CurHoldIndex = param
+----
+----    self:ReviewGrid()
+----end
+--
+----function ShellGridView:SetMesh(resetTween)
+----    UINotify:Get():SendNotification(UINotifyEvent.CarShowPartView_SetMesh, {self.CurCar.carId, resetTween})
+----end
+--
+----function ShellGridView:ReviewGrid()
+----    if self.SelectGrid then
+----        UINotify:Get():SendNotification(UINotifyEvent.CarShowPartView_RebuildGrid, {__CurHoldIndex, self.SelectGrid.id})
+----    end
+----
+----end

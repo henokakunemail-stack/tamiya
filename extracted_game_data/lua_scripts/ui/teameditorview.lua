@@ -1,0 +1,99 @@
+--
+--
+--local __SelectIdx = -1
+--
+-----@class TeamEditorView : ViewBase
+--TeamEditorView = class("TeamEditorView", ViewBase)
+--
+--function TeamEditorView:initialize()
+--    ViewBase.initialize(self)
+--    ViewBase.RegisteAction(self, "TeamEditorViewAction")
+--
+--    print("---   TeamEditorView 初始化完成")
+--end
+--
+--function TeamEditorView:Awake()
+--    print("---   TeamEditorView awake")
+--
+--
+--    --CommonHelper:HButtonSetCallback("BtnBack",self.gameObject,function (hbtn)
+--    --    UIManager:Get():CloseView()
+--    --end)
+--
+--
+--    self.ScrollView = UIUtil.GetTypeChildWightInputPath("MoreRowScrollView_V", self.gameObject, typeof(MoreRowScrollView))
+--
+--end
+--
+--function TeamEditorView:OnOpen()
+--    __SelectIdx = -1
+--
+--
+--
+--    UINotify:Get():SendNotification(UINotifyEvent.PViewTeam_SetMainView, 2)
+--    UINotify:Get():SendNotification(UINotifyEvent.PViewTeam_SetCameraView, 2)
+--
+--    self:SetCarList()
+--end
+--
+--function TeamEditorView:SetCarList()
+--    self.CarList = CarDataManager:Get():GetCarList()
+--
+--    CommonHelper:InitMoreRowScrollView(self.ScrollView, #self.CarList, 4, function(dataIdx, obj, scroll)
+--        UINotify:Get():SendNotification(UINotifyEvent.TeamEditorView_UpdateScrollView, {dataIdx, obj, scroll})
+--    end)
+--    self.ScrollView:EnterAni_MoreRowsAlpha(0.2)
+--end
+--
+--function TeamEditorView:UpdateScrollView(dataIdx, itemObj)
+--    ---@type CarData
+--    --local carData = self.CarList[dataIdx + 1]
+--    --
+--    --if carData == nil then return end
+--    --
+--    --local param = Param_TeamGroup()
+--    --param.moduleId = UIModuleID.TeamEditorView
+--    --param.CarId = carData.carId
+--    --param.SelectState = self:GetSelectState(dataIdx)
+--    --param.ClickPos = function() UINotify:Get():SendNotification(UINotifyEvent.TeamEditorView_ClickPos, dataIdx) end
+--    --param.ClickDetail = function() UINotify:Get():SendNotification(UINotifyEvent.TeamEditorView_ClickDetail) end
+--    --param.ClickCancel = function() UINotify:Get():SendNotification(UINotifyEvent.TeamEditorView_ClickCancel) end
+--    --CommonHelper:SetTeamGroup(itemObj, param)
+--end
+--
+--function TeamEditorView:GetSelectState(idx)
+--    if idx == __SelectIdx then
+--        return 3
+--    else
+--        return 0
+--    end
+--end
+--
+--function TeamEditorView:OnClickBtn_CarItem(idx)
+--    __SelectIdx = idx
+--
+--    CommonHelper:MoreRowView_RefreshCurList(self.ScrollView, false)
+--
+--    CommonHelper:MoreRowView_AniSelectItem(self.ScrollView, idx)
+--
+--    UINotify:Get():SendNotification(UINotifyEvent.PViewTeam_RecvCmd_SelectState, {true, self.CarList[idx + 1]})
+--end
+--
+--function TeamEditorView:OnClickBtn_Detail()
+--    print("详情")
+--end
+--
+--function TeamEditorView:OnClickBtn_Cancel()
+--    __SelectIdx = -1
+--
+--    CommonHelper:MoreRowView_RefreshCurList(self.ScrollView, false)
+--
+--    UINotify:Get():SendNotification(UINotifyEvent.PViewTeam_RecvCmd_SelectState,  {false, nil})
+--end
+--
+--function TeamEditorView:RecvCmd_ChangeCar()
+--    __SelectIdx = -1
+--
+--    CommonHelper:MoreRowView_RefreshCurList(self.ScrollView, false)
+--
+--end

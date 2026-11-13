@@ -1,0 +1,91 @@
+--
+--
+-----@class CustomTrackLoading:LoadingBase
+--CustomTrackLoading = class("CustomTrackLoading", LoadingBase)
+-----@field _TrackData CustomTrack_Data
+--local _TrackData=nil
+--local _miniTrackSystem=nil
+--local _CusCustomTrackCameraCtrl=nil
+--function CustomTrackLoading:initialize()
+--    self.sceneRes = ""
+--end
+--
+--function CustomTrackLoading:OnEnter(sceneid,trackData,miniTrackSystem)
+--    _TrackData=trackData
+--    _miniTrackSystem=miniTrackSystem
+--    if self.sceneRes ~= "" then
+--        return
+--    end
+--    local cfg = CommonHelper:GetTableDataByID(ConfigNames.scene_config, sceneid)
+--    self.sceneRes = cfg.resName..".unity"
+--
+--    self:SequenceLoading()
+--end
+--
+--function CustomTrackLoading:SequenceLoading()
+--    ---@param param CustomTrackLoading
+--    cs_coroutine.start(function(param)
+--        CommonHelper:OpenLoading()
+--        coroutine.yield()
+--
+--        local sceneAsset = AssetsManager.LoadScene(param.sceneRes, true, false)
+--
+--        while not sceneAsset.isDone do
+--            UINotify:Get():SendNotification(UINotifyEvent.UpdateLoadingViewProgress, sceneAsset.progress)
+--            coroutine.yield()
+--        end
+--
+--        coroutine.yield()
+--
+--        UINotify:Get():SendNotification(UINotifyEvent.UpdateLoadingViewProgress, 1)
+--        coroutine.yield(CS.UnityEngine.WaitForSeconds(1))
+--
+--        UINotify:Get():SendNotification(UINotifyEvent.UpdateLoadingFinish)
+--
+--        param:OnEnterFinish()
+--
+--    end, self)
+--end
+--
+--
+--function CustomTrackLoading:OnUpdate()
+--
+--end
+--
+--function CustomTrackLoading:OnEnterFinish()
+--    --UIManager:Get():CloseView()
+--    self:OnEnterFinishByMiniTrackSystem()
+--
+--    UIManager:Get():OpenView("CustomTrackEditorView",CanvasType.MainCanvas,"CustomTrackEditorView")
+--    UINotify:Get():SendNotification(UINotifyEvent.CustomTrackEditorOpen,{_TrackData,_miniTrackSystem})
+--   HomeSceneHelper:SetTrackEdit()
+--end
+--
+-----@param miniTrackSystem MiniTrackSystem
+--function CustomTrackLoading:OnEnterFinishByMiniTrackSystem()
+--  --  UIManager:Get():HidePersistentView("RaceRoomChangeView")
+--    UIManager:Get():CloseAllPopups()
+--    SegmentDataManager:Get():Init(_TrackData:GetTrackType())
+--end
+--
+--
+--function CustomTrackLoading:OnExit()
+--    self:OnExitFinish()
+--    AssetsManager.UnloadScene(self.sceneRes)
+--end
+--
+--function CustomTrackLoading:OnExitFinish()
+--    self:ClearData()
+--    SegmentDataManager:Get():ClearData()
+--    UIManager:Get():CloseView()
+--
+--    if _miniTrackSystem==MiniTrackSystem.Club then
+--        ClubTrainSubsystem:Get():SendMsg_GetSelfTrackRaceInfo()
+--    end
+--end
+--
+--function CustomTrackLoading:ClearData()
+--    self.sceneRes = ""
+--end
+--
+--return CustomTrackLoading

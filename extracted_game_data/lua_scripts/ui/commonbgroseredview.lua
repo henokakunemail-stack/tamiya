@@ -1,0 +1,14 @@
+-----@class CommonBgRoseRedView : ViewBase
+--CommonBgRoseRedView = class("CommonBgRoseRedView", ViewBase)
+--
+--function CommonBgRoseRedView:initialize()
+--
+--end
+--
+--function CommonBgRoseRedView:Awake()
+--
+--end
+--
+--function CommonBgRoseRedView:OnOpen()
+--
+--end

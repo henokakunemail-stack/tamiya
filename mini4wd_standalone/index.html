@@ -1,0 +1,2083 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash Racer - Mini 4WD Standalone Engine</title>
+    <style>
+        :root {
+            --bg-dark: #0a0c10;
+            --panel-bg: rgba(18, 24, 38, 0.94);
+            --border-color: #2b3548;
+            --accent-cyan: #00d2ff;
+            --accent-blue: #2563eb;
+            --accent-gold: #ffb800;
+            --accent-red: #ef4444;
+            --accent-green: #10b981;
+            --text-main: #f3f4f6;
+            --text-dim: #9ca3af;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            user-select: none;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            overflow: hidden;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Top Header Bar - Exact Match to Frame 75 & 80 */
+        #top-header {
+            height: 52px;
+            background: linear-gradient(180deg, #ffffff 0%, #edf2f7 100%);
+            border-bottom: 2px solid #cbd5e1;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 16px;
+            z-index: 100;
+            color: #1e293b;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .back-home-btn {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            background: #e2e8f0;
+            border: 1px solid #cbd5e1;
+            border-radius: 8px;
+            padding: 4px 12px;
+            font-weight: 800;
+            font-size: 0.82rem;
+            color: #334155;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .back-home-btn:hover {
+            background: #cbd5e1;
+        }
+
+        .player-badge {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: linear-gradient(90deg, #0284c7, #0ea5e9);
+            border-radius: 20px;
+            padding: 2px 14px 2px 4px;
+            color: #fff;
+            box-shadow: 0 2px 6px rgba(14, 165, 233, 0.3);
+        }
+
+        .avatar-circle {
+            width: 34px;
+            height: 34px;
+            border-radius: 50%;
+            background: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+            border: 2px solid #ffb800;
+        }
+
+        .player-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .player-name {
+            font-size: 0.78rem;
+            font-weight: 800;
+        }
+
+        .player-exp-bar {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.62rem;
+            font-weight: 700;
+        }
+
+        .exp-fill-track {
+            width: 70px;
+            height: 6px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 3px;
+            overflow: hidden;
+        }
+
+        .exp-fill {
+            width: 65%;
+            height: 100%;
+            background: #facc15;
+        }
+
+        .header-currencies {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .curr-pill {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            background: #fff;
+            border: 1px solid #cbd5e1;
+            border-radius: 14px;
+            padding: 3px 10px;
+            font-size: 0.8rem;
+            font-weight: 800;
+            color: #1e293b;
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
+        }
+
+        .curr-pill .add-circle {
+            background: #22c55e;
+            color: #fff;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+            cursor: pointer;
+            margin-left: 4px;
+        }
+
+        .gear-btn {
+            background: #fff;
+            border: 1px solid #cbd5e1;
+            border-radius: 50%;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        /* Main Workspace Container */
+        #main-container {
+            flex: 1;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+        }
+
+        /* 3D WebGL Canvas Layer */
+        #webgl-canvas {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+
+        /* View Overlays - Explicit Hide/Show to Prevent Overlapping */
+        .view-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 10;
+            pointer-events: none;
+            display: none !important;
+        }
+
+        .view-overlay.active {
+            display: flex !important;
+            pointer-events: auto;
+        }
+
+        /* ==================== 1. LOBBY VIEW (Frame 75) ==================== */
+        #view-lobby {
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 16px 20px;
+        }
+
+        .lobby-left-col {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            z-index: 20;
+        }
+
+        .lobby-icon-badge {
+            width: 54px;
+            height: 54px;
+            background: rgba(255, 255, 255, 0.9);
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.65rem;
+            font-weight: 800;
+            color: #1e293b;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+            transition: all 0.2s;
+        }
+
+        .lobby-icon-badge:hover {
+            transform: scale(1.08);
+            border-color: #0284c7;
+        }
+
+        .lobby-icon-badge .badge-icon {
+            font-size: 1.3rem;
+            margin-bottom: 2px;
+        }
+
+        .lobby-right-col {
+            position: absolute;
+            right: 20px;
+            top: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            z-index: 20;
+        }
+
+        /* Center Quick Action Navigation (Frame 75) */
+        .lobby-bottom-bar {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            width: 100%;
+            z-index: 20;
+        }
+
+        .lobby-car-quick {
+            width: 60px;
+            height: 60px;
+            background: rgba(255, 255, 255, 0.85);
+            border: 2px solid #cbd5e1;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .lobby-center-menus {
+            display: flex;
+            align-items: center;
+            gap: 18px;
+        }
+
+        .action-menu-card {
+            background: #fff;
+            border: 2px solid #cbd5e1;
+            border-radius: 14px;
+            padding: 10px 18px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            cursor: pointer;
+            font-weight: 900;
+            font-size: 0.85rem;
+            color: #0f172a;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            transition: all 0.2s;
+        }
+
+        .action-menu-card:hover {
+            transform: translateY(-4px);
+            border-color: var(--accent-cyan);
+        }
+
+        .action-menu-card.match-big {
+            background: linear-gradient(135deg, #ffb800 0%, #ff5722 100%);
+            color: #fff;
+            border: 3px solid #fff;
+            padding: 14px 28px;
+            border-radius: 20px;
+            box-shadow: 0 8px 24px rgba(255, 87, 34, 0.4);
+            transform: translateY(-8px);
+        }
+
+        .action-menu-card.match-big:hover {
+            transform: translateY(-12px) scale(1.05);
+        }
+
+        .lobby-bottom-dock {
+            background: rgba(15, 23, 42, 0.85);
+            border: 1px solid #334155;
+            border-radius: 20px;
+            padding: 6px 16px;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            color: #fff;
+            font-size: 0.8rem;
+            font-weight: 700;
+        }
+
+        .dock-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            cursor: pointer;
+        }
+
+        .dock-item:hover {
+            color: var(--accent-cyan);
+        }
+
+        /* ==================== 2. GARAGE VIEW (Frame 41 & 80) ==================== */
+        #view-garage {
+            justify-content: space-between;
+        }
+
+        /* Left Stats Telemetry Panel */
+        .garage-left-panel {
+            width: 320px;
+            background: var(--panel-bg);
+            border-right: 2px solid var(--border-color);
+            padding: 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            backdrop-filter: blur(10px);
+            overflow-y: auto;
+            z-index: 20;
+        }
+
+        .top-filter-tabs {
+            display: flex;
+            background: #111622;
+            border-radius: 6px;
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+        }
+
+        .tab-btn {
+            flex: 1;
+            padding: 6px 0;
+            background: transparent;
+            border: none;
+            color: var(--text-dim);
+            font-size: 0.72rem;
+            font-weight: 800;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .tab-btn.active {
+            background: #ef4444;
+            color: #fff;
+        }
+
+        .score-box-card {
+            background: linear-gradient(135deg, #1f2738 0%, #111624 100%);
+            border: 1px solid #374151;
+            border-radius: 8px;
+            padding: 10px 14px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .score-num-big {
+            font-size: 2.2rem;
+            font-weight: 900;
+            font-family: monospace;
+            color: #fff;
+            line-height: 1;
+        }
+
+        .score-badge-sss {
+            background: linear-gradient(135deg, #ffb800, #ff8c00);
+            color: #000;
+            font-weight: 900;
+            font-size: 1.1rem;
+            padding: 4px 10px;
+            border-radius: 6px;
+            letter-spacing: 1px;
+            box-shadow: 0 0 10px rgba(255, 184, 0, 0.4);
+        }
+
+        .garage-bars-box {
+            background: #131924;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 10px;
+        }
+
+        .stat-bar-item {
+            margin-bottom: 6px;
+        }
+
+        .stat-bar-header {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.72rem;
+            font-weight: 800;
+            color: var(--text-dim);
+            margin-bottom: 2px;
+        }
+
+        .stat-dots {
+            color: var(--accent-gold);
+            letter-spacing: 2px;
+        }
+
+        .stat-track {
+            height: 6px;
+            background: #1e2638;
+            border-radius: 3px;
+            overflow: hidden;
+        }
+
+        .stat-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #ffb800, #ff5722);
+            border-radius: 3px;
+        }
+
+        .sub-stat-accordion {
+            background: #131924;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 8px 10px;
+            font-size: 0.74rem;
+        }
+
+        .sub-stat-accordion h4 {
+            color: var(--accent-cyan);
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            margin-bottom: 6px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+            padding-bottom: 4px;
+        }
+
+        .sub-stat-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 2px 0;
+            color: var(--text-dim);
+        }
+
+        .sub-stat-row span:last-child {
+            color: #fff;
+            font-family: monospace;
+            font-weight: 700;
+        }
+
+        /* Center Garage Action Buttons & Parking Tag */
+        .garage-center-float {
+            position: absolute;
+            right: 390px;
+            top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            z-index: 20;
+        }
+
+        .quick-action-circle {
+            width: 44px;
+            height: 44px;
+            background: rgba(255, 255, 255, 0.9);
+            border: 2px solid #cbd5e1;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.6rem;
+            font-weight: 800;
+            color: #1e293b;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            transition: all 0.2s;
+        }
+
+        .quick-action-circle:hover {
+            transform: scale(1.08);
+            border-color: var(--accent-cyan);
+        }
+
+        .parking-space-tag {
+            position: absolute;
+            bottom: 64px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #ffb800;
+            color: #000;
+            font-weight: 900;
+            font-size: 0.72rem;
+            padding: 2px 12px;
+            border-radius: 4px;
+            z-index: 20;
+        }
+
+        /* Bottom Deck Selector (Frame 80) */
+        .garage-deck-bar {
+            position: absolute;
+            bottom: 16px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(18, 24, 38, 0.95);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 6px 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            z-index: 20;
+        }
+
+        .deck-box-btn {
+            width: 36px;
+            height: 36px;
+            background: #fff;
+            border: 2px solid #cbd5e1;
+            border-radius: 6px;
+            color: #1e293b;
+            font-weight: 900;
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .deck-box-btn.active {
+            background: #ffb800;
+            border-color: #d97706;
+            color: #000;
+        }
+
+        /* Right Assembly Matrix Panel (Frame 80) */
+        .garage-right-panel {
+            width: 370px;
+            background: var(--panel-bg);
+            border-left: 2px solid var(--border-color);
+            padding: 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            backdrop-filter: blur(10px);
+            overflow-y: auto;
+            z-index: 20;
+        }
+
+        .right-panel-header {
+            background: #0284c7;
+            color: #fff;
+            font-size: 0.85rem;
+            font-weight: 900;
+            padding: 6px 12px;
+            border-radius: 6px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .matrix-grid-12 {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 8px;
+        }
+
+        .part-slot-card {
+            background: #fff;
+            border: 2px solid #cbd5e1;
+            border-radius: 8px;
+            aspect-ratio: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 4px;
+            cursor: pointer;
+            position: relative;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            transition: all 0.2s;
+        }
+
+        .part-slot-card:hover {
+            border-color: #0284c7;
+            transform: scale(1.04);
+        }
+
+        .part-slot-card .card-top-tag {
+            font-size: 0.52rem;
+            font-weight: 800;
+            color: #475569;
+            text-transform: uppercase;
+            text-align: center;
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .part-slot-card .part-thumb-img {
+            width: 44px;
+            height: 44px;
+            object-fit: contain;
+        }
+
+        .part-slot-card .card-stars {
+            color: #ffb800;
+            font-size: 0.52rem;
+            letter-spacing: 0.5px;
+        }
+
+        /* ==================== 3. RACE SIMULATOR HUD (Frames 11 & 21) ==================== */
+        #view-race {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+
+        /* Top-Left Player Gauge (Frame 11 & 21) */
+        .race-top-gauge {
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            pointer-events: auto;
+        }
+
+        .gauge-bar-col {
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+        }
+
+        .gauge-bar-track {
+            width: 130px;
+            height: 10px;
+            background: #000;
+            border: 1px solid #fff;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .gauge-bar-fill {
+            width: 80%;
+            height: 100%;
+            background: linear-gradient(90deg, #ffeb3b, #ff1744);
+        }
+
+        .battery-dot-row {
+            display: flex;
+            gap: 4px;
+        }
+
+        .battery-dot-pill {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #ffb800;
+            box-shadow: 0 0 5px #ffb800;
+        }
+
+        /* Top-Right Telemetry & Camera (Frame 11 & 21) */
+        .race-top-telemetry {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 8px;
+            pointer-events: auto;
+        }
+
+        .race-rank-lap {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-weight: 900;
+        }
+
+        .rank-gold-badge {
+            font-size: 1.8rem;
+            font-style: italic;
+            color: #ffb800;
+            text-shadow: 0 0 10px rgba(255, 184, 0, 0.6);
+        }
+
+        .lap-counter {
+            font-size: 1.2rem;
+            color: #fff;
+        }
+
+        .race-time-pill {
+            background: rgba(0, 0, 0, 0.7);
+            border: 1px solid #475569;
+            border-radius: 8px;
+            padding: 4px 12px;
+            font-size: 1.2rem;
+            font-weight: 900;
+            font-family: monospace;
+            color: #00e5ff;
+        }
+
+        .race-cam-btns {
+            display: flex;
+            gap: 6px;
+        }
+
+        .round-blue-btn {
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            background: #0284c7;
+            border: 2px solid #fff;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        }
+
+        /* In-Track Warning Floating Text (Frame 21) */
+        #track-warning-text {
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 2rem;
+            font-weight: 900;
+            font-style: italic;
+            color: #ffff00;
+            text-shadow: 0 0 15px rgba(255, 255, 0, 0.9);
+            letter-spacing: 1px;
+            display: none;
+            text-align: center;
+            z-index: 100;
+        }
+
+        /* Bottom-Left 5-Lane Vertical Minimap (Frame 11 & 21) */
+        .race-vertical-minimap {
+            position: absolute;
+            bottom: 24px;
+            left: 24px;
+            width: 70px;
+            height: 140px;
+            background: rgba(0, 0, 0, 0.65);
+            border: 2px solid #475569;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-around;
+            padding: 8px 4px;
+            position: relative;
+        }
+
+        .minimap-lane-line {
+            width: 2px;
+            height: 100%;
+            background: #334155;
+            position: relative;
+        }
+
+        .car-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            position: absolute;
+            left: -3px;
+            transition: bottom 0.1s linear;
+        }
+
+        /* Bottom Center Speedometer & Boost GO! Button (Frames 11 & 21) */
+        .race-bottom-cockpit {
+            position: absolute;
+            bottom: 24px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            pointer-events: auto;
+        }
+
+        .btn-boost-go-electric {
+            width: 88px;
+            height: 88px;
+            border-radius: 50%;
+            background: radial-gradient(circle, #00e5ff 0%, #0284c7 100%);
+            border: 3px solid #fff;
+            color: #fff;
+            font-size: 1.8rem;
+            font-weight: 900;
+            font-style: italic;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 0 30px rgba(0, 229, 255, 0.8), inset 0 0 15px rgba(255, 255, 255, 0.6);
+            transition: all 0.15s ease;
+        }
+
+        .btn-boost-go-electric:active {
+            transform: scale(0.92);
+        }
+
+        .speedometer-block {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .speed-number-slanted {
+            font-size: 3.4rem;
+            font-weight: 900;
+            font-style: italic;
+            font-family: monospace;
+            color: #fff;
+            text-shadow: 0 0 20px rgba(0, 229, 255, 0.8);
+            line-height: 1;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .speed-battery-bar {
+            width: 140px;
+            height: 6px;
+            background: #111;
+            border-radius: 3px;
+            overflow: hidden;
+            margin-top: 4px;
+        }
+
+        .speed-battery-fill {
+            height: 100%;
+            width: 82%;
+            background: linear-gradient(90deg, #22c55e, #eab308, #ef4444);
+        }
+
+        /* Bottom-Right Rivals Leaderboard (Frame 21) */
+        .race-bottom-right-leaderboard {
+            position: absolute;
+            bottom: 24px;
+            right: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            width: 220px;
+        }
+
+        .leaderboard-card-row {
+            background: rgba(15, 23, 42, 0.85);
+            border: 1px solid #334155;
+            border-radius: 6px;
+            padding: 6px 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 0.75rem;
+            color: #fff;
+        }
+
+        .leaderboard-card-row.first-place {
+            border-color: #ffb800;
+            background: rgba(255, 184, 0, 0.18);
+        }
+
+        /* ==================== 4. STORY / PLOT VIEW (Frame 91) ==================== */
+        #view-story {
+            padding: 30px;
+            flex-direction: column;
+            gap: 20px;
+            overflow-y: auto;
+            background: rgba(10, 12, 16, 0.9);
+        }
+
+        .story-stage-row {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 1100px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .stage-card {
+            background: #18202c;
+            border: 2px solid #2b3648;
+            border-radius: 12px;
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            position: relative;
+        }
+
+        .stage-card-header {
+            font-size: 1.1rem;
+            font-weight: 800;
+            color: var(--accent-cyan);
+            border-bottom: 1px solid #2b3648;
+            padding-bottom: 6px;
+        }
+
+        .stage-track-thumb {
+            width: 100%;
+            height: 140px;
+            background: #10151f;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #2b3648;
+        }
+
+        .stage-stamp-success {
+            position: absolute;
+            top: 45%;
+            right: 15px;
+            transform: rotate(-15deg);
+            border: 3px solid #ff1744;
+            color: #ff1744;
+            padding: 4px 12px;
+            font-weight: 900;
+            font-size: 0.95rem;
+            border-radius: 6px;
+            background: rgba(0, 0, 0, 0.4);
+            letter-spacing: 1px;
+        }
+
+        .btn-challenge {
+            background: linear-gradient(135deg, #ffb800 0%, #ff8c00 100%);
+            color: #000;
+            font-weight: 900;
+            font-size: 1rem;
+            border: none;
+            padding: 10px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn-challenge:hover {
+            box-shadow: 0 4px 15px rgba(255, 184, 0, 0.5);
+            transform: translateY(-2px);
+        }
+
+        /* ==================== 5. TECH LAB VIEW ==================== */
+        #view-tech {
+            padding: 30px;
+            gap: 24px;
+            overflow-y: auto;
+            background: rgba(10, 12, 16, 0.9);
+        }
+
+        .tech-upgrade-panel {
+            width: 380px;
+            background: var(--panel-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            margin: 0 auto;
+        }
+
+        /* ==================== 6. GACHA SHOP VIEW ==================== */
+        #view-shop {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 24px;
+            padding: 30px;
+            background: rgba(10, 12, 16, 0.9);
+        }
+
+        /* Victory & Course-Out Modals */
+        .game-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.75);
+            backdrop-filter: blur(8px);
+            z-index: 500;
+            display: none;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-card {
+            background: #18202c;
+            border: 2px solid var(--accent-cyan);
+            border-radius: 12px;
+            padding: 24px;
+            max-width: 500px;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            box-shadow: 0 10px 30px rgba(0, 210, 255, 0.3);
+        }
+    </style>
+    <!-- Three.js + OBJLoader + OrbitControls -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/OBJLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="physics_engine.js"></script>
+</head>
+<body>
+    <!-- Top Header Bar - Authentic Frame 75 & 80 Reproduction -->
+    <header id="top-header">
+        <div class="header-left">
+            <button class="back-home-btn" id="btn-back-home" style="display:none;" onclick="switchNav('lobby')">
+                <span>◀</span> BACK
+            </button>
+            <div class="player-badge">
+                <div class="avatar-circle">👦</div>
+                <div class="player-info">
+                    <span class="player-name">GFX•Hers 2</span>
+                    <div class="player-exp-bar">
+                        <span>LV. 108</span>
+                        <div class="exp-fill-track"><div class="exp-fill"></div></div>
+                        <span style="color:#fef08a;">Next 119263</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-currencies">
+            <div class="curr-pill">
+                <span style="color:#0ea5e9;">⚡</span>
+                <span id="txt-energy">9/180</span>
+                <span class="add-circle" onclick="addCurrency('energy')">+</span>
+            </div>
+            <div class="curr-pill">
+                <span style="color:#38bdf8;">💎</span>
+                <span id="txt-diamonds">475</span>
+                <span class="add-circle" onclick="addCurrency('diamonds')">+</span>
+            </div>
+            <div class="curr-pill">
+                <span style="color:#eab308;">🪙</span>
+                <span id="txt-coins">2,797,454</span>
+                <span class="add-circle" onclick="addCurrency('coins')">+</span>
+            </div>
+            <div class="gear-btn" onclick="toggleSound()" title="Sound Settings">
+                <span id="sound-icon">🔊</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Workspace -->
+    <div id="main-container">
+        <!-- 3D WebGL Canvas Layer -->
+        <div id="webgl-canvas"></div>
+
+        <!-- 1. LOBBY VIEW (Frame 75) -->
+        <div class="view-overlay active" id="view-lobby">
+            <!-- Left Icon Column -->
+            <div class="lobby-left-col">
+                <div class="lobby-icon-badge" onclick="alert('Notice: WGP Season 4 Championship Open!')">
+                    <span class="badge-icon">📢</span>Notice
+                </div>
+                <div class="lobby-icon-badge" onclick="alert('Global Leaderboard Rank: #12')">
+                    <span class="badge-icon">⭐</span>Ranking
+                </div>
+                <div class="lobby-icon-badge" onclick="alert('Claimed 100 Diamonds!')">
+                    <span class="badge-icon">🎁</span>Welfare
+                </div>
+            </div>
+
+            <!-- Right Icon Column -->
+            <div class="lobby-right-col">
+                <div class="lobby-icon-badge" style="border-color:#ef4444;"><span class="badge-icon">🎁</span>Limited</div>
+                <div class="lobby-icon-badge"><span class="badge-icon">🎯</span>Activity</div>
+                <div class="lobby-icon-badge"><span class="badge-icon">🏁</span>Super Park</div>
+                <div class="lobby-icon-badge"><span class="badge-icon">📋</span>Task</div>
+                <div class="lobby-icon-badge"><span class="badge-icon">📬</span>Mail</div>
+                <div class="lobby-icon-badge"><span class="badge-icon">🏆</span>Pass</div>
+                <div class="lobby-icon-badge" onclick="switchNav('garage')"><span class="badge-icon">🧰</span>Garage</div>
+            </div>
+
+            <!-- Bottom Navigation Bar (Frame 75) -->
+            <div class="lobby-bottom-bar">
+                <div class="lobby-car-quick" onclick="switchNav('garage')" title="Inspect Car">
+                    🏎️
+                </div>
+
+                <div class="lobby-center-menus">
+                    <div class="action-menu-card" onclick="switchNav('story')">
+                        <span style="font-size:1.4rem;">📖</span>
+                        <span>Plot</span>
+                    </div>
+                    <div class="action-menu-card match-big" onclick="startRaceMode()">
+                        <span style="font-size:1.8rem;">⚡</span>
+                        <span>MATCH</span>
+                    </div>
+                    <div class="action-menu-card" onclick="switchNav('tech')">
+                        <span style="font-size:1.4rem;">🔬</span>
+                        <span>Technology</span>
+                    </div>
+                    <div class="action-menu-card" onclick="switchNav('shop')">
+                        <span style="font-size:1.4rem;">🛍️</span>
+                        <span>Shop</span>
+                    </div>
+                </div>
+
+                <div class="lobby-bottom-dock">
+                    <div class="dock-item" onclick="switchNav('garage')">🧰 Bag</div>
+                    <div class="dock-item">🤝 Friend <span style="background:#ef4444; color:#fff; border-radius:50%; font-size:0.6rem; padding:1px 5px;">1</span></div>
+                    <div class="dock-item">🚩 Club</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. GARAGE & ASSEMBLY OVERLAY (Frames 41 & 80) -->
+        <div class="view-overlay" id="view-garage">
+            <!-- Left Stats Telemetry Panel -->
+            <div class="garage-left-panel">
+                <div class="top-filter-tabs">
+                    <button class="tab-btn active">All</button>
+                    <button class="tab-btn">Trait</button>
+                    <button class="tab-btn">Skill</button>
+                    <button class="tab-btn">Focus</button>
+                </div>
+
+                <div class="score-box-card">
+                    <div>
+                        <div style="font-size:0.6rem; color:var(--text-dim); font-weight:800;">OVERALL SCORE</div>
+                        <div class="score-num-big" id="garage-overall-score">19808</div>
+                    </div>
+                    <div class="score-badge-sss">SSS</div>
+                </div>
+
+                <div class="garage-bars-box">
+                    <div class="stat-bar-item">
+                        <div class="stat-bar-header">
+                            <span>Speed 4980</span>
+                            <span class="stat-dots">●●●●●</span>
+                        </div>
+                        <div class="stat-track"><div class="stat-fill" style="width: 88%;"></div></div>
+                    </div>
+                    <div class="stat-bar-item">
+                        <div class="stat-bar-header">
+                            <span>Acceleration 7011</span>
+                            <span class="stat-dots">●●●●●</span>
+                        </div>
+                        <div class="stat-track"><div class="stat-fill" style="width: 95%;"></div></div>
+                    </div>
+                    <div class="stat-bar-item">
+                        <div class="stat-bar-header">
+                            <span>Cornering 3253.99</span>
+                            <span class="stat-dots">●●●●●</span>
+                        </div>
+                        <div class="stat-track"><div class="stat-fill" style="width: 74%;"></div></div>
+                    </div>
+                    <div class="stat-bar-item">
+                        <div class="stat-bar-header">
+                            <span>Endurance 2507.16</span>
+                            <span class="stat-dots">●●●●●</span>
+                        </div>
+                        <div class="stat-track"><div class="stat-fill" style="width: 68%;"></div></div>
+                    </div>
+                    <div class="stat-bar-item">
+                        <div class="stat-bar-header">
+                            <span>Weight 181.55</span>
+                            <span class="stat-dots" style="color:#64748b;">●●○○○</span>
+                        </div>
+                        <div class="stat-track"><div class="stat-fill" style="width: 42%;"></div></div>
+                    </div>
+                </div>
+
+                <!-- Detailed Sub-Stats (Frame 80) -->
+                <div class="sub-stat-accordion">
+                    <h4>Basic information</h4>
+                    <div class="sub-stat-row"><span>Endurance</span><span>2507.16</span></div>
+                    <div class="sub-stat-row"><span>Weight</span><span>181.55</span></div>
+                    <div class="sub-stat-row"><span>Electric saving</span><span>1699.65</span></div>
+                </div>
+
+                <div class="sub-stat-accordion">
+                    <h4>Motor capability</h4>
+                    <div class="sub-stat-row"><span>Rotate speed</span><span>33174</span></div>
+                    <div class="sub-stat-row"><span>Torque</span><span>4007</span></div>
+                    <div class="sub-stat-row"><span>Electric quantity consumption</span><span>1850</span></div>
+                </div>
+
+                <div class="sub-stat-accordion">
+                    <h4>Tire capability</h4>
+                    <div class="sub-stat-row"><span>Elasticity of tire</span><span>2000</span></div>
+                    <div class="sub-stat-row"><span>Tire grip</span><span>5400</span></div>
+                    <div class="sub-stat-row"><span>Tire rolling friction</span><span>510</span></div>
+                </div>
+            </div>
+
+            <!-- Center Action Buttons & Parking Space Tag (Frame 80) -->
+            <div class="garage-center-float">
+                <div class="quick-action-circle" onclick="document.getElementById('car-color-picker').click()">
+                    <span>🎨</span>Painting
+                </div>
+                <div class="quick-action-circle"><span>📱</span>AR</div>
+                <div class="quick-action-circle"><span>📗</span>Encyc</div>
+                <div class="quick-action-circle"><span>📙</span>Illust</div>
+                <div class="quick-action-circle" onclick="resetCarCamera()"><span>🔍</span>Inspect</div>
+            </div>
+
+            <div class="parking-space-tag">Parking space</div>
+
+            <!-- Bottom Deck Selector (Frame 80) -->
+            <div class="garage-deck-bar">
+                <div class="deck-box-btn active" onclick="switchDeck(1)">1</div>
+                <div class="deck-box-btn" onclick="switchDeck(2)">2</div>
+                <div class="deck-box-btn" onclick="switchDeck(3)">3</div>
+                <div class="deck-box-btn" onclick="switchDeck(4)">4</div>
+                <div class="deck-box-btn" onclick="switchDeck(5)">5</div>
+            </div>
+
+            <!-- Right Assembly Matrix (Frame 80) -->
+            <div class="garage-right-panel">
+                <div class="right-panel-header">
+                    <span>Vehicle Details</span>
+                    <span style="background:rgba(255,255,255,0.2); padding:2px 8px; border-radius:4px; font-size:0.7rem;">Base</span>
+                </div>
+
+                <!-- 12 Slot Grid with Real Extracted Icons -->
+                <div class="matrix-grid-12">
+                    <div class="part-slot-card" onclick="openSlotPicker('shell')">
+                        <span class="card-top-tag">Body Shell</span>
+                        <img src="icons/slot_shell_0.png" class="part-thumb-img">
+                        <span class="card-stars">★★★★★★</span>
+                    </div>
+                    <div class="part-slot-card" onclick="openSlotPicker('chassis')">
+                        <span class="card-top-tag">Chassis</span>
+                        <img src="icons/slot_chassis_0.png" class="part-thumb-img">
+                        <span class="card-stars">★★★★★★</span>
+                    </div>
+                    <div class="part-slot-card" onclick="openSlotPicker('motor')">
+                        <span class="card-top-tag">Motor</span>
+                        <img src="icons/slot_motor_0.png" class="part-thumb-img">
+                        <span class="card-stars">★★★★★★</span>
+                    </div>
+                    <div class="part-slot-card" onclick="openSlotPicker('gear')">
+                        <span class="card-top-tag">Gear Set</span>
+                        <img src="icons/slot_gear_0.png" class="part-thumb-img">
+                        <span class="card-stars">★★★★★★</span>
+                    </div>
+
+                    <div class="part-slot-card" onclick="openSlotPicker('wing')">
+                        <span class="card-top-tag">Wind Wing</span>
+                        <img src="icons/slot_wing_0.png" class="part-thumb-img">
+                        <span class="card-stars">★★★★★☆</span>
+                    </div>
+                    <div class="part-slot-card" onclick="openSlotPicker('front_stay')">
+                        <span class="card-top-tag">Front plate</span>
+                        <img src="icons/slot_front_plate_0.png" class="part-thumb-img">
+                        <span class="card-stars">★★★★★★</span>
+                    </div>
+                    <div class="part-slot-card" onclick="openSlotPicker('side_stay')">
+                        <span class="card-top-tag">Side stays</span>
+                        <img src="icons/slot_side_stays_0.png" class="part-thumb-img">
+                        <span class="card-stars">★★★★★★</span>
+                    </div>
+                    <div class="part-slot-card" onclick="openSlotPicker('rear_stay')">
+                        <span class="card-top-tag">Rear plate</span>
+                        <img src="icons/slot_rear_plate_0.png" class="part-thumb-img">
+                        <span class="card-stars">★★★★★★</span>
+                    </div>
+
+                    <div class="part-slot-card" onclick="openSlotPicker('wheel_fl')">
+                        <span class="card-top-tag">Front Wheel</span>
+                        <img src="icons/slot_wheel_front_0.png" class="part-thumb-img">
+                        <span class="card-stars">★★★★☆☆</span>
+                    </div>
+                    <div class="part-slot-card" onclick="openSlotPicker('wheel_fr')">
+                        <span class="card-top-tag">Front Wheel</span>
+                        <img src="icons/slot_wheel_front_1.png" class="part-thumb-img">
+                        <span class="card-stars">★★★★☆☆</span>
+                    </div>
+                    <div class="part-slot-card" onclick="openSlotPicker('wheel_rl')">
+                        <span class="card-top-tag">Rear Wheel</span>
+                        <img src="icons/slot_wheel_rear_0.png" class="part-thumb-img">
+                        <span class="card-stars">★★★★☆☆</span>
+                    </div>
+                    <div class="part-slot-card" onclick="openSlotPicker('wheel_rr')">
+                        <span class="card-top-tag">Rear Wheel</span>
+                        <img src="icons/slot_wheel_rear_1.png" class="part-thumb-img">
+                        <span class="card-stars">★★★★☆☆</span>
+                    </div>
+                </div>
+                        <img src="icons/ui_3dicon_5304.png" class="part-thumb-img" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'%233b82f6\'><circle cx=\'12\' cy=\'12\' r=\'10\'/></svg>'">
+                        <span class="card-stars">★★★★☆☆</span>
+                    </div>
+                </div>
+
+                <!-- Custom Paint & Model Selector -->
+                <div style="background:#131924; padding:10px; border-radius:8px; border:1px solid var(--border-color);">
+                    <div style="font-size:0.72rem; color:var(--text-dim); margin-bottom:6px; font-weight:800;">BODY MODEL & COLOR</div>
+                    <select id="sel-car-model" style="width:100%; background:#1e2638; border:1px solid #374151; color:#fff; padding:6px; border-radius:6px; margin-bottom:8px;" onchange="changeCarModel(this.value)">
+                        <option value="cyclone_magnum">Cyclone Magnum (TRF Victory)</option>
+                        <option value="hurricane_sonic">Hurricane Sonic (TRF Victory)</option>
+                    </select>
+
+                    <div style="display:flex; align-items:center; gap:8px;">
+                        <input type="color" id="car-color-picker" value="#ffffff" style="width:36px; height:30px; border:none; border-radius:4px; cursor:pointer;" onchange="changeCarColor(this.value)">
+                        <span style="font-size:0.8rem; font-family:monospace; color:var(--text-dim);" id="car-color-hex">#ffffff</span>
+                        <button class="tab-btn" style="background:#0284c7; color:#fff; border-radius:4px; padding:4px 10px; margin-left:auto;" onclick="randomizePaint()">Randomize</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. RACE SIMULATOR HUD (Frames 11 & 21) -->
+        <div class="view-overlay" id="view-race">
+            <!-- Top-Left Player Gauge -->
+            <div class="race-top-gauge">
+                <div class="player-badge">
+                    <div class="avatar-circle">👦</div>
+                    <div class="player-info">
+                        <span class="player-name">GFX•Hers 2</span>
+                        <span style="font-size:0.62rem; color:#fef08a; font-weight:800;">LV. 108</span>
+                    </div>
+                </div>
+                <div class="gauge-bar-col">
+                    <span style="font-size:0.6rem; color:#fef08a; font-weight:900;">GAUGE BOOST</span>
+                    <div class="gauge-bar-track"><div class="gauge-bar-fill" id="race-boost-fill"></div></div>
+                    <div class="battery-dot-row">
+                        <div class="battery-dot-pill"></div>
+                        <div class="battery-dot-pill"></div>
+                        <div class="battery-dot-pill"></div>
+                        <div class="battery-dot-pill"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Top-Right Telemetry & Camera (Frame 21) -->
+            <div class="race-top-telemetry">
+                <div class="race-rank-lap">
+                    <span class="rank-gold-badge">1st</span>
+                    <span class="lap-counter">LAP <b id="race-lap-txt" style="color:#fef08a;">3 / 5</b></span>
+                </div>
+                <div class="race-time-pill" id="race-timer-txt">00'13''396</div>
+                <div class="race-cam-btns">
+                    <button class="round-blue-btn" onclick="toggleCameraView()" title="Camera View">📹</button>
+                    <button class="round-blue-btn" onclick="toggleRaceSpeed()" title="Fast Forward">⏩</button>
+                    <button class="round-blue-btn" style="background:#ef4444;" onclick="stopRace()" title="Exit">⏹️</button>
+                </div>
+            </div>
+
+            <!-- In-Track Warning Floating Notification (Frame 21) -->
+            <div id="track-warning-text">Trigger the brake</div>
+
+            <!-- Bottom-Left 5-Lane Vertical Minimap (Frame 21) -->
+            <div class="race-vertical-minimap">
+                <div class="minimap-lane-line"><div class="car-dot" id="dot-rival-3" style="background:#fff; bottom:40%;"></div></div>
+                <div class="minimap-lane-line"><div class="car-dot" id="dot-rival-2" style="background:#eab308; bottom:55%;"></div></div>
+                <div class="minimap-lane-line"><div class="car-dot" id="dot-rival-1" style="background:#22c55e; bottom:65%;"></div></div>
+                <div class="minimap-lane-line"><div class="car-dot" id="dot-player" style="background:#00e5ff; bottom:75%; box-shadow:0 0 6px #00e5ff;"></div></div>
+                <div class="minimap-lane-line">
+                    <span style="position:absolute; top:20px; left:-6px; color:#ef4444; font-weight:900; font-size:0.75rem;">❌</span>
+                </div>
+            </div>
+
+            <!-- Bottom Center Speedometer & Boost GO! Button (Frames 11 & 21) -->
+            <div class="race-bottom-cockpit">
+                <button class="btn-boost-go-electric" onclick="triggerBoost()">GO!</button>
+                <div class="speedometer-block">
+                    <div class="speed-number-slanted">
+                        <span style="color:#00e5ff; font-size:2rem;">⚡</span>
+                        <span id="race-speed-val">79.99</span>
+                    </div>
+                    <div class="speed-battery-bar"><div class="speed-battery-fill"></div></div>
+                </div>
+            </div>
+
+            <!-- Bottom-Right Rivals Leaderboard (Frame 21) -->
+            <div class="race-bottom-right-leaderboard">
+                <div class="leaderboard-card-row first-place">
+                    <span style="color:#ffb800; font-weight:900;">[ 1 ]</span>
+                    <span style="font-weight:800;">GFX•Hers 2</span>
+                    <span style="color:#94a3b8; font-size:0.7rem;">LV. 108</span>
+                </div>
+                <div class="leaderboard-card-row">
+                    <span style="font-weight:900;">[ 2 ]</span>
+                    <span>Player 2 (AI)</span>
+                    <span style="color:#94a3b8; font-size:0.7rem;">LV. 113</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4. STORY / PLOT OVERLAY (Frame 91) -->
+        <div class="view-overlay" id="view-story">
+            <h2 style="font-size:1.4rem; color:var(--accent-cyan); font-weight:800; text-align:center;">LEGEND OF MINI 4WD (CHAMPIONSHIP)</h2>
+            <div class="story-stage-row">
+                <div class="stage-card">
+                    <div class="stage-card-header">LEVEL 38 - CITY CIRCUIT</div>
+                    <div class="stage-track-thumb">🏁 5-Lane High-Speed Oval</div>
+                    <div style="font-size:0.75rem; color:var(--text-dim);">Best Record: <b style="color:#fff;">00:21:115</b></div>
+                    <div class="stage-stamp-success">CHALLENGE SUCCESS ★★★</div>
+                    <button class="btn-challenge" onclick="launchStageRace('Level 38')">CHALLENGE</button>
+                </div>
+                <div class="stage-card">
+                    <div class="stage-card-header">LEVEL 39 - SUZUKA BANK</div>
+                    <div class="stage-track-thumb">🏁 Technical Slope & Jump</div>
+                    <div style="font-size:0.75rem; color:var(--text-dim);">Best Record: <b style="color:#fff;">00:22:974</b></div>
+                    <div class="stage-stamp-success">CHALLENGE SUCCESS ★★★</div>
+                    <button class="btn-challenge" onclick="launchStageRace('Level 39')">CHALLENGE</button>
+                </div>
+                <div class="stage-card">
+                    <div class="stage-card-header">LEVEL 40 - WGP FINALS</div>
+                    <div class="stage-track-thumb">🏁 Triple Lane Changer + Loop</div>
+                    <div style="font-size:0.75rem; color:var(--text-dim);">Best Record: <b style="color:#fff;">00:13:910</b></div>
+                    <div class="stage-stamp-success">CHALLENGE SUCCESS ★★★</div>
+                    <button class="btn-challenge" onclick="launchStageRace('Level 40')">CHALLENGE</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 5. TECH LAB OVERLAY -->
+        <div class="view-overlay" id="view-tech">
+            <div class="tech-upgrade-panel">
+                <h3 style="color:var(--accent-cyan); font-size:1.1rem; text-align:center;">PART ENHANCEMENT & LAB</h3>
+                <div style="text-align:center; padding:16px; background:#10151f; border-radius:8px;">
+                    <img src="icons/ui_3dicon_1001.png" style="width:72px; height:72px; object-fit:contain;" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'%2300d2ff\'><circle cx=\'12\' cy=\'12\' r=\'10\'/></svg>'">
+                    <div style="font-weight:800; margin-top:8px;">Hyper-Dash Motor V2</div>
+                    <div style="color:var(--accent-gold); font-size:0.8rem;">★★★★★☆ (5 Stars)</div>
+                </div>
+                <div style="font-size:0.8rem; color:var(--text-dim); line-height:1.6; text-align:center;">
+                    Enhancing increases RPM, Torque, and Stability parameters according to the formula tables.
+                </div>
+                <button class="btn-challenge" onclick="upgradeSelectedPart()">UPGRADE LEVEL (🪙 5,000)</button>
+                <button class="tab-btn" style="background:#0284c7; color:#fff; padding:10px; border-radius:6px;" onclick="ascendSelectedPart()">STAR EVOLUTION (💎 50)</button>
+            </div>
+        </div>
+
+        <!-- 6. GACHA SHOP OVERLAY -->
+        <div class="view-overlay" id="view-shop">
+            <div style="text-align:center;">
+                <h2 style="font-size:2rem; font-weight:900; background:linear-gradient(135deg, #ffb800, #ff3366); -webkit-background-clip:text; -webkit-text-fill-color:transparent;">LUCKY CHEST - WISH GACHAPON</h2>
+                <p style="color:var(--text-dim);">Guaranteed to draw Purple or Orange Ultra-Rare Parts!</p>
+            </div>
+            <div style="display:flex; gap:20px;">
+                <div style="background:#18202c; border:2px solid #374151; border-radius:12px; padding:24px; text-align:center; width:220px;">
+                    <div style="font-size:2.5rem; margin-bottom:10px;">📦</div>
+                    <div style="font-weight:800; margin-bottom:6px;">1 DRAW</div>
+                    <div style="color:var(--accent-cyan); font-size:0.85rem; margin-bottom:16px;">💎 100 Diamonds</div>
+                    <button class="btn-challenge" style="width:100%;" onclick="performGacha(1)">DRAW 1x</button>
+                </div>
+                <div style="background:#18202c; border:2px solid var(--accent-gold); border-radius:12px; padding:24px; text-align:center; width:240px; box-shadow: 0 0 20px rgba(255, 184, 0, 0.2);">
+                    <div style="font-size:2.5rem; margin-bottom:10px;">🎁</div>
+                    <div style="font-weight:800; margin-bottom:6px; color:var(--accent-gold);">10 DRAWS (SUPER VALUE)</div>
+                    <div style="color:var(--accent-cyan); font-size:0.85rem; margin-bottom:16px;">💎 900 Diamonds (10% OFF)</div>
+                    <button class="btn-challenge" style="width:100%;" onclick="performGacha(10)">DRAW 10x</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Post-Race Victory Modal -->
+    <div class="game-modal" id="modal-victory">
+        <div class="modal-card">
+            <h2 style="font-size:1.8rem; font-weight:900; color:var(--accent-gold); text-align:center;">🏆 BATTLE VICTORY!</h2>
+            <div style="display:flex; justify-content:space-between; padding:10px; background:#10151f; border-radius:8px;">
+                <span>Lap Time:</span>
+                <span id="vic-time" style="font-weight:900; font-family:monospace; color:var(--accent-cyan);">00'13''396</span>
+            </div>
+            <div style="display:flex; justify-content:space-between; padding:10px; background:#10151f; border-radius:8px;">
+                <span>Rank Exp:</span>
+                <span style="color:#00e5ff; font-weight:800;">+40 EXP (Bronze II Racer)</span>
+            </div>
+            <div style="display:flex; justify-content:space-between; padding:10px; background:#10151f; border-radius:8px;">
+                <span>Rewards:</span>
+                <span style="color:var(--accent-gold); font-weight:800;">🪙 2,000 Coins + 💎 20</span>
+            </div>
+            <button class="btn-challenge" onclick="closeVictoryModal()">CONFIRM & RETURN</button>
+        </div>
+    </div>
+
+    <script>
+        // Global Game State
+        const gameState = {
+            energy: 9,
+            diamonds: 475,
+            coins: 2797454,
+            currentDeck: 1,
+            selectedCarModel: 'cyclone_magnum',
+            carColor: '#ffffff',
+            soundEnabled: true,
+            activeNav: 'lobby',
+            isRacing: false,
+            raceTime: 0,
+            raceLap: 3,
+            currentSpeed: 79.99,
+            boostActive: false,
+            boostGauge: 80,
+            brakeActive: false,
+            camView: 1,
+            timeMultiplier: 1.0,
+            courseOut: false
+        };
+
+        // Three.js State
+        let scene, camera, renderer, controls;
+        let carGroup = new THREE.Group();
+        let currentShellGroup = new THREE.Group();
+        let trackGroup = new THREE.Group();
+        let garageEnvGroup = new THREE.Group();
+        let objLoader = new THREE.OBJLoader();
+        let textureLoader = new THREE.TextureLoader();
+        let chassisMesh = null;
+        let wheels = [];
+        let rollers = [];
+
+        // Audio Context (Web Audio Motor Synthesizer)
+        let audioCtx = null, motorOsc = null, motorGain = null;
+
+        function init3D() {
+            const container = document.getElementById('webgl-canvas');
+            scene = new THREE.Scene();
+            scene.fog = new THREE.FogExp2(0x0a0c10, 0.015);
+
+            camera = new THREE.PerspectiveCamera(45, container.clientWidth / container.clientHeight, 0.1, 1000);
+            camera.position.set(0, 3.8, 8.5);
+
+            renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+            renderer.setSize(container.clientWidth, container.clientHeight);
+            renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+            renderer.shadowMap.enabled = true;
+            renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+            container.appendChild(renderer.domElement);
+
+            controls = new THREE.OrbitControls(camera, renderer.domElement);
+            controls.enableDamping = true;
+            controls.dampingFactor = 0.05;
+            controls.target.set(0, 0.5, 0);
+
+            // Lighting Setup
+            const ambLight = new THREE.AmbientLight(0xffffff, 0.9);
+            scene.add(ambLight);
+
+            const sunLight = new THREE.DirectionalLight(0xffffff, 1.5);
+            sunLight.position.set(10, 20, 15);
+            sunLight.castShadow = true;
+            scene.add(sunLight);
+
+            const fillLight = new THREE.PointLight(0x00d2ff, 1.5, 30);
+            fillLight.position.set(-10, 5, -8);
+            scene.add(fillLight);
+
+            scene.add(garageEnvGroup);
+            scene.add(carGroup);
+            carGroup.add(currentShellGroup);
+            scene.add(trackGroup);
+
+            buildGarageTurntable();
+            buildCircuitTrack();
+            loadCarAssembly('cyclone_magnum');
+
+            // URL Search Param View Router (?view=garage or ?view=race)
+            const urlParams = new URLSearchParams(window.location.search);
+            const viewParam = urlParams.get('view');
+            if (viewParam) {
+                setTimeout(() => {
+                    switchNav(viewParam);
+                    if (viewParam === 'race') launchLiveRace();
+                }, 200);
+            }
+
+            window.addEventListener('resize', onResize);
+            animate();
+        }
+
+        // Turntable & Pit Floor (Frame 80)
+        function buildGarageTurntable() {
+            const platformGeom = new THREE.CylinderGeometry(4.5, 4.8, 0.3, 48);
+            const platformMat = new THREE.MeshStandardMaterial({
+                color: 0x1f2735,
+                roughness: 0.5,
+                metalness: 0.4
+            });
+            const platform = new THREE.Mesh(platformGeom, platformMat);
+            platform.position.y = -0.15;
+            platform.receiveShadow = true;
+            garageEnvGroup.add(platform);
+
+            const ringGeom = new THREE.RingGeometry(4.2, 4.4, 48);
+            const ringMat = new THREE.MeshBasicMaterial({ color: 0x00d2ff, side: THREE.DoubleSide });
+            const ring = new THREE.Mesh(ringGeom, ringMat);
+            ring.rotation.x = -Math.PI / 2;
+            ring.position.y = 0.01;
+            garageEnvGroup.add(ring);
+
+            const grid = new THREE.GridHelper(30, 30, 0x00d2ff, 0x1e2638);
+            grid.position.y = -0.16;
+            garageEnvGroup.add(grid);
+        }
+
+        // Circuit Track with Banked Slope Curve (Frames 11 & 21)
+        function buildCircuitTrack() {
+            const trackRadius = 20;
+            const trackWidth = 5.0;
+            const curveSegments = 80;
+
+            const floorGeom = new THREE.RingGeometry(trackRadius - trackWidth/2, trackRadius + trackWidth/2, curveSegments);
+            const floorMat = new THREE.MeshStandardMaterial({
+                color: 0x1e2532,
+                roughness: 0.8,
+                metalness: 0.1,
+                side: THREE.DoubleSide
+            });
+            const trackFloor = new THREE.Mesh(floorGeom, floorMat);
+            trackFloor.rotation.x = -Math.PI / 2;
+            trackFloor.position.y = 0.05;
+            trackGroup.add(trackFloor);
+
+            // Banked Blue Slope Section (Frame 21)
+            const slopeGeom = new THREE.BoxGeometry(trackWidth, 1.2, 10);
+            const slopeMat = new THREE.MeshStandardMaterial({ color: 0x0284c7, roughness: 0.4 });
+            const slope = new THREE.Mesh(slopeGeom, slopeMat);
+            slope.position.set(0, 0.6, trackRadius);
+            slope.rotation.x = 0.15;
+            trackGroup.add(slope);
+
+            // 5 Lane Dividers (Frame 21)
+            for (let i = 0; i < 5; i++) {
+                const r = (trackRadius - trackWidth/2) + (trackWidth / 5) * (i + 0.5);
+                const line = new THREE.Mesh(
+                    new THREE.RingGeometry(r - 0.03, r + 0.03, curveSegments),
+                    new THREE.MeshBasicMaterial({ color: 0x475569, side: THREE.DoubleSide })
+                );
+                line.rotation.x = -Math.PI / 2;
+                line.position.y = 0.06;
+                trackGroup.add(line);
+            }
+
+            trackGroup.visible = false;
+        }
+
+        // Load 3D Modular Car Assembly with Correct Relative Scale
+        function loadCarAssembly(modelName) {
+            // 1. Chassis (Base scale 1.5)
+            objLoader.load('models/chassis_s1.obj', function(obj) {
+                obj.traverse(c => {
+                    if (c.isMesh) {
+                        c.material = new THREE.MeshStandardMaterial({ color: 0x111624, roughness: 0.7 });
+                        c.castShadow = true;
+                    }
+                });
+                obj.scale.set(1.5, 1.5, 1.5);
+                chassisMesh = obj;
+                carGroup.add(chassisMesh);
+            });
+
+            // 2. Gold Motor Can
+            objLoader.load('models/motor.obj', function(obj) {
+                obj.traverse(c => {
+                    if (c.isMesh) c.material = new THREE.MeshStandardMaterial({ color: 0xd4af37, metalness: 0.9, roughness: 0.2 });
+                });
+                obj.scale.set(1.4, 1.4, 1.4);
+                obj.position.set(0, 0.45, 0.2);
+                carGroup.add(obj);
+            });
+
+            // 3. 4 Wheels & Tires
+            objLoader.load('models/tyre_front.obj', function(obj) {
+                obj.traverse(c => { if(c.isMesh) c.material = new THREE.MeshStandardMaterial({ color: 0x111111, roughness: 0.9 }); });
+                obj.scale.set(1.5, 1.5, 1.5);
+                const wFL = obj.clone(); wFL.position.set(-1.45, 0.45, 1.25); carGroup.add(wFL);
+                const wFR = obj.clone(); wFR.rotation.y = Math.PI; wFR.position.set(1.45, 0.45, 1.25); carGroup.add(wFR);
+                wheels.push(wFL, wFR);
+            });
+
+            objLoader.load('models/tyre_rear.obj', function(obj) {
+                obj.traverse(c => { if(c.isMesh) c.material = new THREE.MeshStandardMaterial({ color: 0x111111, roughness: 0.9 }); });
+                obj.scale.set(1.5, 1.5, 1.5);
+                const wRL = obj.clone(); wRL.position.set(-1.45, 0.45, -1.25); carGroup.add(wRL);
+                const wRR = obj.clone(); wRR.rotation.y = Math.PI; wRR.position.set(1.45, 0.45, -1.25); carGroup.add(wRR);
+                wheels.push(wRL, wRR);
+            });
+
+            // 4. Aluminum Rollers
+            objLoader.load('models/roller.obj', function(obj) {
+                obj.traverse(c => { if(c.isMesh) c.material = new THREE.MeshStandardMaterial({ color: 0x00d2ff, metalness: 0.9, roughness: 0.2 }); });
+                obj.scale.set(1.4, 1.4, 1.4);
+                const rFL = obj.clone(); rFL.position.set(-1.8, 0.6, 2.0); carGroup.add(rFL);
+                const rFR = obj.clone(); rFR.position.set(1.8, 0.6, 2.0); carGroup.add(rFR);
+                const rRL = obj.clone(); rRL.position.set(-1.8, 0.6, -2.0); carGroup.add(rRL);
+                const rRR = obj.clone(); rRR.position.set(1.8, 0.6, -2.0); carGroup.add(rRR);
+                rollers.push(rFL, rFR, rRL, rRR);
+            });
+
+            loadShellModel(modelName);
+        }
+
+        // Load authentic 3D shell with diffuse decal texture and rear wings
+        function loadShellModel(modelName) {
+            while (currentShellGroup.children.length > 0) {
+                currentShellGroup.remove(currentShellGroup.children[0]);
+            }
+
+            let texFile = 'textures/tex_shell_cyclone_magnum_01_d.png';
+            if (modelName === 'hurricane_sonic') texFile = 'textures/tex_shell_hurricane_sonic_01_d.png';
+            if (modelName === 'beat_magnum') texFile = 'textures/tex_shell_beat_magnum_01_d.png';
+            if (modelName === 'victory_magnum') texFile = 'textures/tex_shell_victory_magnum_01_d.png';
+
+            const tex = textureLoader.load(texFile);
+            tex.flipY = false;
+
+            const shellMat = new THREE.MeshStandardMaterial({
+                map: tex,
+                roughness: 0.35,
+                metalness: 0.15
+            });
+
+            // 1. Primary Shell Body (1:1 with Chassis at 1.5 scale)
+            objLoader.load(`models/${modelName}.obj`, function(obj) {
+                obj.traverse(c => {
+                    if (c.isMesh) {
+                        c.material = shellMat;
+                        c.castShadow = true;
+                    }
+                });
+                obj.scale.set(1.5, 1.5, 1.5);
+                obj.position.set(0, 0, 0);
+                currentShellGroup.add(obj);
+            });
+
+            // 2. Wings / Spoiler (1:1 with Chassis at 1.5 scale)
+            objLoader.load(`models/${modelName}_wings.obj`, function(obj) {
+                obj.traverse(c => {
+                    if (c.isMesh) {
+                        c.material = shellMat;
+                        c.castShadow = true;
+                    }
+                });
+                obj.scale.set(1.5, 1.5, 1.5);
+                obj.position.set(0, 0, 0);
+                currentShellGroup.add(obj);
+            }, undefined, function() {});
+        }
+
+        // Navigation Mode Switcher
+        function switchNav(navKey) {
+            gameState.activeNav = navKey;
+
+            // Hide/Show Back Button in Header
+            const backBtn = document.getElementById('btn-back-home');
+            backBtn.style.display = navKey === 'lobby' ? 'none' : 'flex';
+
+            // Switch Active View
+            document.querySelectorAll('.view-overlay').forEach(v => v.classList.remove('active'));
+            const targetView = document.getElementById(`view-${navKey}`);
+            if (targetView) targetView.classList.add('active');
+
+            if (navKey === 'lobby') {
+                trackGroup.visible = false;
+                garageEnvGroup.visible = true;
+                carGroup.position.set(0, 0, 0);
+                carGroup.rotation.set(0, -0.4, 0); // Front-left facing (Frame 75)
+                camera.position.set(0, 3.8, 8.5);
+                controls.target.set(0, 0.5, 0);
+            } else if (navKey === 'garage') {
+                trackGroup.visible = false;
+                garageEnvGroup.visible = true;
+                carGroup.position.set(0, 0, 0);
+                camera.position.set(0, 3.2, 6.2); // Centered between stats and assembly panels (Frame 80)
+                controls.target.set(0, 0.4, 0);
+            } else if (navKey === 'race') {
+                trackGroup.visible = true;
+                garageEnvGroup.visible = false;
+                setupRaceStart();
+            } else {
+                trackGroup.visible = false;
+                garageEnvGroup.visible = false;
+            }
+        }
+
+        function startRaceMode() {
+            switchNav('race');
+            launchLiveRace();
+        }
+
+        // Car Customization
+        function changeCarModel(modelKey) {
+            gameState.selectedCarModel = modelKey;
+            loadShellModel(modelKey);
+        }
+
+        function changeCarColor(hex) {
+            gameState.carColor = hex;
+            document.getElementById('car-color-hex').innerText = hex;
+            if (currentShellMesh) {
+                currentShellMesh.traverse(c => {
+                    if (c.isMesh) c.material.color.set(hex);
+                });
+            }
+        }
+
+        function randomizePaint() {
+            const colors = ['#ffffff', '#0055d4', '#ef4444', '#10b981', '#f59e0b', '#8b5cf6', '#111827'];
+            const pick = colors[Math.floor(Math.random() * colors.length)];
+            document.getElementById('car-color-picker').value = pick;
+            changeCarColor(pick);
+        }
+
+        function switchDeck(deckNum) {
+            gameState.currentDeck = deckNum;
+            document.querySelectorAll('.deck-box-btn').forEach((b, i) => {
+                b.classList.toggle('active', i + 1 === deckNum);
+            });
+        }
+
+        function resetCarCamera() {
+            camera.position.set(2.8, 2.5, 4.8);
+            controls.target.set(0, 0.4, 0);
+        }
+
+        // Web Audio Synthesizer for Motor Sound
+        function initSound() {
+            if (!audioCtx) {
+                audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+                motorOsc = audioCtx.createOscillator();
+                motorGain = audioCtx.createGain();
+                motorOsc.type = 'sawtooth';
+                motorOsc.frequency.setValueAtTime(120, audioCtx.currentTime);
+                motorGain.gain.setValueAtTime(0, audioCtx.currentTime);
+                motorOsc.connect(motorGain);
+                motorGain.connect(audioCtx.destination);
+                motorOsc.start();
+            }
+        }
+
+        function updateMotorSound(speedRatio) {
+            if (!gameState.soundEnabled || !audioCtx || !motorGain) return;
+            if (gameState.isRacing) {
+                const targetFreq = 120 + (speedRatio * 520) + (gameState.boostActive ? 180 : 0);
+                motorOsc.frequency.setTargetAtTime(targetFreq, audioCtx.currentTime, 0.05);
+                motorGain.gain.setTargetAtTime(0.16, audioCtx.currentTime, 0.05);
+            } else {
+                motorGain.gain.setTargetAtTime(0, audioCtx.currentTime, 0.05);
+            }
+        }
+
+        function toggleSound() {
+            gameState.soundEnabled = !gameState.soundEnabled;
+            document.getElementById('sound-icon').innerText = gameState.soundEnabled ? '🔊' : '🔇';
+            if (!gameState.soundEnabled && motorGain) {
+                motorGain.gain.setValueAtTime(0, audioCtx.currentTime);
+            }
+        }
+
+        // Race Simulation Logic (Frames 11 & 21)
+        let carRaceAngle = 0;
+        let rival1Dist = 0.65;
+        let rival2Dist = 0.55;
+        let rival3Dist = 0.40;
+
+        function setupRaceStart() {
+            carRaceAngle = 0;
+            gameState.raceTime = 13.396;
+            gameState.raceLap = 3;
+            gameState.currentSpeed = 79.99;
+            gameState.courseOut = false;
+        }
+
+        function launchLiveRace() {
+            initSound();
+            gameState.isRacing = true;
+            setupRaceStart();
+        }
+
+        function stopRace() {
+            gameState.isRacing = false;
+            updateMotorSound(0);
+            switchNav('lobby');
+        }
+
+        function triggerBoost() {
+            if (gameState.boostGauge >= 20) {
+                gameState.boostActive = true;
+                gameState.boostGauge -= 20;
+                document.getElementById('race-boost-fill').style.width = `${gameState.boostGauge}%`;
+                setTimeout(() => { gameState.boostActive = false; }, 2500);
+            }
+        }
+
+        function toggleCameraView() {
+            gameState.camView = (gameState.camView % 3) + 1;
+        }
+
+        function toggleRaceSpeed() {
+            gameState.timeMultiplier = gameState.timeMultiplier === 1.0 ? 2.0 : 1.0;
+        }
+
+        function launchStageRace(stageName) {
+            switchNav('race');
+            launchLiveRace();
+        }
+
+        function closeVictoryModal() {
+            document.getElementById('modal-victory').style.display = 'none';
+            switchNav('garage');
+        }
+
+        function performGacha(drawCount) {
+            const cost = drawCount === 1 ? 100 : 900;
+            if (gameState.diamonds < cost) {
+                alert("💎 Diamonds tidak mencukupi! Tambahkan diamonds di header.");
+                return;
+            }
+            gameState.diamonds -= cost;
+            document.getElementById('txt-diamonds').innerText = gameState.diamonds;
+            const rarity = Math.random() > 0.3 ? "ORANGE ULTRA RARE (★6)" : "PURPLE SUPER RARE (★5)";
+            alert(`🎉 GACHA SUCCESS (${drawCount}x Draw)!\nSelamat! Anda mendapatkan: ${rarity}\n- Hyper-Dash Motor Spec-R\n- Super-1 Carbon Reinforced Chassis\n- 19mm Aluminum Bearing Rollers`);
+        }
+
+        function upgradeSelectedPart() {
+            if (gameState.coins >= 5000) {
+                gameState.coins -= 5000;
+                document.getElementById('txt-coins').innerText = gameState.coins.toLocaleString();
+                alert("⭐ Upgrade Level Sukses! Level bertambah ke LV. 16 (+120 RPM, +35 Torque)");
+            }
+        }
+
+        function ascendSelectedPart() {
+            if (gameState.diamonds >= 50) {
+                gameState.diamonds -= 50;
+                document.getElementById('txt-diamonds').innerText = gameState.diamonds;
+                alert("🌟 Star Evolution Sukses! Part berevolusi menjadi 6 Stars (Max Rank)!");
+            }
+        }
+
+        function addCurrency(type) {
+            if (type === 'energy') gameState.energy = Math.min(gameState.energy + 50, 180);
+            if (type === 'diamonds') gameState.diamonds += 500;
+            if (type === 'coins') gameState.coins += 250000;
+            document.getElementById('txt-energy').innerText = `${gameState.energy}/180`;
+            document.getElementById('txt-diamonds').innerText = gameState.diamonds;
+            document.getElementById('txt-coins').innerText = gameState.coins.toLocaleString();
+        }
+
+        function openSlotPicker(slotKey) {
+            alert(`Slot ${slotKey.toUpperCase()} dipilih. Menampilkan daftar part kompatibel dari database.`);
+        }
+
+        // Animation Loop
+        let clock = new THREE.Clock();
+
+        function animate() {
+            requestAnimationFrame(animate);
+            const delta = clock.getDelta() * gameState.timeMultiplier;
+
+            // Garage Idle Turntable
+            if (gameState.activeNav === 'garage') {
+                carGroup.rotation.y += delta * 0.3;
+            }
+
+            // Race Physics Simulation
+            if (gameState.activeNav === 'race' && gameState.isRacing) {
+                gameState.raceTime += delta;
+
+                let targetTopSpeed = 82.0;
+                if (gameState.boostActive) targetTopSpeed += 16.0;
+
+                if (gameState.currentSpeed < targetTopSpeed) {
+                    gameState.currentSpeed += (gameState.boostActive ? 35 : 20) * delta;
+                } else if (gameState.currentSpeed > targetTopSpeed) {
+                    gameState.currentSpeed -= 15 * delta;
+                }
+
+                updateMotorSound(gameState.currentSpeed / 98.0);
+
+                const angularVel = (gameState.currentSpeed * 0.016);
+                carRaceAngle += angularVel * delta;
+
+                const trackR = 20;
+                const carX = Math.cos(carRaceAngle) * trackR;
+                const carZ = Math.sin(carRaceAngle) * trackR;
+
+                carGroup.position.set(carX, 0.45, carZ);
+                carGroup.rotation.y = -carRaceAngle + Math.PI / 2;
+
+                wheels.forEach(w => { w.rotation.x += angularVel * 3 * delta; });
+
+                // Curve Warning Banner (Frame 21)
+                const warningBanner = document.getElementById('track-warning-text');
+                const normAngle = (carRaceAngle % (Math.PI * 2));
+                const nearSlope = Math.abs(Math.sin(normAngle)) > 0.6;
+
+                if (nearSlope) {
+                    warningBanner.style.display = 'block';
+                } else {
+                    warningBanner.style.display = 'none';
+                }
+
+                // Camera Views
+                if (gameState.camView === 1) {
+                    camera.position.set(carX * 1.32, 6, carZ * 1.32);
+                    camera.lookAt(carX, 0.8, carZ);
+                } else if (gameState.camView === 2) {
+                    camera.position.set(0, 42, 2);
+                    camera.lookAt(0, 0, 0);
+                } else {
+                    camera.position.set(0, 10, 30);
+                    camera.lookAt(carX, 0.8, carZ);
+                }
+
+                // HUD Readouts
+                document.getElementById('race-speed-val').innerText = gameState.currentSpeed.toFixed(2);
+                const mins = Math.floor(gameState.raceTime / 60);
+                const secs = (gameState.raceTime % 60).toFixed(3);
+                document.getElementById('race-timer-txt').innerText = `${mins.toString().padStart(2, '0')}'${secs.padStart(6, '0')}`;
+            } else if (gameState.activeNav !== 'race') {
+                controls.update();
+            }
+
+            renderer.render(scene, camera);
+        }
+
+        function onResize() {
+            const container = document.getElementById('webgl-canvas');
+            camera.aspect = container.clientWidth / container.clientHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(container.clientWidth, container.clientHeight);
+        }
+
+        window.onload = init3D;
+    </script>
+</body>
+</html>

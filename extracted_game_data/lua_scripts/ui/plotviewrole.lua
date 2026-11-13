@@ -1,0 +1,78 @@
+--
+--
+--
+--
+--
+--function PlotView:PlayerReset()
+--    for i = 1, #self.RolePosList do
+--        local obj = self.RolePosList[i]
+--        if obj then
+--            local icon = self:GetChildWightByParent("playerIcon",obj,typeof(RawImage))
+--            UIUtil:RawImage_ColorAlpha(icon, 0)
+--        end
+--    end
+--end
+--
+--
+--
+----{{{角色进场
+-----@param config storyactionrole_config_cell
+--function PlotView:PlayerEnterSence(config , quick)
+--    local obj = self.RolePosList[config.pos]
+--
+--    -----@type hero_config_cell
+--    local cfg = CommonHelper:GetTableDataByID(ConfigNames.hero_config, config.roldid)
+--    if cfg then
+--        local playericon = CommonHelper:GetComponentSetUITexture("playerIcon",obj,cfg.picture,UIModuleID.Plot)
+--        UIUtil:RawImage_SetSize(playericon, cfg.picture)
+--        if playericon then
+--            if quick then
+--                UIUtil:RawImage_ColorAlpha(playericon, 1)
+--                UIUtil:GameobjectLocalPosition(playericon, Vector3.zero)
+--            else
+--                if config.anitype == 0 then--无动画
+--                    UIUtil:RawImage_ColorAlpha(playericon, 1)
+--                end
+--                if config.anitype == 1 then--alpha渐入，从下向上移动
+--                    CommonHelper:Tween_Alpha(playericon.gameObject, 0, 1, 0.3)
+--                    CommonHelper:Tween_Position(playericon.gameObject, Vector3(0, -1125, 0), Vector3.zero,  0.3)
+--                end
+--                if config.anitype == 2 then--alpha渐入，从上向下移动
+--                    CommonHelper:Tween_Alpha(playericon.gameObject, 0, 1, 0.3)
+--                    CommonHelper:Tween_Position(playericon.gameObject, Vector3(0, 1125, 0), Vector3.zero,  0.3)
+--                end
+--            end
+--        end
+--    end
+--
+--end
+----}}}
+--
+----{{{角色离场
+-----@param config storyactionrole_config_cell
+--function PlotView:PlayerLeaveSence(config, quick)
+--    local obj = self.RolePosList[config.pos]
+--
+--    -----@type hero_config_cell
+--    local cfg = CommonHelper:GetTableDataByID(ConfigNames.hero_config, config.roldid)
+--    if cfg then
+--        local playericon = CommonHelper:GetComponentSetUITexture("playerIcon",obj,cfg.picture,UIModuleID.Plot)
+--        if playericon then
+--            if quick then
+--                UIUtil:RawImage_ColorAlpha(playericon, 0)
+--                UIUtil:GameobjectLocalPosition(playericon, Vector3.zero)
+--            else
+--                if config.anitype == 0 then--无动画
+--                    UIUtil:RawImage_ColorAlpha(playericon, 0)
+--                end
+--                if config.anitype == 10 then--alpha渐出，从上向下移动
+--                    CommonHelper:Tween_Alpha(playericon.gameObject, 1, 0, 0.3)
+--                    CommonHelper:Tween_Position(playericon.gameObject, Vector3.zero, Vector3(0, -1125, 0),0.3)
+--                end
+--            end
+--        end
+--    end
+--
+--end
+----}}}
+--

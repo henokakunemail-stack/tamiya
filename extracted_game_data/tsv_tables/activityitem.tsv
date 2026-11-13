@@ -1,0 +1,13 @@
+INT	INT	INT	INT	INT	STRING	STRING	STRING	INT	INT	STRING	STRING	INT	INT	STRING	STRING	STRING	STRING
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+C_ID	activityid	sort	activityType	timeType	openTime	endTime	reward	maxCount	vip	ejectPar	nextId	payId	diamond	giftIcon	name	title	reference
+1000101	1	1	1	0	0	0	12050010:12050011:12050012	1	0	0	0	1000101	0	0	activityitem_name_1	activityitem_title_1	0
+1001101	2	2	11	0	0	0	12050001	1	0	0	0	10011001	0	uitex_sucai_activity_bg_3_dt	activityitem_name_2	activityitem_title_2	activityitem_reference_2
+1001102	2	3	11	0	0	0	12050002	1	0	0	0	10011002	0	uitex_sucai_activity_bg_4_dt	activityitem_name_3	activityitem_title_3	activityitem_reference_3
+1001103	2	4	11	0	0	0	12050003	1	0	0	0	10011003	0	uitex_sucai_activity_bg_13_dt	activityitem_name_10	activityitem_title_10	activityitem_reference_10
+1001104	2	5	11	0	0	0	12050006	0	0	0	0	10011004	0	uitex_sucai_activity_bg_11_dt	activityitem_name_11	activityitem_title_11	activityitem_reference_11
+1001105	2	6	11	0	0	0	12050007	0	0	0	0	10011005	0	uitex_sucai_activity_bg_8_dt	activityitem_name_12	activityitem_title_12	activityitem_reference_12
+1001106	2	7	11	0	0	0	12050004	0	0	0	0	10011007	0	uitex_sucai_activity_bg_12_dt	activityitem_name_13	activityitem_title_13	activityitem_reference_13
+1001107	2	8	11	0	0	0	12050005	0	0	0	0	10011008	0	uitex_sucai_activity_bg_10_dt	activityitem_name_14	activityitem_title_14	activityitem_reference_14
+1001201	3	10	12	0	0	0	12051002	1	0	0	0	10011006	0	uitex_sucai_activity_bg_1_dt	activityitem_name_4	activityitem_title_4	0
+1001202	3	11	12	0	0	0	12051001	1	0	0	0	10011011	0	uitex_sucai_activity_bg_2_dt	activityitem_name_5	activityitem_title_5	0

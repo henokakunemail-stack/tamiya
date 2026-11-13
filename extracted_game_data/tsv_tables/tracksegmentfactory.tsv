@@ -1,0 +1,8 @@
+int	int	string	int	int	int	int	string	int
+描述	描述	描述	描述	描述	描述	描述	描述	描述
+C_ID	type	typeDesc	blue	red	white	time	cost	technology
+1	1	直道	30	31	32	3600	0,1000	1
+2	2	弯道	12	13	14	3600	0,1000	2
+3	3	特殊	27	28	29	3600	0,1000	3
+4	4	换道器	50	51	52	3600	0,1000	4
+5	5	万能块	6	7	8	3600	0,1000	5

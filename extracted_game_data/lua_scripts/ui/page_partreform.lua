@@ -1,0 +1,84 @@
+--
+--
+--
+--
+--
+-----@type ArticleCell
+--local ArticleData = nil
+--
+--
+-----@class Page_PartReform
+--Page_PartReform = class("Page_PartReform")
+--
+--function Page_PartReform:initialize()
+--
+--end
+--
+-----@param ArticleData ArticleCell
+--function Page_PartReform:SetArticleData(root, data)
+--    ArticleData =  data
+--
+--    self:SetUI(root)
+--end
+--
+--function Page_PartReform:SetUI(root)
+--    local scrollview = UIUtil.GetTypeChildWightByParent("TitleScrollView", root, typeof(TitleScrollView))
+--    local data = {"标题", 6}
+--    CommonHelper:InitTitleScrollView( scrollview, data, 1, function(title, itemObj, dataIndex, scroll)
+--
+--        if dataIndex == -1 then
+--            CommonHelper:SetText("totlelv",itemObj,tostring(ArticleData:GetPartStrongLv()))
+--            local temp = string.format("%d/%d",ArticleData:GetPartReformSucceedCount(), ArticleData:GetPartReformPosCount())
+--            CommonHelper:SetText("posprocess",itemObj,temp)
+--            return
+--        end
+--
+--
+--        local data = ArticleData:GetPartReform(dataIndex + 1)
+--        if data == nil then
+--            CommonHelper:SetText("reformname",itemObj,"未解锁")
+--            UIUtil.GetChild("statelock",itemObj):SetActive(true)
+--            UIUtil.GetChild("stateblack",itemObj):SetActive(false)
+--            UIUtil.GetChild("statesucceed",itemObj):SetActive(false)
+--        end
+--
+--        if data ~= nil and data.id <= 0 then
+--            CommonHelper:SetText("reformname",itemObj,"未改造")
+--            UIUtil.GetChild("statelock",itemObj):SetActive(false)
+--            UIUtil.GetChild("stateblack",itemObj):SetActive(true)
+--            UIUtil.GetChild("statesucceed",itemObj):SetActive(false)
+--        end
+--
+--        if data ~= nil and data.id > 0 then
+--            UIUtil.GetChild("statelock",itemObj):SetActive(false)
+--            UIUtil.GetChild("stateblack",itemObj):SetActive(false)
+--            UIUtil.GetChild("statesucceed",itemObj):SetActive(true)
+--
+--            ---@type partreformentry_config_cell
+--            local cfg = CommonHelper:GetTableDataByID(ConfigNames.partreformentry_config, data.id)
+--            CommonHelper:SetText("reformname", itemObj, cfg.name)
+--            CommonHelper:SetText("reformquality", itemObj, CommonHelper:GetReformQuality(data.quality))
+--            CommonHelper:SetText("lvvalue", itemObj, tostring(data.lv) )
+--
+--            local attrs = cfg.NewQuality[1].attr
+--            for i = 1, 3 do
+--                local attrobj = UIUtil.GetChild("attr"..i,itemObj)
+--                if attrs[i] == nil then
+--                    attrobj:SetActive(false)
+--                else
+--                    attrobj:SetActive(true)
+--                    CommonHelper:SetText("attrname", attrobj, CommonHelper:GetAttrName(attrs[i].type))
+--                    CommonHelper:SetText("attrvalue", attrobj, CommonHelper:GetReformAttrValue(attrs[i], data.lv, ArticleData:GetArticleID()))
+--                    UIUtil.GetChild("attrbgtag1", attrobj):SetActive(attrs[i].tag == 1)
+--                    UIUtil.GetChild("attrbgtag2", attrobj):SetActive(attrs[i].tag == 0)
+--                end
+--            end
+--
+--
+--        end
+--
+--
+--
+--    end)
+--end
+--

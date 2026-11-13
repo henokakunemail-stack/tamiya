@@ -1,0 +1,68 @@
+--
+--
+-----@class TestBattleLoading:LoadingBase
+--TestBattleLoading = class("TestBattleLoading", LoadingBase)
+--
+--function TestBattleLoading:OnEnter(sceneid)
+--    log("TestBattleLoading:OnEnter")
+--
+--    self.sceneid = sceneid
+--
+--    self:SequenceLoading()
+--end
+--
+--function TestBattleLoading:SequenceLoading()
+--    CommonHelper:OpenLoading()
+--
+--    cs_coroutine.start(function()
+--
+--        coroutine.yield()
+--        UIManager:Get():CloseView()
+--        UIManager:Get():CloseView()
+--
+--        local sceneAsset = AssetsManager.LoadScene(self.sceneid, true, false)
+--
+--        while not sceneAsset.isDone do
+--            coroutine.yield()
+--            UINotify:Get():SendNotification(UINotifyEvent.UpdateLoadingViewProgress, sceneAsset.progress * 0.3)
+--        end
+--
+--        coroutine.yield(cs_coroutine.start(function()
+--            RaceBulider:Get():TestBattleBuilder()
+--        end))
+--
+--        coroutine.yield()
+--        UINotify:Get():SendNotification(UINotifyEvent.UpdateLoadingViewProgress, 1)
+--        coroutine.yield()
+--        logError("TrainLoading Finish...")
+--
+--        self:OnComplete()
+--        coroutine.yield()
+--        coroutine.yield()
+--        --UINotify:Get():SendNotification(UINotifyEvent.CloseLoadingView)
+--        UINotify:Get():SendNotification(UINotifyEvent.UpdateLoadingFinish)
+--
+--        UIManager:Get():OpenView("BattleView", CanvasType.MainCanvas, "BattleView")
+--    end)
+--end
+--
+--
+--function TestBattleLoading:OnUpdate()
+--
+--end
+--
+--function TestBattleLoading:OnComplete()
+--    self:RaceStart()
+--end
+--
+---- 游戏正式开始
+--function TestBattleLoading:RaceStart()
+--    monoRaceManager:OnInit(2)
+--    monoRaceManager:StartRacing()
+--end
+--
+--function TestBattleLoading:OnExit()
+--    AssetsManager.UnloadScene(self.sceneid)
+--end
+--
+--return TestBattleLoading

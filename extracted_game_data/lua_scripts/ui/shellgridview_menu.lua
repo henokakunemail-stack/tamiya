@@ -1,0 +1,41 @@
+
+
+--
+--function ShellGridView:SetScrollView_HoleList()
+--    CommonHelper:InitMoreRowScrollView(self.ScrollView_HoleList, #self.HoleCfg, 1,function(dataIndex, itemObj, scroll)
+--        --print("---      更新item :    dataIndex = " ,dataIndex,"   itemObj = ", itemObj)
+--        UINotify:Get():SendNotification(UINotifyEvent.ShellGridView_UpdateScroll_Hole, {dataIndex, itemObj})
+--    end)
+--    self.ScrollView_HoleList:EnterAni_Alpha()
+--end
+--
+--function ShellGridView:UpdateScrollView_HoleList(dataIndex, itemObj)
+--    local data = self.HoleCfg[dataIndex + 1]
+--    if data == nil then return end
+--
+--    local idx = dataIndex + 1
+--
+--    CommonHelper:SetText("holename", itemObj, "孔位"..idx)
+--
+--    local state = CommonHelper:MathBitUtil_BitTrueInt(self.CurCar.appearanceData.LightweightState, idx - 1)
+--    local temp = UIUtil.GetChild("stateCanGrid",itemObj)
+--    if temp then temp:SetActive( state) end
+--
+--    temp = UIUtil.GetChild("stateHaveGrid",itemObj)
+--    if temp then temp:SetActive(not state) end
+--
+--    CommonHelper:HButtonSetCallback("BtnSelect",itemObj,function (hbtn)
+--        UINotify:Get():SendNotification(UINotifyEvent.ShellGridView_ClickItem_Hole, hbtn.intData)
+--    end, dataIndex)
+--
+--
+--    --CommonHelper:HButtonSetCallback("BtnReset",itemObj,function (hbtn)
+--    --    UINotify:Get():SendNotification(UINotifyEvent.LightweightView_ClickHole, hbtn.intData, false)
+--    --end, idx)
+--
+--end
+--
+--function ShellGridView:ClickItem_HoleList(idx)
+--    self.HoleIdx = idx
+--    self:ChangePanel(false)
+--end

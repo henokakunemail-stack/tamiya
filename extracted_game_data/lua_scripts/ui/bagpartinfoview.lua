@@ -1,0 +1,56 @@
+--
+--
+--
+-----@class BagPartInfoView : ViewBase
+--BagPartInfoView = class("BagPartInfoView", ViewBase)
+--
+--function BagPartInfoView:initialize()
+--    ViewBase.initialize(self)
+--    ViewBase.RegisteAction(self, "BagPartInfoViewAction")
+--end
+--
+--function BagPartInfoView:Awake()
+--    self.PageRootDetail=self:GetChild("partdetailroot")
+--    CommonHelper:HButtonSetCallback("BtnCloseMask",self.gameObject,function(data)
+--        UIManager:Get():ClosePopup()
+--    end)
+--end
+--
+--function BagPartInfoView:OnOpen()
+--
+--end
+--
+--function BagPartInfoView:OnClose()
+--
+--
+--end
+--function BagPartInfoView:SetData(articleData)
+--    if self.PrePartDetail == nil then
+--        PrefabCacheMgr:Get():SwapPrefabAsync("Pre_GaragePartDetail.prefab", nil, nil, function(param, obj)
+--            self.ObjDetail = obj
+--            UIUtil.SetParentGameObject(self.PageRootDetail, self.ObjDetail, true, true)
+--            self.PrePartDetail = PreGaragePartDetail()
+--            self:SetArticleData(articleData)
+--        end)
+--    else
+--        self:SetArticleData(articleData)
+--    end
+--
+--end
+--
+--function BagPartInfoView:SetArticleData(articleData)
+--    self.PrePartDetail:SetData(UIModuleID.Bag, self.ObjDetail, articleData, nil,nil,nil,nil,function()
+--        self:Func_ClickPartDetailClose()
+--    end)
+--end
+--function BagPartInfoView:Func_ClickPartDetailClose()
+--     UIManager:Get():ClosePopup()
+--end
+--
+--function BagPartInfoView:Func_ClickPartDetailStar(date)
+--  --SkipModuleHelper:ToPartReform()
+--end
+--
+--function BagPartInfoView:Func_ClickPartDetailRefrom(date)
+--
+--end

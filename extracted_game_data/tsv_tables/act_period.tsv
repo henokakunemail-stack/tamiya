@@ -1,0 +1,5 @@
+INT	STRING	STRING	STRING	INT	STRING
+0	0	0	0	0	0
+C_ID	awardids	awardnums	rightids	addday	weekBg
+1001	12040102	100	0	1	uitex_sucai_activity_bg_15_dt
+2001	12040102	160	0	3	uitex_sucai_activity_bg_16_dt

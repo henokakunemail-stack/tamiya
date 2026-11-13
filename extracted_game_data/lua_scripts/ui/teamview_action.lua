@@ -1,0 +1,21 @@
+--
+-----@class TeamViewAction:ViewBaseAction
+--TeamViewAction = class("TeamViewAction",ViewBaseAction)
+--
+--function TeamViewAction:initialize()
+--    ViewBaseAction.initialize(self)
+--end
+--function TeamViewAction:OnRegisterEvents()
+--    self:AddNotificationEvent(UINotifyEvent.TeamView_UpdateScrollView, self.UpdateScrollView)
+--end
+-----@return TeamView
+--function TeamViewAction:View()
+--    return self.view
+--end
+--
+--function TeamViewAction:UpdateScrollView(node)
+--    self:View():UpdateCarBrowseView(node[1], node[2], node[3])
+--end
+--
+--
+--return TeamViewAction()

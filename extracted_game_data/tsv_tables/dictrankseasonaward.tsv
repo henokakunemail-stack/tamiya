@@ -1,0 +1,17 @@
+INT	INT	INT	STRING	STRING	INT	INT	INT	STRING	STRING
+0	0	0	0	0	0	0	0	0	0
+C_ID	rankidx	star	awards	awardnums	integral	subpoint	addpoint	name	icon
+1	1	1	0	0	200	0	10000	racerankname_1	racerankicon_pic_1.png
+2	1	2	12040101	5000	495	0	11000	racerankname_2	racerankicon_pic_1.png
+3	1	3	12040101	5000	900	0	12000	racerankname_3	racerankicon_pic_1.png
+4	2	1	12040101:12040102	10000:200	1396	0	13300	racerankname_4	racerankicon_pic_2.png
+5	2	2	12040101	10000	2490	0	16600	racerankname_5	racerankicon_pic_2.png
+6	2	3	12040101	10000	4179	0	19900	racerankname_6	racerankicon_pic_2.png
+7	3	1	12040101:12040102	15000:300	6903	4210	23400	racerankname_7	racerankicon_pic_3.png
+8	3	2	12040101	15000	11122	9650	26800	racerankname_8	racerankicon_pic_3.png
+9	3	3	12040101	15000	16308	16310	30200	racerankname_9	racerankicon_pic_3.png
+10	4	1	12040101:12040102	20000:400	24534	28880	34800	racerankname_10	racerankicon_pic_4.png
+11	4	2	12040101	20000	36432	40000	39600	racerankname_11	racerankicon_pic_4.png
+12	4	3	12040101	20000	53280	57280	44400	racerankname_12	racerankicon_pic_4.png
+13	4	4	12040101	20000	76998	77240	49200	racerankname_13	racerankicon_pic_4.png
+14	4	5	12040101	20000	110160	99900	54000	racerankname_14	racerankicon_pic_4.png

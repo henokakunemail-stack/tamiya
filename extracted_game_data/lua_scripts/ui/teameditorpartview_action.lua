@@ -1,0 +1,19 @@
+--
+--
+--
+--
+--
+-----@class TeamEditorPartViewAction:ViewBaseAction
+--TeamEditorPartViewAction = class("TeamEditorPartViewAction",ViewBaseAction)
+--
+--function TeamEditorPartViewAction:initialize()
+--    ViewBaseAction.initialize(self)
+--
+--end
+--function TeamEditorPartViewAction:OnRegisterEvents()
+--
+--end
+--
+--
+--
+--return TeamEditorPartViewAction()

@@ -1,0 +1,17 @@
+--
+--
+--
+-----@class CommonBgYellowView : ViewBase
+--CommonBgYellowView = class("CommonBgYellowView", ViewBase)
+--
+--function CommonBgYellowView:initialize()
+--
+--end
+--
+--function CommonBgYellowView:Awake()
+--
+--end
+--
+--function CommonBgYellowView:OnOpen()
+--
+--end

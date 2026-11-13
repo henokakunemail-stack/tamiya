@@ -1,0 +1,173 @@
+--
+--
+--
+-----@class Page_CarInfo4
+--Page_CarInfo4 = class("Page_CarInfo4")
+--
+--function Page_CarInfo4:initialize()
+--    ---@type CarData
+--    self.cardata = nil
+--    self.msgData = nil
+--    self.carname = ""
+--
+--    self.ModuleID = nil
+--    self.CurTog = -1
+--    self.TogGroup = {}
+--    self.PageRoot = {}
+--    self.CurPagePrefab = nil
+--
+--    self.CarEquipment = nil
+--
+--end
+--
+-------------------------------------------------------------------------接口
+--
+-----@param data CarData
+--function Page_CarInfo4:SetCarData(colortype, root, data, moduleid)
+--    self.cardata = data
+--    self.ModuleID = moduleid
+--
+--    self.carname = ClientDataManager:Get():GetTemplateString(data:GetShellCfg().carNameid)
+--
+--    self:SetUI(colortype, root)
+--end
+--
+--
+--function Page_CarInfo4:SetCustomData(colortype, root, data, moduleid)
+--    --self.partList = data
+--    --self.ModuleID = moduleid
+--    --
+--    --self.carname = ClientDataManager:Get():GetTemplateString(data:GetShellCfg().carNameid)
+--    --
+--    --self:SetUI(colortype, root)
+--
+--end
+--
+--
+--
+--function Page_CarInfo4:Release()
+--    if self.CurPagePrefab then PrefabCacheMgr:Get():RecyclePrefab(self.CurPagePrefab) end
+--    CommonHelper:ReleasePool(self.ModuleID)
+--    LuaButtonManager:Get():ReleasePool(self.ModuleID)
+--    self.cardata = nil
+--    self.msgData = nil
+--    self.ModuleID = nil
+--    self.CurTog = -1
+--    self.TogGroup = {}
+--    self.PageRoot = {}
+--    self.CurPagePrefab = nil
+--
+--    if self.CarEquipment then
+--        self.CarEquipment:Release()
+--        self.CarEquipment = nil
+--    end
+--
+--end
+--
+--
+--
+--function Page_CarInfo4:SetColor(colortyp)
+--    for k, v in pairs(self.TogGroup) do
+--        CommonHelper:SetColorSystem_Btn(v.gameObject, colortyp)
+--    end
+--end
+--
+-------------------------------------------------------------------------接口
+--
+--
+--
+--function Page_CarInfo4:SetUI(colortype, root)
+--    self.PageRoot = {}
+--    for i = 1, 4 do
+--        self.PageRoot[i] = UIUtil.GetChild("pageroot"..i,root)
+--    end
+--
+--    self.TogGroup = {}
+--    for i = 1, 4 do
+--        self.TogGroup[i] = LuaButtonManager:Get():AddButton("Toggle"..i,root, self.ModuleID, self.OnClickTog, i, self)
+--    end
+--
+--    self:SetColor(colortype)
+--
+--    CommonHelper:SetText("Subheading1/title",root, self.carname)
+--
+--    self:OnClickTog(1, true)
+--end
+--
+--function Page_CarInfo4:UpdateMsg()
+--    if self.CurTog == 1 then self:SetPageBase() end
+--    if self.CurTog == 2 then self:SetPageAttr() end
+--    if self.CurTog == 3 then self:SetPageEquipment() end
+--end
+--
+--
+--
+--function Page_CarInfo4:OnClickTog(idx, refresh)
+--    if refresh == nil then refresh = false end
+--    if self.CurTog == idx and refresh == false then return end
+--
+--    for k, v in pairs(self.TogGroup) do
+--        CommonHelper:SetToggleState(v,k == idx)
+--    end
+--    self.CurTog = idx
+--
+--
+--    if idx == 1 then self:SetPageBase() end
+--    if idx == 2 then self:SetPageAttr() end
+--    if idx == 3 then self:SetPageEquipment() end
+--
+--    local tran = UIUtil.GetGameobjectComponent(self.TogGroup[idx].gameObject, typeof(RectTransform) )
+--    tran:SetAsLastSibling()
+--end
+--
+--
+--
+--function Page_CarInfo4:SetPageBase()
+--    if self.CurPagePrefab then
+--        PrefabCacheMgr:Get():RecyclePrefab(self.CurPagePrefab)
+--    end
+--
+--    PrefabCacheMgr:Get():SwapPrefabAsync("Page_CarBase.prefab", nil, nil, function(param, obj)
+--        ---@type Page_CarInfo4
+--        local class = param[1]
+--        class.CurPagePrefab = obj
+--        UIUtil.SetParentGameObject(class.PageRoot[param[2]], obj)
+--        local temp = Page_CarBase()
+--        temp:SetCarData(obj, class.cardata, class.ModuleID)
+--    end, {self, 1})
+--
+--end
+--
+--function Page_CarInfo4:SetPageAttr()
+--    if self.CurPagePrefab then
+--        PrefabCacheMgr:Get():RecyclePrefab(self.CurPagePrefab)
+--    end
+--
+--    PrefabCacheMgr:Get():SwapPrefabAsync("Page_CarAttrs.prefab", nil, nil, function(param, obj)
+--        ---@type Page_CarInfo4
+--        local class = param[1]
+--        class.CurPagePrefab = obj
+--        UIUtil.SetParentGameObject(class.PageRoot[param[2]], obj)
+--        local temp = Page_CarAttrs()
+--        temp:SetCarData(obj, class.cardata)
+--    end, {self, 2})
+--
+--end
+--
+--function Page_CarInfo4:SetPageEquipment()
+--    if self.CurPagePrefab then
+--        PrefabCacheMgr:Get():RecyclePrefab(self.CurPagePrefab)
+--    end
+--
+--    PrefabCacheMgr:Get():SwapPrefabAsync("Page_CarEquipment.prefab", nil, nil, function(param, obj)
+--        ---@type Page_CarInfo4
+--        local class = param[1]
+--        class.CurPagePrefab = obj
+--        UIUtil.SetParentGameObject(class.PageRoot[param[2]], obj)
+--
+--        class.CarEquipment = Page_CarEquipment()
+--        if class.cardata then class.CarEquipment:SetCarData(obj, class.cardata, class.ModuleID) end
+--        if class.msgData then class.CarEquipment:SetPlayerData(obj, class.msgData, class.ModuleID) end
+--    end, {self, 3})
+--
+--end

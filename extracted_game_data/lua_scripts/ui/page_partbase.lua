@@ -1,0 +1,82 @@
+--
+--
+--
+-----@class Page_PartBase
+--Page_PartBase = class("Page_PartBase")
+--
+--function Page_PartBase:initialize()
+--    self.cfg = nil
+--    self.icon = nil
+--    self.partid = nil
+--    self.quality = nil
+--    self.star = nil
+--    self.uimodule = nil
+--
+--    self.attrList = nil
+--end
+--
+-----@param ArticleData ArticleCell
+--function Page_PartBase:SetArticleData(root, ArticleData, uimodule)
+--    self.cfg      = ArticleData:GetPartConfig()
+--    self.icon     = ArticleData:GetPartConfig().icon
+--    self.partid   = ArticleData:GetPartConfig().id
+--    self.quality  = ArticleData:GetPartQuality()
+--    self.star     = ArticleData:GetPartStar()
+--    self.uimodule = uimodule
+--    self.attrList = ArticleData:GetPartAttrList()
+--
+--    self:SetUI(root)
+--end
+-----@param cfg parts_config_cell
+--function Page_PartBase:SetCfgData(root, cfg, uimodule)
+--    self.cfg      = cfg
+--    self.icon     = cfg.icon
+--    self.partid   = cfg.id
+--    self.quality  = cfg.quality
+--    self.star     = cfg.quality
+--    self.uimodule = uimodule
+--
+--    self.attrList = {}
+--    for i = 1, #cfg.NewAttrs do
+--        local temp = PartAttrData()
+--        temp:SetData(cfg.NewAttrs[i][1], cfg.NewAttrs[i][2])
+--        table.insert(self.attrList, temp)
+--    end
+--
+--    self:SetUI(root)
+--end
+--
+--function Page_PartBase:SetCustomData(root, uimodule)
+--
+--end
+--
+--function Page_PartBase:SetUI(root)
+--    local itemobj = UIUtil.GetChild("PartCompoent", root)
+--    local param = Param_PartGroup()
+--    param.partId = self.partid
+--    param.quality = self.quality
+--    param.star = self.star
+--    param.moduleId = self.uimodule
+--    CommonHelper:SetPartGroup(itemobj, param)
+--
+--
+--    local list = self.attrList
+--    local numUp = 0
+--    local numDown = 0
+--    local numMid = 0
+--    local numSpecial = 0
+--    for i = 1, #list do
+--        if list[i].feature == AttrFeature.TypeUp then numUp = numUp + 1 end
+--        if list[i].feature == AttrFeature.TypeDown then numDown = numDown + 1 end
+--        if list[i].feature == AttrFeature.TypeMid then numMid = numMid + 1 end
+--        if list[i].feature == AttrFeature.TypeSpecial then numSpecial = numSpecial + 1 end
+--    end
+--
+--    CommonHelper:SetText("countup", root, tostring(numUp))
+--    CommonHelper:SetText("countdown", root, tostring(numDown))
+--    CommonHelper:SetText("countmid", root, tostring(numMid))
+--    CommonHelper:SetText("countspecial", root, tostring(numSpecial))
+--
+--    local group = UIUtil.GetChild("PartBaseAttrGroup", root)
+--    CommonHelper:SetPartBaseAttrGroup(group, self.attrList, self.uimodule, self.cfg)
+--end

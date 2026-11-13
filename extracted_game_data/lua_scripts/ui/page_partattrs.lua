@@ -1,0 +1,65 @@
+--
+-----@type table<number, PartAttrData>
+--local __AttrList = nil
+--
+--
+-----@class Page_PartAttrs
+--Page_PartAttrs = class("Page_PartAttrs")
+--
+--function Page_PartAttrs:initialize()
+--    self.attrList = nil
+--end
+--
+-----@param ArticleData ArticleCell
+--function Page_PartAttrs:SetArticleData(root, ArticleData)
+--    self.attrList = ArticleData:GetPartAttrList()
+--
+--    self:SaveAttrList()
+--
+--    self:SetUI(root)
+--end
+--
+-----@param cfg parts_config_cell
+--function Page_PartAttrs:SetCfgData(root, cfg)
+--    self.attrList = {}
+--    for i = 1, #cfg.NewAttrs do
+--        local temp = PartAttrData()
+--        temp:SetData(cfg.NewAttrs[i][1], cfg.NewAttrs[i][2])
+--        table.insert(self.attrList, temp)
+--    end
+--
+--    self:SaveAttrList()
+--
+--    self:SetUI(root)
+--end
+--
+--function Page_PartAttrs:SaveAttrList()
+--    __AttrList = {}
+--    local list = self.attrList
+--    for i = 1, #list do
+--        local insert = true
+--        for k,v in pairs(BaseAttr) do
+--            if list[i].type == v then
+--                insert = false
+--                break
+--            end
+--        end
+--
+--        if insert then
+--            table.insert(__AttrList, list[i])
+--        end
+--    end
+--end
+--
+--
+--function Page_PartAttrs:SetUI(root)
+--    local scrollview = UIUtil.GetTypeChildWightInputPath("MoreRowScrollView_V", root, typeof(MoreRowScrollView))
+--    CommonHelper:InitMoreRowScrollView(scrollview, #__AttrList, 2,function(dataIndex, itemObj, scroll)
+--        local data = __AttrList[dataIndex + 1]
+--        CommonHelper:SetText("attrname", itemObj, CommonHelper:GetAttrName(data.type))
+--
+--        local reature = UIUtil.GetChild("PartFeature", itemObj)
+--        CommonHelper:SetAttrFeatureIcon(data.type, data.value, reature)
+--    end)
+--end
+--

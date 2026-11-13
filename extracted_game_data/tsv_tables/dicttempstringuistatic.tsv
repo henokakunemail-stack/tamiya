@@ -1,0 +1,1769 @@
+string	string	string	string	string	string	String	String
+0	0	0	0	0	0	0	0
+C_ID	chs	cht	en	tai	ind	pt_BR	kr
+ID_1	前	前	Front	ก่อน	Depan	Avançar	프론트
+ID_2	中	中	Middle	กลาง	Tengah	Meio	미드
+ID_3	后	後	Rear	หลัง	Belakang	Voltar	리어
+ID_4	是	是	Yes	ใช่	Ya	Sim	예
+ID_5	否	否	No	ไม่ใช่	Tidak	Não	아니요
+ID_6	或	或	Or	หรือ	Atau	Ou	또는
+ID_7	无	無	None	ไม่มี	Tidak ada	Nenhum	없음
+ID_8	低	低	Low	ต่ำ	Rendah	Baixo	낮음
+ID_9	高	高	High	สูง	Tinggi	Alto	높음
+ID_10	关	關	Close	ปิด	Mati	Off	OFF
+ID_11	开	開	Open	เปิด	Hidup	On	ON
+ID_12	买	買	Buy	ซื้อ	Beli	Comprar	구입하다
+ID_13	白	白	White	ขาว	Putih	Branco	커먼
+ID_14	绿	綠	Green	เขียว	Hijau	Verde	언커먼
+ID_15	蓝	藍	Blue	น้ำเงิน	Biru	Azul	레어
+ID_16	紫	紫	Purple	ม่วง	Ungu	Roxo	유니크
+ID_17	橙	橙	Orange	ส้ม	Oranye	Laranja	레전더리
+ID_18	薄	薄	Thin	บาง	Tipis	Afinar	얇은
+ID_19	厚	厚	Thick	หนา	Tebal	Espesso	두꺼운
+ID_20	乔	喬	Joe	ต้นไม้ใหญ่	Pindah	Joe	조
+ID_21	全	全	All	ทั้งหมด	Semua	Completo	모두
+ID_22	月	月	Month	เดือน	Bulan	Lua	월
+ID_23	取消	取消	Cancel	ยกเลิก	Batal	Cancelar	취소
+ID_24	确定	確定	Confirm	ยืนยัน	Konfirmasi	Confirmar	확인
+ID_25	购买	購買	Purchase	ซื้อ	Beli	Comprar	확인하기
+ID_26	聊天	聊天	Chat	สนทนา	Obrolan	Bate-Papo	채팅
+ID_27	失败	失敗	Fail	ล้มเหลว	Gagal	Falhou	실패
+ID_28	返回	返回	Back	กลับ	Kembali	Retornar	돌아가기
+ID_29	综合	綜合	All	รวมทั้งหมด	Gabungan	Geral	종합
+ID_30	特性	特性	Trait	ลักษณะเด่น	Fitur	Infos	특성
+ID_31	技能	技能	Skill	ทักษะ	Keterampilan	Talento	스킬
+ID_32	其他	其他	Others	อื่น ๆ	Lainnya	Outro	기타
+ID_33	极速	極速	Topspeed	ความเร็วสูงสุด	Kecepatan tinggi	Velocidade Extrema	최고 속도
+ID_34	详细	詳細	Details	อย่างละเอียด	Detail	Detalhado	세부
+ID_35	名字	名字	Name	ชื่อ	Nama	Nome	이름
+ID_36	名称	名稱	Name	ชื่อ	Nama	Nome	이름
+ID_37	数值	數值	Value	ค่า	Nilai	Valor	수치
+ID_38	重置	重置	Reset	รีเซ็ต	Setel ulang	Reiniciar	초기화
+ID_39	最大	最大	Max	สูงสุด	Maksimum	Máximo	최대
+ID_40	更换	更換	Change	เปลี่ยน	Ganti	Substituir	변경
+ID_41	全部	全部	Total	ทั้งหมด	Semua	Todos	모두
+ID_42	筛选	篩選	Select	เลือก	Saring	Selecionar	필터
+ID_43	升级	升級	Upgrade	อัพเกรด	Meningkatkan	Atualizar	레벨업
+ID_44	改造	改造	Transform	แปลง	Mentransformasi	Transformar	개조
+ID_45	升星	進化	Star up	เจริญพันธุ์	Evolusi	Evolução	승급
+ID_46	卸下	卸下	Remove	ถอดออก	Melepaskan	Remover	제거
+ID_47	基础	基礎	Base	ฐาน	Dasar	Base	기본
+ID_48	车壳	車殼	Body Shell	โครงรถยนต์	Body Mobil	Corpo	카울
+ID_49	底盘	底盤	Chassis	โครงสร้าง	Sasis	Chassi	섀시
+ID_50	马达	馬達	Motor	เครื่องยนต์	Motor	Motor	모터
+ID_51	龙头	龍頭	Front plate	แผ่นหน้า	Bumper Depan	Placa Dianteira	프론트 플레이트
+ID_52	中翼	中翼	Side stays	ยางข้าง	Sayap tengah	Hastes Laterais	사이드 스테이
+ID_53	凤尾	鳳尾	Rear plate	แผ่นหลัง	Bumper Belakang	Placa Traseira	리어 플레이트
+ID_54	强化	強化	Enhance	เพิ่มพูน	Penguatan	Fortalecer	강화
+ID_55	重铸	重鑄	Reforge	รีแคสต์	Peleburan ulang	Reformular	리캐스팅
+ID_56	有利	有利	Favorable	ดี	Menguntungkan	Favorável	유리
+ID_57	不利	不利	Unfavorable	ไม่ดี	Merugikan	Desfavorável	불리
+ID_58	关闭	關閉	Close	ปิด	Menutup	Estreito	닫기
+ID_59	选择	選擇	Select	เลือก	Memilih	Selecionar	선택
+ID_60	打孔	打孔	Perforate	เจาะรู	Melubangi	Perfuração	타공
+ID_61	创建	創建	Set up	ติดตั้ง	Membuat	Montar	생성
+ID_62	肚肚	肚肚	Tummy	ท้อง	Perut	Assoalho	배
+ID_63	领取	領取	Claim	เรียกร้อง	Menerima	Coletar	보상 수령
+ID_64	赛制	賽制	Competition system	ระบบการแข่งขัน	Sistem kompetisi	Sistema De Competição	레이스 시스템
+ID_65	当前	當前	Current	ปัจจุบัน	Saat ini	Atual	현재
+ID_66	奖励	獎勵	Rewards	รางวัล	Hadiah	Prêmio	보상
+ID_67	参赛	參賽	Join	เข้าร่วมการแข่งขัน	Bertanding	Aplicar	참가
+ID_68	换车	換車	Change vehicle	เปลี่ยนรถ	Mengganti mobil	Trocar	미니카 번경
+ID_69	报名	報名	Sign up	ลงทะเบียน	Pendaftaran	Inscrever-Se	참가 신청
+ID_70	发送	發送	Send	ส่ง	Mengirim	Enviar	보내기
+ID_71	位置	位置	Location	สถานที่	Posisi	Localização	위치
+ID_72	品质	品質	Quality	คุณภาพ	Kualitas	Qualidade	품질
+ID_73	5星	5星	5 star	5 ดาว	5 bintang	5 estrelas	5성
+ID_74	4星	4星	4 star	4 ดาว	4 bintang	4 estrelas	4성
+ID_75	3星	3星	3 star	3 ดาว	3 bintang	3 estrelas	3성
+ID_76	2星	2星	2 star	2 ดาว	2 bintang	2 estrelas	2성
+ID_77	1星	1星	1 star	1 ดาว	1 bintang	1 estrela	1성
+ID_78	详情	詳情	Detail	รายละเอียด	Detail	Detalhes	상세 정보
+ID_79	类型	類型	Type	ประเภท	Tipe	Tipo	유형
+ID_80	属性	屬性	Stats	คุณสมบัติ	Atribut	Atributos	능력치
+ID_81	组装	組裝	Install	ประกอบ	Perakitan	Instalar	조립
+ID_82	背包	背包	Bag	กระเป๋าเป้	Ransel	Mochila	가방
+ID_83	配件	配件	Accessory	อุปกรณ์ตกแต่ง	Aksesoris	Acessórios	잠금
+ID_84	道具	道具	Item	ไอเท็ม	Barang	Adereços	아이템
+ID_85	轮胎	輪胎	Tires	ยางล้อ	Ban	Pneu	타이어
+ID_86	使用	使用	Use	ใช้	Menggunakan	Usar	사용
+ID_87	打开	打開	Open	เปิด	Buka	Abrir	열기
+ID_88	暂停	暫停	Pause	หยุดชั่วคราว	Jeda	Pausar	일시 중지
+ID_89	单步	單步	One step	ขั้นตอนเดียว	Langkah tunggal	Único Passo	스텝
+ID_90	镜头	鏡頭	Camera	มุมมอง	Kamera	Câmera	카메라
+ID_91	退出	退出	Quit	ออกจาก	Keluar	Sair	종료
+ID_92	继续	繼續	Continue	ดำเนินการต่อ	Lanjutkan	Continuar	계속
+ID_93	回放	回放	Replay	เล่นซ้ำ	Putar ulang	Jogue Novamente	재생
+ID_94	周赛	周賽	Weekly Match	การแข่งขันสัปดาห์ละครั้ง	Kompetisi mingguan	Competição Semanal	주간 레이스
+ID_95	关卡	關卡	Level	ระดับ	Level	Nível	레벨
+ID_96	章节	章節	Chapter	บท	Bab	Capítulo	챕터
+ID_97	世界	世界	World	โลก	Dunia	Mundo	월드
+ID_98	本服	本服	Current Server	เซิร์ฟเวอร์ปัจจุบัน	Server lokal	Servidor Atual	서버
+ID_99	好友	好友	Friend	เพื่อนร่วมทีม	Teman	Amigos	친구
+ID_100	加入	加入	Join in	เข้าร่วม	Bergabung	Junte-Se	참가
+ID_101	离线	離線	Offline	ออฟไลน์	Offline	Desligado	오프라인
+ID_102	长度	長度	Length	ความยาว	Panjang	Comprimento	길이
+ID_103	积分	積分	Points	คะแนน	Poin	Pontos	포인트
+ID_104	兑换	兌換	Redeem	แลกคะแนนสะสม	Tukar	Resgatar	교환
+ID_105	申请	申請	Apply	สมัคร	Ajukan	Aplicar	신청
+ID_106	宣言	宣言	Note	การประกาศ	Deklarasi	Nota	선언
+ID_107	同意	同意	Agree	ตกลง	Setuju	Concordar	동의
+ID_108	拒绝	拒絕	Refuse	ปฏิเสธ	Menolak	Rejeitar	거절
+ID_109	人数	人數	Members	ประชากร	Anggota	Membros	인원 수
+ID_110	刷新	刷新	Refresh	รีเฟรช	Segarkan	Atualizar	새로 고침
+ID_111	搜索	搜索	Search	ค้นหา	Cari	Buscar	검색
+ID_112	会长	會長	Leader	ประธาน	Ketua	Presidente	마스터
+ID_113	内容	內容	Content	เนื้อหา	Isi	Índice	콘텐츠
+ID_114	8人	8人	8 players	8 ผู้เล่น	8 orang	8 Jogadores	8명
+ID_115	参加	參加	Participate	เข้าร่วม	Bergabung	Participar	참여
+ID_116	直道	直道	Straight	ตรง	Lurus	Reta	직선
+ID_117	弯道	彎道	Curve	โค้ง	Tikungan	Curva	커브
+ID_118	坡道	坡道	Ramp	แผ่นรั้ว	Tanjakan	Rampa	슬로프
+ID_119	跳台	跳臺	Jumping Platform	จัมพ์ปิดกระโดด	Papan lompat	Plataforma	점프 플랫폼
+ID_120	均衡	均衡	Balance	สมดุลย์	Seimbang	Equilibrado	밸런스
+ID_121	续航	續航	Endurance	ความทนทาน	Daya Tahan	Durabilidade	엔듀런스
+ID_122	挑战	挑戰	Challenge	การท้าทาย	Tantangan	Desafio	도전
+ID_123	选车	選車	Choose Vehicle	เลือกยานพาหนะ	Pilih mobil	Seleção De Carros	미니카 선택
+ID_124	查看	查看	Check	ตรวจสอบ	Lihat	Verificar	확인
+ID_125	练习	練習	Practice	ฝึกฝน	Latihan	Prática	연습
+ID_126	删除	刪除	Delete	ลบ	Hapus	Excluir	삭제
+ID_127	编辑	編輯	Edit	แก้ไข	Edit	Editar	편집
+ID_128	制式	制式	Model	โมเดล	Format	Padrão	포맷
+ID_129	预览	預覽	Preview	ดูตัวอย่าง	Pratinjau	Prévia	미리보기
+ID_130	自由	自由	Unrestrained	ไม่จำกัด	Bebas	Irrestrito	자유
+ID_131	添加	添加	Add	เพิ่ม	Tambahkan	Adicionar	추가
+ID_132	商店	商店	Shop	ร้านค้า	Toko	Loja	상점
+ID_133	科技	科技	Science & Technology	เทคโนโลยี	Teknologi	Ciência E Tecnologia	기술
+ID_134	保存	保存	Save	บันทึก	Simpan	Salvar	저장
+ID_135	撤销	撤銷	Undo	ยกเลิก	Batalkan	Desfazer	실행 취소
+ID_136	弯道	彎道	Curve	โค้ง	Tikungan	Curva	커브
+ID_137	龙脊	龍脊	Dragon's Ridge	หุบเขามังกร	Punggung naga	Crista Do Dragão	드래곤 릿지
+ID_138	旋转	旋轉	Rotate	หมุดเหวี่ยง	Rotasi	Girar	회전
+ID_139	删除	刪除	Delete	ลบ	Hapus	Excluir	삭제
+ID_140	试跑	試跑	Test Run	ทดสอบรัน	Uji coba	Teste De Corrida	시험 실행
+ID_141	详情	詳情	Details	รายละเอียด	Detail	Detalhes	세부 정보
+ID_142	赛道	賽道	Track	ลูกวาง	Lintasan	Pista	트랙
+ID_143	难度	難度	Game Level	ระดับเกม	Kesulitan	Dificuldade	난이도
+ID_144	复制	複製	Copy	คัดลอก	Menyalin	Copiar	복사
+ID_145	邮件	郵件	Mails	อีเมล	Email	Email	우편
+ID_146	表头	表頭	Table Head	ส่วนหัวตาราง	Header	Cabeçalho	헤더
+ID_147	赠送	贈送	Donate	บริจาค	Menyalin	Presente	선물 하기
+ID_148	流畅	流暢	Smooth	ความคล่องแคล่ว	Lancar	Popular	원활
+ID_149	维护	維護	Maintain	รักษา	Perawatan	Manutenção	점검
+ID_150	拥挤	擁擠	Crowded	คนเยอะ	Padat	Lotado	혼잡
+ID_151	注销	註銷	Log Out	ออกจากระบบ	Keluar	Sair	로그아웃
+ID_152	登入	登入	Log In	เข้าสู่ระบบ	Masuk	Conectar	로그인
+ID_153	车库	車庫	Garage	โรงรถ	Garasi	Garagem	차고
+ID_154	涂装	塗裝	Painting	การเขียนแบบ	Cat	Pintura	페인팅
+ID_155	说明	說明	Description	คำอธิบาย	Instruksi	Descrição	설명
+ID_156	合成	合成	Merge	การสังเคราะห์	Sintesis	Síntese	합성
+ID_157	分解	分解	Disassemble	การย่อยสลาย	Penguraian	Decomposição	분해
+ID_158	加速	加速	Accelerate	เร่งความเร็ว	Akselerasi	Acelerar	가속
+ID_159	普通	普通	Common	ธรรมดา	Biasa	Comum	보통
+ID_160	俱乐部	俱樂部	Club	สโมสร	Klub	Clube	클럽
+ID_161	特训	特訓	Train	ฝึก	Pelatihan	Treino	특훈
+ID_162	仓库	倉庫	Warehouse	คลังสินค้า	Gudang	Armazém	창고
+ID_163	时间	時間	Time	เวลา	Waktu	Tempo	시간
+ID_164	跳过	跳過	Skip	ข้าม	Lewati	Pular	건너뛰기
+ID_165	玩家	玩家	Player(s)	ผู้เล่น	Pemain	Jogador	플레이어
+ID_166	头像	頭像	Avatar	อวาตาร์	Avatar	Avatar	아바타
+ID_167	等级	等級	Rank	อันดับ	Level	Nível	레벨
+ID_168	收集	收集	Collect	สะสม	Kumpulkan	Coletar	수집
+ID_169	解锁	解鎖	Unlock	ปลดล็อค	Buka kunci	Desbloquear	잠금 해제 해제
+ID_170	邀请	邀請	Invite	เชิญ	Undang	Convidar	초대
+ID_171	顶视	頂視	Overlook	ชม	Pandangan atas	Topo	탑뷰
+ID_172	飞车	飛車	Fast Drive	ขับรถเร็ว	Balap liar	Condução Veloz	플라잉 카
+ID_173	接受	接受	Accept	ยอมรับ	Terima	Aceitar	수락
+ID_174	准备	準備	Prepare	เตรียม	Persiapan	Preparar	준비
+ID_175	试跑	試跑	Test Run	ทดสอบรัน	Uji Coba	Teste	연습
+ID_176	开始	開始	Start	เริ่มต้น	Mulai	Começar	시작
+ID_177	分享	分享	Share	แบ่งปัน	Bagikan	Compartilhar	공유
+ID_178	房主	房主	Host	เจ้าภาพ	Pemilik Ruangan	Dono	방장
+ID_179	修改	修改	Modify	แก้ไข	Ubah	Rever	수정
+ID_180	密码	密碼	Code	รหัส	Kata Sandi	Senha	비밀번호
+ID_181	赛道	賽道	Track	ลูกวาง	Lintasan	Pista	트랙
+ID_182	观战	觀戰	Watching The Battle	ดูการต่อสู้	Tontonan	Assista O Jogo	관전
+ID_183	分组	分組	Group	กลุ่ม	Grup	Grupo	팀 선택
+ID_184	收起	收起	Fold Up	พับ	Lipat	Dobrável	닫기
+ID_185	排名	排名	Ranking	อันดับ	Peringkat	Ranque	랭킹
+ID_186	不限	不限	Unlimited	ไม่จำกัด	Tidak terbatas	Ilimitado	제한 없음
+ID_187	周一	週一	Monday	วันจันทร์	Senin	Segunda	월요일
+ID_188	决赛	決賽	Final	รอบชิงชนะเลิศ	Final	Final	결승
+ID_189	名次	名次	Rank	อันดับ	Peringkat	Ranque	순위
+ID_190	免费	免費	Free	ฟรี	Gratis	Grátis	무료
+ID_191	赛事	賽事	Events	กิจกรรม	Acara balap	Competição	토너먼트
+ID_192	段位	段位	Rank	อันดับ	Level	Ranque	티어
+ID_193	扭蛋	扭蛋	Gashapon	กาชาปอง	Mesin Mainan Otomatis	Gacha	캡슐
+ID_194	推荐	推薦	Recommend	แนะนำ	Rekomendasi	Sugerido	추천
+ID_195	推荐	推薦	Recommend	แนะนำ	Rekomendasi	Sugerido	추천
+ID_196	消耗	消耗	Use	ใช้	Konsumsi	Usar	소모 갯수
+ID_197	扫荡	掃蕩	Sweep	ถูบ้าง	Menyapu	Varrer	소탕
+ID_198	首通	首通	1st Clearance	ผ่านด่านครั้งแรก	Pertama	Primeira Conclusão	처음 클리어
+ID_199	难度	難度	Game Level	ระดับเกม	Kesulitan	Dificuldade	난이도
+ID_200	场景	場景	Scenarios	เหตุการณ์	Adegan	Cenas	배경
+ID_201	7天	7天	7 days	7 วัน	7 hari	7 Dias	7일
+ID_202	5关	5關	5 mission	5 ภารกิจ	5 misi	5 Missões	스테이지 5
+ID_203	7关	7關	7 mission	7 ภารกิจ	7 misi	7 Missões	스테이지 7
+ID_204	速度	速度	Speed	ความเร็ว	Kecepatan	Velocidade	속도
+ID_205	越野	越野	Off-road	ข้ามป่า	Off-road	Rally	오프로드
+ID_206	简单	簡單	Easy	ง่าย	Mudah	Fácil	쉬움
+ID_207	中等	中等	Normal	ปกติ	Sedang	Médio	중간
+ID_208	较难	較難	Hard	ยาก	Sulit	Difícil	어려움
+ID_209	极难	極難	Extremely Hard	ยากมาก	Sangat sulit	Mega Difícil	매우 어려움
+ID_210	随机	隨機	Random	สุ่ม	Acak	Aleatório	랜덤
+ID_211	前往	前往	Proceed	ดำเนินต่อไป	Pergi ke	Vá Para	바로 가기
+ID_212	确认	確認	Confirm	ยืนยัน	Konfirmasi	Confirme	확인
+ID_213	设置	設置	Settings	การตั้งค่า	Pengaturan	Configurar	설정
+ID_214	登出	登出	Log Out	ออกจากระบบ	Keluar	Sair	로그아웃
+ID_215	库存	庫存	Stock	สต็อก	Persediaan	Em Estoque	인벤토리
+ID_216	全选	全選	Select All	เลือกทั้งหมด	Pilih semua	Selecionar Tudo	모두 선택
+ID_217	结算	結算	Settle	ตกลง	Settlement	Liquidação	결제
+ID_218	移除	移除	Remove	ลบ	Hapus	Remover	제거
+ID_219	周常	周常	Weekly Goal	เป้าหมายสัปดาห์ละ	Mingguan	Semanalmente	주간
+ID_220	几率	機率	Chance	ความน่าจะเป็น	Probabilitas	Chance	확률
+ID_221	5级	5級	Level 5	ระดับ 5	Level 5	Nível 5	5 레벨
+ID_222	低级	低級	Primary	ประถม	Rendah	Fácil	초급
+ID_223	中级	中級	Intermediate	ระดับกลาง	Menengah	Médio	중급
+ID_224	高级	高級	Advanced	ขั้นสูง	Tinggi	Difícil	고급
+ID_225	提示	提示	Tips	เคล็ดลับ	Petunjuk	Dica	팁
+ID_226	任务	任務	Tasks	งาน	Misi	Tarefa	미션
+ID_227	登陆	登陸	Login	เข้าสู่ระบบ	Login	Conecte-Se	로그인
+ID_228	三轨	三軌	Three Tracks	สามเส้นทาง	Tiga jalur	3 Faixas	3단 트랙
+ID_229	五轨	五軌	Five Tracks	ห้าเส้นทาง	Lima jalur	5 Faixas	5단 트랙
+ID_230	生产	生產	Produce	ผลิต	Produksi	Produção	생산
+ID_231	模块	模組	Module	โมดูล	Modul	Módulo	모듈
+ID_232	合批	合批	Combined	รวมกัน	Batching	Lote	결합
+ID_233	定位	定位	Locate	ค้นหาตำแหน่ง	Penempatan	Posição	찾기
+ID_234	隐藏	隱藏	Hide	ซ่อน	Sembunyikan	Esconder	숨기기
+ID_235	显示	顯示	Display	แสดงผล	Tampilkan	Mostrar	표시하기
+ID_236	标题	標題	Title	หัวเรื่อง	Judul	Título	제목
+ID_237	移动	移動	Move	ย้าย	Gerakkan	Mover	이동
+ID_238	选中	選中	Select	เลือก	Pilih	Selecionado	선택
+ID_239	上横	上橫	Up Horizontal Line	เส้นแนวนอนขึ้น	Garis atas	Horizontal Superior	위쪽 수평선
+ID_240	左横	左橫	Left Horizontal Line	เส้นแนวนอนซ้าย	Garis kiri	Horizontal Esquerda	왼쪽 수평선
+ID_241	右横	右橫	Right Horizontal Line	เส้นแนวนอนขวา	Garis kanan	Horizontal Direita	오른쪽 수평선
+ID_242	下横	下橫	Down Horizontal Line	เส้นแนวนอนลง	Garis bawah	Horizontal Inferior	아래쪽 수평선
+ID_243	上竖	上豎	Up Vertical Line	เส้นแนวตั้งขึ้น	Garis vertikal atas	Vertical	위쪽 수직선
+ID_244	左竖	左豎	Left Vertical Line	เส้นแนวตั้งซ้าย	Garis vertikal kiri	Esquerda Vertical	왼쪽 세로선
+ID_245	右竖	右豎	Right Vertical Line	เส้นแนวตั้งขวา	Garis vertikal kanan	Vertical Direita	오른쪽 세로선
+ID_246	下竖	下豎	Down Vertical Line	เส้นแนวตั้งลง	Garis vertikal bawah	Vertical Inferior	아래쪽 수직선
+ID_247	拍照	拍照	Take Photo	ถ่ายภาพ	Ambil foto	Fotografia	사진 찍기
+ID_248	红点	紅點	Red Dot	จุดสีแดง	Titik merah	Ponto Vermelho	빨간 점
+ID_249	取出	取出	Take Out	เอาออก	Keluarkan	Retirar	꺼내기
+ID_250	青铜	青銅	Bronze	ทองแดง	Perunggu	Bronze	브론즈
+ID_251	白银	白銀	Silver	เงิน	Perak	Prata	실버
+ID_252	黄金	黃金	Gold	ทอง	Emas	Ouro	골드
+ID_253	铂金	鉑金	Platinum	แพลตตินั่ม	Platinum	Platina	플래티넘
+ID_254	钻石	鑽石	Diamond	เพชร	Berlian	Diamante	다이아몬드
+ID_255	私聊	私聊	Private Chat	แชทส่วนตัว	Pesan pribadi	Chat Privado	귓속말
+ID_256	制作	製作	Produce	ผลิต	Buat	Fabricação	생산
+ID_257	中文	中文	Chinese	จีน	Bahasa Cina	Chinês	중국어
+ID_258	碎片	碎片	Fragment	ชิ้นส่วน	Kepingan	Fragmentos	조각
+ID_259	导轮	導輪	Roller	ล้อเล็กนำทาง	Roller	Roda Guia	롤러
+ID_260	前中	前中	Mid-front	กลางหน้า	Depan tengah	Meio Frontal	미드 프론트
+ID_261	中中	中中	Center	กลาง	Tengah	Centro	미드
+ID_262	后中	後中	Mid-rear	กลางหลัง	Belakang tengah	Meio Traseiro	미드 리어
+ID_263	前下	前下	Down-front	ล่างหน้า	Depan bawah	Frente Inferior	프론트 언더
+ID_264	中下	中下	Down-mid	ล่างกลาง	Tengah bawah	Meio Inferior	미드 언더
+ID_265	后下	後下	Down-rear	ล่างหลัง	Belakang bawah	Traseiro Inferior	리어 언더
+ID_266	已领取	已領取	Claimed	เรียกร้อง	Telah diterima	Recebido	획득 완료
+ID_267	青铜Ⅰ	青銅Ⅰ	Bronze Ⅰ	ทองแดง Ⅰ	Perunggu I	Bronze 1	브론즈 Ⅰ
+ID_268	青铜Ⅱ	青銅Ⅱ	Bronze Ⅱ	ทองแดง Ⅱ	Perunggu II	Bronze 2	브론즈 Ⅱ
+ID_269	青铜Ⅲ	青銅Ⅲ	Bronze Ⅲ	ทองแดง Ⅲ	Perunggu III	Bronze 3	브론즈 Ⅲ
+ID_270	青铜Ⅳ	青銅Ⅳ	Bronze Ⅳ	ทองแดง Ⅳ	Perunggu IV	Bronze 4	브론즈 Ⅳ
+ID_271	青铜Ⅴ	青銅Ⅴ	Bronze Ⅴ	ทองแดง Ⅴ	Perunggu V	Bronze 5	브론즈 Ⅴ
+ID_272	白银Ⅰ	白銀Ⅰ	Silver Ⅰ	เงิน Ⅰ	Perak I	Prata 1	실버 Ⅰ
+ID_273	白银Ⅱ	白銀Ⅱ	Silver  Ⅱ	เงิน Ⅱ	Perak II	Prata 2	실버 Ⅱ
+ID_274	白银Ⅲ	白銀Ⅲ	Silver Ⅲ	เงิน Ⅲ	Perak III	Prata 3	실버 Ⅲ
+ID_275	白银Ⅳ	白銀Ⅳ	Silver Ⅳ	เงิน Ⅳ	Perak IV	Prata 4	실버 Ⅳ
+ID_276	白银Ⅴ	白銀Ⅴ	Silver Ⅴ	เงิน Ⅴ	Perak V	Prata 5	실버 Ⅴ
+ID_277	黄金Ⅰ	黃金Ⅰ	Gold Ⅰ	ทอง Ⅰ	Emas I	Ouro 1	골드 Ⅰ
+ID_278	黄金Ⅱ	黃金Ⅱ	Gold Ⅱ	ทอง Ⅱ	Emas II	Ouro 2	골드 Ⅱ
+ID_279	黄金Ⅲ	黃金Ⅲ	Gold Ⅲ	ทอง Ⅲ	Emas III	Ouro 3	골드 Ⅲ
+ID_280	黄金Ⅳ	黃金Ⅳ	Gold Ⅳ	ทอง Ⅳ	Emas IV	Ouro 4	골드 Ⅳ
+ID_281	黄金Ⅴ	黃金Ⅴ	Gold Ⅴ	ทอง Ⅴ	Emas V	Ouro 5	골드 Ⅴ
+ID_282	铂金Ⅰ	鉑金Ⅰ	Platinum Ⅰ	แพลตตินั่ม Ⅰ	Platinum I	Platina 1	플래티넘 Ⅰ
+ID_283	铂金Ⅱ	鉑金Ⅱ	Platinum Ⅱ	แพลตตินั่ม Ⅱ	Platinum II	Platina 2	플래티넘 Ⅱ
+ID_284	铂金Ⅲ	鉑金Ⅲ	Platinum Ⅲ	แพลตตินั่ม Ⅲ	Platinum III	Platina 3	플래티넘 Ⅲ
+ID_285	铂金Ⅳ	鉑金Ⅳ	Platinum Ⅳ	แพลตตินั่ม Ⅳ	Platinum IV	Platina 4	플래티넘 Ⅳ
+ID_286	铂金Ⅴ	鉑金Ⅴ	Platinum Ⅴ	แพลตตินั่ม Ⅴ	Platinum V	Platina 5	플래티넘 Ⅴ
+ID_287	钻石Ⅰ	鑽石Ⅰ	Diamond Ⅰ	เพชร Ⅰ	Berlian I	Diamante 1	다이아몬드 Ⅰ
+ID_288	钻石Ⅱ	鑽石Ⅱ	Diamond Ⅱ	เพชร Ⅱ	Berlian II	Diamante 2	다이아몬드 Ⅱ
+ID_289	钻石Ⅲ	鑽石Ⅲ	Diamond Ⅲ	เพชร Ⅲ	Berlian III	Diamante 3	다이아몬드 Ⅲ
+ID_290	钻石Ⅳ	鑽石Ⅳ	Diamond Ⅳ	เพชร Ⅳ	Berlian IV	Diamante 4	다이아몬드 Ⅳ
+ID_291	钻石Ⅴ	鑽石Ⅴ	Diamond Ⅴ	เพชร Ⅴ	Berlian V	Diamante 5	다이아몬드 Ⅶ
+ID_292	孔位1	孔位1	Hole 1	ไซต์หลุม	Slot 1	Fenda 1	홀 1
+ID_293	变化值	變化值	Variate Value	ค่าความแปรผัน	Nilai Perubahan	Mudar Valor	가변 값
+ID_294	齿轮组	齒輪組	Gear Set	ชุดเกียร์	Gugus Gigi	Engrenagens	기어 세트
+ID_295	前轮胎	前輪胎	Front Wheel Tire	ยางล้อหน้า	Ban Depan	Pneu Dianteiro	프론트 타이어
+ID_296	前轮毂	前輪轂	Front Wheel	โฮบล้อหน้า	Hub Depan	Cubo Dianteiro	프론트 휠
+ID_297	后轮毂	後輪轂	Rear Wheel	โฮบล้อหลัง	Hub Belakang	Cubo Traseiro	리어 휠
+ID_298	后轮胎	後輪胎	Rear Wheel Tire	ยางล้อหลัง	Ban Belakang	Pneu Traseiro	리어 타이어
+ID_299	扩展位	擴展位	Extended position	ไซต์ขยาย	Slot Ekspansi	Extensões	확장 슬롯
+ID_300	前2号	前2號	Front No.2	ตัวที่ 2 จากด้านหน้า	No. 2 Depan	2° Frontal	프론트 #2
+ID_301	前3号	前3號	Front No.3	ตัวที่ 3 จากด้านหน้า	No. 3 Depan	3° Frontal	프론트 #3
+ID_302	后2号	後2號	Rear No.2	ตัวที่ 2 จากด้านหลัง	No. 2 Belakang	2° Traseiro	리어 #2
+ID_303	后3号	後3號	Rear No.3	ตัวที่ 3 จากด้านหลัง	No. 3 Belakang	3° Traseiro	리어 #3
+ID_304	前丁丁	前釘釘	Front Mass Damper	โมดูลแรงม้าหน้า	Pemberat Depan	Amortecedor Dianteiro	프론트 매스 댐퍼
+ID_305	后丁丁	後釘釘	Back Mass Damper	โมดูลแรงม้าหลัง	Pemberat Belakang	Amortecedor Traseiro	리어 매스 댐퍼
+ID_306	增强位	增強位	Enhancement position	ไซต์เสริมสร้าง	Slot Penguatan	Melhorias	강화 파츠
+ID_307	可强化	可強化	Available to enhance	สามารถเสริมได้	Dapat Ditingkatkan	Reforçável	강화 가능
+ID_308	可改造	可改造	Available to transform	สามารถปรับปรุงได้	Dapat Dibangun Ulang	Reajustável	개조 가능
+ID_309	未解锁	未解鎖	Unlocked	ปลดล็อค	Tidak Terkunci	Bloqueado	잠금 해제 해제
+ID_310	成功率	成功率	Rate	อัตราสำเร็จ	peluang	chance	성공률
+ID_311	等级:	等級:	Level	เกรด	Level:	Nível:	레벨:
+ID_312	未打孔	未打孔	Not Perforated	ไม่มีรููเจาะ	Belum Dilubangi	Não Perfurado	미타공
+ID_313	已打孔	已打孔	Perforated	เจาะ	Sudah Dilubangi	Perfurado	타공 완료
+ID_314	第一天	第一天	Day 1	วันที่ 1	Hari ke-1	1° Dia	첫째 날
+ID_315	第二天	第二天	Day 2	วันที่ 2	Hari ke-2	2° Dia	둘째 날
+ID_316	第三天	第三天	Day 3	วันที่ 3	Hari ke-3	3° Dia	셋째 날
+ID_317	第四天	第四天	Day 4	วันที่ 4	Hari ke-4	4° Dia	넷째 날
+ID_318	第五天	第五天	Day 5	วันที่ 5	Hari ke-5	5° Dia	다섯째 날
+ID_319	第六天	第六天	Day 6	วันที่ 6	Hari ke-6	6° Dia	여섯째 날
+ID_320	第七天	第七天	Day 7	วันที่ 7	Hari ke-7	7° Dia	일곱째 날
+ID_321	第一日	第一日	Day 1	วันที่ 1	Hari ke-1	1° Dia	1일차
+ID_322	第二日	第二日	Day 2	วันที่ 2	Hari ke-2	2° Dia	2일차
+ID_323	第三日	第三日	Day 3	วันที่ 3	Hari ke-3	3° Dia	3일차
+ID_324	第四日	第四日	Day 4	วันที่ 4	Hari ke-4	4° Dia	4일차
+ID_325	第五日	第五日	Day 5	วันที่ 5	Hari ke-5	5° Dia	5일차
+ID_326	第六日	第六日	Day 6	วันที่ 6	Hari ke-6	6° Dia	6일차
+ID_327	第七日	第七日	Day 7	วันที่ 7	Hari ke-7	7° Dia	7일차
+ID_328	99次	99次	99 times	99 ครั้ง	99 Kali	99 Vezes	99회
+ID_329	已报名	已報名	Registered	ลงทะเบียนแล้ว	Telah Terdaftar	Registrado	접수 완료
+ID_330	第四名	第四名	No.4	ที่ 4	Peringkat Keempat	4° Lugar	4위
+ID_331	第五名	第五名	No.5	ที่ 5	Peringkat Kelima	5° Lugar	5위
+ID_332	参与奖	參與獎	Participation Reward	รางวัลการเข้าร่วม	Hadiah Partisipasi	Prêmio De Participação	참여 보상
+ID_333	第X天	第X天	Day X	วันที่ X	Hari ke-X	Dia X	X일
+ID_334	日礼包	日禮包	daily gift pack	ชุดของขวัญรายวัน	paket hadiah harian	pacote de presente diário	일일 패키지
+ID_335	周礼包	週禮包	Weekly gift pack	ชุดของขวัญประจำสัปดาห์	Paket hadiah mingguan	Pacote de presente semanal	주간 패키지
+ID_336	月礼包	月禮包	monthly gift pack	ชุดของขวัญรายเดือน	paket hadiah bulanan	pacote de presente mensal	월간 패키지
+ID_337	类型:	類型:	Type:	ประเภท:	Jenis:	Tipo:	유형:
+ID_338	属性名	屬性名	Stats Name	ชื่อแอตทริบิวต์	Nama Properti	Nome Do Atributo	능력치 이름
+ID_339	消耗品	消耗品	Consumables	วัสดุอุปกรณ์	Barang Konsumsi	Consumíveis	소모품
+ID_340	词条名	詞條名	Entry Name	ชื่อรายการ	Nama Entri	Nome De Entrada	옵션 이름
+ID_341	持有:	持有:	Holding:	ถือครอง:	Milik:	Tem:	보유:
+ID_342	名字：	名字：	Name:	ชื่อ:	Nama:	Nome:	이름:
+ID_343	拥有：	擁有：	Own:	เล่น:	Dimiliki:	Obtido:	소유:
+ID_344	锦标赛	錦標賽	Championship	การแข่งขัน	Turnamen	Campeonato	챔피언십
+ID_345	第一章	第一章	Chapter I	บทที่ 1	Bab Satu	Capítulo 1	챕터 I
+ID_346	青铜1	青銅1	Bronze Ⅰ	ทองแดง Ⅰ	Perunggu I	Bronze 1	브론즈 Ⅰ
+ID_347	青铜2	青銅2	Bronze Ⅱ	ทองแดง Ⅱ	Perunggu II	Bronze 2	브론즈 Ⅱ
+ID_348	青铜3	青銅3	Bronze Ⅲ	ทองแดง Ⅲ	Perunggu III	Bronze 3	브론즈 Ⅲ
+ID_349	青铜4	青銅4	Bronze Ⅳ	ทองแดง Ⅳ	Perunggu IV	Bronze 4	브론즈 Ⅳ
+ID_350	青铜5	青銅5	Bronze Ⅴ	ทองแดง Ⅴ	Perunggu V	Bronze 5	브론즈 Ⅴ
+ID_351	白银1	白銀1	Silver Ⅰ	เงิน Ⅰ	Perak I	Prata 1	실버 Ⅰ
+ID_352	白银2	白銀2	Silver  Ⅱ	เงิน Ⅱ	Perak II	Prata 2	실버 Ⅱ
+ID_353	白银3	白銀3	Silver Ⅲ	เงิน Ⅲ	Perak III	Prata 3	실버 Ⅲ
+ID_354	白银4	白銀4	Silver Ⅳ	เงิน Ⅳ	Perak IV	Prata 4	실버 Ⅳ
+ID_355	白银5	白銀5	Silver Ⅴ	เงิน Ⅴ	Perak V	Prata 5	실버 Ⅴ
+ID_356	黄金1	黃金1	Gold Ⅰ	ทอง Ⅰ	Emas I	Ouro 1	골드 Ⅰ
+ID_357	黄金2	黃金2	Gold Ⅱ	ทอง Ⅱ	Emas II	Ouro 2	골드 Ⅱ
+ID_358	黄金3	黃金3	Gold Ⅲ	ทอง Ⅲ	Emas III	Ouro 3	골드 Ⅲ
+ID_359	黄金4	黃金4	Gold Ⅳ	ทอง Ⅳ	Emas IV	Ouro 4	골드 Ⅳ
+ID_360	黄金5	黃金5	Gold Ⅴ	ทอง Ⅴ	Emas V	Ouro 5	골드 Ⅴ
+ID_361	铂金1	鉑金1	Platinum Ⅰ	แพลตตินั่ม Ⅰ	Platinum I	Platina 1	플래티넘 Ⅰ
+ID_362	铂金2	鉑金2	Platinum Ⅱ	แพลตตินั่ม Ⅱ	Platinum II	Platina 2	플래티넘 Ⅱ
+ID_363	铂金3	鉑金3	Platinum Ⅲ	แพลตตินั่ม Ⅲ	Platinum III	Platina 3	플래티넘 Ⅲ
+ID_364	铂金4	鉑金4	Platinum Ⅳ	แพลตตินั่ม Ⅳ	Platinum IV	Platina 4	플래티넘 Ⅳ
+ID_365	铂金5	鉑金5	Platinum Ⅴ	แพลตตินั่ม Ⅴ	Platinum V	Platina 5	플래티넘 Ⅴ
+ID_366	钻石1	鑽石1	Diamond Ⅰ	เพชร Ⅰ	Berlian I	Diamante 1	다이아몬드 Ⅰ
+ID_367	钻石2	鑽石2	Diamond Ⅱ	เพชร Ⅱ	Berlian II	Diamante 2	다이아몬드 Ⅱ
+ID_368	钻石3	鑽石3	Diamond Ⅲ	เพชร Ⅲ	Berlian III	Diamante 3	다이아몬드 Ⅲ
+ID_369	钻石4	鑽石4	Diamond Ⅳ	เพชร Ⅳ	Berlian IV	Diamante 4	다이아몬드 Ⅳ
+ID_370	钻石5	鑽石5	Diamond Ⅴ	เพชร Ⅴ	Berlian V	Diamante 5	다이아몬드 Ⅶ
+ID_371	俱乐部	俱樂部	Club	คลับ	Klub	Clube	클럽
+ID_372	新消息	新消息	New Information	ข้อมูลใหม่	Berita Terbaru	Notícias	새로운 소식
+ID_373	成员:	成員:	Member:	สมาชิก:	Anggota:	Membro:	멤버:
+ID_374	管理员	管理員	Officials	ผู้จัดการ	Administrator	Administrador	매니저
+ID_375	副会长	副會長	Vice leader	รองประธาน	Wakil Ketua	Vice	부회장
+ID_376	需审核	需審核	Need to be reviewed	ต้องการตรวจสอบ	Perlu Ditinjau	Precisa Revisar	심사 필요
+ID_377	已申请	已申請	Applied	สมัคร	Telah Diajukan	Aplicações	신청 완료
+ID_378	宣言:	宣言:	Declear	ประกาศ	Deklarasi:	Declaração:	선언:
+ID_379	进行中	進行中	In Process	อยู่ในขบวนการ	Sedang Berlangsung	Em Andamento	진행 중
+ID_380	已参加	已參加	Participated	เข้าร่วม	Telah Ikut Serta	Participou	참석됨
+ID_381	三轨道	三軌道	Three Tracks	3 ลูกเสา	Tiga Lintasan	3 Faixas	3단 트랙
+ID_382	五轨道	五軌道	Five Tracks	5 ลูกเสา	Lima Lintasan	5 Faixas	5단 트랙
+ID_383	换道器	換道器	Lane Changer	เปลี่ยนเลน	Peralihan Jalur	Mudança De Faixa	레인 체인저
+ID_384	波浪湾	波浪灣	Wave bay	เวฟเบย์	Gelombang Pantai	Baía De Onda	웨이브 베이
+ID_385	ab跳	ab跳	Ab Jump	Ab กระโดด	AB Jump	Salto Abdominal	AB점프
+ID_386	特殊块	特殊塊	Special Block	บล็อคพิเศษ	Blok Spesial	Bloco Especial	특수 블록
+ID_387	创作者	創作者	Creator	ผู้สร้าง	Pencipta	Criador	크리에이터
+ID_388	来自：	來自：	From:	จาก:	Dari:	De:	발송인:
+ID_389	主题：	主題：	Subject:	เรื่อง:	Topik:	Assunto:	제목:
+ID_390	黑名单	黑名單	Blocklist	รายชื่อบล็อค	Daftar Hitam	Lista Negra	블랙리스트
+ID_391	格式:	格式:	Format:	รูปแบบ:	Format:	Formatar:	양식:
+ID_392	名称:	名稱:	Name:	ชื่อ:	Nama:	Nome:	이름:
+ID_393	拥有:	擁有:	Own:	เจ้าของ:	Pemilik:	Obtido:	소유:
+ID_394	实验室	實驗室	Laboratory	ห้องปฏิบัติการ	Laboratorium	Laboratório	실험실
+ID_395	排行榜	排行榜	Ranking List	รายการจัดอันดับ	Papan Peringkat	Ranque	랭킹
+ID_396	未入榜	未入榜	None	ไม่อยู่ในรายชื่อ	Belum Masuk Daftar	Ausente	랭킹 미진입
+ID_397	名字:	名字:	Name:	ชื่อ:	Nama:	Nome:	이름:
+ID_398	服务器	伺服器	Server	เซิร์ฟเวอร์	Server	Servidor	서버
+ID_399	青铜一	青銅一	Bronze I	บรอนซ์ I	Perunggu Satu	Bronze 1	브론즈 I
+ID_400	微赛事	微賽事	Micre Event	เหตุการณ์เล็กน้อย	Mikro Turnamen	Microevento	마이너 이벤트
+ID_401	未完赛	未完賽	Unfinished match	การแข่งขันที่ไม่เสร็จสิ้น	Belum Selesai	Não Finalizado	DNF
+ID_402	10秒	10秒	10 seconds	10 วินาที	10 Detik	10 Segundos	10초
+ID_403	匹配中	配對中	Matching	การจับคู่	Sedang Dipasangkan	Emparelhando	매칭 중
+ID_404	赛道1	賽道1	Track 1	ลูกที่ 1	Lintasan 1	Pista 1	트랙 1
+ID_405	赛道2	賽道2	Track 2	ลูกที่ 2	Lintasan 2	Pista 2	트랙 2
+ID_406	赛道3	賽道3	Track 3	ลูกที่ 3	Lintasan 3	Pista 3	트랙 3
+ID_407	赛道4	賽道4	Track 4	ลูกที่ 4	Lintasan 4	Pista 4	트랙 4
+ID_408	赛道5	賽道5	Track 5	ลูกที่ 5	Lintasan 5	Pista 5	트랙 5
+ID_409	排位赛	排位賽	Qualifying Race	การคัดเลือก	Kualifikasi	Qualificação	랭킹전
+ID_410	房间名	房間名	Room's name	ชื่อห้อง	Nama ruangan	Sala	방 제목
+ID_411	更换	更換	Replace	แทนที่	Ubah	Trocar	변경
+ID_412	预览	預覽	Preview	ดูตัวอย่าง	Pratinjau	Prévia	미리보기
+ID_413	房间赛	房間賽	Room Match	การแข่งขันห้อง	Room match	Sala De Corrida	룸 레이스
+ID_414	A组：	A組：	Group A:	กลุ่ม A:	Grup A:	Grupo A:	A조:
+ID_415	俱乐部:	俱樂部:	Club:	คลับ:	Klub:	Clube:	클럽
+ID_416	方案:	方案:	Scheme:	โครงการ:	Rencana:	Projeto:	계획:
+ID_417	赛事明	賽事明	Event Name	ชื่อเหตุการณ์	Nama Event	Nome Do Evento	이벤트 이름
+ID_418	第一名	第一名	Champion	แชมป์	Juara pertama	Campeão	챔피언
+ID_419	上一步	上一步	Previous Step	ขั้นตอนก่อนหน้า	Langkah sebelumnya	Anterior	이전 단계
+ID_420	下一步	下一步	Next Step	ขั้นตอนต่อไป	Langkah selanjutnya	Próxima Etapa	다음 단계
+ID_421	创建人	創建人	Founder	ผู้ก่อตั้ง	Pembuat	Fundador	주최자
+ID_422	已完赛	已完賽	Completed	เสร็จสมบูรณ์	Selesai	Finalizado	완료
+ID_423	对战图	對戰圖	Battle Map	แผนที่ต่อสู้	Grafik pertandingan	Mapa De Batalha	대진표
+ID_424	海选赛	海選賽	Audition	การออดิชั่น	Seleksi	Eliminatórias	예선
+ID_425	淘汰赛	淘汰賽	Elimination match	การแข่งขันชิงชนะเลิศ	Babak Eliminasi	Competição Eliminatória	녹아웃 레이스
+ID_426	半决赛	半決賽	Semifinal	รอบรองชนะเลิศ	Semifinal	Semifinal	준결승
+ID_427	去报名	去報名	Go to register	ไปสมัครสมาชิก	Daftar sekarang	Inscreva-Se	접수하기
+ID_428	消耗X	消耗X	Consume X	ใช้ X	Konsumsi X	Consumir X	X 소비
+ID_429	第一轮	第一輪	First Round	รอบที่หนึ่ง	Putaran pertama	1° Rodada	ROUND 1
+ID_430	第二轮	第二輪	Second Round	รอบที่สอง	Putaran kedua	2° Rodada	ROUND 2
+ID_431	第三轮	第三輪	Third Round	รอบที่สาม	Putaran ketiga	3° Rodada	ROUND 3
+ID_432	可报名	可報名	Available to register	สามารถลงทะเบียนได้	Bisa mendaftar	Pode se inscrever	접수 가능
+ID_433	无消耗	無消耗	No Consumption	ไม่ต้องใช้การบริโภค	Tanpa konsumsi	Sem Consumo	소비 없음
+ID_434	游戏服	遊戲服	Game Server	เซิร์ฟเวอร์เกม	Server game	Servidor De Jogos	게임 서버
+ID_435	14天	14天	14 days	14 วัน	14 hari	14 dias	14일
+ID_436	关卡数	關卡數	Mission Amount	จำนวนภารกิจ	Jumlah level	Número De Níveis	스테이지 수
+ID_437	未参赛	未參賽	Not participating	ไม่ได้ร่วม	Belum ikut	Não Participou	참여하지 않음
+ID_438	参赛中	參賽中	In competition	อยู่ในการแข่งขัน	Sedang berlangsung	Competindo	참가 중
+ID_439	已完成	已完成	Completed	เสร็จสมบูรณ์	Selesai	Concluído	완료
+ID_440	可获得	可獲得	Available to get	พร้อมใช้งาน	Tersedia	Disponível	획득 가능
+ID_441	挑战劵	挑戰劵	Challenge ticket	คูปองท้าทาย	Kupon tantangan	Bilhete De Desafio	도전 쿠폰
+ID_442	兑换码	兌換碼	Redeem Code	รหัสแลกของรางวัล	Kode penebusan	Còdigo	쿠폰 교환
+ID_443	购物车	購物車	Shopping Cart	ตะกร้าสินค้า	Keranjang belanja	Carrinho De Compras	장바구니
+ID_444	已售罄	已售罄	Sold out	ขายหมด	Habis terjual	Vendido	매진
+ID_445	已作答	已作答	Answered	ตอบคำถามแล้ว	Telah menjawab	Respondidas	답변 완료
+ID_446	加载车	加載車	Loading Vehicles	การโหลดยานพาหนะ	Memuat Mobil	Carregando Carro	미니카 적재
+ID_447	下一页	下一頁	Next Page	หน้าถัดไป	Halaman berikutnya	Próxima Página	다음 페이지
+ID_448	上一页	上一頁	Previous Page	หน้าก่อนหน้า	Halaman sebelumnya	Página Anterior	이전 페이지
+ID_449	询问框	詢問框	Question Box	กล่องคำถาม	Kotak tanya jawab	Caixa De Consulta	질문 상자
+ID_450	假战斗	假戰鬥	Fake Battle	การต่อสู้เลียนแบบ	Pertandingan Palsu	Luta Falsa	가짜 전투
+ID_451	动画一	動畫一	Animation 1	ภาพเคลื่อนไหว 1	Animasi satu	Animação 1	애니메이션 1
+ID_452	动画二	動畫二	Animation 2	ภาพเคลื่อนไหว 2	Animasi dua	Animação 2	애니메이션 2
+ID_453	动画三	動畫三	Animation 3	ภาพเคลื่อนไหว 3	Animasi tiga	Animação 3	애니메이션 3
+ID_454	动画四	動畫四	Animation 4	ภาพเคลื่อนไหว 4	Animasi empat	Animação 4	애니메이션 4
+ID_455	定位页	定位頁	Locate Page	หาหน้า	Halaman posisi	Página De Posicionamento	페이지 찾기
+ID_456	车组装	車組裝	Car Installation	ติดตั้งรถ	Perakitan mobil	Montagem De Carro	미니카 조립
+ID_457	已选择	已選擇	Selected	ที่เลือก	Terpilih	Escolhido	선택
+ID_458	加强位	加強位	Enhancment position	เสริมความแข็งแกร่งของเว็บไซต์	Posisi penguatan	Reforçar	사이트 강화
+ID_459	单场赛	單場賽	Single Match Game	เกมแมทช์เดี่ยว	Pertandingan tunggal	Jogo Único	싱글 매치
+ID_460	快捷用语	快捷用語	Shortcut Terms	ทางลัดคำ	Frasa cepat	Atalhos	용어 바로가기
+ID_461	文本描述	文本描述	Content Description	คำอธิบายเนื้อหา	Deskripsi teks	Descrição Do Texto	콘텐츠 설명
+ID_462	战斗实况	戰鬥實況	Match Broadcast	การถ่ายทอดสดการต่อสู้	Siaran langsung pertempuran	Batalha Ao Vivo	전투 방송
+ID_463	我的记录	我的記錄	My Records	บันทึกของฉัน	Catatan saya	Meus Registros	내 기록
+ID_464	比较对象	比較對象	Comparative Subject	เรื่องที่เปรียบเทียบกัน	Objek perbandingan	Comparar Objetos	비교 대상
+ID_465	获得奖励	獲得獎勵	Get Rewards	รับรางวัล	Mendapatkan hadiah	Ganhe Recompensas	보상 받기
+ID_466	前往查看	前往查看	Go and Check	ไปตรวจสอบ	Buka untuk melihat	Ir Para Ver	확인하기
+ID_467	技能	技能	Skill	ทักษะการใช้เปลือก	Keterampilan Bodi	Habilidades Corporais	카울 스킬
+ID_468	暂无技能	暫無技能	Skill Unavailable	ทักษะไม่สามารถใช้ได้	Keterampilan tidak tersedia	Sem Habilidades	스킬 사용 불가
+ID_469	最高速度	最高速度	Top Speed	ความเร็วสูงสุด	Kecepatan maksimum	Velocidade Máxima	최고 속도
+ID_470	特性总览	特性總覽	Characteristic Overview	ภาพรวมลักษณะเฉพาะ	Ringkasan fitur	Visão Geral Dos Recursos	특성 개요
+ID_471	喷漆列表	噴漆列表	Painting List	รายการวาดภาพ	Daftar Cat	Lista De Pintura	페인트 목록
+ID_472	纱网列表	紗網列表	Mesh List	รายการผ้ากันเปื้อน	Daftar kawat saring	Lista De Gaze	메쉬 목록
+ID_473	属性名称	屬性名稱	Stats Name	ชื่อแอตทริบิวต์	Nama atribut	Nome Do Atributo	특성 명칭
+ID_474	当前数值	當前數值	Current Value	ค่าปัจจุบัน	Nilai saat ini	Valor Atual	현재 능력치
+ID_475	升级数值	升級數值	Upgrade Value	ค่าอัพเกรด	Nilai upgrade	Valor De Atualização	업그레이드 능력치
+ID_476	配件名称	配件名稱	Accessories Name	ชื่ออุปกรณ์เพิ่มเติม	Nama aksesoris	Acessórios	잠금
+ID_477	配件特性	配件特性	Accessories Characteristics	ลักษณะของอุปกรณ์เพิ่มเติม	Fitur aksesoris	Recursos De Acessórios	잠금 특성
+ID_478	锁定标记	鎖定標記	Lock Mark	เครื่องหมายล็อค	Tanda kunci	Marca De Bloqueio	태그 잠금 해제
+ID_479	当前状态	當前狀態	Current Status	สถานะปัจจุบัน	Status saat ini	Status Atual	현재 상태
+ID_480	筛选结果	篩選結果	Filter Results	กรองผลลัพธ์	Hasil penyaringan	Filtrar Resultados	필터 결과
+ID_481	显示切换	顯示切換	Toggle the Display	สลับการแสดงผล	Pengalihan tampilan	Alternância De Exibição	디스플레이 토글
+ID_482	车辆详情	車輛詳情	Vehicle Details	รายละเอียดยานพาหนะ	Detail kendaraan	Detalhes Do Veículo	미니카 세부 정보
+ID_483	空白词条	空白詞條	Blank Entry	รายการว่างเปล่า	Kotak kosong	Entrada Em Branco	옵션 없음
+ID_484	材料消耗	材料消耗	Material Consumption	การใช้วัสดุ	Konsumsi bahan	Consumo De Material	재료 소모
+ID_485	剩余次数	剩餘次數	Times Remaining	เวลาที่เหลือ	Sisa jumlah	Tempo Restante:% S	남은 시간
+ID_486	改造槽位	改造槽位	Transforming Slot	ช่องการเปลี่ยนแปลง	Slot modifikasi	Ajuste de fenda	개조 슬롯
+ID_487	名字名字	名字名字	Name	ชื่อ	Nama	Nome	이름
+ID_488	贴纸列表	貼紙列表	Sticker List	รายการสติกเกอร์	Daftar stiker	Lista De Figurinhas	데칼 목록
+ID_489	性特性特	性特性特	Characteristic	ลักษณะเฉพาะ	Fitur Spesial	Detalhes	특성
+ID_490	二级属性	二級屬性	Secondary stats	แอตทริบิวต์รอง	Atribut tingkat dua	Atributo Secundário	보조 속성
+ID_491	个性签名	個性簽名	Personal Signature	ลายเซ็นต์ส่วนตัว	Tanda Tangan Pribadi	Citação	개인 서명
+ID_492	车位选择	車位選擇	Parking space selection	รถยนต์	Pilih tempat parkir	Carro	차고 선택
+ID_493	个人信息	個人資訊	Personal Information	ข้อมูลส่วนตัว	Informasi pribadi	Informações Pessoais	개인 정보
+ID_494	俱乐部:	俱樂部:	Club	สโมสร	Klub:	Clube:	클럽
+ID_495	画面设置	畫面設置	Graphics Settings	การตั้งค่ากราฟิก	Pengaturan tampilan	Tela	그래픽 설정
+ID_496	声音设置	聲音設置	Audio Settings	การตั้งค่าเสียง	Pengaturan Efek Suara	Som	오디오 설정
+ID_497	推送设置	推送設置	Notification Settings	การตั้งค่าการแจ้งเตือน	Pengaturan push	Transmissão	푸시 설정
+ID_498	用户协议	用戶協議	User Policy	นโยบายผู้ใช้	Kebijakan Pengguna	Termo De Acordo Do Usuário	사용자 정책
+ID_499	用户中心	用戶中心	User Center	ศูนย์ผู้ใช้	Pusat Pengguna	Centro Do Usuário	사용자 센터
+ID_500	客服中心	客服中心	Customer Service Center	ศูนย์บริการลูกค้า	Pusat Layanan Pelanggan	Atendimento Ao Cliente	고객 서비스 센터
+ID_501	画面质量	畫面品質	Graphics Quality	คุณภาพกราฟิก	Kualitas Layar	Qualidade Gráfica	그래픽 품질
+ID_502	后期特效	螢幕後期	Screen effect	การผลิตหลังจากจอ	Tertunda Layar	Efeitos De Tela	이펙트 보정
+ID_503	音量设置	音量設置	Volume Setting	การตั้งค่าระดับเสียง	Pengaturan Volume	Volume	볼륨 설정
+ID_504	音效设置	音效設置	SFX Setting	การตั้งค่า SFX	Pengaturan Suara	Som	사운드 이펙트 설정
+ID_505	比赛名称	比賽名稱	Name of Competition	ชื่อการแข่งขัน	Nama Pertandingan	Nome Do Jogo	대회 이름
+ID_506	赛道预览	賽道預覽	Track Preview	ตัวอย่างสนามแข่ง	Pratinjau Trek	Prévia Da Pista	트랙 미리보기
+ID_507	比赛阶段	比賽階段	Competition Stage	ระยะการแข่งขัน	Tahap Pertandingan	Competição	대회 단계
+ID_508	报名截止	報名截止	Registration Deadline	กำหนดการลงทะเบียน	Pendaftaran Berakhir	Prazo De Inscrição	접수 마감
+ID_509	下一阶段	下一階段	Next Stage	ภารกิจถัดไป	Tahap Selanjutnya	Próxima Missão	다음 티어
+ID_510	60钻石	60鑽石	60 diamonds	60 เพชร	60 Berlian	60 diamantes	60 다이아
+ID_511	升星预览	進化預覽	Star up Preview	ตัวอย่างการพัฒนา	Pratinjau Evolusi	Visualização Da Evolução	진화 미리보기
+ID_512	前往充值	前往儲值	Go to purchase	ไปเติมเงิน	Ke Toko	Ir Para Recarregar	충전하러 가기
+ID_513	钻石商城	鑽石商城	Diamond Shop	ร้านค้าเพชร	Toko Berlian	Loja De Diamante	다이아 상점
+ID_514	游戏公告	遊戲公告	News	ประกาศเกม	Pengumuman	Anúncio Do Jogo	게임 공지
+ID_515	当前星级	當前星級	Current Star level	ดาวปัจจุบัน	Bintang Saat Ini	Estrela Atual	현재 진화 등급
+ID_516	当前等级	當前等級	Current Level	ระดับปัจจุบัน	Level Saat Ini	Nível Atual	현재 레벨
+ID_517	是否改造	是否改造	Do you want to transform	ต้องการเปลี่ยนแปลงหรือไม่	Apakah Dimodifikasi	Quer Transformar	개조 여부
+ID_518	配件介绍	配件介紹	Accessory description	รายละเอียด	Perkenalan Aksesori	Introdução de Acessórios	기본 설명
+ID_519	技能	車殼技能	Skill	ทักษะตัวคาร์เชลล์	Keterampilan Body	Habilidades do Corpo	카울 스킬
+ID_520	属性详情	屬性詳情	Stats Details	รายละเอียดแอตทริบิวต์	Rincian Atribut	Detalhes do Atributo	능력치 세부 정보
+ID_521	属性描述	屬性描述	Stats Description	คำอธิบายแอตทริบิวต์	Deskripsi Atribut	Descrição Do Atributo	능력치 설명
+ID_522	暂无物品	暫無物品	No items at present	ไม่มีรายการในปัจจุบัน	Tidak Ada Barang	Ainda Não Há Itens	현재 아이템 없음
+ID_523	装备信息	裝備資訊	Equipment Information	ข้อมูลอุปกรณ์	Informasi Peralatan	Informações Do Equipamento	장비 정보
+ID_524	道具信息	道具資訊	Item Information	ข้อมูลโปรด	Informasi Barang	Detalhes Do Adereço	아이템 정보
+ID_525	弯道飞车	彎道飛車	Fast Drive at the Curve	ขับรถเร็วบนโค้ง	Kencang di Tikungan	Velocidade Da Curva	코너링 머신
+ID_526	技能名字	技能名字	Skill Name	ชื่อทักษะ	Nama Skill	Nome Da Habilidade	스킬 이름
+ID_527	车辆名字	車輛名字	Vehicle Name	ชื่อยานพาหนะ	Nama Kendaraan	Nome Do Veículo	미니카 이름
+ID_528	购买数量	購買數量	Purchase Quantity	ปริมาณการซื้อ	Jumlah Pembelian	Quantidade De Compra	확인 수량
+ID_529	购买成功	購買成功	Purchase successfully	การซื้อสำเร็จแล้ว	Pembelian Berhasil	Compra Bem Sucedida	확인 성공
+ID_530	当前进度	當前進度	Current Progress	ความคืบหน้าปัจจุบัน	Kemajuan Saat Ini	Progresso Atual	진행 상황
+ID_531	点击加入	點擊加入	Click to join	คลิกเพื่อเข้าร่วม	Klik untuk bergabung	Clique Para Entrar	가입하기
+ID_532	查看资料	查看資料	Check Information	ตรวจสอบข้อมูล	Lihat Data	Verificando Dados	정보 확인
+ID_533	添加好友	添加好友	Add friend	เพิ่มเพื่อน	Tambahkan Teman	Adicionar Amigo	친구 추가
+ID_534	比赛详情	比賽詳情	Competition Information	ข้อมูลการแข่งขัน	Detail Pertandingan	Detalhes Da Competição	대회 정보
+ID_535	个人纪录	個人紀錄	Personal Record	ประวัติส่วนตัว	Rekam Pribadi	Registro Pessoal	개인 기록
+ID_536	首次免费	首次免費	Free for the first time	ฟรีครั้งแรก	Gratis Pertama Kali	1X Grátis	처음 무료
+ID_537	兑换奖励	兌換獎勵	Redeem Rewards	แลกของรางวัล	Tukar Hadiah	Resgatar Recompensas	보상 교환
+ID_538	成员名单	成員名單	Member list	รายชื่อสมาชิก	Daftar Anggota	Membros	멤버 목록
+ID_539	暂不招募	暫不招募	Currently no recruitment	ไม่มีการรับสมัครในปัจจุบัน	Saat Ini Tidak Rekrut	Sem Aplicações	현재 모집 중이 아님
+ID_540	俱乐部主页	俱樂部主頁	Club Page	หน้าสโมสร	Halaman Utama Klub	Menu Do Clube	클럽 페이지
+ID_541	成员列表	成員列表	Members	รายชื่อสมาชิก	Daftar Anggota	Membros	멤버 리스트
+ID_542	申请列表	申請列表	Request List	รายการของคำขอ	Daftar Permintaan Bergabung	Aplicações	신청 리스트
+ID_543	3小时前	3小時前	3 hours ago	3 ชั่วโมงที่แล้ว	3 Jam yang Lalu	3 Horas Atrás	3시간 전
+ID_544	降为成员	降為成員	Demote to member	ลดตำแหน่งเป็นสมาชิก	Turunkan Sebagai Anggota	Rebaixar para Membro	멤버 강등
+ID_545	升为管理	升為管理	Promote to official	โปรโมตเป็นผู้จัดการ	Naikkan Sebagai Manajer	Promover para Gerente	매니저 임명
+ID_546	转让会长	轉讓會長	Trasfer the leader	โอนย้ายตำแหน่งประธาน	Transfer Kepemimpinan	Transferir Presidente	회장 위임
+ID_547	踢出成员	踢出成員	Kick out member	เตะสมาชิกออก	Keluarkan Anggota	Expulsar Membros	멤버 퇴출
+ID_548	招募类型	招募類型	Recruitment Type	ประเภทการรับสมัคร	Jenis Rekrutmen	Tipo De Recrutamento	모집 유형
+ID_549	推荐列表	推薦列表	Recommended List	รายการแนะนำ	Daftar Rekomendasi	Lista Recomendada	추천 목록
+ID_550	创建俱乐部	創建俱樂部	Create Club	สร้างสโมสร	Buat Klub	Criar Um Clube	클럽 생성
+ID_551	章节预览	章節預覽	Chapter Preview	ตัวอย่างบท	Pratinjau Bab	Prévia Do Capítulo	챕터 미리보기
+ID_552	自建活动	自建活動	Custom Event	กิจกรรมที่สร้างขึ้นเอง	Acara Buatan Sendiri	Autoconstruídas	클럽 이벤트
+ID_553	参赛人数	參賽人數	Participants	จำนวนผู้เข้าร่วม	Jumlah Peserta	Número De Participantes	참가자 수
+ID_554	通关人数	通關人數	Number of cleared players	จำนวนผู้เข้าร่วมที่ผ่านภารกิจ	Jumlah Pemenang	Número De Conclusão	클리어 인원 수
+ID_555	挑战次数	挑戰次數	Times	ครั้ง	Jumlah Tantangan	Número De Desafios	도전 횟수
+ID_556	所有赛事	所有賽事	All Matches	การแข่งขันทั้งหมด	Semua Pertandingan	Todas As Competições	모든 경기
+ID_557	官方活动	官方活動	Official Events	กิจกรรมทางการ	Acara Resmi	Eventos Oficiais	공식 이벤트
+ID_558	刷新比赛	刷新比賽	Refresh the Match	รีเฟรชการแข่งขัน	Segarkan Pertandingan	Atualizar Jogo	새로 고침
+ID_559	赛道选择	賽道選擇	Track selection	เลือกเส้นทาง	Pilih Trek	Pista	트랙 선택
+ID_560	赛道类型	賽道類型	Track Type	ประเภทเส้นทาง	Jenis Trek	Tipo De Pistas	트랙 유형
+ID_561	三轨赛道	三軌賽道	Three-rail	เส้นทางสามราง	Tiga Lintasan	3 Faixas	3단 트랙
+ID_562	五轨赛道	五軌賽道	Five-rail	เส้นทางห้าราง	Lima Lintasan	5 Faixas	5단 트랙
+ID_563	自建赛道	自建賽道	Custom track	เส้นทางที่สร้างเอง	Buat Sendiri	Pista Autoconstruída	커스텀 트랙
+ID_564	创建比赛	創建比賽	Create a Match	สร้างการแข่งขัน	Buat Pertandingan	Criar Competição	경기 만들기
+ID_565	参赛费:	參賽費:	Entry Fee:	ค่าธรรมเนียมเข้าร่วม:	Biaya Pendaftaran:	Taxa De Entrada:	참가비:
+ID_566	高速赛道	高速賽道	High Speed Track	เส้นทางความเร็วสูง	Trek Kecepatan Tinggi	Pista De Velocidade	고속 트랙
+ID_567	赛道设置	賽道設置	Track Settings	การตั้งค่าเส้นทาง	Pengaturan Trek	Configuração Da Pista	트랙 설정
+ID_568	使用数量	使用數量	Amount to used	จำนวนที่ใช้ได้	Jumlah Penggunaan	Quantidade Usada	사용 수량
+ID_569	单个编辑	單個編輯	Single Edit	แก้ไขเดียว	Edit Satu	Edição Única	단일 편집
+ID_570	全部删除	全部刪除	Delete All	ลบทั้งหมด	Hapus Semua	Deletar Tudo	모두 삭제
+ID_571	创作时间	創作時間	Creation time	เวลาของการสร้าง	Waktu Pembuatan	Tempo Criativo	생성 시간
+ID_572	试跑时间	試跑時間	Test Run Time	เวลารันทดสอบ	Waktu Uji Coba	Tempo De Teste	테스트 실행 시간
+ID_573	退出登入	退出登入	Log Out	ออกจากระบบ	Keluar akun	Sair	로그아웃
+ID_574	手动输入	手動輸入	Manual Input	ป้อนข้อมูลด้วยตนเอง	Masukkan Manual	Entrada Manual	수동 입력
+ID_575	系统邮件	系統郵件	System Mail	ระบบจดหมายอิเล็กทรอนิกส์	Email Sistem	Correio Do Sistema	시스템 메일
+ID_576	一键领取	一鍵領取	Claim All	เรียกคืนทั้งหมด	Klaim semua	Coleção Com Um Clique	모두 받기
+ID_577	属性介绍	屬性介紹	Stats introduction	คำอธิบายคุณสมบัติ	Pengenalan Atribut	Apresentação Da Propriedade	능력치
+ID_578	取消屏蔽	取消遮罩	Cancel block	เปิดเผยตัวตน	Batalkan Masker	Desbloquear	숨김 해제
+ID_579	删除好友	刪除好友	Delete friend	ยกเลิกการเป็นเพื่อน	Hapus Teman	Deletar Amigo	삭제
+ID_580	一键赠送	一鍵贈送	Click to send	บริจาคทั้งหมด	Donasi ke semua	Presente Com Um Clique	선물하기
+ID_581	好友推荐	好友推薦	Recommended Friends	เพื่อนแนะนำ	Rekomendasi Teman	Amigos Recomendados	추천 친구
+ID_582	搜索玩家	搜索玩家	Search Players	ค้นหาผู้เล่น	Cari Pemain	Buscar Jogadores	플레이어 검색
+ID_583	进入游戏	進入遊戲	Start game	เริ่มต้น	Masuk ke Game	Começar	게임 시작
+ID_584	特性信息	特性資訊	Features Information	ข้อมูลคุณสมบัติ	Informasi Fitur	Informações Características	특성 정보
+ID_585	恭喜获得	恭喜獲得	Congratulations for obtaining	ขอแสดงความยินดีกับการได้รับ	Selamat atas Kemenanganmu	Parabéns	획득 축하
+ID_586	清空指令	清空指令	Clear the Command	ล้างคำสั่ง	Kosongkan Perintah	Limpar o comando	비우기
+ID_587	购买确认	購買確認	Purchase Confirmation	ยืนยันการซื้อ	Konfirmasi Pembelian	Confirmação de Compra	확인 상품 세부 정보
+ID_588	切换场景	切換場景	Switch Scenes	สลับฉาก	Ganti Scene	Mudar de Cena	장면 전환
+ID_589	合成队列	合成佇列	Merge Queues	คิวการสังเคราะห์	Antrean Sintesis	Fila Sintética	합성 대기열
+ID_590	添加材料	添加材料	Add Materials	เพิ่มวัสดุ	Tambahkan Material	Adicionar Material	재료 추가
+ID_591	选择厚度	選擇厚度	Select Thickness	เลือกความหนาของวัสดุ	Pilih Ketebalan	Selecione a Espessura	두께 선택
+ID_592	抽奖概率	抽獎機率	Draw Probability	อัตราสำเร็จของการจับสลากโชคดี	Probabilitas Undian	Probabilidade	확률
+ID_593	成功率:	成功率:	Success Rate:	อัตราสำเร็จ:	Tingkat Keberhasilan:	Taxa De Sucesso:	성공률:
+ID_594	选择装备	選擇裝備	Select Equipments	เลือกอุปกรณ์	Pilih Perlengkapan	Selecione o Equipamento	장비 선택
+ID_595	一键选择	一鍵選擇	Click to select	เลือกทั้งหมด	Pilih semua	Selecione Tudo	모두 선택
+ID_596	确认分解	確認分解	Confirm to disassemble	ยืนยันการแยกตัว	Konfirmasi Penghancuran	Confirmar Decomposição	분해
+ID_597	分解预览	分解預覽	Disassemble Preview	ดูตัวอย่างการแยกตัว	Pratinjau Penghancuran	Visualização Detalhada	분해 미리보기
+ID_598	选择素材	選擇素材	Select Materials	เลือกวัสดุ	Pilih bahan	Selecionar Material	재료 선택
+ID_599	七日签到	七日簽到	7 days log in	เข้าสู่ระบบ 7 วัน	Masuk selama 7 hari	Acesse 7 Dias	7일 로그인
+ID_600	七日任务	七日任務	7 days missions	ภารกิจ 7 วัน	Tugas 7 hari	Missão de 7 Dias	7일 미션
+ID_601	用户名：	用戶名：	User Name:	ชื่อผู้ใช้:	Nama pengguna:	Usuário:	사용자 이름:
+ID_602	总速度排行	總速度排行	Overall Speed Ranking	อันดับความเร็วโดยรวม	Peringkat kecepatan total	Ranque De Velocidade Total	전체 속도 랭킹
+ID_603	俱乐部排行	俱樂部排行	Club Ranking	อันดับสโมสร	Peringkat klub	Ranque Do Clube	클럽 랭킹
+ID_604	详细信息	詳細資訊	Details	รายละเอียด	Detail informasi	Detalhes	세부 정보
+ID_605	服务器:	伺服器:	Server:	เซิร์ฟเวอร์:	Server:	Servidor:	서버:
+ID_606	比赛场次	比賽場次	Competition matches	เซสชั่นการแข่งขัน	Jumlah pertandingan	Jogos	레이스 참여
+ID_607	比赛记录	比賽記錄	Competition Record	บันทึกการแข่งขัน	Catatan pertandingan	Recordes	대회 기록
+ID_608	剧情进度	劇情進度	Reward	รางวัล	Kemajuan cerita	Progresso Do Enredo	스토리 진행 상황
+ID_609	头像设置	頭像設置	Avatar Settings	การตั้งค่าอวาตาร์	Pengaturan avatar	Configurações De Avatar	아바타 설정
+ID_610	确认使用	確認使用	Confirm to use	ยืนยันการใช้งาน	Konfirmasi penggunaan	Confirmar Uso	사용 확인
+ID_611	选择车辆	選擇車輛	Select Vehicles	เลือกยานพาหนะ	Pilih kendaraan	Selecione O Veículo	미니카 선택
+ID_612	当前方案	當前方案	Current Scheme	แผนการปัจจุบัน	Skema saat ini	Plano Atual	현재 구성표
+ID_613	黑色战神	黑色戰神	Black Saber	Black Saber	Black Saber	Sabre Negro	블랙 세이버
+ID_614	赛车战力	賽車戰力	Racing Capacity	ความสามารถในการแข่งรถ	Kekuatan balap	Potência	미니카 전투력
+ID_615	角色信息	角色資訊	Character Profile	โปรไฟล์ตัวละคร	Informasi karakter	Informações do Personagem	캐릭터 프로필
+ID_616	升级奖励	升級獎勵	Level up Reward	รางวัลอัพเกรด	Hadiah level-up	Recompensa de Nível	레벨업 보상
+ID_617	点击弹出	點擊彈出	Click to Show	คลิกเพื่อป๊อปอัพ	Munculkan	Mostrar	표시
+ID_618	点击隐藏	點擊隱藏	Click to Hide	คลิกเพื่อซ่อน	Sembunyikan	Ocultar	숨기기
+ID_619	卡池概率	卡池機率	Pool Probability	ความน่าจะเป็นในการจับสลากโชคดี	Peluang kotak kartu	Chance	확률
+ID_620	卡池规则	卡池規則	Pool Rules	กฎของการจับสลากโชคดี	Aturan kotak kartu	Regras	규칙
+ID_621	星级奖励	星級獎勵	star reward	รางวัลดาว	hadiah bintang	recompensa estrela	스테이지 달성
+ID_622	收集进度	收集進度	Collecting Progress	การเก็บความคืบหน้า	Kemajuan koleksi	Progresso	수집 진행 상황
+ID_623	奖励预览	獎勵預覽	Rewards Preview	ภาพตัวอย่างรางวัล	Pratinjau hadiah	Recompensas	보상 미리보기
+ID_624	邀请好友	邀請好友	Invite Friends	เชิญเพื่อน	Undang teman	Convide Amigos	친구 초대
+ID_625	历史记录	歷史記錄	History	ประวัติศาสตร์	Riwayat catatan	Enredo	기록
+ID_626	匹配成功	配對成功	Match Successfully	การจับคู่สำเร็จ	Pemadanan berhasil	Emparelhamento Sucedido	매칭 성공
+ID_627	取消匹配	取消配對	Cancel Matching	ยกเลิกการจับคู่	Batal pemadanan	Cancelar	매칭 취소
+ID_628	赛季奖励	賽季獎勵	Season Rewards	รางวัลฤดูกาล	Penghargaan Musim	Recompensas Da Temporada	시즌 보상
+ID_629	钻石IV	鑽石IV	Diamond IV	เพชร IV	Berlian IV	Diamante 1	다이아몬드 IV
+ID_630	天梯准备	天梯準備	Preparation for ladder match	เตรียมการสำหรับการแข่งขันบันเทิง	Persiapan Tangga	Preparação Pro Desafio	래더 매치 준비
+ID_631	装备预览	裝備預覽	Equipment Preview	ภาพตัวอย่างอุปกรณ์	Pratinjau Peralatan	Visualização Do Equipamento	장비 미리보기
+ID_632	查看详情	查看詳情	Details	รายละเอียด	Lihat Detail	Detalhes	세부 정보
+ID_633	等待加入	等待加入	Waiting to join	รอเข้าร่วม	Menunggu Bergabung	Esperando Para Entrar	참가 대기 중
+ID_634	最速排行	最速排行	Fast Ranking	อันดับที่เร็วที่สุด	Ranking Tercepat	Ranque De Velocidade	최고 속도 랭킹
+ID_635	详细查看	詳細查看	Details	ดูรายละเอียด	Lihat Detail	Ver Em Detalhes	세부 정보
+ID_636	当前记录	當前記錄	Current Record	สถิติปัจจุบัน	Catatan Saat Ini	Registro Atual	현재 기록
+ID_637	开始挑战	開始挑戰	Start challenge	เริ่มต้น	Mulai Tantangan	Desafiar	시작
+ID_638	创建房间	創建房間	Create a Room	สร้างห้อง	Buat Ruangan	Criar Sala	룸 생성
+ID_639	房间详情	房間詳情	Room Details	รายละเอียดห้อง	Detail Ruangan	Detalhes	룸 정보
+ID_640	取消准备	取消準備	Cancel Preparation	ยกเลิกการเตรียมการ	Batalkan Persiapan	Cancelar Preparação	준비 취소
+ID_641	更换赛道	更換賽道	Change the track	เปลี่ยนเส้นทาง	Ganti Lintasan	Mudar De Pista	트랙 변경
+ID_642	房间名:	房間名:	Room:	ชื่อห้อง:	Nama Ruangan	Nome Da Sala:	방 제목:
+ID_643	修改信息	修改資訊	Modify Information	แก้ไขข้อมูล	Ubah Informasi	Modificar Informações	정보 수정
+ID_644	赛道属性	賽道屬性	Track Stats	คุณสมบัติของสนามแข่ง	Atribut Lintasan	Propriedades Da Pista	트랙 속성
+ID_645	输入ID	輸入ID	Enter ID	ป้อน ID	Masukkan ID	Digite o ID	ID 입력
+ID_646	全部赛道	全部賽道	All Tracks	ทุกสนามแข่ง	Semua Lintasan	Pistas	모든 트랙
+ID_647	快速加入	快速加入	Quickly Join	เข้าร่วมอย่างรวดเร็ว	Bergabung Cepat	Começo Rápido	빠른 참여
+ID_648	刷新房间	刷新房間	Refresh Rooms	รีเฟรชห้อง	Refresh Ruangan	Atualizar	새로 고침
+ID_649	2/5人	2/5人	2/5 player	2/5 ผู้เล่น	2/5 orang	2/5 Pessoas	2/5 플레이어
+ID_650	参赛人员	參賽人員	Participants	ผู้เข้าร่วม	Peserta	Participantes	참가자
+ID_651	玩家名字	玩家名字	Player Name	ชื่อผู้เล่น	Nama Pemain	Nome Do Jogador	플레이어 이름
+ID_652	最佳成绩	最佳成績	Best Record	สถิติการแข่งขันที่ดีที่สุด	Skor Terbaik	Melhor Pontuação	최고 기록
+ID_653	继续比赛	繼續比賽	Continue	เล่นต่อไป	Lanjutkan Bertanding	Continue Jogando	계속
+ID_654	创建赛事	創建賽事	Create an Event	สร้างกิจกรรม	Buat Pertandingan	Criar Evento	이벤트 생성
+ID_655	人数上限	人數上限	Max Player	จำนวนคนสูงสุด	Batas Jumlah Pemain	Número Máximo De Pessoas	인원 수 최대
+ID_656	比赛地图	比賽地圖	Match Map	แผนที่การแข่งขัน	Peta Pertandingan	Mapa Do Jogo	레이스 맵
+ID_657	同俱乐部	同俱樂部	Same Club	สโมสรเดียวกัน	Klub yang sama	Mesmo Clube	같은 클럽
+ID_658	我的赛事	我的賽事	My Events	กิจกรรมของฉัน	Pertandingan Saya	Meus Eventos	내 이벤트
+ID_659	赛事名称	賽事名稱	Event Name	ชื่อกิจกรรม	Nama Pertandingan	Nome Do Evento	이벤트 이름
+ID_660	结束时间	結束時間	End Time	เวลาสิ้นสุด	Waktu berakhir	Fim Do Tempo	종료 시간
+ID_661	车辆配置	車輛配置	Vehicle Configuration	การกำหนดค่ายานพาหนะ	Konfigurasi kendaraan	Configuração Do Veículo	미니카 세팅
+ID_662	自建比赛	自建比賽	Custom match	กิจกรรมที่สร้างขึ้นเอง	Kompetisi mandiri	Competição Autoconstruída	커스텀 이벤트
+ID_663	赛事信息	賽事資訊	Event Information	ข้อมูลกิจกรรม	Informasi acara	Informações Do Evento	챔피언 보상
+ID_664	冠军奖励	冠軍獎勵	Champion Reward	รางวัลแชมเปียน	Hadiah juara	Recompensa Do Campeonato	우승 상품
+ID_665	报名要求	報名要求	Registration Requirements	เงื่อนไขการลงทะเบียน	Persyaratan pendaftaran	Requisitos De Registro	신청 조건
+ID_666	推荐比赛	推薦比賽	Recommended Match	การแข่งขันที่แนะนำ	Rekomendasi Kompetisi	Correspondência Recomendada	추천 대회
+ID_667	前往报名	前往報名	Go to register	ไปที่การลงทะเบียน	Menuju pendaftaran	Inscreva-se	접수하러 가기
+ID_668	前往参赛	前往參賽	Go to join the match	ไปที่การเข้าร่วมการแข่งขัน	Menuju kompetisi	Vá Competir	참여하기
+ID_669	赛事名字	賽事名字	Event Name	ชื่อกิจกรรม	Nama acara	Nome do Evento	대회 이름
+ID_670	报名人数	報名人數	Number of registration	จำนวนผู้ลงทะเบียน	Jumlah pendaftar	Número de Candidatos	신청 인원
+ID_671	奖励详情	獎勵詳情	Reward Details	รายละเอียดรางวัล	Detail hadiah	Detalhes da Recompensa	전적 정보
+ID_672	最佳记录	最佳記錄	Best Record	สถิติการแข่งขันที่ดีที่สุด	Rekor terbaik	Recorde	최고 기록
+ID_673	总积分排行	總積分排行	Total Points	อันดับของคะแนนรวม	Peringkat total poin	Ranque Total De Pontos	포인트 랭킹
+ID_674	再来一次	再來一次	One More Time	อีกครั้ง	Coba lagi	Novamente	한번 더
+ID_675	免费一次	免費一次	Free*1	ครั้งละฟรี	Sekali gratis	1X Grátis	1회 무료
+ID_676	获取奖励	獲取獎勵	Claim Rewards	เคลมรางวัล	Dapatkan hadiah	Obter Recompensas	보상 받기
+ID_677	购买等级	購買等級	Purchase Level	ระดับการซื้อขาย	Beli level	Nível de Compra	레벨 구매
+ID_678	获取经验	獲取經驗	Claim EXP	เรียก EXP	Dapatkan pengalaman	Ganho de Experiência	경험치 획득
+ID_679	我是绝对	我是絕對	I am the absolute	ฉันแน่นอน	Saya pasti	Sou Absoluto	나는 절대
+ID_680	关卡情报	關卡情報	Level Intelligence	ระดับอัจฉริยะ	Level kecerdasan	Nível de Inteligência	스테이지 정보
+ID_681	任务目标	任務目標	Mission Objective	เป้าหมายภารกิจ	Tujuan misi	Alvo da Missão	미션 목표
+ID_682	通关时长	通關時長	Level Cleared Time	เวลาผ่านเลเวล	Waktu penyelesaian	Tempo de Conclusão	클리어 타임
+ID_683	最速通关	最速通關	Fastest Level Cleared	เลเวลที่ผ่านเร็วที่สุด	Penyelesaian tercepat	Recorde de Conclusão	BEST
+ID_684	掉落奖励	掉落獎勵	Drop Reward	โบนัสการส่งลง	Hadiah drop	Drop Bônus	획득 가능
+ID_685	关卡列表	關卡列表	Levels List	รายการเลเวล	Daftar level	Lista De Níveis	스테이지 리스트
+ID_686	赛事设置	賽事設置	Event Settings	การตั้งค่ากิจกรรม	Pengaturan acara	Configurações Do Evento	이벤트 설정
+ID_687	持续时间	持續時間	Duration	ระยะเวลา	Durasi	Duração	지속 시간
+ID_688	关卡类型	關卡類型	Level Type	ประเภทเลเวล	Jenis level	Tipo De Nível	스테이지 유형
+ID_689	困难关1	困難關1	Difficult Level 1	ระดับความยาก 1	Kesulitan Level 1	Difícil Nível 1	하드 스테이지 1
+ID_690	新三角箭	新三角箭	NEO TRIDAGGER ZMC	NEO TRIDAGGER ZMC	Neo Tridagger ZMC	Nova Seta Triangular	뉴 트라이-X
+ID_691	关卡名称	關卡名稱	Level Name	ชื่อเลเวล	Nama level	Nome Do Nível	스테이지 명칭
+ID_692	参赛车辆	參賽車輛	Participating Vehicles	ยานพาหนะที่เข้าร่วม	Kendaraan peserta	Veículos Participantes	레이스 참가 미니카
+ID_693	消耗道具	消耗道具	Items Cost	ราคาไอเท็ม	Item konsumsi	Itens Gastos	소모품 아이템
+ID_694	奖励条件	獎勵條件	Conditions Of Reward	เงื่อนไขของรางวัล	Syarat hadiah	Condições De Recompensa	보상 조건
+ID_695	挑战关卡	挑戰關卡	Challenge	ท้าทาย	Tantangan level	Nível De Desafio	스테이지 도전
+ID_696	关卡难度	關卡難度	Difficulty of Level	ความยากของเลเวล	Tingkat kesulitan	Nível De Dificuldade	스테이지 난이도
+ID_697	关卡数量	關卡數量	Number of Levels	จำนวนเลเวล	Jumlah level	Número De Níveis	스테이지 수
+ID_698	参赛状态	參賽狀態	Competition Condition	เงื่อนไขการแข่งขัน	Status peserta	Status De Participação	참가 상태
+ID_699	车辆选择	車輛選擇	Select The Vehicle	เลือกยานพาหนะ	Pilihan kendaraan	Seleção De Veículo	미니카 선택
+ID_700	奖励选择	獎勵選擇	Select The Rewards	เลือกรางวัล	Pilihan hadiah	Seleção De Recompensa	보상 선택
+ID_701	牧场牧场	牧場牧場	Pasture	ทุ่งหญ้า	Padang rumput	Pasto	목장 목장
+ID_702	地图奖励	地圖獎勵	Map Rewards	แผนที่รางวัล	Hadiah peta	Mapa De Recompensas	맵 보상
+ID_703	赛前准备	賽前準備	Preparation before match	เตรียมการก่อนการแข่งขัน	Persiapan pra-kompetisi	Preparação Pré-Jogo	레이스 준비
+ID_704	挑  战	挑  戰	Challenge	ท้าทาย	Tantang	Desafio	도  전
+ID_705	更改配置	更改配置	Change the Configuration	เปลี่ยนการตั้งค่า	Ubah konfigurasi	Mudar Configuração	설정 변경
+ID_706	个人记录	個人記錄	Personal Records	บันทึกส่วนบุคคล	Rekor pribadi	Registros Pessoais	개인 기록
+ID_707	所有赛道	所有賽道	All Tracks	ทุกแทร็ก	Semua sirkuit	Pistas	모든 트랙
+ID_708	获得物品	獲得物品	Claim Items	เรียกไอเท็ม	Klaim barang	Obter Itens	아이템 획득
+ID_709	坡道训练	坡道訓練	Ramp Training	การฝึกลานปั่น	Pelatihan lereng	Treino Em Rampa	슬로프 훈련
+ID_710	通关次数	通關次數	Total Cleared	ผู้เล่นที่ผ่านเลเวล	Pemain lolos	Tempos de Conclusão	클리어 횟수
+ID_711	体力补给	體力補給	Stamina supply	เติมพลังกาย	Pilihan tenaga	Reabastecimento	스태미나 보충
+ID_712	方案列表	方案列表	Schemes List	รายการโครงการ	Daftar rencana	Lista De Programas	비법 목록
+ID_713	调查问卷	調查問卷	Survey	การสำรวจความคิดเห็น	Kuesioner	Questionário	설문 조사
+ID_714	扫荡确认	掃蕩確認	Confirm to sweep	ยืนยันเพื่อทำความสะอาด	Konfirmasi Penyapuan	Confirmar	소탕 확인
+ID_715	日常任务	日常任務	Daily	ภารกิจประจำวัน	Tugas harian	Diárias	일일 미션
+ID_716	成长任务	成長任務	Growth	ภารกิจของการ	Tugas pertumbuhan	Conquistas	성장 미션
+ID_717	系统赛道	系統賽道	System Track	ระบบแทร็ก	Sistem Lintasan	Trilha Do Sistema	시스템 트랙
+ID_718	模具科技	模具科技	Mould Technology	เทคโนโลยีแม่พิมพ์	Teknologi cetakan	Tecnologia De Moldes	금형 테크
+ID_719	赛道生产	賽道生產	Track Production	การผลิตแทร็ก	Produksi sirkuit	Acompanhar A Produção	트랙 생산
+ID_720	模具开发	模具開發	Mold Development	การพัฒนาแม่พิมพ์	Pengembangan cetakan	Desenvolvimento De Molde	금형 개발
+ID_721	基础模具	基礎模具	Basic Mould	แม่พิมพ์พื้นฐาน	Cetakan dasar	Molde Básico	기본 금형
+ID_722	研发列表	研發列表	List of research and development	รายการวิจัยและพัฒนา	Daftar R&D	Lista De P&D	연구 목록
+ID_723	推荐购买	推薦購買	Recommended Purchase	การซื้อแนะนำ	Rekomendasi Pembelian	Compra Recomendada	확인 추천
+ID_724	一键购买	一鍵購買	Click to purchase all	คลิกเพื่อซื้อทั้งหมด	Pembelian Satu Tombol	Compra Com Um Clique	모두 확인
+ID_725	赛道购买	賽道購買	Track Purchase	การซื้อแทร็ก	Pembelian Trek Balap	Rastrear Compra	트랙 확인
+ID_726	三轨直道	三軌直道	Three-rail straight track	แทร็กสามเส้นตรง	Tiga Trek Lurus	Reta De Três Pistas	3단 직선 트랙
+ID_727	更换配件	更換配件	Replace Accessory	เปลี่ยนอุปกรณ์เสริม	Ganti Aksesori	Peças De Reposição	잠금 변경
+ID_728	解除合批	解除合批	Remove Merge	บรรเทาการสังเคราะห์	Batalkan sintesis	Desfazer	배치 해제
+ID_729	加载特效	加載特效	Loading special effects	โหลดเอฟเฟกต์พิเศษ	Muat Efek Khusus	Carregar Efeitos	이펙트 다운로드
+ID_730	特效列表	特效列表	List of Special Effects	รายการเอฟเฟกต์พิเศษ	Daftar Efek Khusus	Lista De Efeitos	이펙트 리스트
+ID_731	自动循环	自動迴圈	Automatic Rotation	การหมุนอัตโนมัติ	Rotasi otomatis	Ciclo Automático	자동 회전
+ID_732	翻到x页	翻到x頁	Turn to page x	เลื่อนไปยังหน้า x	Lompat ke Halaman x	Virar para a página x	x 페이지로 이동
+ID_733	中间飘字	中間飄字	Middle floating word	คำพูดลอยกลาง	Kata tengah melayang	Personagens flutuantes no meio	가운데 부동 단어
+ID_734	推送消息	推送消息	Notification Message	ข้อความแจ้งเตือน	Dorong pesan	Notificação	푸시 메시지
+ID_735	触发剧情	觸發劇情	Trigger Storyline	เริ่มเรื่องราว	Pemicu Cerita	Enredo Principal	스토리라인 트리거
+ID_736	加载配件	加載配件	Loading Accessories	กำลังโหลดอุปกรณ์เสริม	Muat Aksesori	Carregar Acessórios	잠금 로드 중
+ID_737	图片名称	圖片名稱	Name of Picture	ชื่อรูปภาพ	Nama Gambar	Nome da Foto	이미지 네임
+ID_738	无限滚动	無限滾動	Infinite Scrolling	การเลื่อนแบบไม่จำกัด	Gulir Tak Terbatas	Rolagem infinita	무한 스크롤
+ID_739	下拉列表	下拉列表	Drop down the list	เลื่อนลงรายการ	Turunkan daftar	Lista suspensa	목록 열기
+ID_740	配件仓库	配件倉庫	Accessory Warehouse	คลังอุปกรณ์เสริม	Gudang Aksesori	Depósito de peças	잠금 창고
+ID_741	自动准备	自動準備	Automatic Preparation	เตรียมการอัตโนมัติ	Siapkan Otomatis	Preparação automática	자동 준비
+ID_742	制作材料	製作材料	Manufacture Materials	วัสดุการผลิต	Buat Material	Materiais	제작 재료
+ID_743	普通邮件	普通郵件	Common Mail	จดหมายธรรมดา	Surat Biasa	Correspondência comum	일반 우편
+ID_744	配件名字	配件名字	Name of Accessory	ชื่ออุปกรณ์เสริม	Nama Aksesori	Nome do Item	잠금 이름
+ID_745	车壳导轮	車殼導輪	Body Shell Rollers	โรลเลอร์เปลือกยานพาหนะ	Roller Body	Roda guia do corpo	카울 롤러
+ID_746	玩家名字2	玩家名字2	Player Name 2	ชื่อผู้เล่น 2	Nama Pemain 2	Jogador 2	플레이어 이름 2
+ID_747	综合评分:	綜合評分:	Overall Score:	คะแนนรวม:	Peringkat Gabungan:	Avaliação geral:	스코어:
+ID_748	等级提升:	等級提升:	Level Upgrade:	อัพเกรดระดับ:	Kenaikan Level:	Subir de nível:	레벨 상승:
+ID_749	金币消耗:	金幣消耗:	Coin Cost:	ค่าทอง:	Konsumsi Koin Emas:	Consumo de ouro:	골드 소모:
+ID_750	[ 空 ]	[ 空 ]	[empty]	[ว่างเปล่า]	[ Kosong ]	[vazio]	[비어 있음]
+ID_751	中层导轮	第一層導輪	Middle roller	โรลเลอร์ชั้นแรก	Roller Utama	Camada 1	1단 롤러
+ID_752	上层导轮	第二層導輪	Upper level roller	โรลเลอร์ชั้นสอง	Roller Tingkat Kedua	Camada 2	2단 롤러
+ID_753	下层导轮	負一層導輪	Lower level roller	ลบโรลเลอร์ชั้นแรก	Roller Bawah	Camada Inferior	언더 롤러
+ID_754	强化至最高	強化至最高	Enhance to the highest level	เสริมสูงสุด	Diperkuat sampai maksimum	Fortalecer ao máximo	최고 레벨까지 강화
+ID_755	剩余次数:	剩餘次數:	Remaining times:	คงเหลือครั้งละ:	Sisa Waktu:	Tempo restante:	남은 횟수:
+ID_756	1-5级	1-10級	Level 1-10	ระดับ 1-10	Tingkat 1-10	Nível 1-10	레벨 1-5
+ID_757	消耗品使用	消耗品使用	Use of consumables	การใช้งานอุปกรณ์เบิกบาน	Penggunaan barang habis pakai	Uso de consumíveis	소모품 사용
+ID_758	道具描述：	道具描述：	Item Description:	คำอธิบายรายการ:	Deskripsi barang:	Descrição dos adereços:	아이템 설명:
+ID_759	总价:00	總價:00	Total price :00	ราคารวมทั้งหมด :00	Harga total: 00	Preço total: 00	총 가격 :00
+ID_760	俱乐部信息	俱樂部資訊	Club Information	ข้อมูลสโมสร	Info klub	Informações do Clube	클럽 정보
+ID_761	无申请等级	無申請等級	No application level	ไม่มีการสมัครสมาชิก	Tidak ada level aplikasi	Sem Restrição	적용 레벨 없음
+ID_762	等级：88	等級：88	Level: 88	เกรด: 88	Level: 88	Nota: 88	레벨: 88
+ID_763	分享俱乐部	分享俱樂部	Share Club	แชร์สโมสร	Bagikan klub	Compartilhar Clube	클럽 공유
+ID_764	退出俱乐部	退出俱樂部	Quit Club	ออกจากชมรม	Keluar dari klub	Sair do Clube	클럽 탈퇴
+ID_765	成员数量：	成員數量：	Members:	จำนวนสมาชิก:	Jumlah anggota:	Número de membros:	멤버 수:
+ID_766	###申请	###申請	### # Application	### สมัคร	Aplikasi	###Aplicar	### # 신청하기
+ID_767	★ 解锁	★ 解鎖	★ Unlock	★ ปลดล็อค	★ Buka kunci	★ desbloquear	★잠금 해제 해제
+ID_768	剧情对抗赛	自定義章節	Narrative Showdown	สร้างบทวิจัยที่กำหนดเอง	Bagian kustom	Capítulo personalizado	스토리 배틀
+ID_769	等级限制:	等級限制:	Level Restrictions:	จำกัดเกรด:	Batas level:	Restrições de Nível:	레벨 제한:
+ID_770	参赛人数:	參賽人數:	Participants:	จำนวนผู้เข้าร่วม:	Jumlah peserta:	Participantes:	참가자:
+ID_771	创建挑战赛	創建挑戰賽	Create a Challenge	สร้างการท้าทาย	Buat tantangan	Crie um desafio	챌린지 생성
+ID_772	自定义赛事	自定義賽事	Custom Events	กิจกรรมสร้างที่กำหนดเอง	Acara kustom	Eventos personalizados	커스텀 이벤트
+ID_773	奖金数额:	獎金數額:	Amount of reward:	จำนวนโบนัส:	Jumlah hadiah:	Valor do bônus:	상금:
+ID_774	参加人数:	參加人數:	Participants:	จำนวนผู้เข้าร่วม:	Jumlah peserta:	O número de participantes:	참가자 수
+ID_775	请设置赛道	請設置賽道	Please set the track	โปรดตั้งค่าเส้นทาง	Silakan atur sirkuit	Defina a Pista	트랙을 설정하세요
+ID_776	自定义赛道	自定義賽道	Custom track	สร้างเส้นทางที่กำหนดเอง	Sirkuit kustom	Pista Personalizada	커스텀 트랙
+ID_777	馒头###	饅頭###	Steamed Bread ###	ขนมปังนึ่ง ###	Manju###	Pão cozido no vapor###	찐빵 ###
+ID_778	赛道块数量	賽道塊數量	Number of track blocks	จำนวนบล็อกเส้นทาง	Jumlah balok sirkuit	Número de blocos de trilha	트랙 종류
+ID_779	开启FPS	開啟FPS	FPS unlocked	ปลดล็อค FPS	Aktifkan FPS	Ativar FPS	FPS 잠금 해제 해제
+ID_780	选择服务器	選擇伺服器	Select the server	เลือกเซิร์ฟเวอร์	Pilih server	Selecione o servidor	서버 선택
+ID_781	当前时间：	當前時間：	Current Time:	เวลาปัจจุบัน:	Waktu saat ini:	Hora Atual:	현재 시간:
+ID_782	44761	44761	July 19th	19 กรกฎาคม	19 Juli	19 de julho	7월 19일
+ID_783	剩余14天	剩餘14天	14 days remaining	เหลืออีก 14 วัน	Sisa 14 hari	14 dias restantes	14일 남음
+ID_784	未读邮件：	未讀郵件：	Unread Mails:	จดหมายที่ยังไม่ได้อ่าน:	Email belum terbaca:	Não lido:	읽지 않은 메일:
+ID_785	全部邮件：	全部郵件：	All Mails:	จดหมายทั้งหมด:	Semua email:	Total:	모든 메일:
+ID_786	领取并赠送	領取並贈送	Claim and give away	เคลมและแจกให้	Klaim dan kirim hadiah	Colete e doe	수령 및 선물하기
+ID_787	好友数量:	好友數量:	Friends:	จำนวนเพื่อน:	Jumlah teman:	Número de amigos:	친구 수
+ID_788	领取次数:	領取次數:	Claim Times:	ครั้งการเคลม:	Jumlah klaim:	Número de recibos:	수령 횟수
+ID_789	按ID搜索	按ID搜索	Find	ค้นหาตาม ID	Cari berdasarkan ID	Pesquisar por ID	ID 찾기
+ID_790	加物品模板	加物品範本	Add Items Template	เพิ่มรูปแบบรายการ	Tambah templat item	Adicionar modelo de item	아이템 템플릿 추가
+ID_791	加钻石模板	加鑽石範本	Add Diamond Template	เพิ่มรูปแบบเพชร	Tambah templat berlian	Adicionar modelo de diamante	다이아몬드 템플릿 추가
+ID_792	加经验模板	加經驗範本	Add experience template	เพิ่มรูปแบบประสบการณ์	Tambah templat pengalaman	Adicionar modelo de experiência	경험치 템플릿 추가
+ID_793	请输入昵称	請輸入昵稱	Please enter a nickname	โปรดใส่ชื่อเล่น	Masukkan nama panggilan	Insira um apelido	닉네임을 입력하세요.
+ID_794	合成时间:	合成時間:	Merge Time:	เวลาการสังเคราะห์:	Waktu sintesis:	Tempo de síntese:	합성 시간:
+ID_795	升级时间:	升級時間:	Level up Time:	เวลาการอัพเกรด:	Waktu upgrade:	Tempo de atualização:	업그레이드 시간:
+ID_796	头像名称:	頭像名稱:	Name of Avatar:	ชื่ออวาตาร์:	Nama avatar:	Nome do avatar:	아바타 이름:
+ID_797	解锁条件:	解鎖條件:	Unlock Condition:	เงื่อนไขปลดล็อค:	Persyaratan membuka kunci:	Condição de desbloqueio:	잠금 해제 해제 조건:
+ID_798	头像框名称	頭像框名稱	Name of Avatar frame	ชื่อกรอบอวาตาร์	Nama bingkai avatar	Nome do quadro do avatar	아바타 프레임 이름
+ID_799	新功能解锁	新功能解鎖	New function unlock	ปลดล็อคฟังก์ชันใหม่	Fitur baru terbuka	Novos recursos desbloqueados	새로운 기능 잠금 해제 해제
+ID_800	下级将解锁	下級將解鎖	Unlock at next level	ปลดล็อคในระดับถัดไป	Akan terbuka di level selanjutnya	Próximo nível será desbloqueado	다음 레벨에서 잠금 해제 해제
+ID_801	-进行中-	-進行中-	- In progress -	กำลังดำเนินการ -	-Sedang berlangsung-	-Em andamento-	- 진행 중
+ID_802	失败原因：	失敗原因：	Reason of Failure:	สาเหตุของความล้มเหลว:	Alasan kegagalan:	Motivo da falha:	실패 원인:
+ID_803	参赛时间:	參賽時間:	Time of Competition:	เวลาการแข่งขัน:	Waktu kompetisi:	Tempo de competição:	레이스 기간:
+ID_804	赛道特性:	賽道特性:	Track Characteristics:	ลักษณะของเส้นทาง:	Karakteristik sirkuit	Características da pista:	트랙 특성:
+ID_805	车辆预览:	車輛預覽:	Vehicle Preview:	การแสดงตัวของยานพาหนะ:	Pratinjau kendaraan:	Visualização do veículo:	미니카 미리보기:
+ID_806	S1 赛季	S1 賽季	S1 Season	ซีซั่น S1	Musim S1	Temporada S1	S1 시즌
+ID_807	赛季未开启	賽季未開啟	Season not opened	ซีซั่นยังไม่เปิด	Musim belum dimulai	Temporada não começou	시즌 미개최
+ID_808	房间名称:	房間名稱:	Room name:	ชื่อห้อง:	Nama ruangan:	Nome da sala:	룸:
+ID_809	房间密码:	房間密碼:	Room Code:	รหัสห้อง:	Kata sandi ruangan:	Senha da sala:	코드
+ID_810	房间ID:	房間ID:	Room ID:	ID ห้อง:	ID ruangan:	Identificação da sala:	룸ID:
+ID_811	xxx赛事	xxx賽事	xxx Event	xxx เหตุการณ์	Kompetisi xxx	xxx eventos	XXX 이벤트
+ID_812	我的排名:	我的排名:	My Ranking:	อันดับของฉัน:	Peringkat saya:	Meu Ranque:	내 랭킹:
+ID_813	赛事信息:	賽事資訊:	Event Information:	ข้อมูลเหตุการณ์:	Informasi acara:	Informações do evento:	이벤트 정보:
+ID_814	通关人数:	通關人數:	Number of cleared players	จำนวนผู้เล่นของระดับความชัดเจน	Jumlah orang yang melewati:	Número de desembaraço aduaneiro:	클리어 인원 수:
+ID_815	挑战次数:	挑戰次數:	Challenges:	จำนวนการท้าทาย:	Jumlah tantangan:	Número de desafios:	도전 횟수:
+ID_816	报名的比赛	報名的比賽	Registered Match	การแข่งขันที่ลงทะเบียน	Lomba yang terdaftar	Competição Registrada	접수한 레이스
+ID_817	创建的比赛	創建的比賽	Created match	การสร้างการแข่งขัน	Lomba yang dibuat	Competição Criada	생성한 레이스
+ID_818	无其他限制	無其他限制	No other restrictions	ไม่มีข้อจำกัดอื่น ๆ	Tidak ada batasan lain	Sem outras restrições	다른 제한 없음
+ID_819	房间赛邀请	房間賽邀請	Room Match Invitation	เชิญเข้าร่วมการแข่งขันในห้อง	Undangan pertandingan	Convite para jogo de quarto	룸 레이스 초대
+ID_820	购买通行证	購買通行證	Buy the pass	ซื้อพาส	Membeli tiket masuk	Comprar Passe	패스 확인
+ID_821	去车库整备	去車庫整備	Garage	โรงรถ	Garasi	Garagem	차고 정비
+ID_822	我的记录：	我的記錄：	My Records:	สถิติของฉัน:	Catatan saya:	Meus registros:	내 기록:
+ID_823	挑战次数：	挑戰次數：	Challenges:	จำนวนครั้งที่ท้าทาย:	Jumlah tantangan:	Número de desafios:	도전 횟수:
+ID_824	获得第一名	獲得第一名	Won the first place	ได้รับอันดับหนึ่ง	Meraih peringkat pertama	Obteve o primeiro lugar	1등 수상
+ID_825	举办挑战赛	舉辦挑戰賽	Hold a Challenge	จัดการท้าทาย	Mengadakan tantangan	Criar Desafio	챌린지 개최
+ID_826	困难关奖励	困難關獎勵	Hard Level Rewards	รางวัลระดับความยาก	Hadiah tantangan level sulit	Prêmio de Nível	난이도 보상
+ID_827	五连发卡弯	五連發卡彎	5 continuous haripin	5 ครั้งฮาริพินต่อเนื่อง	Kartu lengkungan lima kali tembak	Curva fechada	5연속 헤어핀
+ID_828	挑战赛奖励	挑戰賽獎勵	Challenge rewards	รางวัลการท้าทาย	Hadiah tantangan	Recompensas do desafio	챌린지 보상
+ID_829	四驱车协会	四驅車協會	4WD Association	สมาคม 4WD	Asosiasi 4WD	Associação 4WD	미니카 협회
+ID_830	我的挑战赛	我的挑戰賽	My Challenge	การท้าทายของฉัน	Tantangan saya	Meu desafio	내 챌린지
+ID_831	刷新(9)	刷新(9)	Refresh (9)	รีเฟรช (9)	Segarkan (9)	Renovar(9)	리셋(9)
+ID_832	推荐等级:	推薦等級:	Recommended level:	เกรดแนะนำ:	Tingkat rekomendasi:	Nível:	추천 레벨:
+ID_833	购买（0）	購買（0）	Purchase (0)	ซื้อ (0)	Membeli (0)	Compre (0)	확인 (0)
+ID_834	问卷调查1	問卷調查1	Survey 1	สำรวจ 1	Survey 1	Questionário 1	설문 조사 1
+ID_835	日常活跃值	日常活躍值	Daily active value	ค่าความ aktif รายวัน	Nilai aktivitas harian	Pontos Diários	일일 활동치
+ID_836	巴拉###	巴拉###	bala###	bala###	Bala ###	Barra ###	바라###
+ID_837	输入车id	輸入車id	Enter Vehicle ID	ป้อน ID ยานพาหนะ	Masukkan id mobil	Insira a identificação do carro	미니카 ID 입력
+ID_838	神奇的按钮	神奇的按鈕	Magic Button	ปุ่มมหัศจรรย์	Tombol ajaib	Botão mágico	신기한 버튼
+ID_839	不自动循环	不自動迴圈	No automatic rotation	ไม่มีการหมุนอัตโนมัติ	Tidak otomatis loop	Sem ciclo automático	자동 회전 없음
+ID_840	飞金币钻石	飛金幣鑽石	Flying gold coins and diamonds	เหรียญทองและเพชรบุกฟ้า	Mendapatkan koin emas dan berlian	Moedas Voadoras Diamantes	날아다니는 골드와 다이아
+ID_841	创建50个	創建50個	Create 50	สร้าง 50	Membuat 50	Criar 50	50개 만들기
+ID_842	创建20个	創建20個	Create 20	สร้าง 20	Membuat 20	Criar 20	20개 만들기
+ID_843	服务器通知	伺服器通知	Server Notification	การแจ้งเตือนเซิร์ฟเวอร์	Pemberitahuan server	Avisos	서버 알림
+ID_844	创建48个	創建48個	Create 48	สร้าง 48	Membuat 48	Criar 48	48개 만들기
+ID_845	创建51个	創建51個	Create 51	สร้าง 51	Membuat 51	Criar 51	51개 만들기
+ID_846	加载下一个	加載下一個	Load Next	โหลดต่อไป	Memuat selanjutnya	Carregar próximo	다음 로드
+ID_847	摄像机位置	攝像機位置	Camera position	ตำแหน่งกล้อง	Posisi kamera	Posição da câmera	카메라 위치
+ID_848	摄像机角度	攝像機角度	Camera angle	มุมกล้อง	Sudut kamera	Ângulo da câmera	카메라 각도
+ID_849	最快通关:	最快通關:	Fastest clearance:	การเคลียร์รวดเร็วที่สุด:	Pencapaian tercepat:	Liberação mais rápida:	BEST:
+ID_850	当前记录:	當前記錄:	Current record:	สถิติปัจจุบัน:	Rekor saat ini:	Registro atual:	RECORD:
+ID_851	刷新(5)	刷新(5)	Refresh (5)	รีเฟรช (5)	Segarkan (5)	Renovar(5)	RECORD:
+ID_852	第三层导轮	第三層導輪	Third level rollers	ลูกกลมชั้นสาม	Roller Tingkat ketiga	Camada 3	3단 롤러
+ID_853	暂未产出奖励	暫未產出獎勵	No reward has been produced yet	ยังไม่มีรางวัลที่ผลิตออกมา	Hadiah belum tersedia saat ini	Ainda não há prêmios	아직 보상이 준비되지 않았습니다.
+ID_854	申请等级限制	申請等級限制	Application level limit	ระดับแอปพลิเคชัน	Batasan level permintaan	Restrição de Nível	신청 레벨 제한
+ID_855	是否需要审批	是否需要審批	Club Audits	ต้องการอนุมัติหรือไม่	Apakah perlu persetujuan	Você precisa de aprovação	승인 필요 여부
+ID_856	选择提升等级	選擇提升等級	Select promotion level	เลือกเกรดโปรโมชั่น	Pilih peningkatan level	Selecione o nível de atualização	레벨업
+ID_857	标题标六个字	標題標六個字	Six words for the title	หกคำสำหรับชื่อเรื่อง	Enam kata judul	O título tem seis palavras	제목 6글자 입력
+ID_858	最高速度素粗	最高速度素粗	Maximum speed plain	ความเร็วสูงสุดของรถบนพื้นราบ	Kecepatan maksimum	Velocidade Máxima	최대 속도 일반
+ID_859	属性名属性名	屬性名屬性名	Stats Name	ชื่อแอตทริบิวต์	Nama atribut	Nome do Atributo	속성 이름
+ID_860	帧    率	幀    率	FPS	FPS	FPS	FPS	FPS
+ID_861	永久限购1次	永久限購1次	Permanent limit 1 time purchase	การซื้อครั้งเดียวจำกัดเป็นอย่างถาวร	Pembelian terbatas permanen 1  kali	Limite de compra permanente 1 vez	1회 한정 확인
+ID_862	已升星至最高	已進化至最高	Reach maximum star level	เครื่องยกระดับสูงสุดที่ถึงได้	Sudah berevolusi ke level tertinggi	Evolução Máxima Alcançada	최고 진화 등급 달성
+ID_863	睡醒睡醒睡醒	睡醒睡醒睡醒	Wake up	ตื่นขึ้น	Bangunlah	Despertar	일어나기
+ID_864	最新活动活动	最新活動活動	Latest events	กิจกรรมล่าสุด	Kegiatan terbaru	As últimas atividades	최근 활동
+ID_865	6-10级	10-20級	Level 6-10	เกรด 10-20	Level 10-20	Série 10-20	6-10 레벨
+ID_866	11-15级	20-30級	Level 11-15	เกรด 20-30	Level 20-30	Nível 20-30	11-15 레벨
+ID_867	标准单头马达	標準單頭馬達	Hyper Dash Motor	มอเตอร์ไฮเปอร์แดช	Motor Hyper Dash	Motor de cabeça única padrão	표준 싱글 모터
+ID_868	耗材名称描述	耗材名稱描述	Name and description of consumables	ชื่อและคำอธิบายของวัตถุดิบ	Nama konsumabel dan deskripsinya	Descrição do nome dos consumíveis	소모품 이름 및 설명
+ID_869	屏蔽此人发言	遮罩此人發言	Block this player's message	บล็อกข้อความของบุคคลนี้	Blokir pesan orang ini	Bloquear esta pessoa de falar	블랙리스트 추가
+ID_870	等级达到10	等級達到10	Reach level 10	ได้รับการบูรณาการเป็นเกรด 10	Mencapai level 10	Nível até 10	10레벨 달성
+ID_871	当前没有比赛	當前沒有比賽	Currently no competitions	ปัจจุบันไม่มีการแข่งขัน	Tidak ada pertandingan saat ini	No momento não há jogos	현재 대회가 없습니다.
+ID_872	练习赛道排名	練習賽道排名	Ranking of practice track	อันดับของเส้นทางการฝึก	Peringkat trek latihan	Ranque do Teste	연습 트랙 순위
+ID_873	请输入赛道名	請輸入賽道名	Please enter the track name	โปรดป้อนชื่อเส้นทาง	Masukkan nama trek	Insira o nome da pista	트랙 이름을 입력하세요
+ID_874	释放所有资源	釋放所有資源	Release all resources	ปล่อยทรัพยากรทั้งหมด	Lepaskan semua sumber daya	liberar todos os recursos	모든 리소스 공개
+ID_875	标题标题标题	標題標題標題	Title	หัวข้อ	Judul	Título	제목
+ID_876	内测逻辑服1	內測邏輯服1	Internal test edition server 1	บริการเวอร์ชันทดสอบภายใน 1	Beta test server 1	Lógica de teste interno terno 1	내부 로직 테스트 서버 1
+ID_877	基础属性信息	基礎屬性資訊	Basic stats Information	ข้อมูลแอตทริบิวต์พื้นฐาน	Informasi atribut dasar	Informações básicas do atributo	기본 속성 정보
+ID_878	改造词条信息	改造詞條資訊	Transforming entry information	ข้อมูลเข้าสู่การเปลี่ยนแปลง	Informasi entri modifikasi	Transformar informações de entrada	변환 항목 정보
+ID_879	二级属性信息	二級屬性資訊	Secondary stats Information	ข้อมูลแอตทริบิวต์รอง	Informasi atribut level dua	Informações do atributo secundário	보조 속성 정보
+ID_880	名字名字名字	名字名字名字	Name	ชื่อ	Nama	Nome	이름
+ID_881	刷新数据登陆	刷新數據登陸	Refresh data and login	รีเฟรชข้อมูลและเข้าสู่ระบบใหม่	Memperbarui data masuk	Renovar dados	데이터 새로 고침 및 로그인
+ID_882	加j金币模板	加j金幣範本	Add coins template	เพิ่มเทมเพลตเหรียญทอง	Tambahkan templat Koin emas	Adicione modelo de ouro	골드 템플릿 추가
+ID_883	打开View	打開View	Open View	เปิดดู	Buka View	Mostrar	보기 열기
+ID_884	关闭View	關閉View	Close View	ปิดมุมมอง	Tutup View	Ocultar	보기 닫기
+ID_885	打开测试页面	打開測試頁面	Open Test Page	เปิดหน้าทดสอบ	Buka halaman uji coba	Abra a página de teste	테스트 페이지 열기
+ID_886	车辆平衡性强	車輛平衡性強	Strong vehicle balance	สมดุลย์รถยนต์แข็งแกร่ง	Keseimbangan kendaraan kuat	Carro equilibrado	미니카 밸런스 강함
+ID_887	横向缓冲龙头	橫向緩衝龍頭	Horizontal buffer front plate	แผ่นหน้าบัฟเฟอร์แนวนอน	Penyangga horizontal bumper depan	Tubo Amortecedor Horizontal	수평 범퍼 프론트 플레이트
+ID_888	已选择:	已選擇:	Selected:	ที่เลือก:	Telah dipilih:	Selecionado:	선택됨:
+ID_889	历史最高段位	歷史最高段位	Highest Rank in History	อันดับสูงสุดในประวัติศาสตร์	Pangkat tertinggi dalam sejarah	Ranque Histórico	역대 최고 티어
+ID_890	选择展示车辆	選擇展示車輛	Select displayed vehicle	เลือกรถที่แสดง	Pilih tampilkan kendaraan	Selecione um veículo de exibição	표시할 미니카 선택
+ID_891	完成第十四章	完成第十四章	Complete Chapter 14	สมบูรณ์บทที่ 14	Selesaikan Bab 14	Complete o Capítulo 14	챕터 14 완료
+ID_892	...99秒	...99秒	... 99 seconds	... 99 วินาที	...99 detik	...99 segundos	... 99초
+ID_893	名字名名字名	名字名名字名	Name	ชื่อ	Nama	Nome	이름
+ID_894	（4位数字）	（4位數字）	(4 digits)	(4 หลัก)	(4 digit)	(4 dígitos)	(4자리)
+ID_895	赛事明赛事明	賽事明賽事明	The event name	ชื่อเหตุการณ์	Nama acara	Nome do Evento	이벤트 이름
+ID_896	俱乐部名字名字	俱樂部名字名字	Club Name	ชื่อชมรม	Nama klub	Nome do Clube	클럽 이름
+ID_897	1 选择赛制	1 選擇賽制	1 Select competition system	1 เลือกระบบการแข่งขัน	1 Pilih format acara	1 Selecione o formato	1 대회 선택
+ID_898	3 确定时间	3 確定時間	3 confirm time	3 ยืนยันเวลา	3 Konfirmasi waktu	3 Determine o tempo	3 시간 확인
+ID_899	4 确定细节	4 確定細節	4 confirm details	4 ยืนยันรายละเอียด	4 Konfirmasi detail	4 Determine os detalhes	4 세부 정보 확인
+ID_900	参加过的赛事	參加過的賽事	Events you have participated in	เหตุการณ์ที่คุณเคยเข้าร่วม	Acara yang sudah diikuti	Participou de competições	참여한 이벤트
+ID_901	创建过的赛事	創建過的賽事	Events you have created	เหตุการณ์ที่คุณสร้าง	Acara yang sudah dibuat	Eventos criados	생성한 이벤트
+ID_902	购买后的等级	購買後的等級	Level after purchase	เกรดหลังจากการซื้อ	Tingkat setelah pembelian	Nível após a compra	확인 후 레벨
+ID_903	玩家名称描述	玩家名稱描述	Player Name Description	คำอธิบายชื่อผู้เล่น	Nama Pemain	Descrição do nome do jogador	플레이어 이름 설명
+ID_904	举办赛事奖励	舉辦賽事獎勵	Rewards for holding events	รางวัลสำหรับการจัดการแข่งขัน	Hadiah Penyelenggara	Recompensas do evento	대회 개최 보상
+ID_905	挑战关卡类型	挑戰關卡類型	Challenge level type	ระดับความท้าทาย	Peringkat Tantangan	Tipo de nível de desafio	도전 스테이지 유형
+ID_906	请先选择底盘	請先選擇底盤	Please select the chassis first	กรุณาเลือกชาซีส์ก่อน	Pilih Sasis	Selecione o chassi primeiro	섀시를 먼저 선택해 주세요
+ID_907	啊啊啊啊啊啊	啊啊啊啊啊啊	Ah ah ah ah ah ah ah	อะอะอะอะอะอะ	Aaaaaa	ah ah ah	아아 아아 아아 아아 아아 아아
+ID_908	输入剧情id	輸入劇情id	Enter story id	ใส่รหัสแปลงเรื่อง	Masukkan ID skenario	Insira o ID do lote	스토리 ID 입력
+ID_909	输入配件id	輸入配件id	Enter accessory id	ใส่รหัสอุปกรณ์เสริม	Masukkan ID aksesoris	Digite o ID do acessório	잠금 ID 입력
+ID_910	luaC数组	luaC數組	luaC digit group	กลุ่ม luaC	Array luaC	Matriz luaC	luaC배열
+ID_911	增减item	增減item	Increase/decrease item	เพิ่ม / ลดรายการ	Meningkatkan / Menurunkan Item	Adicionar/Subtrair item	항목 증가/감소
+ID_912	下竖滑动列表	下豎滑動列表	Scroll down list	เลื่อนลงรายการ	Geser Kebawah	Lista de slides vertical	목록 아래로 스크롤
+ID_913	模块协议通知	模組協議通知	Module Agreement Notice	แจ้งประกาศข้อตกลงโมดูล	Persetujuan	Avisos	모듈 계약 알림
+ID_914	赛道模型拍照	賽道模型拍照	Take photos of track model	ถ่ายภาพโมเดลติดตาม	Model sirkuit memotret	Sessão de fotos do modelo de pista	트랙 모델 촬영
+ID_915	水平循环滚动	水準迴圈滾動	Horizontal loop rolling	วงแหวนแนวนอน	Gulungan level bergulir	Rolagem circular horizontal	수평 루프 롤링
+ID_916	json使用	json使用	Json usage	การใช้งาน Json	Menggunakan JSON	json usa	Json 사용
+ID_917	玩家玩家玩家	玩家玩家玩家	Players	ผู้เล่น	Pemain	Jogadores	플레이어
+ID_918	俱乐部信息:	俱樂部資訊:	Club information:	ข้อมูลชมรม:	Informasi Club	Informações do Clube:	클럽 정보:
+ID_919	1.获得第一名	1.獲得第一名	1. Won the first place	1.ชนะอันดับแรก	Peringkat 1	1. Consiga o primeiro lugar	1. 1등 수상
+ID_920	名字名字名字名	名字名字名字名	Name	ชื่อ	Nama	Nome	이름
+ID_921	大法师打发放到	大法師打發放到	The mage sent it to	เมจส่ง	Grand Master diirimkan	O mestre enviou para	대략법사있다는둥
+ID_922	黑泽	黑澤	Kurosawa	คุโรซาวะ	Black Ze	Kurosawa	김준혁
+ID_923	黑色战神	黑色戰神	Black Saber	แบล็กเซเบอร์	Black Saber	Sabre Negro	블랙 세이버
+ID_924	点击空白处关闭	點擊空白處關閉	Click the empty space to close	แตะเว้นว่างเพื่อปิด	Tekan Area Kosong	Clique no espaço em branco para fechar	닫으려면 빈칸을 탭하세요.
+ID_925	加入俱乐部通知	加入俱樂部通知	Notice of joining the club	แจ้งเข้าร่วมชมรม	Pemberitahuan Bergabung Club	Junte ao Clube	클럽 가입 안내
+ID_926	创建自定义关卡	創建自定義關卡	Create custom build level	สร้างระดับสร้างที่กำหนดเอง	Buat level kustom	Criar níveis personalizados	커스텀 스테이지 생성
+ID_927	通关后恢复3次	通關後恢復3次	Restore 3 times after level clearance	กู้คืน 3 ครั้งหลังจากผ่านเลเวล	Mengembalikan 3 kali akan di pulihkan	Recupere 3 vezes após o desembaraço aduaneiro	클리어 후 회복 3회
+ID_928	剩余挑战次数3	剩餘挑戰次數3	Remaining challenges 3	จำนวนครั้งที่เหลือในการท้าทาย 3	Kurang 3	Número de desafios restantes 3	남은 도전 횟수 3
+ID_929	请输入赛道名称	請輸入賽道名稱	Please enter the track name	โปรดป้อนชื่อเพลง	Masukan Nama Lintasan	Insira o nome da pista	트랙 이름을 입력하세요
+ID_930	您暂未收到邮件	您暫未收到郵件	You haven't received the mail yet	คุณยังไม่ได้รับจดหมาย	Anda Belum Menerima Pesan	Você ainda não recebeu e-mail	우편함이 비어있습니다
+ID_931	玩家所属服务器	玩家所屬伺服器	Player's Server	เซิร์ฟเวอร์ของผู้เล่น	Server Pemain	Servidor do jogador	플레이어의 서버
+ID_932	黑名单里没有人	黑名單裏沒有人	No one in the blocklist	ไม่มีใครอยู่ในรายชื่อบล็อค	Tidak Ada Pemain di blokir	Lista negra vazia	블랙 리스트 없음
+ID_933	按在线时间排序	按線上時間排序	Sort by online time	เรียงตามเวลาออนไลน์	Urutkan Waktu Online	Classificar por tempo on-line	온라인 시간순 정렬
+ID_934	好友申请数量:	好友申請數量:	Friend request numbers:	จำนวนคำขอเป็นเพื่อน:	Nomer Permintaan Pertemanan	Número de pedidos de amizade:	친구 신청:
+ID_935	标题标六个字体	標題標六個字體	Six words for the title	หกคำสำหรับชื่อเรื่อง	Judul enam huruf font	Título com 6 letras	제목 6글자
+ID_936	剩余时间:	剩餘時間:	Time Remaining:	เวลาที่เหลือ:	Selisih Waktu	Tempo restante:	남은 시간:
+ID_937	已经满级了哦~	已經滿級了哦~	Already full level~	เลเวลเต็มแล้ว~	Level sudah penuh ~	Já nível completo~	이미 최고 레벨이에요~
+ID_938	玩家昵称八个字	玩家昵稱八個字	Eight characters of player nickname	แปดตัวอักษรของชื่อเล่นผู้เล่น	Nama panggilan pemain delapan huruf	Apelido de até 8 caracteres	플레이어 닉네임 8자
+ID_939	请点击开始挑战	請點擊開始挑戰	Please click to start the challenge	กรุณาคลิกเพื่อเริ่มท้าทาย	Silakan klik mulai tantangan	Clique para iniciar o desafio	터치하여 챌린지를 시작하세요.
+ID_940	各卡池概率详情	各卡池機率詳情	Probability details of each banner	รายละเอียดความน่าจะเป็นของแบนเนอร์แต่ละอัน	Keterangan Detail	Detalhes da probabilidade de cada conjunto de cartas	테이블 확률 세부 정보
+ID_941	还没有好友哦~	還沒好友哦~	No friends yet~	ยังไม่มีเพื่อน~	Belum ada teman~	Nenhum amigo ainda ~	아직 친구가 없네요~
+ID_942	...999秒	...999秒	... 999 seconds	... 999 วินาที	999 detik	...999 segundos	... 999초
+ID_943	今日挑战次数：	今日挑戰次數：	Challenge times today:	จำนวนครั้งท้าทายวันนี้:	Hari ini	Número de desafios hoje:	오늘 도전 횟수:
+ID_944	活动时间	活動時間	Event Time	เวลากิจกรรม	Waktu Event	Duração do Evento	이벤트 시간
+ID_945	消耗&奖励掉落	消耗&獎勵掉落	Reward drop	หล่อหลอม	Kompensasi dan imbalan drop	Drop	소모품&보상 드랍
+ID_946	请输入赛事名称	請輸入賽事名稱	Please enter the event name	โปรดป้อนชื่อกิจกรรม	Please enter the event name	Insira um nome de corrida	이벤트 이름을 입력하세요.
+ID_947	挑战赛持续时间	挑戰賽持續時間	Challenge duration	ระยะเวลาท้าทาย	Challenge duration	Duração do desafio	챌린지 기간
+ID_948	其他人的挑战赛	其他人的挑戰賽	Others' Challenge	ท้าทายของผู้อื่น	Others' Challenge	Outros Desafios	다른 사람의 도전
+ID_949	点击举办挑战赛	點擊舉辦挑戰賽	Click to hold a challenge	คลิกเพื่อจัดการท้าทาย	Click to hold a challenge	Clique para realizar um desafio	챌린지를 주최하려면 터치하세요.
+ID_950	已领取奖励次数	已領取獎勵次數	Number of claimed rewards	จำนวนรางวัลที่กำลังขอ	Number of claimed rewards	Recompensas recebidas	획득한 보상 개수
+ID_951	日常任务在次日	日常任務在次日	Daily missions will be available on the next day	ภารกิจรายวันจะพร้อมใช้งานในวันถัดไป	Daily tasks will be available on the next day	Novas diárias amanhã	일일 미션은 다음 날부터 이용 가능합니다.
+ID_952	购买10元钻石	購買10元鑽石	Buy 10 yuan diamonds	ซื้อเพชร 10 ยวน	Membeli berlian senilai 10 yuan	Compre 10 yuans de diamante	10위안 다이아 확인
+ID_953	获得了一个奖励	獲得了一個獎勵	Obtained a reward	ได้รับรางวัล	Mendapat Hadiah	Recebeu uma recompensa	보상 획득
+ID_954	生成轮毂模糊图	生成輪轂模糊圖	Generate a blurry graph of the wheel	สร้างกราฟเบลอลวงล้อ	Buat gambar lingkaran blur	Gerando Mapas Difusos de Hub	흐릿한 휠 그래프 생성하기
+ID_955	请输入赛事ID	請輸入賽事ID	Please enter the event ID	โปรดป้อน ID กิจกรรม	Silakan masukkan ID acara	Insira o ID do evento	이벤트 ID를 입력하세요
+ID_956	玩家昵称八个汉字	玩家昵稱八個漢字	Eight characters for player's nickname	ชื่อเล่นผู้เล่น 8 ตัวอักษร	Nama pemain delapan karakter Cina	Nome com até 8 caracteres	플레이어 닉네임 8자 입력
+ID_957	玩家名字八个汉子	玩家名字八個漢子	Eight characters for player's name	ชื่อผู้เล่น 8 ตัวอักษร	Nama pemain delapan karakter Cina	Nome com até 8 caracteres	플레이어 이름 8자
+ID_958	文字文字文字文字	文字文字文字文字	Characters	ตัวอักษร	Teks teks teks teks	Caracteres	문자
+ID_959	文本文本文本文本	文本文本文本文本	Text	ข้อความ	Teks teks teks teks	Texto	텍스트
+ID_960	名字名字名字名字	名字名字名字名字	Name	ชื่อ	Nama	Nome	이름
+ID_961	消耗以下材料升星	消耗以下材料進化	Consume the following materials to star up	ใช้วัสดุต่อไปนี้เพื่อวิวัฒนาการ	Pemakaian Bahan Evolve	Consuma os seguintes materiais para evoluir	다음 재료를 사용합니다.
+ID_962	性特性特性特性特	性特性特性特性特	Characteristic	ลักษณะ	Fitur Fitur Fitur Fitur	Detalhes	특성
+ID_963	属性名属性名性名	屬性名屬性名性名	Stats Name	ชื่อคุณลักษณะ	Gelar Nama	Atributo	속성 이름
+ID_964	睡醒睡醒睡醒睡醒	睡醒睡醒睡醒睡醒	Wake up	ตื่นตัว	Bangun	Despertar	깨어남
+ID_965	点击空白区域关闭	點擊空白區域關閉	Click the empty space to close	แตะเว้นว่างเพื่อปิด	Tekan (X) untuk menutup	Clique na área em branco para fechar	빈 곳을 탭하여 종료
+ID_966	玩家名字八个汉字	玩家名字八個漢字	Player's name in eight characters	ชื่อผู้เล่นเป็นตัวอักษรจีน 8 ตัว	Nama pemain delapan karakter Cina	Nome com até 8 caracteres	8자로 된 플레이어의 이름
+ID_967	恭喜获得 星马烈	恭喜獲得 星馬烈	Congratulations for obtaining Seiba Retsu	ยินดีด้วยที่ได้รับ Seiba Retsu	Selamat atas kemenanganmu, Star Marle	Parabéns por obter Seiba Retsu	남궁열 획득! 축하합니다!
+ID_968	关卡名字关卡名字	關卡名字關卡名字	Level Name	ชื่อระดับของเลเวล	Nama level nama level	Nível	스테이지 이름
+ID_969	俱乐部名字八个字	俱樂部名字八個字	Club name in eight characters	คลับชื่อในแบบจีน 8 ตัวอักษร	Nama Club 8 huruf	Nome do Clube com até 8 letras	최대 8자 입력 가능
+ID_970	玩家名称八个汉字	玩家名稱八個漢字	Player name in eight characters	ชื่อผู้เล่นเป็นภาษาจีน 8 ตัวอักษร	Nama Pemain 8 huruf	Nome com até 8 caracteres	최대 8자 입력 가능
+ID_971	激情对抗，速来!	激情對抗，速來!	Fiery confrontation, come quickly!	การปะทะกันอย่างรุนแรง มาเร็วๆนี้!	Pertarungan semangat, datanglah!	Confronto apaixonado, apresse-se!	불타는 대결, 가즈아!
+ID_972	俱乐部名字什么的	俱樂部名字什麼的	Club Name	ชื่อคลับ	Semua klub namanya dan sejenisnya	Nome do Clube	클럽 이름
+ID_973	暂不符合申请条件	暫不符合申請條件	Not meeting the application conditions at present	ขณะนี้ไม่ตรงตามเงื่อนไขในการสมัคร	Tidak memenuhi syarat untuk mendaftar saat ini	Não elegível para candidatura	신청 조건을 충족하지 않습니다
+ID_974	俱乐部名字www	俱樂部名字www	Club Name www	ชื่อคลับ www	Nama klub www	nome do clube www	클럽 이름 www
+ID_975	会长阿斯顿发爱谁	會長阿斯頓發愛誰	Who does President Aston love	ประธานอัญเชิญใคร	Presiden Aston menyatakan cintanya	Por quem o presidente Aston se apaixona?	애스턴 회장은 누구를 사랑합니까?
+ID_976	剩余时间 14天	剩餘時間 14天	14 days remaining	เหลืออีก 14 วัน	Sisa waktu 14 hari	14 dias restantes	14일 남음
+ID_977	未上传赛道	未上傳賽道	Click to add a new track	คลิกเพื่อเพิ่มสนามใหม่	Klik untuk menambahkan jalur balap baru	Clique para adicionar nova pista	새로운 트랙 만들기
+ID_978	友情点数量：	友情點數量：	Points:	จำนวนแต้มเพื่อนร่วมทีม:	Teman poin:	Pontos de Amizade:	우정 포인트:
+ID_979	打开Persit	打開Persit	Open Persit	เปิด Persit	Buka Persit	Abrir Persit	퍼시트 열기
+ID_980	关闭Persit	關閉Persit	Close Persit	ปิด Persit	Tutup Persit	Fechar Persit	퍼시트 닫기
+ID_981	合成后增加经验:	合成後增加經驗:	Obtain EXP after merge:	ได้รับ EXP หลังจากการสังเคราะห์:	Peningkatan pengalaman setelah sintesis:	Aumente a experiência após a síntese:	합성 후 경험치 증가:
+ID_982	升级增加成功率:	升級增加成功率:	Success rate will be increased after level up:	อัตราความสำเร็จจะเพิ่มขึ้นหลังจากการอัพเกรด:	Peningkatan keberhasilan setelah naik level:	Atualize para aumentar a taxa de sucesso:	업그레이드 후 성공률 증가:
+ID_983	点击输入您的名字	點擊輸入您的名字	Click to enter your name	คลิกเพื่อกรอกชื่อของคุณ	Klik untuk memasukkan nama Anda	Clique para inserir seu nome	이름을 입력해주세요
+ID_984	天梯准备倒计时：	天梯準備倒計時：	Countdown of the preparation of the ladder matches:	นับถอยหลังของการเตรียมการเลเดอร์แมทช์:	Countdown persiapan tangga langit:	Contagem regressiva de preparação da escada:	사다리 준비 카운트다운:
+ID_985	李狗嗨的房间爱爱	李狗嗨的房間愛愛	Li Gouhi's Room Love	Li Gouhi's Room Love	Kamar Li Gouhai untuk bercinta	Sala do Amor	이구희의 방 사랑
+ID_986	当前数量x999	當前數量x999	Current quantity x999	ปริมาณปัจจุบัน x999	Jumlah saat ini x999	Quantidade atual x999	현재 수량 x999
+ID_987	购买 1 个等级	購買 1 個等級	Buy 1 level	ซื้อเกรด 1	Beli 1 level	Compre 1 nível	1레벨 확인
+ID_988	上次登入服务器：	上次登入伺服器：	Last login to server:	ล็อกอินครั้งล่าสุดเข้าสู่เซิร์ฟเวอร์:	Terakhir masuk ke server:	Último login no servidor:	최근 접속한 서버:
+ID_989	战胜敌人名称文本	戰勝敵人名稱文本	Defeated enemy's name text	ชื่อเสียงของศัตรูที่ถูกจับได้	Teks nama musuh yang berhasil dikalahkan	Texto do Nome do Inimigo Derrotado	쓰러뜨린 라이벌의 이름 텍스트
+ID_990	请选择使用的道具	請選擇使用的道具	Please select the item to use	โปรดเลือกสิ่งของเพื่อใช้	Silakan pilih item yang akan digunakan	Por favor, selecione os adereços para usar	사용할 아이템을 선택해주세요
+ID_991	举办赛事成功成功	舉辦賽事成功成功	Successfully held the event	จัดกิจกรรมเรียบร้อยแล้ว	Berhasil mengadakan acara	Organizando um evento de sucesso	이벤트 주최 성공
+ID_992	赛事进度 6/7	賽事進度 6/7	Event Progress 6/7	ความคืบหน้าของกิจกรรม 6/7	Kemajuan acara 6/7	Progresso da corrida 6/7	이벤트 진행 6/7
+ID_993	获取配置表字符串	獲取配置表字符串	Get configuration alphabetic string	รับกำหนดค่าอักษรตัวพิมพ์เล็ก	Dapatkan string tabel konfigurasi	Obter string da tabela de configuração	구성 알파벳 문자열 가져오기
+ID_994	通用功能使用例子	通用功能使用例子	Examples of common functions	ตัวอย่างฟังก์ชั่นทั่วไป	Contoh penggunaan fitur umum	Exemplo de uso de função geral	일반적인 기능의 예
+ID_995	二郎玩特别特别好	二郎玩特別特別好	Erlang is very good at playing	เออร์แลงด์เล่นเก่งมาก	Erlang mainnya sangat bagus	Jogou muito bem	얼랑은 정말 잘 놀아요
+ID_996	升星至4 ★ 解锁	進化至4 ★ 解鎖	Star up to 4 ★ to unlock	เลื่อนระดับเป็น 4 ★ เพื่อปลดล็อค	Evolusi menjadi 4 ★ membuka kunci	Evolua para 4 Desbloqueado	진화 4★ 달성하여 잠금 해제 해제
+ID_997	扭力强化马达*1	扭力強化馬達*1	Torque-tuned motor *1	มอเตอร์ทอร์คทูน 1 ตัว	Penguatan torsi motor * 1	Motor de torque aprimorado * 1	토크 강화 모터 *1
+ID_998	配件文字描述两行字	配件文字描述兩行字	Two line description of accessories	คำอธิบายสินค้าอย่างย่อสองบรรทัด	Deskripsi teks aksesoris dua baris	Descrição do texto acessório duas linhas	잠금 설명은 두 줄 입니다
+ID_999	私聊玩家名字888	私聊玩家名字888	Private chat of player's name 888	การสนทนาส่วนตัวของผู้เล่นชื่อ 888	Obrolan pribadi dengan nama pemain 888	Nome do jogador de chat privado 888	플레이어 이름 888에게 귓속말
+ID_1000	今日兑换次数已用完	今日兌換次數已用完	Today's exchange times have been used up	วันนี้ได้ใช้สิทธิ์การแลกเปลี่ยนครบแล้ว	Waktu Penukaran Habis	Os resgates de hoje foram esgotados	오늘은 더 이상 교환할 수 없습니다
+ID_1001	点击荧幕空白处关闭	點擊螢幕空白處關閉	Click the empty space to close	แตะที่ช่องว่างเพื่อปิด	Tekan Area kosong untuk menutup	Clique em um espaço vazio na tela para fechar	빈칸을 터치하면 닫힙니다
+ID_1002	没有搜索到任何结果	沒有搜索到任何結果	No results found	ไม่พบผลลัพธ์	Tidak ada hasil pencarian yang ditemukan	Nenhum resultado encontrado	검색 결과가 없습니다
+ID_1003	会长阿斯顿发爱谁去	會長阿斯頓發愛誰去	President Aston, who will go	ประธาน Aston ใครจะไป	Ketua Aston mengirim cinta kepada siapa	Para quem o presidente Aston enviará amor?	애스턴 회장, 누가 갈 것인가
+ID_1004	《四驱兄弟》运营组	《四驅兄弟》運營組	Operation Team of Brothers of the 4WD kart	ทีมปฏิบัติการของพี่น้อง 4WD kart	Tim operasi "Empat Saudara Berkendara"	Equipe de Operação "Quatro Irmãos Motoristas"	<폭주형제> 운영팀
+ID_1005	打开PopView	打開PopView	Open PopView	เปิด PopView	Buka PopView	Abrir PopView	팝뷰 열기
+ID_1006	关闭PopView	關閉PopView	Close PopView	ปิด PopView	Tutup PopView	Fechar PopView	팝뷰 닫기
+ID_1007	2小时34分33秒	2小時34分33秒	2 hours, 34 minutes and 33 seconds	2 ชั่วโมง 34 นาที และ 33 วินาที	2 jam 34 menit 33 detik	2 horas 34 minutos 33 segundos	2시간 34분 33초
+ID_1008	您没有选择任何物品	您沒有選擇任何物品	You have not selected any items	คุณยังไม่ได้เลือกรายการใด ๆ	Anda tidak bisa memilih barang tersebut	Você não selecionou nenhum item	악세서리를 선택하지 않았습니다
+ID_1009	装备改造、装备改造	裝備改造、裝備改造	Equipment transformation	การเปลี่ยนแปลงอุปกรณ์	Perbaikan Peralatan	Modificação de Equipamentos	장비 변신
+ID_1010	比赛历史功能未开放	比賽歷史功能未開放	The match history function is not open yet	ฟังก์ชันประวัติการแข่งขันยังไม่เปิดใช้งาน	Riwayat pertandingan belum tersedia	A função de histórico do jogo não está aberta	대전 기록 기능이 아직 열려 있지 않습니다.
+ID_1011	恭喜获得  星马烈	恭喜獲得  星馬烈	Congratulations on obtaining Seiba Retsu	ขอแสดงความยินดีที่ได้รับ Seiba Retsu	Selamat, Anda mendapatkan Seiba Retsu	Parabéns por obter Seiba Retsu	남궁열 획득! 축하합니다!
+ID_1012	房间名房间名房间名	房間名房間名房間名	Room	ชื่อห้อง	Nama kamar, nama kamar, nama kamar	Sala	방
+ID_1013	邀请你加入他的房间	邀請你加入他的房間	Invite you to join his room	เชิญชวนให้เข้าร่วมห้องของเขา	Dia mengundang Anda untuk bergabung dengan kamarnya	Te convidou para entrar na sala	초대를 받았습니다
+ID_1014	通行证S1结束时间	通行證S1結束時間	End time of pass S1	เวลาสิ้นสุดของผ่าน S1	Waktu berakhir untuk tiket S1	Encerramento do Passe S1	패스 S1 종료 시간
+ID_1015	牧场牧场-高速赛道	牧場牧場-高速賽道	Ranch Ranch - High Speed Track	Ranch Ranch - ทางเร็วสูง	Peternakan - Jalur balap cepat	Rancho - Autódromo	목장 목장 - 고속 트랙
+ID_1016	累计参赛人数及奖励	累計參賽人數及獎勵	Total number of participants and rewards	จำนวนผู้เข้าร่วมสะสมและรางวัล	Jumlah total peserta dan hadiah	Número cumulativo de participantes e prêmios	누적 참가자 수 및 보상
+ID_1017	首战！上点击的比赛	首戰！上點擊的比賽	First combat! Click to join the match	การต่อสู้ครั้งแรก! คลิกเพื่อเข้าร่วมการแข่งขัน	Pertempuran pertama! Klik pertandingan	1° batalha. Participe!	데뷔전! 터치해서 참여하세요
+ID_1018	今日购买次数已用完	今日購買次數已用完	Today's purchase times have been used up	วันนี้ได้ใช้จำนวนการซื้อครบแล้ว	Jumlah pembelian hari ini sudah habis	As compras de hoje se esgotaram	오늘은 더 이상 확인할 수 없습니다
+ID_1019	打印table日志	列印table日誌	Print table log	พิมพ์เข้าสู่ระบบ	Cetak log tabel	Registros da Tabela	테이블 로그 인쇄
+ID_1020	副标题副标题副标题	副標題副標題副標題	Subtitle	คำบรรยาย	Subjudul, subjudul, subjudul	Legenda	부제
+ID_1021	Buff名称文本描述	Buff名稱文本描述	Description of Buff ‘s Name Text	คำอธิบายของชื่อข้อบัฟ	Nama buff dan deskripsi teks	Descrição do texto do nome do buff	버프 명칭 텍스트 설명
+ID_1022	2.战胜敌人名称文本	2.戰勝敵人名稱文本	2. defeated enemy’s name text	ชื่อของศัตรูที่ถูกเอาชนะ	Kalahkan nama musuh teks	2. Supere o texto do nome do inimigo	2. 쓰러뜨린 라이벌의 이름 텍스트
+ID_1023	3.战胜敌人名称文本	3.戰勝敵人名稱文本	3. defeated enemy’s name text	ชื่อของศัตรูที่ถูกเอาชนะ	Kalahkan nama musuh teks	3. Supere o texto do nome do inimigo	3. 쓰러뜨린 라이벌의 이름 텍스트
+ID_1024	是否消耗完美改造材料	是否消耗完美改造材料	Are you sure you want to consume the perfect transformation materials	คุณแน่ใจหรือไม่ว่าต้องการใช้วัสดุการเปลี่ยนร่างที่สมบูรณ์แบบ	Apakah ingin menggunakan bahan perbaikan sempurna?	Você deseja usar materiais de aprimoramento perfeitos?	확정 완벽 개조 재료를 사용하시겠습니까?
+ID_1025	帧        率	幀        率	FPS	FPS	Frame rate	FPS	FPS
+ID_1026	音        乐	音        樂	Music	เพลง	Musik	Música	사운드
+ID_1027	推        送	推        送	Notification	ผลัก	Pemberitahuan	Impulsionar	푸시
+ID_1028	名字名字名字名字名字	名字名字名字名字名字	Name	ชื่อ	Nama	Nome	이름
+ID_1029	正在计算......	正在計算......	Calculating...	กำลังคำนวณ...	Sedang menghitung......	Calculando...	계산 중...
+ID_1030	黑色战神是黑泽的爱车	黑色戰神是黑澤的愛車	The Black Saber is Kurosawa's favorite car	ดาบสีดำเป็นรถที่โครซาว่าชื่นชอบ	Dewa Perang Hitam adalah mobil kesayangan Kurozawa	Black Ares é o carro favorito de Kurosawa	블랙 세이버는 김준혁이 가장 좋아하는 미니카입니다
+ID_1031	00小时00分00秒	00小時00分00秒	00 hours, 00 minutes, 00 seconds	00 ชั่วโมง 00 นาที 00 วินาที	00 jam 00 menit 00 detik	00 horas 00 minutos 00 segundos	00시간 00분 00초
+ID_1032	快去选择配方合成吧~	快去選擇配方合成吧~	Go and choose the formula to synthesize~	ไปเลือกสูตรที่จะสังเคราะห์ได้เลย~	Pergi dan pilih formula yang akan disintesis~	Vá e escolha a fórmula para sintetizar ~	어서 비법을 선택해서 합성해보세요~
+ID_1033	小口径兆口轮胎阿道夫	小口徑兆口輪胎阿道夫	Small caliber trillion tire Adolf	ยางล้อทริลลิ่งเบิร์ดขนาดเล็ก อาดอล์ฟ	Ban kecil, ban mega Adolf	Pneu Mega de Pequeno Diâmetro Adolf	소경 조 타이어 아돌프
+ID_1034	没有物品可以分解哦~	沒有物品可以分解哦~	There are no items that can be decomposed~	ไม่มีไอเทมที่สามารถย่อยสลายได้~	Tidak ada barang yang bisa terurai~	Não há itens que possam ser decompostos ~	분해 가능한 아이템이 없네요~
+ID_1035	快去选择配方升级吧~	快去選擇配方升級吧~	Go and choose the formula to upgrade~	ไปและเลือกสูตรที่จะอัพเกรด~	Pergi dan pilih formula untuk ditingkatkan~	Vá e escolha a fórmula para atualizar ~	어서 비법을 선택해서 승급해보세요~
+ID_1036	只保留当日的参赛纪录	只保留當日的參賽紀錄	Only keep today's match record	เก็บบันทึกการแข่งขันวันนี้เท่านั้น	Riwayat pertandingan hari ini	Apenas os registros de entrada do dia são mantidos	오늘의 경기 기록만 보관
+ID_1037	请输入兑换码领取奖励	請輸入兌換碼領取獎勵	Please enter the redeem code to claim the reward	โปรดป้อนรหัสแลกรับรางวัล	Masukan kode untuk menerima hadiah	Insira o código de resgate para reivindicar a recompensa	교환 코드를 입력하세요.
+ID_1038	确认购买以下商品吗?	確認購買以下商品嗎?	Are you sure to purchase the following products?	คุณแน่ใจหรือไม่ว่าต้องการซื้อสินค้าต่อไปนี้?	Apakah anda akan membeli barang tersebut ?	Tem certeza de que deseja comprar os seguintes itens?	다음 상품을 확인하시겠습니까?
+ID_1039	研发直道赛道块的模具	研發直道賽道塊的模具	The moulds that used to contrive straight track blocks	แม่พิมพ์ที่ใช้ในการจัดการบล็อกทางตรง	Mengembangkan cetakan untuk balapan langsung	Desenvolvimento de moldes para blocos de via reta	직선 트랙 블록 개발에 사용되는 금형
+ID_1040	需要购买以下商品吗？	需要購買以下商品嗎？	Do you need to purchase the following products?	คุณต้องการซื้อสินค้าต่อไปนี้หรือไม่?	Apakah Anda perlu membeli barang berikut?	Precisa comprar os seguintes itens?	다음 제품을 확인하시겠습니까?
+ID_1041	移除update方法	移除update方法	The method to remove the update	วิธีการลบการอัปเดต	Hapus metode pembaruan	Remova o método de atualização	업데이트 제거 방법
+ID_1042	暂无技能	暫無技能	Skill Unavailable	ทักษะไม่สามารถใช้ได้	Keterampilan tidak tersedia	Sem Habilidades	스킬 사용 불가
+ID_1043	剩余时间 8天22小时	剩餘時間 8天22小時	8 days and 22 hours remaining	เหลืออีก 8 วัน 22 ชั่วโมง	Sisa waktu 8 hari 22 jam	O tempo restante é de 8 dias e 22 horas	8일 22시간 남음
+ID_1044	任务描述八个大字大大字	任務描述八個大字大大字	Eight big characters of mission description	คำอธิบายภารกิจแบบ 8 ตัวอักษร	Delapan kata besar dalam deskripsi misi	Descrição da missão oito personagens grandes	미션 설명의 8가지 큰 문자
+ID_1045	正在更新资源，资源大小	正在更新資源，資源大小	Updating resource, resource size	กำลังอัปเดตแหล่งข้อมูล ขนาดของแหล่งข้อมูล	Sedang memperbarui sumber daya, ukuran sumber daya	Atualizando recurso, tamanho do recurso	리소스 및 리소스 사이즈를 업데이트 합니다
+ID_1046	快来加入我的俱乐部吧!	快來加入我的俱樂部吧!	Come and join my club!	มาเข้าร่วมชมรมของฉัน!	Bergabunglah dengan klub saya sekarang!	Venha fazer parte do meu clube!	저희의 클럽에 놀러오세요!
+ID_1047	请输入俱乐部名称...	請輸入俱樂部名稱...	Please enter the club name	โปรดป้อนชื่อชมรม	Silakan masukkan nama klub...	Por favor insira um nome de clube...	클럽 이름을 입력하세요.
+ID_1048	小口径标准债台描述文字	小口徑標準債臺描述文字	Small caliber standard debt platform description	แพลตฟอร์มหนีบขนาดเล็ก	Teks deskripsi atas meja hutang kecil	Texto de descrição de dívida padrão de pequeno calibre	소구경 표준 부채 플랫폼 설명
+ID_1049	发起人:玩家名字N个字	發起人:玩家名字N個字	Promoter: Player Name N Characters	ผู้จัดการ: ชื่อผู้เล่น N ตัวอักษร	Nama dan karakter	Iniciador: Nome do jogador com N caracteres	보낸 사람: 플레이어 이름 N 글자
+ID_1050	开放时间: 周六、周六	開放時間: 週六、週六	Opening Hours: Saturday	เวลาเปิด: เสาร์	Waktu Pembukaan : Sabtu	Abertura: Sábados	개방 시간: 토요일, 토요일
+ID_1051	您的这些配件正在使用中	您的這些配件正在使用中	Your accessories are currently in use	เครื่องประดับของคุณกำลังใช้งานอยู่ในปัจจุบัน	Aksesoris yang anda gunakan	Estes seus acessórios estão em uso	현재 사용 중인 잠금
+ID_1052	无限滚动扩展	無限滾動擴展	Infinite scrolling expansion	ขยายการเลื่อนไม่จำกัด	Menggeser tanpa batas	Extensão de rolagem infinita	무한 스크롤 확장
+ID_1053	(翻页)	(翻頁)	(turn pages)	ชื่อข้อความ	Halaman berikutnya	(virar página)	(페이지 넘기기)
+ID_1054	名称文本信息名称名称文	名稱文本資訊名稱名稱文	Text name	ชื่อ	Judul	Texto	텍스트 이름
+ID_1055	冲锋战神冲锋战神冲锋战神	衝鋒戰神衝鋒戰神衝鋒戰神	MAGNUM SABER	MAGNUM SABER	Magnum Saber	Carga de God of War Carga de God of War Carga de God of War	매그넘 세이버
+ID_1056	点击头像和好友聊起来吧~	點選頭像跟好友聊起來吧~	Click on the avatar to chat with your friends~	คลิกที่รูปประจำตัวเพื่อแชทกับเพื่อนของคุณ~	Klik pada avatar untuk mengobrol dengan teman Anda~	Clique no avatar para conversar com seus amigos~	아바타를 터치해서 친구와 대화해보세요~
+ID_1057	超过期限的邮件将自动删除	超過期限的郵件將自動刪除	The expired mail will be deleted automatically	จดหมายที่หมดอายุจะถูกลบโดยอัตโนมัติ	Surat kadaluarsa akan dihapus otomatis	E-mails fora do prazo serão excluídos automaticamente	만료된 메일은 자동으로 삭제됩니다.
+ID_1058	啊啊啊啊啊啊啊啊啊啊啊啊	啊啊啊啊啊啊啊啊啊啊啊啊	AAAAAAAAA	AAAAAAAAA	Aaaahhhhhhhhh	ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah	하하하하하하하하하하하하
+ID_1059	(赛事ID123456)	(賽事ID123456)	(Event ID123456)	(รหัสกิจกรรม 123456)	(ID kompetisi 123456)	(ID do evento 123456)	(이벤트 ID123456)
+ID_1060	赛事名称 旋风冲锋争夺赛	賽事名稱 旋風衝鋒爭奪賽	Event name Magnum Saber Race	ชื่อกิจกรรม Magnum Saber Race	Nama kompetisi: Lomba Storm Rush	Nome do Evento Corrida do Sabre Magnum	이벤트명 매그넘 세이버 쟁탈전
+ID_1061	update一个普通方法	update一個普通方法	A common method of update	วิธีการอัพเดททั่วไป	Update metode biasa	Atualizar um método comum	일반적인 업데이트 방법
+ID_1062	update类里面的方法	update類裏面的方法	Method of update class	วิธีการอัพเดทชั้นเรียน	Update metode dalam kelas	O método na classe de atualização	클래스 업데이트 방법
+ID_1063	名字名字名字名字名字名字名	名字名字名字名字名字名字名	Name	ชื่อ	Nama	Nome	이름
+ID_1064	限时抢购:00:00:00	限時搶購:00:00:00	Flash Sale: 00:00:00	Flash sale: 00:00:00	Diskon 00:00:00	Promoção relâmpago por tempo limitado: 00:00:00	한정 판매: 00:00:00
+ID_1065	2 选择参赛人数和比赛地图	2 選擇參賽人數和比賽地圖	2 Select the number of participants and the competition map	2 เลือกจำนวนผู้เข้าร่วมและแผนที่การแข่งขัน	Pilih 2 Pemain bergabung dalam pertandingan	2 Selecione o número de participantes e o mapa do jogo	2 참가자 수와 대회 맵을 선택합니다.
+ID_1066	每日抽奖上限： 0/999	每日抽獎上限： 0/999	Daily lottery limit: 0/999	วันล็อตเตอรี่รายวัน จำกัด: 0/999	Batas Undian 0/999	Sorteio Diário: 0/999	일일 추첨 한도: 0/999
+ID_1067	模块_10004_true	模組_10004_true	Module_ 10004_ true	โมดูล_10004_จริง	Modul_ 10004_ Benar	module_10004_true	모듈_ 10004_ 진실
+ID_1068	名字名字名字名字名字名字名字	名字名字名字名字名字名字名字	Name	ชื่อ	Nama	Nome	이름
+ID_1069	目前没有好友哦，快去添加吧~	目前沒有好友哦，快去添加吧~	There are currently no friends, please add them~	ขณะนี้ไม่มีเพื่อน กรุณาเพิ่มพวกเขา~	Saat ini tidak ada teman, silakan tambahkan mereka~	No momento não há amigos, adicione-os ~	친구가 없습니다. 어서 추가해보세요~
+ID_1070	登入帐号，开启迷你四驱车世界	登入帳號，開啟迷你四驅車世界	Log in to your account	เข้าสู่ระบบบัญชีของคุณ	Masuk akun anda	Faça login na sua conta para abrir o mini mundo 4WD	미니 레이서의 세계로 로그인
+ID_1071	模块_10003_false	模組_10003_false	Module_ 10003_ false	โมดูล_10003_เท็จ	Modul_ 10003_ Tidak Aktif	module_10003_false	모듈_10003_false
+ID_1072	自定义无限滚动扩展	自定義無限滾動擴展	Custom build infinite scrolling extension	สร้างส่วนขยายการเลื่อนอย่างไม่จำกัด	Merubah tanpa batas	Rolagem personalizada	커스텀 빌드 무한 스크롤 확장
+ID_1073	(翻页)	(翻頁)	(turn pages)	(เปลี่ยนหน้า)	Halaman Berikutnya	(virar página)	(페이지 넘기기)
+ID_1074	再等一下，好友申请就会出现的~	再等一下，好友申請就會出現的~	Wait a moment and the friend application will appear~	รอสักครู่แล้วแอปพลิเคชันเพื่อนจะปรากฏขึ้น~	Tunggu sebentar dan akan muncul permintaan teman~	Espere um momento e o aplicativo amigo aparecerá ~	친구 신청 리스트가 곧 업데이트 될 예정이니 잠시 대기 부탁드립니다.
+ID_1075	这个玩家比较懒 什么也没留下	這個玩家比較懶 什麼也沒留下	This player has nothing left here	ผู้เล่นคนนี้ไม่มีอะไรเหลืออยู่ที่นี่	Pemain tidak meninggalkan apapun	Este jogador é preguiçoso e não deixou nada	자기소개가 없습니다.
+ID_1076	购买等级提升后,可获得以下奖励	購買等級提升後,可獲得以下獎勵	After the purchase rank is increased, you can obtain the following rewards	หลังจากซื้ออันดับเพิ่มขึ้น คุณสามารถรับรางวัลต่อไปนี้ได้	Setelah melakukan pembayaran, anda bisa meningkatkan pembelian	Depois que o nível de compra for atualizado, as seguintes recompensas podem ser obtidas	확인 시 다음 보상을 받을 수 있습니다.
+ID_1077	标准单头马达，四驱车的必备配件。	標準單頭馬達，四驅車的必備配件。	Standard single motor, an essential accessory for 4WD vehicles	มอเตอร์เดี่ยวมาตรฐาน อุปกรณ์ที่สำคัญสำหรับรถ 4WD	Motor tunggal standar, aksesoris wajib Mini 4WD.	Motor de cabeça única padrão, um acessório essencial para veículos com tração nas quatro rodas.	미니카의 필수 잠금인 표준 싱글 모터입니다.
+ID_1078	请输入俱乐部名字（1-8个汉字）	請輸入俱樂部名字（1-8個漢字）	Please enter club name(1-8 characters)	โปรดป้อนชื่อสโมสร (1-8 ตัวอักษร)	Masukan Nama Club ( 1-8 huruf )	Digite o nome do clube (1-8 caracteres)	클럽명을 입력하세요(1~8자).
+ID_1079	高级·19mm六孔铝合金导轮(黑)	高級·19mm六孔鋁合金導輪(黑)	Advanced·Aluminum Ball-Race Rollers 19mm (6 Spokes) (Black)	Advanced·Aluminum Ball-Race Rollers 19mm (6 Spokes) (สีดำ)	Roller 19mm ( hitam )	Avançado · Roda guia de liga de alumínio de seis furos de 19 mm (preta)	고급 19mm 6홀 알루미늄 롤러(블랙)
+ID_1080	为了您的健康，请合理控制游戏时间。	為了您的健康，請合理控制遊戲時間。	Please control your game time reasonably for your health.	โปรดควบคุมเวลาเกมของคุณอย่างเหมาะสมสำหรับสุขภาพของคุณ	Kendalikan permainan anda demi kesehatan anda	Para sua saúde, controle o tempo de jogo razoavelmente.	건강을 위해 게임 시간을 합리적으로 조절하세요.
+ID_1081	保持住现在的排名，您可以进入下一轮	保持住現在的排名，您可以進入下一輪	Keep your current ranking, and you can enter the next round	รักษาระดับปัจจุบันของคุณ และคุณสามารถเข้ารอบต่อไปได้	Pertahankan peringkat, agar dapat masuk ke pertandingan berikutnya.	Mantenha seu ranque atual e você pode avançar para a próxima rodada	현재 순위를 유지해봐요, 다음 라운드까지 진출하실 수 있습니다.
+ID_1082	本次刷新时间还有:00:00:01	本次刷新時間還有:00:00:01	The refresh time remains: 00:00:01	เวลารีเฟรชยังเหลืออยู่: 00:00:01	Waktu Reset : 00:00:00	Redefinição em: 00:00:01	다음 새로고침까지 남은 시간: 00:00:01
+ID_1083	全信服务器_10001_false	全信服務器_10001_false	New server_10001 false	เซิร์ฟเวอร์ใหม่_10001 เท็จ	Server full_service_10001_false.	Quanxin Server_10001_false	새 서버_10001_false
+ID_1084	请点击输入(0-40字)......	請點擊輸入(0-40字)......	Click to type (0-40 characters)	แตะเพื่อใส่ข้อความ (0-40 ตัวอักษร)	Masukan ( 1 - 40 Huruf )	Por favor, clique para entrar (0-40 palavras)......	탭하여 입력 (0-40자)
+ID_1085	参加玩家越多,可领取的累计奖励越多哦	參加玩家越多,可領取的累計獎勵越多哦	The more players join, the more total rewards you can claim	ผู้เข้าร่วมมากขึ้น รางวัลสะสมก็จะมีมากขึ้นเท่านั้น	Semakin banyak pemain bergabung, semakin banyak hadiah yang anda terima	Quanto mais jogadores participarem, mais recompensas cumulativas eles podem receber	참가자가 많을수록 더 많은 보상이 누적됩니다.
+ID_1086	剩余时间:     10天	剩餘時間:     10天	Time remaining:  10 days	เวลาที่เหลือ:  10 วัน	Sisa Waktu : 10 hari	Tempo restante:  10 dias	남은 시간: 10일
+ID_1087	恭喜您成功举办挑战赛请收下您的举办奖励	恭喜您成功舉辦挑戰賽請收下您的舉辦獎勵	Congratulations on your success in holding the challenge. Please claim your reward	ยินดีด้วยกับความสำเร็จของการเผชิญหน้าที่คุณจัดขึ้น โปรดรับรางวัลของคุณ	Selamat atas suksesnya acara anda, silakan menerima hadiah penyelenggara	Parabéns por realizar o desafio com sucesso, aceite sua recompensa de espera	챌린지 주최에 성공하신 것을 축하드립니다. 주최 보상을 수령하세요.
+ID_1088	MoreRowScrollView使用	MoreRowScrollView使用	MoreRowScrollView use	การใช้งาน MoreRowScrollView	MoreRowScrollView digunakan.	MoreRowScrollView usa	더 많은 행 스크롤 뷰 사용
+ID_1089	一侧,106.2.39.21:11003	一側,106.2.39.21:11003	One side, 106.2.39.21:11003	ฝั่งหนึ่ง 106.2.39.21:11003	Satu sisi, 106.2.39.21:11003.	lateral,106.2.39.21:11003	한 쪽, 106.2.39.21:11003
+ID_1090	测试服,10.4.15.247:11003	測試服,10.4.15.247:11003	Test server, 10.4.15.247:11003	เซิร์ฟเวอร์ทดสอบ 10.4.15.247:11003	Server uji coba, 10.4.15.247:11003.	servidor de teste,10.4.15.247:11003	테스트 서버, 10.4.15.247:11003
+ID_1091	华松,192.168.1.45:11003	華松,192.168.1.45:11003	Huasong,192.168.1.45:11003	Huasong, 192.168.1.45:11003	Hua Song, 192.168.1.45:11003.	Hua Song, 192.168.1.45:11003	Huasong,192.168.1.45:11003
+ID_1092	文涛,192.168.1.35:11003	文濤,192.168.1.35:11003	Wentao,192.168.1.35:11003	Wentao, 192.168.1.35:11003	Wen Tao, 192.168.1.35:11003.	Wen Tao, 192.168.1.35:11003	Wentao,192.168.1.35:11003
+ID_1093	聚鹏,192.168.1.39:11003	聚鵬,192.168.1.39:11003	Jupeng,192.168.1.39:11003	Jupeng, 192.168.1.39:11003	Ju Peng, 192.168.1.39:11003.	Jupeng,192.168.1.39:11003	Jupeng,192.168.1.39:11003
+ID_1094	不清楚属性的作用？快前往四驱百科查找一番吧！	不清楚屬性的作用？快前往四驅百科查找一番吧！	Not sure about the functions of attributes? Go to the 4WD Encyclopedia to find it!	ไม่แน่ใจเกี่ยวกับฟังก์ชั่นของแอตทริบิวต์หรือไม่? ไปที่สารานุกรม 4WD เพื่อค้นหา!	Tidak jelas dengan fungsi atribut? Cari di 4WDpedia sekarang!	Dúvidas? Visite:	속성의 기능에 대해 잘 모르시겠어요? 미니카 백과사전으로 이동하여 찾아보세요!
+ID_1095	中径低高度偏心dvsdvsdvsdvsvdv	中徑低高度偏心dvsdvsdvsdvsvdv	Medium diameter low height eccentric dvsdvsdvsdvsvdv	ตัวเลือกจากไอเท็มที่นี่ 11111111111111	Mid-low height eccentricity dvsdvsdvsdvsvdv	Diâmetro médio e altura baixa excêntrico dvsdvsdvsdvsvdv	0
+ID_1096	这里可以查看物品11111111111111	這裏可以查看物品11111111111111	View the items here 11111111111111	อินทราเน็ต 192.168.1.101:11003	Lihat barang 11111111111111 di sini.	Aqui você pode ver o item 11111111111111	여기에서 아이템을 확인할 수 있습니다.
+ID_1097	内网,192.168.1.101:11003	內網,192.168.1.101:11003	Intranet,192.168.1.101:11003	คุณสามารถเลือกรางวัลเพียงหนึ่งรางวัลต่อประเภท! เลือกรางวัลที่คุณต้องการ!	Local network, 192.168.1.101:11003	Intranet, 192.168.1.101:11003	인트라넷,192.168.1.101:11003
+ID_1098	每种类型的奖励只能选择一个选择你想要的奖励吧!	每種類型的獎勵只能選擇一個選擇你想要的獎勵吧!	You can only choose one reward for each type! Choose the reward you want!	ชื่อ	Hanya dapat memilih satu jenis penghargaan, pilih hadiah yang Anda inginkan!	Você só pode escolher uma recompensa de cada tipo. Escolha a recompensa que deseja!	각 유형당 하나의 보상만 선택할 수 있습니다! 원하는 보상을 선택하세요!
+ID_1099	名字名字名字名字名字名字名字字名字字字字字字字字	名字名字名字名字名字名字名字字名字字字字字字字字	Name	เครือข่ายภายนอก 111.229.19.127:11003	Nama nama nama nama nama nama nama nama nama nama nama nama nama nama nama nama nama nama nama	Nome	이름
+ID_1100	外网,111.229.19.127:11003	外網,111.229.19.127:11003	Extranet,111.229.19.127:11003	เครือข่ายภายนอก Netease, 106.2.38.142:11003	Internet publik, 111.229.19.127:11003	Extranet, 111.229.19.127:11003	엑스트라넷,111.229.19.127:11003
+ID_1101	网易外网,106.2.38.142:11003	網易外網,106.2.38.142:11003	NetEase Extranet,106.2.38.142:11003	คำชี้แจงของชมรม	Internet Netease, 106.2.38.142:11003	NetEase extranet, 106.2.38.142:11003	넷이즈 엑스트라넷,106.2.38.142:11003
+ID_1102	俱乐部宣言俱乐部宣言俱乐部宣言俱乐部宣言俱乐部宣言	俱樂部宣言俱樂部宣言俱樂部宣言俱樂部宣言俱樂部宣言	Club Declaration	ตัวละคร	Deklarasi klub, deklarasi klub, deklarasi klub, deklarasi klub, deklarasi klub	Declaração do Clube	클럽 선언
+ID_1103	文字文字文字文字文字文字文字文字文字文字文字文字文字	文字文字文字文字文字文字文字文字文字文字文字文字文字	Character	โปรดเชื่อมต่อในสภาพแวดล้อมสัญญาณที่ดี สัญญาณที่ไม่ดีอาจทำให้เสียเวลาในการดาวน์โหลดนาน	Teks teks teks teks teks teks teks teks teks teks teks teks teks teks teks teks teks teks teks teks teks teks teks	Texto	캐릭터
+ID_1104	请在通讯良好的环境下链接。通讯状况不佳可能导致下载耗时较长。	請在通訊良好的環境下鏈接。通訊狀況不佳可能導致下載耗時較長。	Please connect in a good signal environment. Poor signal may result in long download times.	Set<color=# F6D046ff>final</color>time	Silakan hubungkan dalam kondisi komunikasi yang baik. Kondisi komunikasi yang buruk dapat menyebabkan pengunduhan memakan waktu lebih lama.	Favor vincular em um ambiente com boa comunicação. Más condições de comunicação podem fazer com que o download demore mais.	신호 상태가 좋은 환경에서 접속해 주세요. 신호 상태가 좋지 않으면 다운로드 시간이 길어질 수 있습니다.
+ID_1105	设置<color=#F6D046ff>决赛</color>时间	設置<color=#F6D046ff>決賽</color>時間	Set<color=#F6D046ff>final</color>time	<color=# 0000FF>[1] ชื่อผู้เล่น</color>: คุณจะจับฉันได้ไหม?	Atur waktu <color=#F6D046ff>final</color>.	Defina a hora <color=#F6D046ff>final</color>	<colour=#F6D046ff>결승전</colour> 시간 설정하기
+ID_1106	color=#0000ff>[1]玩家名称</color>：有我跑的快嘛	color=#0000ff>[1]玩家名稱</color>：有我跑的快嘛	<color=#0000FF>[1] Player name</color>: Can you catch me?	ความเร็วสูงสุด MAX	color=#0000ff>[1]Nama Pemain</color>: Bisakah aku berlari lebih cepat darimu?	color=#0000ff>[1] Nome do jogador</color>: Eu posso correr rápido	colour=#0000ff>[1]플레이어 이름</colour>: 내가 달릴 수 있는 한 빨리!
+ID_1107	最高速度最高速度最高速度最高速度最高速度最高速度最高速度最高速度最高速度	最高速度最高速度最高速度最高速度最高速度最高速度最高速度最高速度最高速度	MAX SPEED	MAX SPEED	Batas kecepatan	velocidade máxima velocidade máxima velocidade máxima velocidade máxima velocidade máxima velocidade máxima velocidade máxima	최대 속도
+ID_1108	<color=#0000FF>[综合]玩家名称</color>：有我跑的快嘛	<color=#0000FF>[綜合]玩家名稱</color>：有我跑的快嘛	<color=#0000FF>[Comprehensive] Player name</color>: Can you catch me?	<color=# 0000FF>[ทั่วไป] ชื่อผู้เล่น</color>: คุณจะไล่ได้ไหม?	<color=#0000FF>[Comprehensive] Nama pemain</color>: Bisakah Anda menangkap saya?	<color=#0000FF>[Geral] Nome do Jogador</color>: Pode me acompanhar?	<colour=#0000FF>[합성]플레이어 이름</colour>: 난 빠르다!
+ID_1109	黑色战神号是初代搭配S1底盘的四驱车，特点是均衡，对于新手四驱车玩家比较友好。	黑色戰神號是初代搭配S1底盤的四驅車，特點是均衡，對於新手四驅車玩家比較友好。	Black Saber is a 4WD vehicle with S1 chassis in the early generation.It has balanced attribute and is friendly to novice 4WD players.	Black Saber เป็นรถ 4WD ที่มีโครงรถ S1 ในรุ่นแรก มีลักษณะสมดุลและเป็นมิตรต่อผู้เล่น 4WD รุ่นใหม่	Black Saber adalah mobil 4WD dengan rangka S1 generasi pertama yang seimbang dan ramah untuk pemain 4WD pemula.	O Ares Negro é a primeira geração de veículos com tração nas quatro rodas com chassi S1, caracterizado pelo equilíbrio, amigável para jogadores iniciantes de tração nas quatro rodas.	블랙 세이버는 S1 섀시가 적용된 1세대 4륜구동 미니카입니다. 미니카 초보자에게 더욱 친근하게 다가갈 수 있도록 균형 잡힌 설계가 특징입니다.
+ID_1110	橙色物品综合概率（包含保底概率）：<color=#F54B4B>1%</color>	橙色物品綜合機率（包含保底機率）：<color=#F54B4B>1%</color>	Probability of orange item drops (incl. guarantee): <color=#F54B4B>1%</color>	อัตราความน่าจะเป็นโดยรวมของไอเท็มสีส้ม (รวมการรับประกัน): <color=# F54B4B>1%</color>	Probabilitas keseluruhan barang oranye (termasuk probabilitas dasar): <color=#F54B4B>1%</color>	Probabilidade de obter itens laranjas (incluindo item garantido): <color=#F54B4B>1%</color>	주황색 아이템의 합산 확률(보장 확률 포함): <colour=#F54B4B>1%</colour>.
+ID_1111	升星升星升星升星升星升星升星升星升星升星升星升星升星升星升星升星升星升星升星升星升星升星	進化進化進化進化進化進化進化進化進化進化進化進化進化進化進化進化進化進化進化進化進化進化	Star up	evolveevolveevolveevolveevolveevolveevolveev	Peningkatan	Evoluir	진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 진화 이벤트
+ID_1112	立刻获得<color=#006EEE><size=40>200</size></color>钻	立刻獲得<color=#006EEE><size=40>200</size></color>鑽	Claim now<color=#006EEE><size=40>200</size></color>diamond	เคลมตอนนี้<color=#006EEE><size=40>200</size></color>เพชร	Dapatkan segera <color=#006EEE><size=40>200</size></color> berlian.	Receba imediatamente <color=#006EEE><size=40>200</size></color> diamantes	지금 구입하세요. <color=#006EEE><size=40>200</size></color> 다이아
+ID_1113	名字名字名字名字名字名字名字名字名字名字名字名字名字名字名字名字名字名字名字名字名字名字名字名字	名字名字名字名字名字名字名字名字名字名字名字名字名字名字名字名字名字名字名字名字名字名字名字名字	Name	ชื่อ	Nama	Nome	이름
+ID_1114	和价值<color=#006EEE><size=40>2999</size></color>钻物品	和價值<color=#006EEE><size=40>2999</size></color>鑽物品	Total value<color=#006EEE><size=40>2999</size></color>diamond items	มูลค่ารวม<color=#006EEE><size=40>2999</size></color>ไอเท็มเพชร	Barang berharga senilai <color=#006EEE><size=40>2999</size></color>	Itens com valor total de <color=#006EEE><size=40>2999</size></color> diamantes	와 <colour=#006EEE><size=40>2999</size></colour>다이아 가치의 아이템
+ID_1115	个人记录个人记录个人记录个人记录个人记录个人记录个人记录个人记录个人记录个人记录个人记录个人记录个人记录	個人記錄個人記錄個人記錄個人記錄個人記錄個人記錄個人記錄個人記錄個人記錄個人記錄個人記錄個人記錄個人記錄	Personal Records	บันทึกส่วนตัว	Catatan Pribadi	Registro Pessoais	개인 기록
+ID_1116	描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描	描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描	Describe	บรรยาย	Keterangan	Descrição	설명
+ID_1117	抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防上当受骗。适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。	抵制不良遊戲，拒絕盜版遊戲。注意自我保護，謹防上當受騙。適度遊戲益腦，沉迷遊戲傷身。合理安排時間，享受健康生活。	Resist harmful games, refuse pirated games. Pay attention to self-protection and beware of being cheated. Moderate games are good for your brain, and indulging in games is harmful to your health. Arrange game time reasonably and enjoy a healthy life.	ต้านเกมที่เป็นอันตราย ปฏิเสธการเล่นเกมละเมิดลิขสิทธิ์ ให้ความสำคัญกับการป้องกันตนเองและระวังการโดนโกง เล่นเกมอย่างสมดุลดีต่อสมองและการมีสุขภาพ การเสพติดเกมอันตรายต่อสุขภาพ จัดเวลาเล่นเกมให้สมดุลและสนุกสนานอย่างสุขภาพดี	Menolak permainan yang buruk, menolak permainan bajakan. Perhatikan perlindungan diri, hati-hati terhadap penipuan. Bermain game dengan bijak bermanfaat untuk otak, kecanduan game berbahaya bagi tubuh. Atur waktu dengan bijak, nikmati hidup sehat.	Resista a jogos prejudiciais, recuse jogos pirateados. Preste atenção à auto-proteção e tenha cuidado para não ser enganado. Jogar moderamente faz bem para o seu cérebro e se entregar aos jogos é prejudicial para a sua saúde. Organize o tempo dos jogos de maneira razoável e aproveite uma vida saudável.	불건전한 게임과 불법 복제 게임을 지양합시다. 자기 보호에 주의를 기울이고 사기를 당하지 않도록 주의하십시오. 적당한 게임은 두뇌 발달에 긍정적이나 지나친 게임에 중독은 건강을 해칠수 있습니다. 적절한 게임 시간 조정으로 건강을 유지하십시오.
+ID_1118	关卡描述关卡描述关卡描述关卡描述关卡描述关卡描述关卡描述关卡描述关卡描述关卡描述关卡描述关卡描述关卡描述关卡描述关卡描述关卡描述关卡描述关卡描述关卡描述关卡描述	關卡描述關卡描述關卡描述關卡描述關卡描述關卡描述關卡描述關卡描述關卡描述關卡描述關卡描述關卡描述關卡描述關卡描述關卡描述關卡描述關卡描述關卡描述關卡描述關卡描述	Level description	คำอธิบายระดับ	Keterangan Level	Descrição de Nível	레벨 설명
+ID_1119	急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速速急速速急速速急速速急速	急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速急速速急速速急速速急速速急速	Rapidly	อย่างรวดเร็ว	Cepat	Rápidamente	빠르게
+ID_1120	文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本	文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本	text	ข้อความ	Pesan	Texto	텍스트
+ID_1121	文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本	文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本	text	ข้อความ	Pesan	Texto	텍스트
+ID_1122	最高速度素粗最高速度素粗最高速度素粗最高速度素粗最高速度素粗最高速度素粗最高速度素粗最高速度素粗最高速度素粗最高速度素粗最高速度素粗最高速度素粗最高速度素粗最高速度素粗最高速度素粗最高速度素粗最高速度素粗最高速度素粗最高速度素粗最高速度素粗	最高速度素粗最高速度素粗最高速度素粗最高速度素粗最高速度素粗最高速度素粗最高速度素粗最高速度素粗最高速度素粗最高速度素粗最高速度素粗最高速度素粗最高速度素粗最高速度素粗最高速度素粗最高速度素粗最高速度素粗最高速度素粗最高速度素粗最高速度素粗	Max Speed	ความเร็วสูงสุด	Batas Kecepatan	Máxima Velocidade	최대 속도
+ID_1123	数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量数量	數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量數量	Quantity	ปริมาณ	Jumlah	Quantidade	수량
+ID_1124	点击挑战按钮就可以比赛了，小纯就先教你这些，接下来就要靠你自己了~点击挑战按钮就可以比赛了，小纯就先教你这些，接下来就要靠你自己了~点击挑战按钮就可以比赛了，小纯就先教你这些，接下来就要靠你自己了~点击挑战按钮就可以比赛了，小纯就先教你这些，接下来就要靠你自己了~	點選挑戰按鈕就可以比賽了，小純就先教你這些，接下來就要靠你自己了~點擊挑戰按鈕就可以比賽了，小純就先教你這些，接下來就要靠你自己了~ 點選挑戰按鈕就可以比賽了，小純就先教你這些，接下來就要靠你自己了~點擊挑戰按鈕就可以比賽了，小純就先教你這些，接下來就要靠你自己了~	Click the challenge button to start the competition. Jun will teach you these first, and then you will have to rely on yourself~ Click the challenge button to start the competition. Jun will teach you these first, and then you will have to rely on yourself~ Click the challenge button to start the competition. Jun will teach you these first, and then you will have to rely on yourself~ Click the challenge button to start the competition. Jun will teach you these first, and then you will have to rely on yourself~	คลิกปุ่มท้าทายเพื่อเริ่มการแข่งขัน Jun จะสอนสิ่งเหล่านี้ให้คุณก่อน จากนั้นคุณจะต้องพึ่งพาตัวเอง ~ คลิกปุ่มท้าทายเพื่อเริ่มการแข่งขัน Jun จะสอนสิ่งเหล่านี้ให้คุณก่อน จากนั้นคุณจะต้องพึ่งพา ตัวคุณเอง~ คลิกปุ่มท้าทายเพื่อเริ่มการแข่งขัน Jun จะสอนสิ่งเหล่านี้ให้คุณก่อน จากนั้นคุณจะต้องพึ่งพาตัวเอง~ คลิกปุ่มท้าทายเพื่อเริ่มการแข่งขัน Jun จะสอนสิ่งเหล่านี้ให้คุณก่อน จากนั้นคุณจะต้อง พึ่งพาตัวเอง~	Klik tombol tantangan untuk memulai kompetisi. Jun akan mengajari Anda ini terlebih dahulu, dan kemudian Anda harus mengandalkan diri sendiri~ Klik tombol tantangan untuk memulai kompetisi. Jun akan mengajari Anda ini terlebih dahulu, dan kemudian Anda harus mengandalkan diri Anda sendiri~ Klik tombol tantangan untuk memulai kompetisi. Jun akan mengajari Anda ini terlebih dahulu, dan kemudian Anda harus mengandalkan diri sendiri~ Klik tombol tantangan untuk memulai kompetisi. Jun akan mengajari Anda ini terlebih dahulu, dan kemudian Anda harus melakukannya andalkan dirimu sendiri~	Clique no botão de desafio para iniciar a competição. Jun lhe ensinará isso primeiro, e então você terá que confiar em si mesmo ~ Clique no botão de desafio para iniciar a competição. Jun lhe ensinará isso primeiro, e então você terá que confiar em você mesmo ~ Clique no botão de desafio para iniciar a competição. Jun lhe ensinará isso primeiro, e então você terá que confiar em si mesmo ~ Clique no botão de desafio para iniciar a competição. Jun lhe ensinará isso primeiro, e então você terá que confie em você mesmo ~	도전 버튼을 터치하면 레이스를 시작할 수 있어요. 제가 알려드리는 것은 여기까지에요. 나머지는 여러분에게 달려 있습니다~도전 버튼을 터치하면 레이스를 시작할 수 있어요. 제가 알려드리는 것은 여기까지에요. 나머지는 여러분에게 달려 있습니다~도전 버튼을 터치하면 레이스를 시작할 수 있어요. 제가 알려드리는 것은 여기까지에요. 나머지는 여러분에게 달려 있습니다~도전 버튼을 터치하면 레이스를 시작할 수 있어요. 제가 알려드리는 것은 여기까지에요. 나머지는 여러분에게 달려 있습니다~
+ID_1125	1.啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊	1.啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊	aaaaaaaaaaaa	aaaaaaaaaaaa	aaaaaaaaaaaa	1. ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah	1.아하하하하하하하하하하하하하하하하하하하하하하
+ID_1126	1.啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊	1.啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊	aaaaaaaaaaaaaaaa	aaaaaaaaaaaaaaaa	aaaaaaaaaaaaaaaa	1. ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah	1.아하하하하하하하하하하하하하하하하하하하하하하
+ID_1127	1.啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊	1.啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊	aaaaaaaaaaaaaaaa	aaaaaaaaaaaaaaaa	aaaaaaaaaaaaaaaa	1. ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah	1.아하하하하하하하하하하하하하하하하하하하하하하
+ID_1128	1.啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊	1.啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊	aaaaaaaaaaaaaaaa	aaaaaaaaaaaaaaaa	aaaaaaaaaaaaaaaa	1. ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah ah	1.아하하하하하하하하하하하하하하하하하하하하하하
+ID_1129	当前没有房间	當前沒有房間	Currently no rooms	ปัจจุบันไม่มีห้องว่าง	Tidak ada ruangan tersedia	Sem salas atualmente	방이 없습니다.
+ID_1130	音速战神是星马烈的爱车	音速戰神是星馬烈的愛車	Sonic Saber is Seiba Retsu's favourite vehicle	Sonic Saber เป็นยานพาหนะที่โปรดของ Seiba Retsu	Sonic Saber adalah mobil kesukaan Seiba Retsu	Sabre Sonic é o veículo favorito de Seiba Retsu	소닉 세이버는 남궁열이 가장 좋아하는 미니카입니다.
+ID_1131	车辆擅长弯道技巧	車輛擅長彎道技巧	This vehicle is expert in curve skills	ยานพาหนะนี้เชี่ยวชาญในทักษะการโค้ง	Kendaraan ahli dalam teknik tikungan	Veículos com foco em habilidades nas curvas	커브 기술에 능숙한 미니카
+ID_1132	冲锋战神是星马豪的爱车	衝鋒戰神是星馬豪的愛車	Magnum Saber is Seiba Go's favourite vehicle	Magnum Saber เป็นยานพาหนะที่โปรดของ Seiba Go	Magnum Saber adalah mobil kesukaan Seiba Go	Sabre Magnum é o veículo favorito de Seiba Go	매그넘 세이버는 남궁호가 가장 좋아하는 미니카입니다.
+ID_1133	车辆擅长直线加速	車輛擅長直線加速	This vehicle is expert in straight acceleration	ยานพาหนะนี้เชี่ยวชาญในการเร่งตรง	Kendaraan ahli dalam akselerasi lurus	Os veículos se destacam na aceleração em linha reta	직선 가속에 특화된 미니카
+ID_1134	首次	首次	First Time	ครั้งแรก	Waktu Pertama	Primeiro	처음
+ID_1135	销毁	銷毀	Destroy	ทำลาย	Musnahkan	Destruir	파괴
+ID_1136	创建角色	創建角色	Create Character	สร้างตัวละคร	Membuat Karakter	Criar Personagem	캐릭터 생성
+ID_1137	请输入角色名	請輸入角色名	Enter the character name	ป้อนชื่อตัวละคร	Masukan Nama Karakter	Insira um apelido	캐릭터 이름 입력
+ID_1138	已通关	已通關	Level Cleared	เลเวลผ่านไปแล้ว	Sudah menyelesaikan	Completado	클리어
+ID_1139	暂时无人通关	暫時無人通關	Currently no one has cleared this level	ปัจจุบันไม่มีใครผ่านระดับนี้	Saat ini belum ada yang menyelesaikan	Temporariamente indisponível	현재 해당 트랙을 클리어한 플레이어가 없습니다.
+ID_1140	创建挑战赛	創建挑戰賽	Create Challenge	สร้างการท้าทาย	Membuat Pertandingan	Crie um Desafio	챌린지 생성
+ID_1141	挑战赛商店	挑戰賽商店	Challenge Store	ร้านค้าการท้าทาย	Toko Pertandingan	Loja do Desafio	챌린지 상점
+ID_1142	我的赛事	我的賽事	My Events	กิจกรรมของฉัน	Acara saya	Meus eventos	내 이벤트
+ID_1143	暂无可选择的挑战券	暫無可選擇的挑戰券	No selectable challenge coupon now	ไม่มีคูปองการท้าทายที่สามารถเลือกได้ในขณะนี้	Kupon tantangan habis	No momento, não há ingressos de desafio disponíveis	현재 선택할 수 있는 도전 쿠폰이 없습니다.
+ID_1144	选择挑战券	選擇挑戰券	Select a challenge coupon	เลือกคูปองการท้าทาย	Pilih kupon acara pertandingan	Escolha um bilhete de desafio	도전 쿠폰 선택
+ID_1145	确定	確定	Confirm	ยืนยัน	Konfirmasi	Confirmar	확인
+ID_1146	查看	查看	Check	ตรวจสอบ	Periksa	Verificar	확인
+ID_1147	刷新	刷新	Refresh	รีเฟรช	Segarkan	Renovar	새로고침
+ID_1148	挑战赛	挑戰賽	Challenge	ท้าทาย	Tantangan	Desafio	이벤트 챌린지
+ID_1150	关卡未达到满星条件	關卡未達到滿星條件	The level does not meet the full star condition	ระดับไม่เป็นไปตามเงื่อนไขดาวเต็ม	Level tidak memenuhi kondisi bintang penuh	O nível não atende à condição de estrela completa	스테이지 별등급 클리어 조건을 충족하지 않습니다..
+ID_1151	去获得	去獲得	Go to get	ไปรับ	Mendapatkan	Vá obter	획득하러 가기
+ID_1152	一键领取	一鍵領取	Claim all	เคลมทั้งหมด	Klaim Sekali Klik	Colete Tudo	모두 받기
+ID_1153	普通奖励	普通獎勵	Normal Reward	รางวัลธรรมดา	Hadiah Biasa	Recompensa Comum	기본 보상
+ID_1154	豪华奖励	豪華獎勵	Luxury Award	รางวัลหรูหรา	Hadiah Mewah	Recompensa Luxuosa	호화 보상
+ID_1155	账号绑定	賬號綁定	Connect your Account	เชื่อมต่อบัญชีของคุณ	Akun Terikat	Vincular Conta	계정 연동
+ID_1156	补签	補籤	Make up	แต่งหน้า	Tambahan Kupon	Visto suplementar	보충 출석
+ID_1157	分组	分組	Group	กลุ่ม	Pembagian Grup	Grupo	그룹
+ID_1158	第	第	No.	วัน	ke-	Cláusula	의
+ID_1159	天	天	Day	วัน	hari	Dia	일
+ID_1160	失败分析	失敗分析	Failure Analysis	การวิเคราะห์ความล้มเหลว	Analisis Kegagalan	Análise de Falhas	실패 분석
+ID_1161	赛车攻略	賽車攻略	Racing Strategy	กลยุทธ์การแข่งขัน	Strategi Balap Mobil	Estratégias de Corrida	레이싱 전략
+ID_1162	黄金联赛	黃金聯賽	Golden League	โกลเด้นลีก	Liga Emas	Liga de Ouro	골든 리그
+ID_1164	战绩详情	戰績詳情	Performance Details	รายละเอียดการแข่งขัน	Detail Rekor Pertandingan	Detalhes do Registro	전적 정보
+ID_1165	侦查	偵查	Investigate	สอบสวน	Pengintaian	Investigar	탐지
+ID_1166	段位	段位	Rank	อันดับ	Tingkatan	Rank	티어
+ID_1167	黄金联赛详情	黃金聯賽詳情	Gold League Details	รายละเอียดโกลด์ลีก	Detail Liga Emas	Detalhes da Liga Ouro	골드 리그 세부 정보
+ID_1168	比赛成绩	比賽成績	Match Results	ผลการแข่งขัน	Hasil Pertandingan	Resultados da Competição	경기 결과
+ID_1169	黄金联赛积分	黃金聯賽積分	Gold League Points	คะแนนโกลด์ลีก	Poin Liga Emas	Pontos da Liga de Ouro	골드 리그 포인트
+ID_1170	宝箱积分	寶箱積分	Treasure box points	คะแนนกล่องสมบัติ	Poin Kotak Harta Karun	Pontos de Baú	보물 상자 포인트
+ID_1171	比赛场次	比賽場次	Matches	การแข่งขัน	Jumlah Pertandingan	Jogos	레이스 참여
+ID_1172	胜利场次	勝利場次	Victory matches	การชนะ	Jumlah Kemenangan	Vitórias	레이스 승리
+ID_1173	不配对	不配對	Unmatched	ไม่จับคู่	Tidak Cocok	Não emparelhado	불일치
+ID_1174	战绩详情	戰績詳情	Performance Details	รายละเอียดผลการแข่งขัน	Detail Rekor Pertandingan	Detalhes do registro	전적 정보
+ID_1175	排名详情	排名詳情	Ranking Details	รายละเอียดอันดับ	Detail Peringkat	Detalhes do Ranque	순위 세부 정보
+ID_1176	积分	積分	Points	คะแนน	Poin	Pontos	포인트
+ID_1177	奖励	獎勵	Rewards	รางวัล	Hadiah	Prêmio	보상
+ID_1178	奖励详情	獎勵詳情	Reward Details	รายละเอียดรางวัล	Detail Hadiah	Detalhes da recompensa	보상 세부 정보
+ID_1179	本场获得积分:	本場獲得積分:	Points obtained in this match:	คะแนนที่ได้รับในการแข่งขันนี้	Poin Diperoleh dalam Pertandingan Ini:	Pontos ganhos neste jogo:	매치에서 획득한 점수:
+ID_1180	升至下一等级共需              积分	升至下一等級共需              積分	Total points required to upgrade to the next level	คะแนนรวมทั้งหมดที่ต้องการอัพเกรดเป็นเลเวลถัดไป	Diperlukan poin untuk Naik ke Tingkat Berikutnya	Total de pontos necessários para avançar para o próximo nível	다음 레벨까지         포인트 필요
+ID_1181	对手选择	對手選擇	Select the Opponent	เลือกตัวแข่ง	Pilihan Lawan	Oponente escolhe	라이벌 선택
+ID_1182	赛道选择	賽道選擇	Select the Track	เลือกแทร็ก	Pilihan Jalur Balap	Seleção de Pista	트랙 선택
+ID_1183	重心	重心	Focus	โฟกัส	Titik Berat	Centro de Gravidade	중심
+ID_1184	奖励领取	獎勵領取	Claim Rewards	เรียกรับรางวัล	Penerimaan Hadiah	Coleta de recompensas	보상
+ID_1185	黄金联赛排行	黃金聯賽排行	Gold league ranking	อันดับ Gold League	Peringkat Liga Emas	Ranque da Liga de Ouro	골드 리그 순위
+ID_1186	需审核	需審核	Need to be reviewed	ต้องได้รับการตรวจสอบ	Perlu Disetujui	Precisa revisar	검토 필요
+ID_1187	已申请	已申請	Requested	ร้องขอ	Sudah Diajukan	Já aplicado	요청됨
+ID_1188	还原	還原	Restore	คืนค่า	Pemulihan	Restaurar	복원
+ID_1189	积分兑换	積分兌換	Exchange with points	แลกเปลี่ยนด้วยแต้ม	Penukaran Poin	Resgatar	포인트로 교환
+ID_1190	积分仅限本次扭蛋,扭蛋过期后积分清零请在本次活动时间内兑换	積分僅限本次扭蛋,扭蛋過期後積分清零請在本次活動時間內兌換	Points are only available for this gacha. Please redeem the points after the gacha expires	แต้มสามารถใช้ได้เฉพาะในการหมุนไข่รอบนี้เท่านั้น โปรดแลกแต้มหลังจากไข่หมุนหมดอายุ	Poin hanya berlaku untuk Kocokan Kali Ini, Nolkan Poin setelah Kocokan Kedaluwarsa, Harap Tukarkan Poin dalam Waktu Kegiatan Ini	Os pontos estão disponíveis apenas para este gashapon. Depois que o gashapon expirar, os pontos serão zerados. Resgate-os dentro do horário do evento	포인트는 이번 캡슐 게임에서만 사용할 수 있습니다. 기간 만료 후 포인트가 초기화되니 이벤트 기간 안에 포인트를 사용해 주세요.
+ID_1191	头像框	頭像框	Avatar Frame	กรอบอวตาร	Bingkai Avatar	Moldura	아바타 프레임
+ID_1192	个人信息	個人資訊	Personal Profile	โปรไฟล์ส่วนบุคคล	Informasi Pribadi	Dados	개인 프로필
+ID_1193	玩家昵称	玩家昵稱	Player Nickname	ชื่อเล่นผู้เล่น	Nama Pemain	Apelido	플레이어 닉네임
+ID_1194	俱乐部任务	俱樂部任務	Club Missions	ภารกิจชมรม	Tugas Klub	Tarefa do Clube	클럽 미션
+ID_1195	签到	簽到	Sign in	เข้าสู่ระบบ	Tanda Tangan Harian	Check-in	출석
+ID_1196	操作	操作	Operation	การดำเนินการ	Operasi	Operar	자세히
+ID_1197	设置副会长	設置副會長	Set Vice Leader	ตั้งรองประธานชมรม	Setel Wakil Ketua	Definir Vice	부회장 설정
+ID_1198	俱乐部贡献	俱樂部貢獻	Club Contribution	ผลงานของชมรม	Kontribusi Klub	Contribuição do clube	클럽 기여도
+ID_1199	总贡献	總貢獻	Total Contribution	แต้มผลงาน	Kontribusi Total	Contribuição total	합계
+ID_1200	解散俱乐部	解散俱樂部	Dismiss the club	ยุบสหภาพ	Bubar Klub	Dissolver o clube	클럽 해산
+ID_1201	0	0		0	0	0	0
+ID_1202	0	0		0	0	0	0
+ID_1203	0	0		0	0	0	0
+ID_1204	0	0		0	0	0	0
+ID_1205	活动结束倒计时:	活動結束倒計時:	Countdown to the end of the event:	นับถอยหลังจนกว่ากิจกรรมจะสิ้นสุด:	Waktu Tersisa untuk Berakhirnya Kegiatan:	Contagem regressiva para o fim do evento:	이벤트 종료 카운트다운:
+ID_1206	参赛次数已用尽	參賽次數已用盡	The number of entries has been exhausted	จำนวนรายการเต็มแล้ว	Jumlah Kali Bertanding Sudah Habis	As entradas foram esgotadas	참여 횟수를 모두 사용했습니다.
+ID_1207	试跑记录	試跑記錄	Test run record	บันทึกการทดสอบ	Catatan Uji Coba	Registro de execução de teste	테스트 주행
+ID_1208	超级杯	超級盃	Super Bowl	ซูเปอร์โบว์ล	Piala Super	Super Copa	슈퍼 컵
+ID_1209	等待匹配	等待匹配	Waiting for matching	กำลังรอการจับคู่	Menunggu Pemilihan	Esperando pela partida	매칭 대기 중
+ID_1210	未匹配	未匹配	Unmatched	ไม่ตรงกัน	Tidak Berpasangan	Não emparelhado	매칭되지 않음
+ID_1211	参赛顺序	參賽順序	Entry Order	ลำดับรายการ	Urutan Bertanding	Ordem de Entrada	참가 순서
+ID_1212	参赛车辆	參賽車輛	Vehicles	ยานพาหนะ	Kendaraan Bertanding	Participantes	참가 차량
+ID_1213	成绩	成績	Achievements	ความสำเร็จ	Hasil	Conquistas	결과
+ID_1214	参赛	參賽	Participate in match	การแข่งขัน	Bertanding	Competição	엔트리
+ID_1215	超级杯排行	超級杯排行	Super Cup Ranking	อันดับสุดยอดของซูเปอร์คัพ	Peringkat Piala Super	Ranque da Super Copa	슈퍼컵 랭킹
+ID_1216	未参赛	未參賽	Not participating	ไม่มีการเข้าร่วม	Tidak Bertanding	Não participou	참가 차량 없음
+ID_1217	赛事奖励	賽事獎勵	Event rewards	รางวัลกิจกรรม	Hadiah Acara	Recompensas do Evento	이벤트 보상
+ID_1218	第一车库	第一車庫	First Garage	โกเรจแรก	Gudang 1	1° Garagem	라인업 #1
+ID_1219	第二车库	第二車庫	Second Garage	โกเรจที่สอง	Gudang 2	2° Garagem	라인업 #2
+ID_1220	第三车库	第三車庫	Third Garage	โกเรจที่สาม	Gudang 3	3° Garagem	라인업 #3
+ID_1221	第四车库	第四車庫	Fourth Garage	โกเรจที่สี่	Gudang 4	4° Garagem	라인업 #4
+ID_1222	第五车库	第五車庫	Fifth Garage	โกเรจที่ห้า	Gudang 5	5° Garagem	라인업 #5
+ID_1223	周贡献	周貢獻	Weekly	ภารกิจของโจว	Kontribusi Mingguan	Contribuição Semanal	주간 기여도
+ID_1224	俱乐部奖励	俱樂部獎勵	Club Rewards	รางวัลชมรม	Hadiah Klub	Recompensas do Clube	클럽 어워드
+ID_1225	个人奖励	個人獎勵	Individual Rewards	รางวัลส่วนบุคคล	Hadiah Pribadi	Recompensas Pessoais	개인 어워드
+ID_1226	俱乐部赛事	俱樂部賽事	Club Events	กิจกรรมชมรม	Pertandingan Klub	Eventos do Clube	클럽 레이스
+ID_1227	下一关	下一關	Next level	ระดับถัดไป	Level Selanjutnya	Próximo nível	다음 스테이지
+ID_1228	本场积分总计:	本場積分總計:	Total points of this game:	คะแนนรวมของเกมนี้:	Total Poin Dalam Pertandingan Ini:	Total de pontos para esta partida:	이 코스의 총 포인트:
+ID_1229	当前进度	當前進度	Current Progress	ความคืบหน้าปัจจุบัน	Kemajuan Saat Ini	Progresso atual	현재 진행 상황
+ID_1230	日期	日期	Date	วันที่	Tanggal	Data	날짜
+ID_1231	普通签到	普通簽到	Normal check-in	การเช็คอินปกติ	Tanda Tangan Harian Biasa	Check-in normal	일반 체크인
+ID_1232	豪华签到	豪華簽到	Deluxe check-in	การเช็คอินหรูหรา	Tanda Tangan Harian Mewah	Check-in luxuoso	디럭스 체크인
+ID_1233	未完成	未完成	Not completed	เฝ้ารอ	Belum Selesai	Continuar	미완료
+ID_1234	恭喜您完成比赛！	恭喜您完成比賽！	Congratulations on completing the match!	ขอแสดงความยินดีที่เสร็จสิ้นการแข่งขัน!	Selamat telah menyelesaikan pertandingan!	Parabéns por terminar o jogo!	레이스를 완주한 것을 축하합니다!
+ID_1235	已获得	已獲得	Obtained	ได้รับ	Telah diperoleh	Obtido	획득
+ID_1236	配件锁定	配件鎖定	Accessories Locking	การล็อคอุปกรณ์	Kunci aksesori	Bloquear Item	잠금
+ID_1237	月签到	月簽到	Monthly check-in	การตรวจสอบรายเดือน	Daftar hadir bulanan	Check-in mensal	월간 출석
+ID_1238	每日体力	每日體力	Daily stamina	ความแข็งแรงร่างกายทุกวัน	Kekuatan harian	Energia Diária	일일 스태미나
+ID_1239	月卡有效期	月卡有效期	Validity of monthly card	ความถูกต้องของบัตรรายเดือน	Masa berlaku kartu bulanan	Período de validade do cartão mensal	월간 패스 유효 기간
+ID_1240	本月已签到	本月已簽到	Signed in this month	เข้าสู่ระบบในเดือนนี้	Telah hadir bulan ini	Verificado neste mês	이번 달 로그인
+ID_1241	签到	簽到	Sign in	เข้าสู่ระบบ	Daftar hadir	Check-in	출석
+ID_1242	午间体力	午間體力	Midday stamina	ความแข็งแรงในช่วงเที่ยงวัน	Kekuatan siang	Energia 1	정오 스태미나
+ID_1243	晚间体力	晚間體力	Night stamina	ความแข็งแรงในช่วงกลางคืน	Kekuatan malam	Energia 2	저녁 스태미나
+ID_1244	普通	普通	Normal	ธรรมดา	Biasa	Comum	흔한
+ID_1245	特选	特選	Special selection	การเลือกพิเศษ	Pilihan khusus	Recomendado	스페셜
+ID_1246	尊享	尊享	Enjoy	สนุก	Eksklusif	Exclusivo	프리미엄
+ID_1247	选择物品	選擇物品	Select an item	เลือกไอเท็ม	Pilih barang	Selecionar item	선택 아이템
+ID_1248	无积分奖励	無積分獎勵	No bonus points	ไม่มีแต้มโบนัส	Tidak ada hadiah poin	Sem pontos de bônus	보너스 포인트 없음
+ID_1249	修改昵称	修改昵稱	Modify nickname	แก้ไขชื่อเล่น	Ubah nama panggilan	Mudar nome de usuário	닉네임 변경
+ID_1250	请输入昵称	請輸入昵稱	Please enter a nickname	โปรดป้อนชื่อเล่น	Silakan masukkan nama panggilan	Insira um apelido	변경하려는 신규 닉네임을 입력하세요.
+ID_1251	最多输入16个字符	最多輸入8個字元	Enter up to 16 characters	ป้อนได้สูงสุด 8 ตัวอักษร	Maksimal 8 karakter	Insira até 8 caracteres	영어 최대 16자 또는 한글 최대 8자까지 가능
+ID_1252	当前昵称:	當前昵稱:	Current nickname:	ชื่อเล่นปัจจุบัน:	Nama panggilan saat ini:	Apelido atual:	현재 닉네임:
+ID_1253	配件分解	配件分解	Disassemble accessory	การแยกชิ้นส่วน	Pecah aksesori	Divisão de peças	잠금 분해
+ID_1254	消耗挑战券	消耗挑戰券	Consume challenge ticket	คูปองท้าทายการบริโภค	Menghabiskan tiket tantangan	Consumo de cupons de desafio	챌린지 쿠폰 사용
+ID_1255	研发列表	研發列表	R&D list	รายการ R&D	Daftar pengembangan	Lista de P&D	연구개발 목록
+ID_1256	奖励预览	獎勵預覽	Reward Preview	การตั้งค่ารางวัล	Pratinjau hadiah	Prévia da Recompensa	보상 미리보기
+ID_1257	创建挑战赛	創建挑戰賽	Create a Challenge	สร้างการท้าทาย	Buat tantangan	Crie um desafio	도전 과제 만들기
+ID_1258	查看概率	查看機率	View Probability	ดูความน่าจะเป็น	Lihat probabilitas	Ver probabilidades	확률 보기
+ID_1259	改造概率	改造機率	Transformation Probability	ความน่าจะเป็นของการแปลงพลิก	Ubah probabilitas	Possibilidade de atualização	개조 확률
+ID_1260	概率公示	機率公示	Probability Ads	การเปิดเผยความน่าจะเป็น	Pengungkapan probabilitas	Chance	확률 공시
+ID_1261	午间晚间分别可领取60体力	午間晚間分別可領取60體力	You can receive 60 stamina in the afternoon and evening respectively	คุณสามารถรับความแข็งแรงในช่วงบ่ายและเย็นได้ทีละ 60 คน	Dapat menerima 60 kekuatan siang dan malam masing-masing	Você pode receber 60 de resistência ao meio-dia e à noite, respectivamente	오후와 저녁에 각각 체력 60을 받을 수 있습니다.
+ID_1262	风翼	風翼	Wind Wing	ปีกลม	Sayap angin	Asa de vento	스포일러
+ID_1263	顶轨	頂軌	Top Rail	รางบนสุด	Rel atap	Trilho superior	탑 레일
+ID_1264	掉落概率	掉落概率	Chance	ความน่าจะเป็นในการหล่อ	Probabilitas penurunan	Probabilidade de queda	획득 확률
+ID_1265	道具购买	道具購買	Item purchase	ซื้อของชำระเงินล่วงหน้า	Pembelian barang	Compra de itens	아이템 확인
+ID_1266	倒计时：	倒計時：	Countdown:	นับถอยหลัง:	Hitung mundur:	Contagem regressiva:	카운트다운:
+ID_1267	剩余时间：	剩餘時間：	Time Remaining:	เวลาที่เหลือ:	Waktu tersisa:	Tempo restante:	남은 시간:
+ID_1268	点击购买	點擊購買	Buy	คลิกเพื่อซื้อ	Klik untuk membeli	Clique para comprar	터치하여 확인
+ID_1269	解说设置	解說設置	Commentary Settings	การตั้งค่าข้อความบรรณาธิการ	Pengaturan penjelasan	Configurações de comentários	내레이션 설정
+ID_1270	我已阅读并知晓	我已閲讀並知曉	I have read and agree.	ฉันได้อ่านและทราบแล้ว	Saya telah membaca dan mengetahui	Eu li e concordo	약관을 읽었으며 동의합니다.
+ID_1271	用户须知	用戶須知	Instructions to users	คำแนะนำสำหรับผู้ใช้	Ketentuan pengguna	Aviso aos usuários	사용자를 위한 지침
+ID_1272	进入	進入	Enter	เข้า	Masuk	Digitar	입력
+ID_1273	AR	AR	AR	AR	AR	AR	AR
+ID_1274	巅峰赛	巔峰賽	Peak Race	การแข่งขันยอดเขา	Puncak balap	Corrida ao Topo	피크 레이스
+ID_1275	配件预览	配件預覽	Accessories Preview	ชมสินค้าเสริม	Pratinjau aksesori	Visualização de acessórios	잠금 미리보기
+ID_1276	分组查看	分組查看	Group View	มุมมองกลุ่ม	Lihat grup	Ver em grupos	그룹 보기
+ID_1277	查看巅峰赛	查看巔峰賽	Check the peak race	ดูเกมยอดเขา	Lihat puncak balap	Ver o jogo principal	피크 게임 보기
+ID_1278	海选已结束	海選已結束	The audition has ended	การออดิชั่นได้จบลงแล้ว	Seleksi laut telah berakhir	A audição terminou	예선레이스가 종료되었습니다.
+ID_1279	结束时间:	結束時間:	End time:	เวลาสิ้นสุด:	Waktu berakhir:	Fim do tempo:	종료 시간입니다:
+ID_1280	海选结束倒计时	海選結束倒計時	Countdown to the end of audition	นับถอยหลังจนกว่าการออดิชั่นจะจบลง	Hitung mundur seleksi laut berakhir	Contagem regressiva para o fim da audição	예선레이스 종료 카운트다운
+ID_1281	赛事未开启	賽事未開啟	Event closed	เหตุการณ์ไม่ได้เปิด	Acara belum dimulai	O jogo não está aberto	이벤트 종료
+ID_1282	领取奖励	領取獎勵	Collect Rewards	รับรางวัล	Terima hadiah	Receber prêmio	보상 수집
+ID_1283	抽取任务	抽取任務	Draw Task	ดึงภารกิจ	Pilih misi	Extrair tarefa	미션 수락
+ID_1284	兑换商店	兌換商店	Exchange Shop	ร้านค้าแลกเปลี่ยน	Tukar toko	Loja de Câmbio	교환 상점
+ID_1285	创建赛道以解锁更多空位	創建賽道以解鎖更多空位	Create a track to unlock more space	สร้างแทร็กเพื่อปลดล็อกพื้นที่เพิ่มเติม	Buat trek untuk membuka lebih banyak tempat	Crie pistas para desbloquear mais slots	트랙 생성 시잠금 해제 해제
+ID_1286	暂无玩家	暫無玩家	No Player	ไม่มีผู้เล่น	Tidak ada pemain saat ini	Sem Jogador	플레이어 없음
+ID_1287	晋级巅峰赛	晉級巔峰賽	Go to Peak Race	ไปยังยอดเขา	Naik ke puncak balap	Avance para o cume	정상으로 이동
+ID_1288	玩家名称	玩家名稱	Player Name	ชื่อผู้เล่น	Nama pemain	Nome do Jogador	플레이어 이름
+ID_1289	对手玩家名称	對手玩家名稱	Opponent Name	ชื่อผู้เล่นต่อสู้	Nama lawan	Nome do Adversário	상대 이름
+ID_1290	请输入文字	請輸入文字	Please enter text	โปรดป้อนข้อความ	Silakan masukkan teks	Digite o texto	텍스트를 입력하세요
+ID_1291	确认消耗:	確認消耗:	Confirm to consume:	ยืนยันการใช้จ่าย:	Konfirmasi konsumsi:	Confirme o consumo:	사용 확인:
+ID_1292	确认发布	確認發佈	Confirm to publish	ยืนยันการปล่อย	Konfirmasi publikasi	Confirmar liberação	확인
+ID_1293	x1	x1	x1	x1	x1	x1	x1
+ID_1294	觉醒	覺醒	Awakening	การปลุกกระแส	Membangunkan	Despertar	각성
+ID_1295	保底选择	保底選擇	Minimum selection	การเลือกขั้นต่ำ	Pilihan jaminan	Opção Garantida	최소 선택
+ID_1296	选择后下次必出，每日一次	選擇後下次必出，每日一次	Once a day	ครั้งละครั้ง	Pasti keluar setelah dipilih, sekali per hari	Após a seleção, deve ser liberado na próxima vez, uma vez ao dia	선택시 다음 시도에서 반드시 등장합니다. 하루에 한 번 선택할 수 있습니다.
+ID_1297	最快时间	最快時間	Fastest time	เวลาที่เร็วที่สุด	Waktu tercepat	Tempo Mais Rápido	가장 빠른 시간
+ID_1298	锁定	鎖定	Lock	ล็อก	Kunci	Bloqueio	잠금 해제
+ID_1299	跳过动画	跳過動畫	Skip Animation	ข้ามการ์ตูน	Lewati animasi	Pular Animação	애니메이션 건너뛰기
+ID_1300	抽取1次	抽取1次	1 Draw	1 การดึง	Tiru 1 kali	Sorteie 1x	추출 1회
+ID_1301	万能块	萬能塊	Universal block	บล็อกสากล	Blok serba guna	Bloco Universal	유니버설 블록
+ID_1302	剩余可选	剩餘可選	Remaining to select	ที่เหลือเป็นตัวเลือก	Sisa yang dapat dipilih	Restante Opcional	남은 선택
+ID_1303	抽取	抽取	Draw	ดึง	Tiru	Extrair	추출
+ID_1304	抽取奖签即可获取每日最高面值的钻石好礼	抽取獎簽即可獲取每日最高面值的鉆石好禮	Draw the lottery to get the diamond gift with the highest face value every day	จับสลากเพื่อรับของขวัญเพชรที่มีมูลค่าสูงสุดทุกวัน	Tiru tanda tangan hadiah untuk mendapatkan hadiah berlian terbaik setiap hari	Sorteie um bilhete de loteria para obter o presente diário de diamante com o valor mais alto	매일 추첨을 통해 액면가가 가장 높은 다이아몬드 선물을 받으세요.
+ID_1305	/2	/2	/2	/2	/2	/2	/2
+ID_1306	持有:	持有:	Holding:	กำลังถืออยู่:	Memiliki:	Segurar:	보유 중:
+ID_1307	收集奖励	收集獎勵	Collect Rewards	รับรางวัล	Kumpulkan imbalan	Coletar recompensas	수집 보상
+ID_1308	点击+号许愿	點擊+號許願	Click + to a wish	คลิกเครื่องหมาย + เพื่อสั่งขอ	Klik tanda tambah untuk membuat permintaan	Clique no sinal + para fazer um desejo	터치하여 찜하기
+ID_1309	查看许愿配件	查看許願配件	View Wishing Accessories	ดูเครื่องประดับที่อยากได้	Lihat aksesori permintaan	Ver acessórios de desejo	찜한 잠금 보기
+ID_1310	重新许愿	重新許願	Make a new wish	ทำความประทับใจใหม่	Buat permintaan ulang	Re-desejo	새로 찜하기
+ID_1311	已许愿配件	已許願配件	Wishing Accessories	เครื่องประดับที่สัญญา	Aksesorimu yang sudah diminta	Acessórios desejados	이미 찜한 잠금
+ID_1312	选择许愿配件	選擇許願配件	Choose Wishing Accessories	เลือกเครื่องประดับที่อยากได้	Pilih aksesori permintaan	Escolha o acessório que deseja	찜할 잠금 선택
+ID_1313	许愿	許願	Make a wish	สั่งขอ	Membuat permintaan	Faça um desejo	소원 빌기
+ID_1314	已购	已購	Purchased	ซื้อแล้ว	Sudah dibeli	Comprado	확인 완료
+ID_1315	详情	詳情	Details	รายละเอียด	Rincian	Detalhes	세부 정보
+ID_1316	限定合成	限定合成	Limited Merge	การสังเคราะห์จำกัด	Sintesis terbatas	Síntese Limitada	한정 합성
+ID_1317	请点击左侧加号选择配件~	請點選左側加號選擇配件~	Please click the plus sign on the left to select accessories~	กรุณาคลิกเครื่องหมายบวกทางด้านซ้ายเพื่อเลือกอุปกรณ์เสริม~	Silakan klik tanda plus di sebelah kiri untuk memilih aksesori~	Clique no sinal de mais à esquerda para selecionar acessórios ~	왼쪽 버튼을 클릭해 잠금를 선택하세요.
+ID_1318	觉醒	覺醒	Awakening	การปลุกกระแส	Terbangun	Despertar	각성
+ID_1319	活跃通行证	活躍通行證	Active Pass	แอคทีฟพาส	Kartu akses aktif	Passe Ativo	기본 패스
+ID_1320	荣誉通行证	榮譽通行證	Honorary Pass	พาสเกียรติยศ	Kartu akses kehormatan	Passe de Honra	아너 패스
+ID_1321	购买荣誉通行证	購買榮譽通行證	Purchase Honor Pass	ซื้อพาสเกียรติยศ	Beli kartu akses kehormatan	Comprar Passe de Honra	아너 패스 확인하기
+ID_1322	购买可获得以下奖励	購買可獲得以下獎勵	Purchase can get	การซื้อสามารถรับรางวัลต่อไปนี้ได้	Beli untuk mendapatkan imbalan berikut	Compre para receber as seguintes recompensas	확인 혜택
+ID_1323	现在购买可获得	現在購買可獲得	Buy now	ซื้อเดี๋ยวนี้เพื่อรับ	Beli sekarang untuk mendapatkan	Compre agora	지금 확인하기
+ID_1324	准备中	準備中	Preparing	กำลังเตรียมการ	Sedang dalam persiapan	Preparando	준비 중
+ID_1325	语言设置	語言設置	Language	ภาษา	Pengaturan bahasa	Idioma	언어
+ID_1326	简体中文	简体中文	简体中文	简体中文	简体中文	简体中文	简体中文
+ID_1327	繁體中文	繁體中文	繁體中文	繁體中文	繁體中文	繁體中文	繁體中文
+ID_1328	English	English	English	English	English	English	English
+ID_1329	语言	語言	Language	ภาษา	Bahasa	Idioma	언어
+ID_1330	配件	配件	Accessory	เครื่องประดับ	Aksesoris	Acessórios	잠금
+ID_1331	材料	材料	Material	วัสดุ	Bahan	Material	재료
+ID_1332	连续礼赠	連續禮贈	Continuous Gift	ของขวัญต่อเนื่อง	Hadiah Berturut-turut	Presente Contínuo	연속 선물
+ID_1333	胜利俱乐部奖励	勝利俱樂部獎勵	Victory Club Rewards	รางวัล Victory Club	Penghargaan Klub Kemenangan	Recompensas do Clube da Vitória	승리 클럽 보상
+ID_1334	平局俱乐部奖励	平局俱樂部獎勵	Draw Club Rewards	รางวัล Draw Club	Penghargaan Klub Seri	Prêmio Clube de Empate	클럽 보상 추첨
+ID_1335	失败俱乐部奖励	失敗俱樂部獎勵	Defeat Club Rewards	รางวัล Defeat Club	Penghargaan Klub Kekalahan	Prêmio de Consolação	패배 클럽 보상
+ID_1336	赛程查看	賽程查看	View Schedule	ดูกำหนดการ	Lihat Jadwal Pertandingan	Veja a programação	일정 보기
+ID_1337	当前阶段	當前階段	Current Stage	ขั้นปัจจุบัน	Tahap Saat Ini	Fase Atual	현재 스테이지
+ID_1338	总分	總分	Total Points	คะแนนรวม	Total Skor	Pontos totais	총 포인트
+ID_1339	俱乐部积分	俱樂部積分	Club Points	คะแนนสโมสร	Poin Klub	Pontos do Clube	클럽 포인트
+ID_1340	胜利奖励	勝利獎勵	Victory Rewards	รางวัลชัยชนะ	Hadiah Kemenangan	Recompensa da Vitória	승리 보상
+ID_1341	点击报名	點擊報名	Click to Register	คลิกเพื่อลงทะเบียน	Klik Daftar	Clique para Registrar	등록하려면 클릭
+ID_1342	未报名	未報名	Not Registered	ยังไม่ได้ลงทะเบียน	Belum Terdaftar	Não se inscreveu	등록되지 않음
+ID_1343	匹配中...	匹配中...	Matching...	กำลังจับคู่...	Sedang Dipertandingkan...	Emparelhando...	매칭 중...
+ID_1344	俱乐部奖励	俱樂部獎勵	Club Rewards	รางวัลสโมสร	Penghargaan Klub	Recompensas do Clube	클럽 리워드
+ID_1345	俱乐部积分赛	俱樂部積分賽	Club Point Race	การแข่งขันคะแนนสโมสรลีก	Turnamen Poin Klub	Corrida de pontos do clube	클럽 포인트 레이스
+ID_1346	俱乐部成绩查看	俱樂部成績查看	View Club Score	ดูตารางการแข่งขันของสโมสร	Lihat Hasil Klub	Resultados do Clube	클럽 점수 보기
+ID_1347	俱乐部积分赛	俱樂部積分賽	Club Point Race	การแข่งขันคะแนนสโมสรลีก	Turnamen Poin Klub	Corrida de pontos do clube	클럽 포인트 레이스
+ID_1348	奖励	獎勵	Rewards	รางวัล	Hadiah	Prêmio	보상
+ID_1349	任务	任務	Tasks	งาน	Misi	Tarefa	과제
+ID_1350	双周通行证	雙周通行證	Biweekly Pass	ได้รับผ่านสัปดาห์	Tiket DwimIngguan	Passe Quinzenal	격주 패스
+ID_1351	完成任务获取最终奖励！	完成任務獲取最終獎勵！	Get the final reward for completing the task	ทำงานให้เสร็จเพื่อรับรางวัลสุดท้าย!	Selesaikan misi untuk dapatkan hadiah terakhir!	Complete missões para obter recompensas finais!	미션을 완수하고 최종 보상을 받아가세요!
+ID_1352	初级	初級	Primary	ผู้เริ่มต้น	Pemula	Primário	초급
+ID_1353	高级	高級	Advanced	ผู้เชี่ยวชาญ	Lanjutan	Avançado	고급
+ID_1354	购买等级	購買等級	Purchase Level	ระดับการซื้อ	Beli Level	Nível de compra	확인 레벨
+ID_1355	已完成	已完成	Completed	เสร็จสิ้นแล้ว	Sudah Selesai	Concluído	완료
+ID_1356	进行中	進行中	In Process	กำลังดำเนินการ	Sedang Berlangsung	Em andamento	진행 중
+ID_1357	活动期间除首通掉落外双倍掉落	活動期間除首通掉落外雙倍掉落	Double drop except for the first pass drop during the event	คูณค่าการดรอปคูณสองยกเว้นการดรอปครั้งแรกในงาน	Drop Ganda kecuali hadiah pertama selama periode acara	Drop de itens em dobro, exceto no primeiro drop	이벤트 기간 동안 최초 클리어 이후 2배 드랍이 적용됩니다.
+ID_1358	不在战斗阶段	不在戰鬥階段	Not in combat stage	ไม่ใช่ในช่วงต่อสู้	Tidak dalam Tahap Pertarungan	Não está em fase de combate	전투 단계가 아님
+ID_1359	俱乐部奖励	俱樂部獎勵	Club Rewards	รางวัลสโมสร	Penghargaan Klub	Recompensas do Clube	클럽 보상
+ID_1360	俱乐部对战	俱樂部對戰	Club vs Club	การต่อสู้ของสโมสร	Pertarungan Klub	Clube vs Clube	클럽 대항전
+ID_1361	俱乐部商店	俱樂部商店	Club Store	ร้านค้าสโมสร	Toko Klub	Loja do Clube	클럽 상점
+ID_1362	俱乐部赛道	俱樂部賽道	Club Track	สนามแข่งรถสโมสร	Lomba Klub	Pista do Clube	클럽 트랙
+ID_1363	俱乐部赛事	俱樂部賽事	Club Events	เหตุการณ์สโมสร	Acara Klub	Eventos do Clube	클럽 이벤트
+ID_1364	幸运转盘	幸運轉盤	Lucky Turntable	ล้อเสี่ยงโชค	Roda Keberuntungan	Roda da Fortuna	럭키 룰렛
+ID_1365	每日礼赠	每日禮贈	Daily Gift	ของขวัญประจำวัน	Hadiah Harian	Presente Diário	일일 선물
+ID_1366	小豪家	小豪家	GO's house	บ้านของ GO	Rumah Kecil Mewah	Saguão	남궁호의 집
+ID_1367	实验室	實驗室	Laboratory	ห้องปฏิบัติการ	Laboratorium	Laboratório	실험실
+ID_1368	体育馆	體育館	Sports center	ศูนย์กีฬา	Gedung Olahraga	Estádio	스포츠 센터
+ID_1369	模型店	模型店	Model shop	ร้านจำหน่ายโมเดล	Toko Model	Loja Modelo	모델 샵
+ID_1370	剧情	劇情	Storyline	เรื่องราวหลัก	Alur Cerita	Enredo	스토리
+ID_1371	好友	好友	Friends	เพื่อน	Teman	Amigos	친구
+ID_1372	限时活动	限時活動	Limited-Time Event	กิจกรรมระยะเวลาจำกัด	Acara Terbatas	Evento por tempo limitado	기간 한정 이벤트
+ID_1373	礼包	禮包	Gift pack	แพ็คของขวัญ	Paket Hadiah	Pacote de Presente	선물 팩
+ID_1374	科技研究	科技研究	Technology research	การวิจัยเทคโนโลยี	Penelitian Teknologi	Pesquisa Científica e Tecnológica	기술 연구
+ID_1375	车库	車庫	Garage	โรงรถ	Garasi	Garagem	차고
+ID_1376	战斗设置	戰鬥設置	Battle settings	ตั้งค่าการต่อสู้	Pengaturan Pertarungan	Configurações de batalha	전투 설정
+ID_1377	赛道检测	賽道檢測	Track detection	ตรวจจับช่องว่างของเส้นทาง	Pemeriksaan Lintasan	Detecção de trilha	트랙 탐지
+ID_1378	进阶	進階	Advanced	ขั้นสูง	Tingkat Lanjutan	Avançado	전수
+ID_1379	还原	還原	Restore	การกู้คืน	Kembalikan	Redução	복원
+ID_1380	没有物品可以还原哦~	沒有物品可以還原哦~	There are no items to restore~	ไม่มีรายการที่จะกู้คืน~	Tidak ada item yang perlu dipulihkan~	Não há itens para restaurar~	복원 가능한 아이템이 없네요~
+ID_1381	限购礼包	限購禮包	Limited Purchase Gift Pack	ชุดของขวัญที่จำกัดการซื้อ	Paket Pembelian Terbatas	Pacote de Compra Limitada	한정 판매 패키지
+ID_1382	花费：	花費：	cost：	ค่าใช้จ่าย:	Biaya:	Gastar:	비용:
+ID_1383	重心位置	重心位置	Center of gravity position	ตำแหน่งจุดศูนย์ถ่วง	Posisi Titik Berat	Centro de gravidade	무게 중심 위치
+ID_1384							0
+ID_1385	定制礼赠	定製禮贈	Customized gifts	ของขวัญที่ปรับแต่ง	Hadiah Sesuai Permintaan	Brindes Personalizados	맞춤형 선물
+ID_1386	难点挑战	難點挑戰	Challenge of Difficulty	ความท้าทายของความยาก	Kesulitan Tantangan	Desafio Dificil	난이도 도전
+ID_1387	完成率	完成率	Completion Rate	อัตราส่วนของการเสร็จสิ้น	Tingkat Penyelesaian	Taxa de Realizaçao	완료율
+ID_1388	限时兑换	限時兌換	Limited Time Exchange	การแลกเปลี่ยนในเวลาจำกัด	Penukaran Terbatas Waktu	Resgate por tempo limitado	기간 한정 교환
+ID_1389	ไทย	ไทย	ไทย	ไทย	ไทย	ไทย	ไทย
+ID_1390	累计观影	累計觀影	Total movie viewing	การชมภาพยนตร์สะสม	Pemandangan kumulatif	Visualização cumulativa de filmes	누적 시청 횟수
+ID_1391	快来参加我创建的挑战赛吧!	快來參加我創建的挑戰賽吧!	Come and participate in the challenge I created!	มาร่วมเป็นส่วนหนึ่งของความท้าทายที่ฉันสร้างขึ้น!	Datang dan berpartisipasi dalam tantangan yang saya ciptakan!	Venha participar do desafio que criei!	제가 만든 챌린지에 참여해보세요!
+ID_1392	挑战赛邀请	挑戰賽邀請	Challenge Invitation	คำเชิญ Challenge	Challenge Invitation	Convites para desafios	챌린지 초대
+ID_1393	当前无比赛	當前無比賽	No competition currently	ไม่มีการแข่งขันในปัจจุบัน	Tidak ada persaingan saat ini	Atualmente não há competições	현재 경쟁이 없습니다.
+ID_1394	我的速度	我的速度	My speed	ความเร็วของฉัน	Kecepatan saya	Minha velocidade	내 기록
+ID_1395	时间达到:	時間達到:	Time achieved:	เวลาที่บันทึกได้:	Waktu tercapai:	Hora de chegar:	달성한 시간입니다:
+ID_1396	车神速度	車神速度	Speed of the racing god	ความเร็วของเทพแห่งการแข่งรถ	Kecepatan dewa balap	Velocidade do Deus do carro	레이싱 신의 속도
+ID_1397	车神传说	車神傳說	Legend of the Racing God	ตำนานของเทพแห่งการแข่งรถ	Legenda dewa balap	Lenda do deus do carro	전설의 레이서
+ID_1398	Indonesia	Indonesia	Indonesia	Indonesia	Indonesia	Indonesia	Indonesia
+ID_1399	选择地图	選擇地圖	Choose Map	เลือกแผนที่	Pilih Peta	Selecione o Mapa	지도 선택
+ID_1400	车手详情	車手詳情	Driver Details	รายละเอียดนักขับ	Detail pengemudi	Detalhes do driver	선수 정보
+ID_1401	任务目标	任務目標	Mission objectives	วัตถุประสงค์ของภารกิจ	Tujuan misi	Objetivos da missão	미션 목표
+ID_1402	通关时长	通關時長	Clearance time	เวลากวาดล้าง	Waktu izin	Tempo de desembaraço	클리어 타임
+ID_1403	奖励掉落	獎勵掉落	Reward drops	รางวัลลดลง	Hadiah turun	Gotas de recompensa	보상 드롭
+ID_1404	去整备	去整備	Go for refurbishment	ไปตกแต่งใหม่	Pergi untuk perbaikan	Ir para a remodelação	정비하기
+ID_1405	宝箱解锁	寶箱解鎖	Chests to unlock	หีบเพื่อปลดล็อก	Peti untuk dibuka	Baús para desbloquear	보물상자 넣기
+ID_1406	全部通关奖励掉落	全部通關獎勵掉落	All clearance rewards drop	รางวัลการกวาดล้างทั้งหมดลดลง	Semua hadiah izin turun	Todas as recompensas de liberação caem	전체 클리어 보상
+ID_1407	Português	Português	Português	Português	Português	Português	Português
+ID_1408	查看概率	查看機率	View probabilities	ดูความน่าจะเป็น	Melihat probabilitas	Exibir probabilidades	확률 보기
+ID_1409	可放入宝箱	可放入寶箱	Can be placed in treasure chest	สามารถใส่ลงในหีบสมบัติได้	Dapat ditempatkan di peti harta karun	Pode ser colocado no baú do tesouro	보물상자를 넣으실 수 있습니다.
+ID_1410	立即打开	立即打開	Open it now	เปิดตอนนี้	Buka sekarang	Abra-o agora	오픈
+ID_1411	合成材料自选礼盒	合成材料自選禮盒	Merge gift box of choice	กล่องของขวัญสังเคราะห์ที่เลือก	Kotak hadiah sintetis pilihan	Caixa de presente sintética de escolha	합성 재료 선택 상자
+ID_1412	确认选择	確認選擇	Confirm your selection	ยืนยันการเลือกของคุณ	Konfirmasikan pilihan Anda	Confirme sua seleção	확인
+ID_1413	待达成	待達成	To be achieved	จะประสบความสําเร็จ	Untuk dicapai	A ser alcançado	미달성
+ID_1414	累计充值可得<color=#EC5506>稀有配件、丰厚道具</color>等豪华奖励	累計儲值可得<color=#EC5506>稀有配件、豐厚道具</color>等豪華獎勵	Accumulated recharge can get <color=#EC5506>rare accessories, rich items</color> and other luxurious rewards	การสะสมแต้มสามารถรับ <color=#EC5506>เครื่องประดับหายาก ไอเทมมากมาย</color> และรางวัลสุดหรูอื่นๆ	Pengisian ulang yang terkumpul bisa mendapatkan <color=#EC5506>aksesoris langka, item mewah</color> dan hadiah mewah lainnya	A recarga acumulada pode obter <color=#EC5506>acessórios raros, itens ricos</color> e outras recompensas luxuosas	누적된 충전으로 <color=#EC5506>희귀한 액세서리, 풍부한 아이템</color> 및 기타 사치스러운 보상을 얻을 수 있습니다.
+ID_1415	奖励物品	獎勵物品	Bonus items	รายการโบนัส	Item bonus	Itens de bônus	보상 아이템
+ID_1416	合成材料自选礼盒详情	合成材料自選禮盒詳情	Details of the merge custom gift box	รายละเอียดของกล่องของขวัญสังเคราะห์ที่กําหนดเอง	Detail kotak hadiah kustom sintetis	Detalhes da caixa de presente personalizada sintética	합성 재료 선택 상자 정보
+ID_1417	乱斗冠军赛	亂鬥冠軍賽	brawl championship	การแข่งขันชิงแชมป์การทะเลาะวิวาท	kejuaraan Brawl	Campeonato de Confronto	난투 챔피언십 레이스
+ID_1418	禁用赛道	禁用賽道	Banned track	ปิดใช้งานแทร็ก	Nonaktifkan trek	Desativar a faixa	사용 금지된 트랙
+ID_1419	选择上传车辆	選擇上傳車輛	Select Upload vehicle	เลือกอัปโหลดรถ	Pilih Unggah kendaraan	Selecione Carregar veículo	업로드할 머신을 선택하세요.
+ID_1420	确认上传	確認上傳	Confirm the upload	ยืนยันการอัปโหลด	Konfirmasikan unggahan	Confirme o upload	업로드 확인
+ID_1421	竞猜	競猜	quiz	สอบ	kuis	quiz	퀴즈
+ID_1422	海选赛	海選賽	Auditions	ออดิชั่น	Audisi	Audições	예선
+ID_1423	附加赛	附加賽	Play-offs	รอบเพลย์ออฟ	Play-off	Play-offs	플레이오프
+ID_1424	比赛回放	比賽回放	Match replay	รีเพลย์แมตช์	Tayangan ulang pertandingan	Repetição da partida	경기 리플레이
+ID_1425	被淘汰	被淘汰	Eliminated	ถูกคัดออก	Dihilangkan	Eliminado	탈락
+ID_1426	已禁用	已禁用	Disabled	พิการ	Cacat	Desactivado	장애인
+ID_1427	64强已产生今日休赛	64強已產生今日休賽	Top 64 has been generated, no matches today	รอบ 64 ทีมสุดท้าย ได้หยุดพักในวันนี้	Babak 64 besar telah menghasilkan istirahat hari ini	A rodada de 64 produziu uma pausa hoje	오늘은 64강전이 열리지 않습니다.
+ID_1428	已晋级	已晉級	Qualified	ผู้ทรงคุณวุฒิ	Berkualitas	Qualificado	자격을 갖춘
+ID_1429	今日战斗结算中...	今日戰鬥結算中...	Today's battle settlement...	การตั้งถิ่นฐานการต่อสู้ในวันนี้...	Penyelesaian pertempuran hari ini ...	O acordo de batalha de hoje...	오늘의 배틀 결과를 다운로드 중입니다…
+ID_1430	64强排行	64強排行	Top 64	อันดับ 64	Peringkat 64	Top 64	64강 순위
+ID_1431	对手信息	對手資訊	Opponent information	ข้อมูลฝ่ายตรงข้าม	Informasi lawan	Informações do adversário	라이벌 정보
+ID_1432	已兑换	已兌換	Redeemed	แลก	Ditebus	Redimidos	교환 완료
+ID_1433	雇佣	雇傭	hire	จ้าง	Penyewaan	alugar	리스
+ID_1434	租借	租借	rent	ค่าเช่า	sewa	alugar	렌트
+ID_1435	查看雇佣配件	查看雇傭配件	View employment accessories	ดูอุปกรณ์เสริมสําหรับการจ้างงาน	Lihat aksesori pekerjaan	Ver acessórios de emprego	잠금 리스 보기
+ID_1436	查看租借配件	查看租借配件	View rental accessories	ดูอุปกรณ์เสริมให้เช่า	Lihat aksesori persewaan	Ver acessórios de aluguer	잠금 렌트 보기
+ID_1437	货币兑换	貨幣兌換	Currency exchange	บริการแลกเปลี่ยนเงินตราต่างประเทศ	Penukaran mata uang	Câmbios	환전
+ID_1438	开始游戏	開始遊戲	Start the game	เริ่มเกม	Mulai permainan	Inicie o jogo	게임 시작하기
+ID_1439	星级达成已最终结算为准	星級達成已最終結算為準	Star rating has been finally settled	ในที่สุดการจัดอันดับดาวก็ถูกตัดสิน	Peringkat bintang akhirnya diselesaikan	A classificação por estrelas foi finalmente resolvida	별점이 최종 확정되었습니다.
+ID_1440	修复	修復	Repair	ซ่อมแซม	Perbaikan	Reparar	복구
+ID_1441	过期时间	過期時間	Expiration Time	เวลาหมดอายุ	Batas Waktu Kadaluarsa	Tempo de Expiração	만료 시간
+ID_1442	新的前往赛道编辑	新的前往賽道編輯	New Track Editing	การแก้ไขเส้นทางใหม่	Pengeditan Trek Baru	Edição de Nova Pista	새로운 트랙 편집
+ID_1443	租借&雇佣	租借&雇傭	Rent & Hire	เช่าและจ้างงาน	Sewa & Rekrut	Aluguel e Contratação	렌트&리스
+ID_1444	挑战目标	挑戰目標	Challenge Objectives	วัตถุประสงค์ที่ท้าทาย	Tujuan Tantangan	Objetivos do Desafio	도전 목표
+ID_1445	需要	需要	Required	ที่จำเป็น	Syarat	Obrigatórios	필요
+ID_1446	充值提醒	充值提醒	Purchase Reminder	เตือนการเติมเงิน	Pengingat Isi Ulang	Lembrete de Recarga	충전 알림
+ID_1447	查看更多	查看更多	View More	ดูเพิ่มเติม	Lihat Lebih Banyak	Ver Mais	더 보기
+ID_1448	最新活动	最新活動	Latest Events	เหตุการณ์ล่าสุด	Acara terakhir	Eventos Mais Recentes	최근 이벤트
+ID_1449	前往挑战	前往挑戰	Go to Challenge	ไปที่ความท้าทาย	Pergi ke Tantangan	Ir para o Desafio	도전하러 가기
+ID_1450	最新赛报	最新賽報	Latest Match Report	รายงานการแข่งขันล่าสุด	Laporan Pertandingan Terbaru	Relatório da Última Partida	최근 레이스
+ID_1451	佐上纯	佐上純	Jiunn	จั่ว ซาง ชุน	Zuo Shangchun	Zuo Shang Chun	김준
+ID_1452	未激活	未啟動	Not Activated	ไม่ได้เปิดใช้งาน	Tidak aktif	Não Ativado	미활성
+ID_1453	当前有可以领取的	當前有可以領取的	Currently, there are rewards to claim	ขณะนี้มีรางวัลให้เรียกร้อง	Saat ini, ada hadiah untuk diklaim	Atualmente, existem recompensas a serem resgatadas	수령 가능한 보상이 있습니다.
+ID_1454	击败BOSS人数：	擊敗BOSS人數：	Number of Bosses Defeated:	จำนวนบอสที่พ่ายแพ้:	Jumlah Bos yang Dikalahkan:	Número de Chefes Derrotados:	격파한 보스:
+ID_1455	最小	最小	Mini	ขั้นต่ำ	Minimum	Mínimo	최소
+ID_1456	确认购买	確認購買	Confirm Purchase	ยืนยันการซื้อ	Konfirmasi Pembelian	Confirmar Compra	확인 확인
+ID_1457	消耗:	消耗:	Usage	การใช้	Penggunaan	Uso	필요:
+ID_1458	持有数	持有數	Quantity	จำนวนคงเหลือ	Jumlah yang Dimiliki	Quantidade	보유 수량
+ID_1459	折扣	折扣	Discount	ส่วนลด	Diskon	Desconto	할인
+ID_1460	赛事挑战	賽事挑戰	Event Challenge	การท้าทายของเหตุการณ์	Tantangan Acara	Desafio de Evento	이벤트 챌린지
+ID_1461	冠军赛事	冠軍賽事	Championship Event	การแข่งขันแชมป์	Acara Kejuaraan	Evento de Campeonato	챔피언십 이벤트
+ID_1462	目标	目标	Target	เป้า	Target	Alvo	목표
+ID_1463	积分奖励	積分獎勵	Points Reward	รางวัลคะแนน	Hadiah Poin	Recompensa de Pontos	포인트 보상
+ID_1464	开放时间	開放時間	Open Time	เวลาทำการ	Waktu Terbuka	Horário de Abertura	개방 시간
+ID_1465	难度等级	難度等級	Difficulty Level	ระดับความยาก	Tingkat kesulitan	Nível de Dificuldade	난이도 레벨
+ID_1466	去配车	去配車	Go to matching car	ไปรับรถ.	Pergi ke mobil yang cocok	Ir para carro de correspondência	라인업 설정
+ID_1467	特殊奖励	特殊獎勵	Special Rewards	รางวัลพิเศษ	Hadiah Khusus	Recompensas Especiais	특훈 보상
+ID_1468	喷漆	噴漆	Paint	สีสเปรย์	Cat	Pintura	페인트
+ID_1469	消耗以下材料进行换色	消耗以下材料進行換色	Consume the following materials to change colors	ใช้วัสดุต่อไปนี้เพื่อเปลี่ยนสี	Konsumsi bahan-bahan berikut untuk mengubah warna	Consumir os seguintes materiais para mudar de cor	다음 재료를 사용하여 페인팅을 변경합니다.
+ID_1470	特殊规则	特殊規則	Special Rules	กฎพิเศษ	Aturan Khusus	Regras Especiais	특수 규칙
+ID_1471	禁用槽位	禁用槽位	Banned slots	ปิดการใช้งานสล็อต	Nonaktifkan slot	Desativar slots	사용 금지 슬롯
+ID_1472	开启槽位	開啟槽位	Enabling slots	เปิดช่อง	Mengaktifkan slot	Ativar slots	개방 슬롯
+ID_1473	排位任务	排位任務	Ranking Tasks	งานจัดอันดับ	Misi peringkat	Missões de Classificação	랭킹 미션
+ID_1474	特训任务	特訓任務	Special Training Missions	ภารกิจการฝึกพิเศษ	Misi pelatihan khusus	Missões de Treinamento Especial	특훈 미션
+ID_1475	排位日常任务	排位日常任務	Ranking Daily Missions	จัดอันดับงานประจำวัน	Peringkat Tugas Harian	Missões Diárias de Classificação	랭킹 일일 미션
+ID_1476	新手任务	新手任務	Newbie	งานมือใหม่	Tugas Pemula	Missões de Novato	초보자 미션
+ID_1477	通关记录	通關記錄	Passing Records	บันทึกพิธีการศุลกากร	Melewati Rekor	Registros de Passagem	클리어 레코드
+ID_1478	等级礼包	等級禮包	Level Gift Pack	ชุดของขวัญระดับ	Paket Hadiah Peringkat	Pacote de Presente de Nível	레벨 패키지
+ID_1479	恭喜升级！	恭喜升級！	Congratulations on your promotion!	ขอแสดงความยินดีกับการอัพเกรด!	Selamat atas promosi Anda!	Parabéns pela sua promoção!	레벨업을 축하합니다!
+ID_1480	请领取为您准备的升级礼包	請領取為您準備的升級禮包	Please receive the upgrade package prepared for you!	กรุณารับแพ็คเกจของขวัญอัปเกรดที่เตรียมไว้สำหรับคุณ	Silakan terima paket peningkatan yang disiapkan untuk Anda!	Por favor, receba o pacote de atualização preparado para você!	당신을 위해 준비한 레벨업 패키지를 받아가세요.
+ID_1481	比赛规则	比賽規則	Race Rules	กฎการแข่งขัน	Aturan Balapan	Regras da Corrida	레이스 규칙
+ID_1482	为了让迷你四驱车比赛保持有趣、刺激、公平，我们制定了一套比赛规则。所有官方迷你四驱车赛事的参赛者都必须遵守这些规定。迷你四驱车比赛不仅仅是要跑得最快，还需要运用你的头脑和良好的设置技术。您不仅可以与其他赛车手竞争，还可以挑战自己。通过记住公平竞争的精神，您可以学习如何以良好的举止光荣地比赛。我们衷心希望每一位迷你四驱车爱好者都能遵守这些规定。请各位选手务必了解，该规则下禁用”能量保护“”超级加速“以及”无敌保护“等，是对合理搭配车辆的一种挑战赛事。	為了讓迷你四輪傳動車比賽保持有趣、刺激、公平，我們制定了一套比賽規則。 所有官方迷你四驅車賽事的參賽者都必須遵守這些規定。 迷你四輪傳動車比賽不僅僅是跑得最快，還需要運用你的頭腦和良好的設定技術。 您不僅可以與其他賽車手競爭，還可以挑戰自己。 透過記住公平競爭的精神，您可以學習如何以良好的舉止光榮地比賽。 我們衷心希望每位迷你四輪傳動車愛好者都能遵守這些規定。 請各位選手務必了解，該規則下禁用」能量保護「」超級加速「以及」無敵保護「等，是對合理搭配車輛的一種挑戰賽事。	To keep Mini 4x4 racing fun, exciting and fair, we have developed a set of competition rules. All participants in official Mini 4WD events must comply with these regulations. Mini 4x4 racing isn't just about being the fastest, it's also about using your brains and good setup techniques. Not only can you compete with other racers, but you can also challenge yourself. By remembering the spirit of fair play, you can learn how to compete honorably with good manners. We sincerely hope that every Mini 4x4 enthusiast will comply with these regulations. All players must understand that "energy protection", "super acceleration" and "invincible protection" are prohibited under this rule, which is a challenge to the reasonable matching of vehicles.	เพื่อให้การแข่งรถ Mini 4x4 สนุกสนาน น่าตื่นเต้น และยุติธรรม เราได้จัดทำกฎการแข่งขันขึ้นมา ผู้เข้าร่วมกิจกรรม Mini 4WD อย่างเป็นทางการทุกคนจะต้องปฏิบัติตามกฎระเบียบเหล่านี้ การแข่งขัน Mini 4x4 ไม่ใช่แค่การวิ่งให้เร็วที่สุดเท่านั้น แต่ยังเกี่ยวกับการใช้สมองและเทคนิคการตั้งค่าที่ดีอีกด้วย ไม่เพียงแต่คุณสามารถแข่งขันกับนักแข่งคนอื่น ๆ เท่านั้น แต่คุณยังสามารถท้าทายตัวเองได้อีกด้วย ด้วยการจดจำจิตวิญญาณของการเล่นที่ยุติธรรม คุณสามารถเรียนรู้วิธีการแข่งขันอย่างมีเกียรติด้วยมารยาทที่ดี เราหวังเป็นอย่างยิ่งว่าผู้ที่ชื่นชอบ Mini 4x4 ทุกคนจะปฏิบัติตามกฎข้อบังคับเหล่านี้ ผู้เล่นทุกคนจะต้องเข้าใจว่า "การป้องกันพลังงาน", "การเร่งความเร็วขั้นสูง" และ "การป้องกันที่คงกระพัน" เป็นสิ่งต้องห้ามภายใต้กฎนี้ ซึ่งเป็นความท้าทายต่อการจับคู่ยานพาหนะที่สมเหตุสมผล	Untuk menjaga agar balap Mini 4x4 tetap menyenangkan, seru, dan adil, kami telah mengembangkan serangkaian peraturan kompetisi. Semua peserta acara resmi Mini 4WD harus mematuhi peraturan ini. Balapan mini 4x4 bukan hanya tentang menjadi yang tercepat, tetapi juga tentang menggunakan otak dan teknik pengaturan yang baik. Anda tidak hanya bisa bersaing dengan pembalap lain, tetapi Anda juga bisa menantang diri sendiri. Dengan mengingat semangat fair play, Anda bisa belajar bagaimana berkompetisi secara terhormat dan sopan santun. Kami sangat berharap setiap pecinta Mini 4x4 mematuhi peraturan ini. Semua pemain harus memahami bahwa "perlindungan energi", "akselerasi super", dan "perlindungan tak terkalahkan" dilarang berdasarkan aturan ini, yang merupakan tantangan terhadap pencocokan kendaraan yang wajar.	Para manter as corridas Mini 4x4 divertidas, emocionantes e justas, desenvolvemos um conjunto de regras de competição. Todos os participantes em eventos oficiais do Mini 4WD devem cumprir estes regulamentos. As corridas de mini 4x4 não se trata apenas de ser o mais rápido, mas também de usar seu cérebro e boas técnicas de configuração. Você não só pode competir com outros pilotos, mas também desafiar a si mesmo. Ao lembrar o espírito do jogo limpo, você aprenderá como competir com honra e boas maneiras. Esperamos sinceramente que todos os entusiastas do Mini 4x4 cumpram estes regulamentos. Todos os jogadores devem compreender que “proteção de energia”, “superaceleração” e “proteção invencível” são proibidas sob esta regra, o que é um desafio à correspondência razoável de veículos.	미니카 레이싱 대회가 항상 재미있고 새로우면서도 공정한 경기를 선보이고자 레이스 규칙을 새롭게 적용하였습니다. 모든 공식적인 미니카 레이싱 대회 참여자께서는 꼭 해당 규칙을 준수해주시기 바랍니다. 미니카 레이싱 대회에서는 가장 빨리 달리는것뿐만 아니라 귀하의 빠른 두뇌 판단과 섬세한 사전 세팅 기술을 필요로 합니다. 귀하께서는 타 레이서와 경쟁할뿐만 아니라 자신의 한계에 도전하실 수 있습니다. 공정한 경쟁의 원칙을 지켜주시면 성실한 자세로 임하여 영예로운 대회를 진행하실 수 있습니다. 저희는 진심으로 모든 미니카 대회 애호가분들께서 해당 규칙을 준수하기를 바랍니다. 모든 미니카 레이서님들께 꼭 알려드릴 부분은 해당 규칙에서 ”에너지 보호“, ”슈퍼 가속“, 및 ”무적 보호“ 등 기능을 금지하는 이유는 레이스 미니카의 합리적인 매칭에 대한 도전을 위한것임을 이해해주셨으면 합니다.
+ID_1483	1、竞赛用车规格	1.競賽用車規格	1. Competition Vehicle Specifications	1. ข้อมูลจำเพาะของรถแข่งขัน	1. Spesifikasi Kendaraan Kompetisi	1. Especificações do Veículo de Competição	1. 레이스 미니카 규격
+ID_1484	所有竞赛车辆必须采用四轮驱动。不允许改装后轮驱动或前轮驱动参加。车身必须固定在比赛车辆上，以免脱落，并且车身必须贴有贴纸或涂漆法1)。不接受自制的身体所有参赛车辆都必须接受车辆检查。未通过车辆检验的参赛车辆将不能参加比赛。比赛车辆必须由运动员自行组装(注2)。但根据比赛内容，可能允许联合组装。	所有競賽車輛必須採用四輪驅動。 不允許改裝後輪驅動或前輪驅動參加。 車身必須固定在比賽車輛上，以免脫落，車身必須貼有貼紙或塗漆法1)。 不接受自製的身體所有參賽車輛都必須接受車輛檢查。 未通過車輛檢驗的參賽車輛將無法參加比賽。 比賽車輛必須由運動員自行組裝(註2)。 但根據比賽內容，可能允許聯合組裝。	All competition vehicles must be four-wheel drive. Modified rear-wheel drive or front-wheel drive participation is not allowed. Bodies must be secured to the competition vehicle so that they do not fall off and the body must have a sticker or paint method 1). Homemade bodies will not be accepted All participating vehicles must undergo a vehicle inspection. Participating vehicles that do not pass the vehicle inspection will not be allowed to participate in the race. Competition vehicles must be assembled by the athletes themselves (Note 2). However, depending on the content of the competition, joint assembly may be allowed.	รถแข่งขันทุกคันต้องเป็นรถขับเคลื่อนสี่ล้อ ไม่อนุญาตให้มีการดัดแปลงระบบขับเคลื่อนล้อหลังหรือขับเคลื่อนล้อหน้าในการเข้าร่วม ตัวถังต้องยึดไว้กับรถแข่งเพื่อป้องกันไม่ให้หลุดออกและต้องติดสติกเกอร์หรือทาสี 1) ไม่อนุญาตให้ทำศพแบบโฮมเมด และยานพาหนะที่เข้าร่วมทุกคันจะต้องผ่านการตรวจสอบยานพาหนะ ยานพาหนะที่ไม่ผ่านการตรวจสอบยานพาหนะจะไม่ได้รับอนุญาตให้เข้าร่วมการแข่งขัน รถที่ใช้แข่งขันจะต้องประกอบโดยนักกีฬาเอง (หมายเหตุ 2) อย่างไรก็ตาม อาจอนุญาตให้ประกอบร่วมกันได้ขึ้นอยู่กับเนื้อหาการแข่งขัน	Semua kendaraan kompetisi harus berpenggerak empat roda. Partisipasi penggerak roda belakang atau penggerak roda depan yang dimodifikasi tidak diperbolehkan. Body Kit harus diamankan pada kendaraan lomba agar tidak terjatuh dan body harus diberi stiker atau cat cara 1). Body buatan sendiri tidak akan diterima. Semua kendaraan peserta harus menjalani pemeriksaan kendaraan. Kendaraan peserta yang tidak lolos pemeriksaan kendaraan tidak diperbolehkan mengikuti lomba. Kendaraan pertandingan harus dirakit sendiri oleh pemain (Catatan 2). Namun, tergantung pada isi kompetisi, sambungan  mungkin diperbolehkan.	Todos os veículos de competição devem adotar a tração nas quatro rodas. Não é permitida a participação de veículos com tração traseira ou dianteira modificada. As carrocerias devem ser fixadas nos veículos de competição para evitar quedas, e a carroceria deve ter um adesivo ou seguir o método de pintura 1). Carrocerias caseiras não serão aceitas. Todos os veículos participantes devem passar por uma inspeção veicular. Veículos participantes que não passarem na inspeção veicular não serão permitidos na corrida. A montagem dos veículos de competição deve ser realizada pelos próprios atletas (Nota 2). No entanto, dependendo do conteúdo da competição, pode ser permitida a montagem conjunta.	레이스에 참가하는 모든 미니카는 반드시 4륜 구동 방식을 사용해야 합니다. 후륜 구동이나 전륜 구동으로 개조된 미니카의 참가는 허용되지 않습니다. 카울은 미니카 차체에 고정되어야 하며, 탈착할 수 없습니다. 또한 카울에는 반드시 데칼을 부착하거나 페인트 도장이 되어 있어야 합니다. 자작 차체는 금지되며, 모든 참가 차량은 반드시 차량 검사를 받아야 합니다. 차량 검사를 통과하지 못한 미니카는 레이스에 참가할 수 없습니다. 레이스 차량은 반드시 선수 본인에 의해 직접 조립되어야 합니다(주2). 단, 레이스 내용에 따라 협력 조립은 허용될 수 있습니다.
+ID_1485	2、竞赛用车车身尺寸	2、競賽用車車身尺寸	2. Body dimensions of competition vehicles	2. ขนาดตัวรถแข่งขัน	2. Dimensi bodi kendaraan kompetisi	2. Dimensões de carroceria de competição	2. 레이스 미니카 차체 사이즈
+ID_1486	参赛车辆的车身尺寸规定如下。  (所有底盘通用)竞赛车辆必须是四轮驱动。*最大宽度:105毫米或更小*总高度:70 毫米或更小*总长度:165 毫米或更小最小离地间隙:1毫米或更大*所有设备的最小重量:90 克或更大 (包括电池和电机)*轮胎尺寸:前轮和后轮，直径:22~35mm 宽度:8至26mm (必须安装轮胎)	參賽車輛的車身尺寸規定如下。(所有底盤通用)競賽車輛必須是四輪驅動。*最大寬度:105毫米或更小*總高度:70 毫米或更小*總長度:165 毫米或更小最小離地間隙:1毫米或更大*所有設備的最小重量:90 克或更大 (包括電池和馬達)*輪胎尺寸:前輪和後輪，直徑:22~35mm 寬度:8至26mm (必須安裝輪胎)	The body dimensions of participating vehicles are as follows. (Common to all chassis)Competition vehicles must be four-wheel drive.*Maximum width: 105 mm or less*Overall height: 70 mm or less*Overall length: 165 mm or less Minimum ground clearance: 1 mm or more*Minimum weight for all devices: 90 grams or more (including battery and motor)*Tire size: front and rear wheels, diameter: 22~35mm, width: 8 to 26mm (tires must be installed)	“ขนาดตัวถังของรถที่ร่วมรายการมีดังนี้ (เหมือนกันกับทุกแชสซี)	Dimensi bodi kendaraan yang berpartisipasi adalah sebagai berikut. (Umum untuk semua sasis)Kendaraan kompetisi harus berpenggerak empat roda.*Lebar maksimum: 105 mm atau kurang*Tinggi keseluruhan: 70 mm atau kurang*Panjang keseluruhan: 165 mm atau kurang Jarak bebas ke tanah minimum: 1 mm atau lebih*Berat minimum untuk semua perangkat: 90 gram atau lebih (termasuk baterai dan motor)*Ukuran ban: roda depan dan belakang, diameter: 22~35mm, lebar: 8 hingga 26mm (ban harus dipasang)	As dimensões da carroceria dos veículos participantes são as seguintes. (Comuns a todos os chassis)Os veículos de competição devem ter tração nas quatro rodas.*Largura máxima: 105 mm ou menos*Altura total: 70 mm ou menos*Comprimento total: 165 mm ou menos Distância mínima ao solo: 1 mm ou mais*Peso mínimo para todos os dispositivos: 90 gramas ou mais (incluindo bateria e motor)*Tamanho do pneu: rodas dianteiras e traseiras, diâmetro: 22~35mm, largura: 8 a 26mm (os pneus devem ser instalados)	레이스 참가 미니카의 사이즈 규격은 다음과 같습니다. (모든 섀시 동일 적용)대회 차량은 4륜 구동이어야 합니다.*최대 폭: 105mm 이하*전체 높이: 70mm 이하*전체 길이: 165mm 이하, 지면 간격 최소치: 1mm 또는 그 이상*모든 장치의 최소 무게: 90g 이상(배터리 및 모터 포함)*타이어 크기: 전륜 및 후륜, 직경: 22~35mm, 폭: 8~26mm (타이어 장착 필수)
+ID_1487	最大宽度	最大寬度	Maximum width	ความกว้างสูงสุด	Lebar maksimum	Largura máxima	전폭
+ID_1488	105mm以下	105mm以下	105mm or less	ต่ำกว่า 105 มม	105mm atau kurang	105mm ou menos	105mm 이하
+ID_1489	最大长度	最大長度	Maximum Length	ความยาวสูงสุด	Panjang maksimum	Comprimento máximo	전장
+ID_1490	165mm以下	165mm以下	165mm or less	ต่ำกว่า 165 มม	165mm atau kurang	165mm ou menos	165mm 이하
+ID_1491	最大高度	最大高度	Maximum height	ความสูงสูงสุด	Tinggi maksimum	Altura máxima	전고
+ID_1492	70mm以下	70mm以下	70mm or less	ต่ำกว่า 70 มม	70mm atau kurang	70mm ou menos	70mm 이하
+ID_1493	离地高度	離地高度	Height above ground	ความสูงเหนือพื้นดิน	Ketinggian di atas tanah	Altura acima do solo	최소 지상고
+ID_1494	1mm以上	1mm以上	1mm or more	1 มม. หรือมากกว่า	1mm atau lebih	1mm ou mais	1mm 이상
+ID_1495	轮胎直径	輪胎直徑	Tire Diameter	เส้นผ่านศูนย์กลางยาง	Diameter Ban	Diâmetro do Pneu	타이어 직경
+ID_1496	22-35mm	22-35mm	22-35mm	22-35มม	22-35mm	22-35mm	22~35mm
+ID_1497	轮胎宽度	輪胎寬度	Tire width	ความกว้างของยาง	Lebar ban	Largura do Pneu	타이어 너비
+ID_1498	8-26mm	8-26mm	8-26mm	8-26มม	8-26mm	8-26mm	8~26mm
+ID_1499	最低重量	最低重量	Minimum weight	น้ำหนักขั้นต่ำ	Berat minimal	Peso Mínimo	최저 중량
+ID_1500	90g以上包括电池	90g以上包含電池	90g or more including battery	90กรัมขึ้นไปรวมแบตเตอรี่	90g atau lebih termasuk baterai	90g ou mais, incluindo a bateria	배터리 포함 90g 이상
+ID_1501	导轮	導輪	Rollers	ล้อนำทางไม่จำกัดจำนวน	Roller	Rolamentos	롤러 개조 재료
+ID_1502	导轮数量无限制	導輪數量無限制	Unlimited number of rollers	โหมดขับเคลื่อน	Jumlah roller tidak terbatas	Número ilimitado de rolamentos	롤러 수량 무제한
+ID_1503	驱动方式	驅動方式	Drive Type	ขับเคลื่อนสี่ล้อ	Tipe Penggerak	Tipo de Tração	구동 방식
+ID_1504	四轮驱动	四輪驅動	Four-wheel drive	เกียร์	Penggerak empat roda	Tração nas quatro rodas	4륜 구동
+ID_1505	齿轮	齒輪	Gears	ชุดเกียร์ไม่จำกัด	Roda gigi	Peças	기어
+ID_1506	齿轮组合无限制	齒輪組合無限制	Unlimited gear combinations	3. การแข่งขันอย่างเป็นทางการ	Kombinasi gigi tidak terbatas	Combinações de peças ilimitadas	기어 조합 무제한
+ID_1507	3、官方竞赛	3、官方競賽	3. Official Race	3. การแข่งขันอย่างเป็นทางการ	3. Balapan Resmi	3. Corrida oficial	3. 공식 대회
+ID_1508	1、比赛将通过起跑信号等信号开始。参赛者打开开关，使其车轮旋转，看到信号后，将赛车接地并开始比赛2、比赛中不能干预赛车，如出现赛车冲出赛道、翻倒、越过赛道围栏进入其他车道、或比赛中车身脱落等情况的，按规定退赛。现场，比赛将终止。无法返回3、如果您被同车道的其他赛车超越，并且赛事官方判定存在干扰后车的风险，您将被强制退赛。4、目标是参赛车辆到达终点线的那一刻5、初赛名次和最终名次按完成顺序或时间确定。如果根据上述情况不能做出决定，则由主办方做出决定	1、比賽將透過起跑訊號等訊號開始。參賽者打開開關，使其車輪旋轉，看到訊號後，將賽車接地並開始比賽2、比賽中不能幹預賽車，如出現賽車衝出賽道、翻倒、越過賽道圍欄進入其他車道、或比賽中車身脫落等情況的，按規定退賽。 現場，比賽將終止。 無法返回3、如果您被同車道的其他賽車超越，且賽事官方判定有乾擾後車的風險，您將被強制退賽。4.目標是參賽車輛到達終點的那一刻5、初賽名次和最終名次依完成順序或時間決定。 如果根據上述情況不能做出決定，則由主辦方做出決定	1. The race will be started by a signal such as the starting signal. Participants turn on the switch to rotate their wheels, and when they see the signal, ground the car and start the race2、No interference with the car during the race. If the car runs out of the track, overturns, crosses the track fence into other lanes, or the bodywork falls off during the race, the race will be withdrawn according to the regulations. site, the race will be terminated. Unable to return3、If you are overtaken by another car in the same lane and the race officials determine that there is a risk of interference with the car behind you, you will be forced to retire from the race.4、The goal is the moment the participating cars reach the finish line5、Preliminary and final positions are determined by finishing order or time. If a decision cannot be made based on the above, the organizer will make the decision	1. การแข่งขันจะเริ่มต้นด้วยสัญญาณ เช่น สัญญาณการออกตัว ผู้แข่งขันเปิดสวิตช์ ทำให้ล้อหมุน และเมื่อเห็นสัญญาณ ให้หยุดรถและเริ่มการแข่งขัน2. ห้ามกีดขวางรถในระหว่างการแข่งขัน หากรถวิ่งออกนอกสนาม พลิกคว่ำ ข้ามรั้วสนาม และเข้าสู่เลนอื่น หรือตัวถังรถหลุดระหว่างการแข่งขัน ท่านจะออกจากการแข่งขันตาม ตามกฎระเบียบ ในที่เกิดเหตุเกมจะยุติลง กลับไม่ได้3. หากคุณถูกรถคันอื่นแซงในเลนเดียวกัน และเจ้าหน้าที่การแข่งขันพิจารณาว่ามีความเสี่ยงที่จะรบกวนรถคันหลัง คุณจะถูกบังคับให้ถอนตัวจากการแข่งขัน4. เป้าหมายคือช่วงเวลาที่ยานพาหนะที่เข้าร่วมถึงเส้นชัย5. อันดับเบื้องต้นและอันดับสุดท้ายจะพิจารณาตามลำดับความสำเร็จหรือเวลา หากไม่สามารถตัดสินใจได้เนื่องจากสถานการณ์ข้างต้น ผู้จัดงานจะเป็นผู้ตัดสินใจ	1. Perlombaan akan dimulai dengan isyarat seperti isyarat start. Peserta menyalakan saklar untuk memutar rodanya, dan ketika mereka melihat sinyal, mobilnya akan dilepaskan dan perlombaan dimulai2、Tidak ada gangguan pada mobil saat balapan. Jika mobil keluar lintasan, terguling, melintasi pagar lintasan ke jalur lain, atau bodywork terjatuh pada saat lomba, maka lomba akan dibatalkan sesuai ketentuan. lokasi, balapan akan dihentikan. Tidak dapat kembali3、Jika Anda disusul oleh mobil lain di jalur yang sama dan petugas lomba menentukan adanya risiko gangguan pada mobil di belakang Anda, Anda akan terpaksa mengundurkan diri dari lomba.4、Tujuannya adalah sampai  mobil peserta mencapai garis finis5、Posisi awal dan akhir ditentukan berdasarkan urutan atau waktu penyelesaian. Apabila keputusan tidak dapat diambil berdasarkan hal-hal di atas, maka penyelenggaralah yang mengambil keputusan	1. A corrida será iniciada por um sinal, como o sinal de largada. Os participantes ligam o interruptor para girar as rodas, e quando veem o sinal, encostam o carro e iniciam a corrida.2. Nenhuma interferência com o carro durante a corrida. Se o carro sair da pista, capotar, ultrapassar a cerca da pista para outras faixas ou se a carroceria cair durante a corrida, a corrida será encerrada de acordo com as regulamentações. Não é possível retornar ao local.3. Se você for ultrapassado por outro carro na mesma pista e os oficiais da corrida determinarem que há risco de interferência com o carro atrás de você, você será obrigado a se retirar da corrida.4. O objetivo é o momento em que os carros participantes alcançam a linha de chegada.5. As posições preliminares e finais são determinadas pela ordem de chegada ou pelo tempo. Se uma decisão não puder ser tomada com base no acima, o organizador tomará a decisão.	1. 신호등의 신호와 함께 레이스가 시작됩니다. 참가자는 미니카의 스위치를 켜고 바퀴가 회전하는 상태에서 대기합니다. 신호를 확인한 후 미니카를 내려놓으며 레이스를 시작합니다.2. 레이스 도중 미니카에 관여할 수 없습니다. 미니카가 트랙을 이탈하거나, 다른 레인으로 넘어가거나, 전복 또는 미니카의 카울이 탈거되는 등의 상황이 발생하는 경우 규정에 따라 실격되며, 레이스는 종료되고 복귀할 수 없습니다.3. 같은 레인에서 다른 미니카에게 추월당하거나 주최측에서 후행 차량을 방해할 위험이 존재한다고 판단되는 경우 실격 처리될 수 있습니다. 4. 참가 차량이 피니시 라인에 닿는 순간을 골인으로 인정합니다.5. 예선 순위와 최종 순위는 완주 순서 또는 시간에 따라 결정됩니다. 상기 내용으로 결정하지 못하는 경우 주최측에 의해 결정됩니다.
+ID_1509	每日目标	每日目標	Daily target	เป้าหมายฤดูกาล	Target harian	Meta Diária	일일 목표
+ID_1510	赛季目标	賽季目標	Season target	เป้าหมายการแข่งรถความเร็ว	Target musim	Alvo da Temporada	시즌 목표
+ID_1511	速度赛目标	速度賽目標	Speed Race Objectives	เป้าหมายการชุมนุม	Tujuan Balap Kecepatan	Objetivos de Velocidade	스피드 레이스 목표
+ID_1512	拉力赛目标	拉力賽目標	Rally Goal	เป้าหมายแรลลี่	Tujuan Reli	Objetivo do Rali	랠리 레이스 목표
+ID_1513	0	0	0	0	0	0	0
+ID_1514	0	0	0	0	0	0	0
+ID_1515	0	0	0	0	0	0	0
+ID_1516	0	0	0	0	0	0	0
+ID_1517	0	0	0	0	0	0	0
+ID_1518	宝箱概率	寶箱機率	Treasure chest probability	ความน่าจะเป็นของหีบสมบัติ	Kemungkinan peti harta karun	Probabilidade do Tesouro	보물상자 확률
+ID_1519	记得准时领取哦	記得準時領取哦	Remember to get it!	อย่าลืมไปให้ตรงเวลา!	Ingatlah untuk mendapatkannya tepat waktu!	Chegue na hora certa!	시간에 맞춰 보상을 받아가~
+ID_1520	公告	公告	Notice	สังเกต	Pemberitahuan	Aviso	공지
+ID_1521	活动	活動	Event	เหตุการณ์	Event	Evento	이벤트
+ID_1522	主界面	主介面	Main	หลัก	Utama	Principal	메인 화면
+ID_1523	大奖赛	大獎賽	Prix	กรังปรีซ์	Grand Prix	Prêmio	그랑프리
+ID_1524	四驱车	四驅車	4WD	4WD	4WD	4x4	미니카
+ID_1525	库存:∞	庫存:∞	stock:∞	สต็อก:∞	Persediaan:∞	Em Estoque:∞	인벤토리:∞
+ID_1526	敬请期待	敬請期待	Stay tuned	คอยติดตาม	Pantau terus	Fique atento	기대해주세요.
+ID_1527	教学	教學	Teaching	การสอน	Pengajaran	Lições	가이드
+ID_1528	车壳图鉴	車殼圖鑑	Body Shell	ภาพประกอบของเปลือกรถ	Ilustrasi body mobil	Ilustra??o da carcaça do carro	카울 도감
+ID_1529	人物图鉴	人物圖鑑	Characters	คู่มือตัวละครภาพประกอบ	Panduan karakter bergambar	Guia ilustrado de personagens	캐릭터 도감
+ID_1530	奖杯图鉴	獎盃圖鑑	Trophy	หนังสือภาพถ้วยรางวัล	Buku Ilustrasi Piala	Livro Ilustrado do Troféu	트로피 도감
+ID_1531	查看	查看	Check	ตรวจสอบ	Memeriksa	Verificar	확인하다
+ID_1532	未获得	未獲得	Not obtained	ไม่ได้รับ	Tidak diperoleh	Não obtido	미 획득
+ID_1533	四驱图鉴	四驅圖鑑	Four wheel drive illustrated book	หนังสือภาพระบบขับเคลื่อนสี่ล้อ	Buku bergambar Mini 4WD	Livro Ilustrado com tração nas quatro rodas	미니카 도감
+ID_1534	图鉴	圖鑑	illustrated book	หนังสือภาพประกอบ	buku bergambar	Livro Ilustrado	도감
+ID_1535	NEW	NEW	NEW	ใหม่	BARU	NOVO	New
+ID_1536	通行证	通行證	pass	ผ่าน	lulus	Passar	통행증
+ID_1537	入门	入門	getting Started	การเริ่มต้น	mulai	começando	입문
+ID_1538	保护模式	保護模式	Protected Mode	โหมดป้องกัน	mode terlindungi	Modo Protegido	보호 모드
+ID_1539	挑战模式	挑戰模式	Challenge Mode	โหมดท้าทาย	mode tantangan	Modo Desafio	도전 모드
+ID_1540	排行榜	排行榜	Ranking list	รายการจัดอันดับ	Daftar peringkat	Lista de classificação	순위 목록
+ID_1541	专属任务	專屬任務	Exclusive tasks	งานพิเศษ	Tugas eksklusif	Tarefas exclusivas	전용 미션
+ID_1542	保护排行	保護排行	Protection	อันดับการป้องกัน	Peringkat perlindungan	Classificação de proteção	보호 랭킹
+ID_1543	车壳专属目标	車殼專屬目標	Body Shell Exclusive Target	เป้าหมายพิเศษเฉพาะเปลือกรถ	Target eksklusif body mobil	Alvo exclusivo da carcaça do carro	전용 도전 과제
+ID_1544	车壳专属	車殼專屬	Exclusive Shell	พิเศษสำหรับเปลือกรถ	Eksklusif untuk body mobil	Exclusivo para carroceria	카울 전용
+ID_1545	扭蛋返利	扭蛋返利	Gacha Rebate	กาชาส่วนลด	diskon gacha	Desconto Gacha	캡슐 페이백
+ID_1546	挑战排行	挑戰排行	Challenge	การจัดอันดับความท้าทาย	Peringkat tantangan	Classificação do desafio	도전 랭킹
+ID_1547	更换赛道	更換賽道	Change track	เปลี่ยนเส้นทาง	Ganti jalur	Alterar faixa	트랙 변경
+ID_1548	扭蛋	扭蛋	Gacha	กาชา	Gacha	Gacha	가챠
+ID_1549	最好成绩	最好成績	best result	ผลลัพธ์ที่ดีที่สุด	hasil terbaik	Melhor Resultado	최고 결과
+ID_1550	上次成绩	上次成績	Last result	ผลลัพธ์สุดท้าย	Hasil terakhir	Último Resultado	마지막 결과
+ID_1551	最好记录	最好記錄	best record	บันทึกที่ดีที่สุด	rekor terbaik	Melhor Disco	최고 기록
+ID_1552	战绩任务	戰績任務	Record mission	บันทึกภารกิจ	Rekam misi	Gravar missão	전적 퀘스트
+ID_1553	金币暴击	金幣暴擊	gold coin critical hit	เหรียญทองคริติคอล	serangan kritis koin emas	Golpe Crítico de moeda de ouro	골드 크리티컬
+ID_1555	连续使用	連續使用	continuous use	การใช้งานอย่างต่อเนื่อง	penggunaan terus menerus	uso contínuo	연속 사용
+ID_1557	需要消耗	需要消耗	Need to consume	จำเป็นต้องบริโภค	Perlu dikonsumsi	Precisa consumir	소모 아이템:
+ID_1558	至少获得	至少獲得	get at least	ได้รับอย่างน้อย	dapatkan setidaknya	conseguir pelo menos	기본 획득:
+ID_1559	金币暴击概率详情	金幣暴擊機率詳情	Gold coin critical hit probability details	รายละเอียดความน่าจะเป็นของการโจมตีคริติคอลเหรียญทอง	Detail probabilitas serangan kritis koin emas	Detalhes da probabilidade de acerto crítico da moeda de ouro	골드 크리티컬 확률 세부내용
+ID_1560	抽奖1次	抽獎1次	1 Draw	1 สุ่ม	1 Tarikan	1 Giro	1회 뽑기
+ID_1561	抽奖10次	抽獎10次	10 Draws	10 สุ่ม	10 Tarikan	10 Giros	10회 뽑기
+ID_1562	百科	百科	Encyclopedia	สารานุกรม	Ensiklopedi	Enciclopédia	사전
+ID_1563	当日奖励	當日獎勵	Reward of the day	รถที่ใช้แข่งขันต้องเป็นรถขับเคลื่อนสี่ล้อ	Hadiah hari ini	Recompensa do dia	오늘 보상
+ID_1564	每日登录赠送丰富奖励	每日登入贈送豐富獎勵	Log in every day to get rich rewards	*ความกว้างสูงสุด: 105 มม. หรือน้อยกว่า	Masuk setiap hari untuk mendapatkan banyak hadiah	Faça login todos os dias para obter recompensas valiosas	일일 로그인 시 다양한 보상 획득
+ID_1565	敬请期待！	敬請期待！	Stay tuned!	*ความสูงโดยรวม: 70 มม. หรือน้อยกว่า	Pantau terus!	Fique atento!	기대해주세요!
+ID_1566	乱斗赛任务	亂鬥賽任務	Brawl missions	*ความยาวโดยรวม: 165 มม. หรือน้อยกว่า ระยะห่างจากพื้นขั้นต่ำ: 1 มม. หรือมากกว่า	Misi Brawl	Missões de briga	난투 레이스 퀘스트
+ID_1567	验车	驗車	Vehicle inspection	*น้ำหนักขั้นต่ำสำหรับอุปกรณ์ทั้งหมด: 90 กรัมขึ้นไป (รวมแบตเตอรี่และมอเตอร์)	Pemeriksaan kendaraan	Inspeção veicular	미니카 테스트
+ID_1568	当前无记录	目前無記錄	No records currently	*ขนาดยาง: ล้อหน้าและหลัง เส้นผ่านศูนย์กลาง: 22~35 มม. กว้าง: 8 ถึง 26 มม. (ต้องติดตั้งยาง)	Tidak ada catatan saat ini	Nenhum registro atualmente	진단 기록이 없습니다.
+ID_1569	诊断内容	診斷內容	Diagnosis content	รางวัลประจำวัน	Konten diagnosa	Conteúdo de diagnóstico	진단 결과
+ID_1570	车辆诊断	車輛診斷	vehicle diagnostics	เข้าสู่ระบบทุกวันเพื่อรับรางวัลมากมาย	diagnostik kendaraan	diagnóstico de veículos	미니카 진단
+ID_1571	诊断	診斷	Diagnosis	คอยติดตาม!	diagnosa	diagnóstico	진단
+ID_1572	暂无记录	暫無紀錄	No records	ภารกิจวิวาท	Tidak ada catatan	Não há registros	진단 기록 없음
+ID_1573	覆盖	覆蓋	cover	การตรวจสอบยานพาหนะ	cover	cobrir	새로 업로드
+ID_1574	验车属性信息	驗車屬性資訊	Vehicle inspection attribute information	ไม่มีบันทึกในขณะนี้	Informasi atribut pemeriksaan kendaraan	Informações de atributos de inspeção de veículos	미니카 테스트 속성 정보
+ID_1575	验车需要消耗以下材料	驗車需要消耗以下材料	Vehicle inspection requires the following materials:	เนื้อหาการวินิจฉัย	Pemeriksaan kendaraan memerlukan bahan-bahan berikut:	A inspeção veicular requer os seguintes materiais:	검차 시 아래 아이템을 사용합니다.
+ID_1576	系统	系統	system	การวินิจฉัยยานพาหนะ	sistem	sistema	시스템
+ID_1577	觉醒还原	覺醒還原	Awakening and restoration	การวินิจฉัย	Kebangkitan dan pemulihan	Despertar e restauração	각성 복원
+ID_1578	我的宝箱	我的寶箱	My Treasure Chest	หีบสมบัติของฉัน	My Treasure Chest	Meu Baú do Tesouro	보유중인 보물상자
+ID_1579	改造消耗	改造消耗	Transformation consumption	การบริโภค Retrofit	Konsum transformasi	Consumo de transformação	개조 소모
+ID_1580	属性推荐:	内容推薦：	Recommended attributes:	แนะนำอสังหาริมทรัพย์:	Atribut yang direkomendasikan:	Atributos recomendados:	속성 추천:
+ID_1581	稳定	穩定	stable	มีเสถียรภาพ	stabil	estável	안정성
+ID_1582	避震	避震	Shock absorption	หลีกเลี่ยงแผ่นดินไหว	Absorpsi kejutan	Absorção de choque	쇽업
+ID_1583	空气下压力	空氣下壓力	Air downforce	ความดันอากาศใต้	Air downforce	Força aérea descendente	다운포스
+ID_1584	配件特点	配件特點	Features of accessories	คุณสมบัติของอุปกรณ์เสริม	Features of accessories	Características dos acessórios	악세서리 특징
+ID_1585	系统公告	系統公告	System announcement	ประกาศระบบ	Pengumuman sistem	Anúncio do sistema	시스템 공지
+ID_1586	赛事公告	賽事公告	Event Announcement	ประกาศการจัดงาน	Pengumuman Peristiwa	Anúncio do Evento	레이스 공지
+ID_1587	暂时无推荐数据	暫時無推薦數據	There is currently no recommended data available	ไม่มีข้อมูลแนะนำชั่วคราว	Tidak ada data yang direkomendasikan yang tersedia	Não existem actualmente dados recomendados disponíveis	아직 추천 가능한 데이터가 없습니다.
+ID_1588	翻车保护	翻車保護	Rollover Protection	ป้องกันการพลิกคว่ำ	Perlindungan Rollover	Protecção dos amantes	전복 방지
+ID_1589	重铸至最高	重鑄至最高	Reforge to the Highest	ล้างเครื่องตัดไปยังระดับสูงสุด	Menguatkan hingga Tertinggi	Reforjar até ao Máximo	최고레벨까지 주조
+ID_1590	可升级	可升級	Upgradeable	สามารถอัปเกรดได้	Dapat Diupgrade	Atualizável	업그레이드 가능
+ID_1591	可重铸	可重鑄	Reforgable	สามารถล้างได้	Dapat Diperkuat Ulang	Reforgável	주조 가능
+ID_1592	替换	替換	Replace	แทนที่	Menggantikan	Substituir	교체
+ID_1593	传承	傳承	Inheritance	มรรคอุสุ	Mewarisi	Herança	계승
+ID_1594	不可更改	不可更改	Non-editable	ไม่สามารถแก้ไข	Tidak dapat Diubah	Não Editável	변경 불가
+ID_1595	专属技能	專屬技能	Exclusive Skill	ทักษะพิเศษ	Skill Eksklusif	Habilidade Exclusiva	전속 스킬
+ID_1596	可传承	可傳承	Inheritable	สามารถสืบทอดได้	Dapat Diwariskan	Hereditável	계승 가능
+ID_1597	需要消耗：	需要消耗：	Cost:	ต้นทุน:	Biaya:	Custo:	소모 필요:
+ID_1598	选择一种素材	選擇一種素材	Select a material	เลือกวัสดุ	Pilih bahan	Selecionar um material	1종의 재료를 선택하세요.
+ID_1599	消耗车壳	消耗車殼	Costs a car shell	ค่าใช้จ่ายสำหรับโครงรถ	Biaya body mobil	Custo da carroçaria	카울 소모
+ID_1600	仅可使用初始车壳，记得去科技还原哦!	僅可使用未改造過的車殼，記得去科技還原哦!	Only unreformed car shells can be used, remember to restore them in technology!	สามารถใช้ได้เฉพาะโครงรถที่ยังไม่ได้ถูกปรับเปลี่ยน อย่าลืมเรียกคืนที่เทคโนโลยี!	Hanya dapat menggunakan body mobil yang belum direformasi, ingat untuk mengembalikannya di teknologi!	Apenas pode usar carroçarias não reformadas, lembre-se de as restaurar na tecnologia!	수정되지 않은 자동차 외관만 사용할 수 있으며 기술에서 복원하는 것을 잊지 마세요!
+ID_1601	最大属性	最大屬性	Maximum Attributes	ค่าสูงสุดของคุณลักษณะ	Atribut Maksimum	Atributos Máximos	최대 속성
+ID_1602	当前属性	目前屬性	Current Attributes	ลักษณะปัจจุบัน	Atribut Saat Ini	Atributos Atuais	현재 속성
+ID_1603	重铸规则	重鑄規則	Reforging Rules	กฎการล้าง	Aturan Menguatkan Ulang	Regras de Reforja	주조 규칙
+ID_1604	仓库中可能有配件，记得去仓库取出哦!	倉庫中可能有配件，記得去倉庫取出喔!	There may be accessories in the warehouse, remember to take them out!	อาจมีอุปกรณ์ในคลังสินค้า อย่าลืมเอาออก!	Mungkin ada aksesori di gudang, ingat untuk mengambilnya!	Pode haver acessórios no armazém, não se esqueça de os retirar!	창고에 악세서리가 있을 수 있으니 창고에서 꺼내는것을 잊지 마세요!
+ID_1605	升级所需经验值	升級所需經驗值	Experience Points Required for Upgrade	ค่าประสบการณ์ที่ต้องการอัปเกรด	Poin Pengalaman yang Diperlukan untuk Upgrade	Experiência Necessária para Atualização	업그레이드 필요 경험치
+ID_1606	白色及以下	白色及以下	White and below	สีขาวและต่ำกว่า	Putih dan di bawahnya	Branco e abaixo	커먼 및 그 이하
+ID_1607	绿色及以下	綠色及以下	Green and below	สีเขียวและต่ำกว่า	Hijau dan di bawahnya	Verde e abaixo	그린 및 그 이하
+ID_1608	蓝色及以下	藍色及以下	Blue and below	สีน้ำเงินและต่ำกว่า	Biru dan di bawahnya	Azul e abaixo	블루 및 그 이하
+ID_1609	紫色及以下	紫色及以下	Purple and below	สีม่วงและต่ำกว่า	Ungu dan di bawahnya	Roxo e abaixo	퍼플 및 그 이하
+ID_1610	橙色及以下	橘色及以下	Orange and below	สีส้มและต่ำกว่า	Oranye dan di bawahnya	Laranja e abaixo	레전더리 및 그 이하
+ID_1611	选择耗材	選擇耗材	Select Consumables	เลือกวัสดุที่ใช้	Pilih Bahan	Seleção de Consumíveis	소모 재료 선택
+ID_1612	材料选择	材料選擇	Material Selection	การเลือกวัสดุ	Pemilihan Bahan	Escolha de Material	재료 선택
+ID_1613	车库设置	車庫設置	Garage Settings	การตั้งค่าในโรงรถ	Pengaturan Garasi	Configurações da Garagem	차고 설정
+ID_1614	风翼展示	風翼展示	Wind Wing Display	การแสดงปีกลม	Tampilan Sayap Angin	Exibição da Asa do Vento	스포일러 표시
+ID_1615	累计	累計	Total	สะสม	Cumulative	Cumulative	누적
+ID_1616	输入第几关	輸入第幾關	Enter the level	ป้อนเลเวลที่	Masukkan level	Introduza o nível	스테이지 번호를 입력하세요.
+ID_1617	规则说明	規則說明	Rules Explanation	กฎการอธิบาย	Aturan Penjelasan	Regras de Explicação	규칙 설명
+ID_1618	幸运暴击	幸運暴擊	Lucky Critical	โชคดีที่สุด	Keberuntungan Kritis	Crítico de Sorte	행운의 크리티컬
+ID_1619	购买特别超值礼包，最高可获得7倍钻石！	購買特別超值禮包，最高可獲得7倍鑽石！	Purchase a special and super-value package, with a maximum of 7 times the diamonds!	ซื้อแพ็คเกจพิเศษและคุ้มค่ามาก สูงสุดได้รับเพชร 7 เท่า!	Beli paket istimewa dan super berharga, dengan maksimum 7 kali lipat berlian!	Compre um pacote especial e super valioso, com um máximo de 7 vezes os diamantes!	특별 초특가 선물 패키지 확인, 최대 7배 다이아몬드 획득 가능!
+ID_1620	比赛已结束	比賽已結束	The match has ended	การแข่งขันจบลงแล้ว	Pertandingan sudah berakhir	O jogo terminou	레이스가 종료되었습니다.
+ID_1621	晋级赛	晉級賽	Promotion match	การแข่งขันขั้นบันได	Pertandingan promosi	Jogo de promoção	승급전
+ID_1622	礼包详情	禮包詳情	Gift Pack Details	รายละเอียดของกล่องของขวัญ	Detail Paket Hadiah	Detalhes do Pacote de Presente	패키지 세부 정보
+ID_1623	特别签到	特別簽到	Special Sign-In	ลงชื่อเข้าใช้พิเศษ	Check-in Khusus	Registro Especial	특별 출석
+ID_1624	限时活动礼包	限時活動禮包	Limited-Time Event Gift Pack	แพ็คของขวัญกิจกรรมจำกัดเวลา	Paket Hadiah Acara Waktu Terbatas	Pacote de Ofertas de Evento Limitado	한정 이벤트 패키지
+ID_1625	无变化	無變化	No change	ไม่มีการเปลี่ยนแปลง	Tidak ada perubahan	Sem alteração	변화 없음
+ID_1626	俱乐部排行榜	俱樂部排行榜	Club Ranking	อันดับสโมสร	Peringkat Klub	Ranque do Clube	클럽 랭킹
+ID_1627	再来一次	再來一次	Again	อีกครั้ง	Lagi	Novamente	한번 더
+ID_1628	确认退出	退出重鑄	Exit Recast	ออกจากการแคสต์ใหม่	Keluar dari Perombakan Ulang	Sair da Reformulação	종료 확인
+ID_1629	幻化	幻化	Morphing	มอร์ฟิ่ง	Perubahan	Morfagem	변형
+ID_1630	调整	調整	Adjust	ปรับ	Menyesuaikan	Ajustar	조정
+ID_1631	车壳幻化	車殼幻化	Shell Transformation	เชลล์ มอร์ฟฟิ่ง	Perubahan Cangkang	Morfagem da Carroceria	카울 변형
+ID_1632	马达调整	馬達調整	Motor adjustment	การปรับมอเตอร์	Penyesuaian motor	Ajuste do motor	모터 조정
+ID_1633	已修改数值	已修改數值	Modified values	ค่าที่แก้ไข	Nilai yang dimodifikasi	Valores modificados	값이 수정되었습니다.
+ID_1634	消耗材料重铸传承	消耗材料重鑄傳承	Consuming materials to recast inheritance	การใช้วัสดุเพื่อหล่อมรดกใหม่	Mengkonsumsi bahan untuk menyusun kembali warisan	Consumindo materiais para reformulação de herança	상속을 재시전하기 위해 재료를 소비합니다.
+ID_1635	随机赛道	隨機賽道	Random Track	ติดตามแบบสุ่ม	Lintasan Acak	Pista Aleatória	랜덤 트랙
+ID_1636	选择赛道	選擇賽道	Select Track	เลือกติดตาม	Pilih Lintasan	Selecionar Pista	트랙을 선택하세요
+ID_1637	今日次数:	今日次數:	Today’s Frequency:	ความถี่ของวันนี้:	Frekuensi Hari Ini:	Frequência de hoje:	오늘의 시간:
+ID_1638	消耗:	消耗:	Usage	การใช้	Penggunaan	Uso	필요:
+ID_1639	选择出发赛道	選擇出發賽道	Select Starting Track	เลือกเส้นทางเริ่มต้น	Pilih Jalur Awal	Selecionar Pista Inicial	시작 트랙 선택
+ID_1640	选择赛道次数	選擇賽道次數	Select Track Frequency	เลือกความถี่การติดตาม	Pilih Frekuensi Jalur	Selecionar Frequência da Pista	트랙 시간 선택
+ID_1641	批量解锁	批量解鎖	Batch unlock	ปลดล็อคเป็นกลุ่ม	Buka kunci batch	Desbloquear em lote	일괄 잠금 해제 해제
+ID_1642	选道	選道	Choose a track	เลือกแทร็ก	Pilih trek	Escolha uma pista	차선을 선택하세요
+ID_1643	不选道	不選道	Don’t choose a track	อย่าเลือกแทร็ก	Jangan memilih trek	Não escolha uma pista	길을 선택하지 마세요
+ID_1644	修改俱乐部名称	修改俱樂部名稱	Modify club name	ปรับเปลี่ยนชื่อสโมสร	Ubah nama klub	Modificar nome do clube	클럽 이름 수정
+ID_1645	请输入俱乐部昵称	請輸入俱樂部暱稱	Please enter club name	กรุณากรอกชื่อเล่นคลับ	Silakan masukkan nama klub	Por favor, insira o nome do clube	클럽 닉네임을 입력해주세요
+ID_1646	当前俱乐部昵称:	當前俱樂部暱稱:	Current club name:	ชื่อเล่นสโมสรปัจจุบัน:	Nama klub saat ini:	Nome atual do clube:	현재 클럽 별명:
+ID_1647	点击解锁	點擊卡片解鎖	Click on the card to unlock	คลิกที่การ์ดเพื่อปลดล็อค	Klik pada kartu untuk membuka kunci	Clique no cartão para desbloquear	잠금을 해제하려면 카드를 클릭하세요.
+ID_1648	材料不足	材料不足	Insufficient materials	วัสดุไม่เพียงพอ	Bahan tidak mencukupi	Materiais insuficientes	재료가 부족함
+ID_1649	可解锁	可解鎖	Unlockable	ปลดล็อคได้	Tidak dapat dibuka kuncinya	Desbloqueável	잠금 해제 해제 가능
+ID_1650	消耗材料觉醒配件	消耗材料覺醒配件	Consumable Materials Awakening Accessories	อุปกรณ์ปลุกพลังวัสดุสิ้นเปลือง	Material Pakai Aksesori Kebangkitan	Acessórios de Despertar - Materiais Consumíveis	소모품 각성 잠금
+ID_1651	한국어	한국어	한국어	한국어	한국어	한국어	한국어
+ID_1652	确认许愿	確認許願	Confirm wish	ยืนยันความประสงค์	Konfirmasikan keinginan	Confirmar Desejo	희망사항 확인
+ID_1653	超级巅峰赛	超巔峰賽	Super Peak Race	การแข่งขันเกมสุดยอด	Balapan Super Puncak	Super Corrida do Pico	슈퍼 피크 레이스
+ID_1654	配件选择	配件選擇	Accessories selection	การเลือกอุปกรณ์เสริม	Pemilihan aksesoris	Seleção de acessórios	잠금 선택
+ID_1655	配件列表  界面	配件列表  介面	Accessories list interface	อินเตอร์เฟซรายการอุปกรณ์เสริม	Tampilan daftar aksesori	Interface da lista de acessórios	잠금 목록 인터페이스
+ID_1656	中	中	middle	กลาง	tengah	Meio	보통
+ID_1657	配件关联	配件關聯	Accessories association	สมาคมอุปกรณ์เสริม	Asosiasi aksesoris	Associação de acessórios	액세서리 정보
+ID_1658	禁用配件	停用配件	Disable accessories	ปิดการใช้งานอุปกรณ์เสริม	Nonaktifkan aksesori	Desativar acessórios	잠금 비활성화
+ID_1659	效果预览	效果預覽	Effect preview	ดูตัวอย่างเอฟเฟกต์	Pratinjau efek	Prévia do efeito	효과 미리보기
+ID_1660	生效中	生效中	In effect	ส่งผลกับ	Berlaku	Em efeito	활성화 중
+ID_1661	未生效	未生效	Not in effect	ไม่มีผลบังคับ	Tidak berlaku	Não em efeito	비활성
+ID_1662	道具详情	道具詳情	Item details	รายละเอียดรายการ	Detail item	Detalhes do item	품목 세부정보
+ID_1663	快	快	Fast	เร็ว	Cepat	Rápido	빠른
+ID_1664	慢	慢	Slow	ช้า	Lambat	Lento	느린
+ID_1665	欧洲杯小组赛	歐洲盃小組賽	Euro Cup group stage	ยูโร คัพ รอบแบ่งกลุ่ม	Penyisihan grup Piala Euro	Fase de grupos da Eurocopa	유로컵 조별 예선
+ID_1666	奖励倍数(胜)	勝利賠率	Winning odds	อัตราต่อรองที่ชนะ	Peluang menang	Probabilidade de vitória	승리 확률
+ID_1667	奖励倍数(平)	平手賠率	Draw odds	เสมอราคาต่อรอง	Peluang seri	Probabilidade de empate	추첨 확률
+ID_1668	奖励倍数(负)	失敗賠率	Failure odds	อัตราต่อรองความล้มเหลว	Peluang kegagalan	Probabilidade de falha	실패 확률
+ID_1669	竞猜胜负	競猜勝負	Guess the winner	เดาผู้ชนะ	Tebak pemenangnya	Adivinhe o vencedor	승자를 맞춰보세요
+ID_1670	已领取	已領取	Received	ได้รับ	Diterima	Recebido	받았다
+ID_1671	竞猜失败	競猜失敗	Guess failed	เดาล้มเหลว	Tebakan gagal	Adivinhação falhou	추측 실패
+ID_1672	竞猜结束	競猜結束	Guess ended	เดาจบแล้ว	Tebakan berakhir	Adivinhação encerrada	추측이 끝났습니다
+ID_1673	胜	勝	Win	ชนะ	Menang	Vitória	이기다
+ID_1674	平	平	Draw	วาด	Seri	Empate	그리다
+ID_1675	负	負	Lose	สูญเสีย	Kalah	Derrota	잃다
+ID_1676	竞猜结束等待开奖	競猜結束等待開獎	Guess ended and waiting for prize draw	ทายเสร็จแล้วรอจับรางวัล	Tebakan berakhir dan menunggu pengundian hadiah	Adivinhação encerrada e aguardando sorteio de prêmio	추측이 종료되고 경품 추첨을 기다리는 중입니다.
+ID_1677	竞猜冠军	競猜冠軍	Guess the winner	เดาผู้ชนะ	Tebak pemenangnya	Adivinhe o vencedor	승자를 맞춰보세요
+ID_1678	欧洲杯淘汰赛	歐洲盃淘汰賽	Euro Cup knockout	ยูโร คัพ รอบน็อกเอาต์	Euro Cup fase gugur	Fase eliminatória da Eurocopa	유로컵 탈락
+ID_1679	比赛冠军	比賽冠軍	Match winner	ผู้ชนะการแข่งขัน	Pemenang pertandingan	Vencedor da partida	경기 승자
+ID_1680	决赛时间：    7月15日03:00	決賽時間： 7月14日19:00(UTC)	Finals time: July 14, 19:00(UTC)	เวลารอบชิงชนะเลิศ: 14 กรกฎาคม 19:00 น(UTC)	Waktu final: 14 Juli, 19:00(UTC)	Horário das finais: 14 de julho, 19h00(UTC)	결승전 시간: 7월 14일 19:00(UTC)
+ID_1681	冠军	冠軍	Champion	แชมป์	Juara	Campeão	챔피언
+ID_1682	选择冠军竞猜数量	選擇冠軍競猜數量	Choose the number of champions to guess	เลือกจำนวนแชมป์ที่จะทาย	Pilih jumlah juara yang akan ditebak	Escolha o número de campeões para adivinhar	추측할 챔피언 수를 선택하세요.
+ID_1683	选择冠军国家	選擇冠軍國家	Choose the champion country	เลือกประเทศแชมป์	Pilih negara juara	Escolha o país do campeão	챔피언 국가를 선택하세요
+ID_1684	选择竞猜数量	選擇競猜數量	Choose the number of guesses	เลือกจำนวนการเดา	Pilih jumlah tebakan	Escolha o número de palpites	추측 횟수를 선택하세요
+ID_1685	查看所有	看全部	View all	ดูทั้งหมด	Lihat semua	Ver tudo	모두보기
+ID_1686	竞猜冠军奖励倍数为： 3.00	競猜冠軍獎勵數為： 3.00	Champion guess reward multiplier: 3.00	ตัวคูณรางวัลทายแชมป์: 3.00	Pengganda hadiah tebakan juara: 3.00	Multiplicador de recompensa do palpite do campeão: 3,00	챔피언 추측 보상 배율: 3.00
+ID_1687	刹车	煞車	Brakes	เบรก	Rem	Freios	브레이크
+ID_1688	刹车设置	煞車設定	Brake Settings	การตั้งค่าเบรก	Pengaturan Rem	Configurações de freio	브레이크 설정
+ID_1689	未报名无数据	未報名無數據	No registration, no data	ไม่มีการลงทะเบียนไม่มีข้อมูล	Tidak terdaftar, tidak ada data	Sem registro, sem dados	등록 없음, 데이터 없음
+ID_1690	调整组装赛车	調整組裝賽車	Adjust and assemble the racing car	ปรับแต่งและประกอบรถแข่ง	Menyetel dan merakit mobil balap	Ajuste e monte o carro de corrida	경주용 자동차를 조정하고 조립하세요
+ID_1691	可选择	可選擇	Optional	ไม่จำเป็น	opsional	Opcional	선택 과목
+ID_1692	初始词条	初始詞條	Initial Stats	ค่าสถิติเริ่มต้น	Statistik Awal	Estatísticas iniciais	초기 통계
+ID_1693	总速度	總速度	Total Speed	ความเร็วรวม	Kecepatan Total	Velocidade Total	전체 속도
+ID_1694	排行奖励	排行獎勵	Ranking Rewards	รางวัลอันดับ	Hadiah Peringkat	Recompensas de Classificação	랭킹 보상
+ID_1695	段位奖励	段位獎勵	Rank Rewards	รางวัลอันดับ	Hadiah Peringkat	Recompensas de Classificação	랭크 보상
+ID_1696	道具分解	道具分解	Item Dismantling	การรื้อไอเทม	Pembongkaran Item	Desmontagem de Item	아이템 분해
+ID_1697	道具合成	道具合成	Item Synthesis	การสังเคราะห์ไอเทม	Sintesis Item	Síntese de Item	아이템 합성
+ID_1698	贴纸	貼紙	stickers	สติ๊กเกอร์	Stiker	Adesivo	데칼
+ID_1699	皮肤	皮膚	Skin	สกิน	Kulit	Skin	스킨
+ID_1700	试跑车整备	試跑車整備	Test run car preparation	การเตรียมรถทดลองวิ่ง	Persiapan uji coba mobil	Preparação do carro para teste	시승차 준비
+ID_1701	开始试跑	開始試跑	Test run begins	เริ่มทดลองวิ่ง	Uji coba dimulai	Começa o teste	시범 운영 시작
+ID_1702	竞速模式	競速模式	Racing Mode	เข้าสู่โหมดแข่งขันของ	Masuk ke Mode Balap	Modo de Corrida	레이싱 모드로
+ID_1703	战斗模式	戰鬥模式	Battle Mode	เข้าสู่โหมดต่อสู้ของ	Masuk ke Mode Pertempuran	Modo de Batalha	배틀 모드로
+ID_1704	兑换列表	兌換列表	Exchange List	รายการแลกเปลี่ยน	Daftar Penukaran	Lista de Trocas	교환 목록
+ID_1705	充值购买	充值購買	Purchase via Top-up	เติมเงินและซื้อ	Pembelian melalui Top-up	Comprar via Recarga	충전으로 구매
+ID_1706	拥有数量:	擁有數量:	Owned:	จำนวนไอเทม:	Dimiliki:	Possuído por:	소유:
+ID_1707	前往	前往	Go	เข้าสู่	Masuk	Ir	이동
+ID_1708	体力冲刺活动	體力衝刺活動	Stamina Boost Event	กิจกรรมวิ่งเร็วทางกายภาพ	Acara Peningkatan Stamina	Evento de Reforço de Estamina	스태미나 부스트 이벤트
+ID_1709	扭蛋冲刺活动	扭蛋衝刺活動	Gacha Boost Event	กิจกรรมวิ่งเร็วแบบกาชา	Acara Peningkatan Gacha	Evento de Reforço de Gacha	가챠 부스트 이벤트
+ID_1710	扭蛋次数	扭蛋次數	Gacha Attempts	จำนวนกาชา	Upaya Gacha	Tentativas de Gacha	가챠 시도 횟수
+ID_1711	活动时间:	活動時間:	Event Time:	เวลากิจกรรม:	Waktu Acara:	Horário do Evento:	이벤트 시간:
+ID_1712	活跃通行证	活躍通行證	Active Pass	บัตรผ่านที่ใช้งานอยู่	Pass Aktif	Passe Ativo	액티브 패스
+ID_1713	车神传说通行证	車神傳說通行證	Legend of Racers Pass	บัตรผ่านตำนานนักแข่ง	Pass Legend of Racers	Passe Legend of Racers	레전드 오브 레이서 패스
+ID_1714	大赛之路通行证	大賽之路通行證	Plot Pass	บัตรผ่านพล็อต	Pass Plot	Passe de Enredo	플롯 패스
+ID_1715	等级通行证	等級通行證	Level Pass	บัตรผ่านเลเวล	Pass Level	Passe de Nível	레벨 패스
+ID_1716	通行证	通行證	pass	ผ่าน	lulus	Passar	통행증
+ID_1717	购买车神传说通行证	購買車神傳說通行證	Purchase Legend of Racers Pass	ซื้อบัตรผ่านตำนานนักแข่ง	Beli Pass Legend of Racers	Comprar Passe Legend of Racers	레전드 오브 레이서 패스 구매
+ID_1718	购买大赛之路通行证	購買大賽之路通行證	Purchase Plot Pass	ซื้อบัตรผ่านพล็อต	Beli Pass Plot	Comprar Passe de Enredo	플롯 패스 구매
+ID_1719	购买等级通行证	購買等級通行證	Purchase Level Pass	ซื้อบัตรผ่านเลเวล	Beli Pass Level	Comprar Passe de Nível	레벨 패스 구매
+ID_1720	角色列表	角色列表	Character List	รายชื่อตัวละคร	Daftar Karakter	Lista de Personagens	캐릭터 목록
+ID_1721	已绑定角色	已綁定角色	Bound Characters	ตัวละครที่ผูกมัด	Karakter Terikat	Personagens de Bound	캐릭터 결합
+ID_1722	绑定	綁定	Bind	ผูกมัด	Terikat	Bind	결합
+ID_1723	已绑定	已綁定	Bound	ผูกมัด	Terikat	Bound	결합
+ID_1724	1.活动时间内才能获取聚能晶元2.每次活动结束后聚能晶元不会保留，请在活动期间使用完！	0	0	0	0	0	0
+ID_1725	1.活动时间内才能获取聚能晶元2.每次活动结束后聚能晶元不会保留，请在活动期间使用完！	0	0	0	0	0	0
+ID_1726	车壳自选	車殼自選	Customizable Body Shell	สามารถเลือกโครงรถยนต์ได้	Bodi mobil dapat dipilih	Carroceria personalizável	카울 선택 가능
+ID_1727	配件和图纸自选	配件和圖紙自選	Customizable Parts and Blueprints	สามารถเลือกชิ้นส่วนและแบบแปลนได้	Komponen dan blueprint dapat dipilih	Peças e plantas personalizáveis	부품 및 도면 선택 가능
+ID_1728	速度对比	速度对比	Speed Comparison	เปรียบเทียบความเร็ว	Perbandingan Kecepatan	Comparação de Velocidade	속도 비교
+ID_1729	避震对比	避震对比	Suspension Comparison	เปรียบเทียบระบบกันสะเทือน	Perbandingan Suspensi	Comparação de Suspensão	서스펜션 비교
+ID_1730	稳定对比	稳定对比	Stability Comparison	เปรียบเทียบความมั่นคง	Perbandingan Stabilitas	Comparação de Estabilidade	안정성 비교
+ID_1731	段位积分	段位积分	Rank Points	คะแนนยศ	Poin Peringkat	Pontos de Patente	티어 점수
+ID_1732	战斗结算	战斗结算	Battle Results	สรุปผลการต่อสู้	Hasil Pertandingan	Resultado da Batalha	전투 정산
+ID_1733	在线	在线	Online	ออนไลน์	Online	Online	온라인
+ID_1734	赛道说明	赛道说明	Track Guide	คำอธิบายแทร็ก	Panduan Trek	Guia da Pista	트랙 설명
+ID_1735	大赛之路	劇情	Story race	เรื่องราว	Cerita	Trama	스토리
+ID_1736	红色及以下	紅色及以下	Red and below	Merah ke bawah	แดงและต่ำกว่า	Vermelho e abaixo	레드 및 이하
+ID_1737	红	紅	Red	Merah	แดง	Vermelho	레드
+ID_1738	俱乐部成绩	俱樂部成績	Club Rankings	ผลการแข่งขันของคลับ	Peringkat Klub	Classificação do Clube	클럽 성적
+ID_1739	晋级名单	晉級名單	Promotion List	รายชื่อผู้เลื่อนระดับ	Daftar Promosi	Lista de Promoção	승격 명단
+ID_1740	领取专属好礼	領取專屬好禮	Claim Exclusive Rewards	รับของขวัญสุดพิเศษ	Klaim Hadiah Eksklusif	Resgatar Recompensas Exclusivas	전용 보상 수령
+ID_1741	福利	福利	Benefits	สิทธิประโยชน์	Manfaat	Benefícios	혜택
+ID_1742	成长基金	成長基金	Growth Fund	กองทุนเติบโต	Dana Pertumbuhan	Fundo de Crescimento	성장 기금
+ID_1743	日语	日語	Japanese	ภาษาญี่ปุ่น	Bahasa Jepang	Japonês	일본어
+ID_1744	音        效	音        效	Sound Effects	เอฟเฟกต์เสียง	Efek Suara	Efeitos Sonoros	음향 효과
+ID_1745	解        说	解        說	Narration / Commentary	คำบรรยาย	Narasi / Penjelasan	Narração / Comentário	해설
+ID_1746	一般改造	一般改造	Standard Upgrade	อัปเกรดทั่วไป	Upgrade Standar	Melhoria Padrão	일반 개조
+ID_1747	效率改造	效率改造	Efficiency Upgrade	อัปเกรดเพื่อประสิทธิภาพ	Upgrade Efisiensi	Melhoria de Eficiência	효율 개조
+ID_1748	圆满改造	圓滿改造	Perfect Upgrade	อัปเกรดสมบูรณ์แบบ	Upgrade Sempurna	Melhoria Perfeita	원만 개조
+ID_1749	配件自选	配件自選	Custom Parts Selection	เลือกชิ้นส่วนเอง	Pemilihan Komponen Bebas	Seleção Personalizada de Peças	부품 직접 선택
+ID_1750	GT配件合成	GT配件合成	GT Parts Synthesis	การสังเคราะห์ชิ้นส่วน GT	Sintesis Komponen GT	Síntese de Peças GT	GT 부품 합성
+ID_1751	重返赛场	重返賽場	Return to the Arena	Return to the Arena	Return to the Arena	Return to the Arena	경기장 복귀
+ID_1752	立即获得	立即獲得	Get Now	Get Now	Get Now	Get Now	지금 받기
+ID_1753	按住	按住	Hold	กดค้างไว้	Tahan	Pressione e segure	길게 누르기
+ID_1754	蓝色灯亮起时同时松开按钮是出发的最佳时机	"藍色燈亮起時同時鬆開按鈕是出發的最佳時機	"When the blue light lights up, release the button simultaneouslyThat is the best time to start"	"เมื่อไฟสีฟ้าติด ให้ปล่อยปุ่มพร้อมกันคือจังหวะเริ่มต้นที่ดีที่สุด"	"Ketika lampu biru menyala, lepaskan tombol secara bersamaanItulah waktu terbaik untuk memulai"	"Quando a luz azul acender, solte o botão simultaneamenteEsse é o melhor momento para largar"	"파란 불이 켜짐과 동시에 버튼에서 손을 떼는 것이출발의 최적 타이밍입니다"
+ID_1755	首通奖励!	首通獎勵！	First Clear Reward!	รางวัลเคลียร์ด่านแรก!	Hadiah Penyelesaian Pertama!	Recompensa da Primeira Conclusão!	첫 클리어 보상!
+ID_1756	概率掉落	概率掉落	Probability Drop	ดรอปตามโอกาส	Jatuh secara Probabilitas	Queda por Probabilidade	확률 드랍
+ID_1757	限定赛事	限定賽事	Limited Tournament	ทัวร์นาเมนต์จำกัด	Turnamen Terbatas	Torneio Limitado	한정 토너먼트
+ID_1758	限定活动	限定活動	Limited Event	อีเวนต์จำกัด	Acara Terbatas	Evento Limitado	한정 이벤트
+ID_1759	首冲双倍	首衝雙倍	First Recharge Double	เติมเงินครั้งแรก 2 เท่า	Isi Ulang Pertama 2x	Primeira Recarga em Dobro	첫 충전 2배
+ID_1760	胜利	勝利	Victory	ชัยชนะ	Kemenangan	Vitória	승리
+ID_1761	目标角色id	目標角色id	Target Character ID	ID ตัวละครเป้าหมาย	ID Karakter Target	ID do Personagem Alvo	대상 캐릭터 ID
+ID_1762	请输入接收数据的rid	請輸入接收數據的rid	Please enter the RID to receive data.	กรุณาใส่ RID สำหรับรับข้อมูล	Harap masukkan RID untuk menerima data.	Por favor, insira o RID para receber os dados.	데이터를 받을 RID를 입력하세요.
+ID_1763	数据转移	資料轉移	Data Transfer	โอนข้อมูล	Pindah Data	Transferir Dados	0
+ID_1764	本功能仅限东南亚服务器角色数据平移至韩服时使用，使用说明：1.使用韩服客户端注册并登录游戏，在xxx服务器创建角色（只有xxx服务器创建的角色才能接收数据）；2.把已创建的韩服xxx服务器角色的id填写到下方的输入框中并确认(id=【个人资讯】界面ID项的数字，是玩家角色的唯一标识)；3.东南亚服的每个角色都需要韩服的一个新账号来接收数据，如果有多个角色需要转移，则需要创建多个韩服xxx服务器的角色来接收数据；4.每个角色的数据转移功能只能输入一次，确认后将无法修改，请认真填写确认；5.如果发生填写错误请联系韩国服务器客服discard	本功能僅限東南亞伺服器角色數據平移至韓服時使用，使用說明：1.使用韓服客戶端註冊並登錄遊戲，在xxx伺服器創建角色（只有xxx伺服器創建的角色才能接收數據）；2.把已創建的韓服xxx伺服器角色的id填寫到下方的輸入框中並確認(id=【個人資訊】界面ID項的數字，是玩家角色的唯一標識)；3.東南亞服的每個角色都需要韓服的一個新賬號來接收數據，如果有多個角色需要轉移，則需要創建多個韓服xxx伺服器的角色來接收數據；4.每個角色的數據轉移功能只能輸入一次，確認後將無法修改，請認真填寫確認；5.如果發生填寫錯誤請聯繫韓國伺服器客服discard	This function is only for transferring SEA server character data to KR server. Instructions: 1. Use KR client to register and log in, create a character on the XXX server (only characters created on XXX server can receive data); 2. Enter the ID of the created KR XXX server character into the input box below and confirm (ID = the number in the ID field of the [Profile] interface, which is the unique identifier of the player character); 3. Each SEA server character requires a new KR account to receive data. If multiple characters need to be transferred, create multiple KR XXX server characters to receive data; 4. This data transfer function can only be used once per character, and cannot be modified after confirmation. Please fill in carefully; 5. If an error occurs, contact KR server customer service on Discord.	ฟังก์ชันนี้ใช้สำหรับการย้ายข้อมูลตัวละครจากเซิร์ฟเวอร์เอเชียตะวันออกเฉียงใต้ไปยังเซิร์ฟเวอร์เกาหลีเท่านั้น คำแนะนำ: 1. ใช้ไคลเอนต์เซิร์ฟเวอร์เกาหลีลงทะเบียนและเข้าสู่เกม สร้างตัวละครในเซิร์ฟเวอร์ xxx (เฉพาะตัวละครที่สร้างในเซิร์ฟเวอร์ xxx เท่านั้นที่สามารถรับข้อมูลได้); 2. ใส่ ID ของตัวละครที่สร้างในเซิร์ฟเวอร์ xxx ของเกาหลีลงในช่องป้อนข้อมูลด้านล่างแล้วยืนยัน (ID = ตัวเลขในช่อง ID ของหน้าจอ [ข้อมูลส่วนตัว] ซึ่งเป็นตัวระบุเฉพาะของตัวละครผู้เล่น); 3. ตัวละครแต่ละตัวในเซิร์ฟเวอร์เอเชียตะวันออกเฉียงใต้ต้องใช้บัญชีใหม่ในเซิร์ฟเวอร์เกาหลีเพื่อรับข้อมูล หากมีหลายตัวละครที่ต้องย้าย จะต้องสร้างตัวละครในเซิร์ฟเวอร์ xxx ของเกาหลีหลายตัวเพื่อรับข้อมูล; 4. ฟังก์ชันการย้ายข้อมูลของแต่ละตัวละครสามารถป้อนได้เพียงครั้งเดียว หลังจากยืนยันแล้วจะไม่สามารถแก้ไขได้ กรุณากรอกให้ถูกต้อง; 5. หากป้อนผิดพลาด โปรดติดต่อฝ่ายบริการลูกค้าเซิร์ฟเวอร์เกาหลีทาง Discord	Fungsi ini hanya digunakan untuk memindahkan data karakter dari server Asia Tenggara ke server Korea. Petunjuk penggunaan: 1. Gunakan klien server Korea untuk mendaftar dan masuk ke game, buat karakter di server xxx (hanya karakter yang dibuat di server xxx yang dapat menerima data); 2. Masukkan ID karakter server xxx Korea yang telah dibuat ke dalam kotak input di bawah dan konfirmasi (ID = angka di bidang ID pada layar [Informasi Pribadi], yang merupakan pengidentifikasi unik karakter pemain); 3. Setiap karakter di server Asia Tenggara memerlukan satu akun baru di server Korea untuk menerima data. Jika ada beberapa karakter yang perlu ditransfer, buat beberapa karakter server xxx Korea untuk menerima data; 4. Fungsi transfer data setiap karakter hanya dapat dimasukkan sekali, dan tidak dapat diubah setelah konfirmasi. Harap isi dengan teliti; 5. Jika terjadi kesalahan pengisian, hubungi layanan pelanggan server Korea di Discord.	Esta função é usada apenas para transferir dados de personagem do servidor do Sudeste Asiático para o servidor coreano. Instruções: 1. Use o cliente coreano para se registrar e fazer login no jogo, crie um personagem no servidor XXX (apenas personagens criados no servidor XXX podem receber dados); 2. Insira o ID do personagem coreano do servidor XXX criado no campo abaixo e confirme (ID = o número no campo ID da tela [Informações Pessoais], que é o identificador único do personagem); 3. Cada personagem do servidor do Sudeste Asiático precisa de uma nova conta coreana para receber os dados. Se vários personagens precisarem ser transferidos, crie vários personagens coreanos do servidor XXX para receber os dados; 4. A função de transferência de dados de cada personagem só pode ser inserida uma vez e não pode ser modificada após a confirmação. Preencha com cuidado; 5. Se ocorrer um erro de preenchimento, entre em contato com o suporte ao cliente do servidor coreano no Discord.	이 기능은 동남아 서버 캐릭터 데이터를 한국 서버로 이전할 때만 사용 가능합니다. 사용 설명: 1. 한국 서버 클라이언트로 가입 및 로그인 후 xxx 서버에 캐릭터 생성 (xxx 서버에서 생성한 캐릭터만 데이터 수신 가능); 2. 생성된 한국 서버 xxx 서버 캐릭터의 ID를 아래 입력창에 입력하고 확인 (ID = [개인 정보] 화면의 ID 항목 숫자, 플레이어 캐릭터의 고유 식별자); 3. 동남아 서버의 각 캐릭터는 데이터 수신을 위해 한국 서버의 새 계정이 필요합니다. 여러 캐릭터를 이전하려면 여러 개의 한국 서버 xxx 서버 캐릭터를 생성하여 수신해야 합니다; 4. 각 캐릭터의 데이터 이전 기능은 한 번만 입력 가능하며, 확인 후 수정할 수 없으니 신중하게 입력하세요; 5. 입력 오류가 발생한 경우 한국 서버 고객센터 Discord에 문의하세요.
+ID_1765	GT联赛	GT聯賽	GT League	ลีก GT	Liga GT	Liga GT	GT 리그
+ID_1766	GT联赛排行	GT聯賽排行	GT League Ranking	อันดับลีก GT	Peringkat Liga GT	Ranking da Liga GT	GT 리그 랭킹
+ID_1767	战绩任务	戰績任務	Record mission	บันทึกภารกิจ	Rekam misi	Gravar missão	전적 퀘스트
+ID_1768	每日广告任务	每日廣告任務	Daily Ad Tasks	ภารกิจโฆษณารายวัน	Tugas Iklan Harian	Tarefas Diárias de Anúncios	일일 광고 미션
+ID_1769	观看广告	觀看廣告	Watch Ad	ดูโฆษณา	Tonton Iklan	Assistir Anúncio	광고 시청
+ID_1770	购买永久免广告	購買永久免廣告	Buy Permanent Ad-Free	ซื้อแบบลบโฆษณาถาวร	Beli Bebas Iklan Permanen	Comprar Remoção Permanente de Anúncios	영구 광고 제거 구매

@@ -1,0 +1,127 @@
+--
+--
+--
+--
+--function PlotView:RoleStateReset()
+--    for i = 1, #self.RolePosList do
+--        local obj = self.RolePosList[i]
+--        if obj then
+--            local icon = self:GetChildWightByParent("playerIcon",obj,typeof(RawImage))
+--            CommonHelper:ImageSetMaterialDefault(icon)
+--        end
+--    end
+--end
+--
+--
+--
+----{{{
+-----@param config storyactionrolestate_config_cell
+--function PlotView:SetRoleState(config, quick)
+--    self:SetRoleStateNoeffect(config)
+--    --self:SetRoleStateShine(config)
+--    self:SetRoleStateGray(config)
+--    --self:SetRoleStateEmotion(config)
+--    --if quick then
+--    --
+--    --else
+--    --    self:SetRoleStateShake(config)
+--    --end
+--end
+----}}}
+--
+--
+----{{{
+-----@param config storyactionrolestate_config_cell
+--function PlotView:SetRoleStateNoeffect(config)
+--    if config.gray == 0 and config.shine == 0 then
+--        local obj = self.RolePosList[config.rolepos]
+--        local icon = self:GetChildWightByParent("playerIcon",obj,typeof(RawImage))
+--        CommonHelper:ImageSetMaterialDefault(icon)
+--    end
+--end
+----}}}
+--
+----{{{
+-----@param config storyactionrolestate_config_cell
+--function PlotView:SetRoleStateGray(config)
+--    local obj = self.RolePosList[config.rolepos]
+--    local icon = self:GetChildWightByParent("playerIcon",obj,typeof(RawImage))
+--    CommonHelper:ImageSetGray(icon, config.gray == 1 )
+--end
+----}}}
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--------------------------------------------------------------action_rolestate
+--
+--
+-----@param config storyactionrolestate_config_cell
+--function PlotView:SetRoleStateEmotion(config)
+--    local obj = self.sencePosList[config.rolepos]
+--    local emotion = self:GetChildWightByParent("emotion",obj,typeof(Image))
+--    if config.emotion == 0 then
+--        emotion:ColorAlpha(0)
+--    else
+--        emotion:ColorAlpha(1)
+--        --CommonHelper:SetImage(emotion,CommonHelper:GetCarQualityImage(config.emotion),UIModuleID.Plot)
+--    end
+--end
+-----@param config storyactionrolestate_config_cell
+--function PlotView:SetRoleStateShake(config)
+--    if config.shake == 1 then
+--        local obj = self.sencePosList[config.rolepos]
+--        local tweenObj = UIUtil.GetChildInputPath("playerIcon",obj)
+--        TweenShake.Begin(tweenObj, Vector3(10,10,0),0.5)
+--    end
+--end
+--
+-----@param config storyactionrolestate_config_cell
+--function PlotView:SetRoleStateShine(config)
+--    local obj = self.sencePosList[config.rolepos]
+--    local icon = self:GetChildWightByParent("playerIcon",obj,typeof(RawImage))
+--    CommonHelper:ImageSetLightGlow(icon, config.shine == 1 )
+--end
+--
+-----@param config storyactionrolestate_config_cell
+--function PlotView:SetRoleStateMoveFront(config)
+--    if config.gray == 0 and config.shine == 0 then
+--        local obj = self.sencePosList[config.rolepos]
+--        local icon = self:GetChildWightByParent("playerIcon",obj,typeof(RawImage))
+--        CommonHelper:ImageSetMaterialDefault(icon)
+--    end
+--end
+--------------------------------------------------------------

@@ -1,0 +1,126 @@
+string
+0
+en
+score
+It influences the maximum velocity directly. The higher rev, the maximum velocity.
+It influences the max acceleration directly. The bigger torque, the max acceleration.
+Affects the cornering ability during running. The greater the cornering ability value, the more stable the Mini  4WD vehicle is, and the stronger the resistance to cornering and landing rollover.
+When a 4WD is running, the durability will be consumed by a collision. The 4WD will over turn more easily when the endurance value drop to 0.
+Weight affects various conditions during the running process,In general, the higher the weight value, the lower the acceleration and the shorter the flying range of the 4WD.
+The effect of air in the vertical direction on the 4WD is that the greater the air downforce, the shorter the flight distance.
+The influence of air on the four-wheel drive vehicle in the horizontal direction, the larger the value, the greater the resistance.
+It will affect the consumption 4WD to electric quantity. The higher the value is, the less the power consume under the same condition,
+It directly affects the transmission of torque and rotate speed of 4WD transmission system. The higher the transmission efficiency, the lower the loss of rotate speed and torque.
+Tire elasticity will affect the stability of a 4WD landing on the ground. The higher the elastic value, the more unstable, but the easier it is to accelerate.
+It restrains the falling body rebound. The higher the value is, the less likely it is to bounce.
+It directly affects the upper limit of traction during normal running of 4WD. The larger the value, the higher the upper limit of traction.
+It directly affects the friction during normal running of 4WD. The larger the value, the more friction 4WD suffers.
+It affects the loss of rotate speed in the process of driving motion. The higher the value is, the more the rotate speed will be lost.
+It affects the loss of torque in the process of driving motion. The higher the value is, the more the torque will be lost.
+It affects the amount of friction when the guide wheel rubs against the track wall. The larger the value, the greater the friction. There is a limit value for guide wheel friction. When it is reduced to the limit, reducing the value will no longer have any effect.
+Affects the buffering effect when the guide wheel collides with the track wall. The larger the value, the smaller the deceleration ratio. The elastic effect has a limit value. When it is exceeded, it will no longer have an effect.
+It affects the friction resistance of the 4WD braking. The higher the value, the better the braking effect.
+The gear ratio refers to the diameter ratio of the live axle to the drive shaft, which is the key to the interaction between the motor and the tire. Generally speaking, the higher the gear ratio, the slower the speed but the greater the acceleration.
+The tire diameter affects the maximum speed of a 4WD. The larger the radius, the greater the speed, but the smaller the acceleration.
+Coefficient of tire recovery
+Guide wheel diameter, the small diameter guide wheel is usually installed in the head of the 4WD, and the large diameter guide wheel is usually installed in the tail of the phoenix.
+The consumption of electric quantity during 4WD runing, the higher the value, the more power consumes.
+Barycenter X
+Barycenter Y
+Barycenter Z
+Overland capability
+Wave curve capability
+Angle curve capability
+Roller dip angle
+Leaning resistance
+Over-the-Wall resistance
+Wheel base
+The front width of the vehicle
+The rear width of the vehicle
+0
+Comprehensive impact on the multiple performances of the car in the snow environment
+Increase speed of the car on water
+Increase speed of the car on sand
+Increase speed on grass
+Increase speed on rocky ground
+Increase speed on ice
+This attribute indicates whether the car has enough strength to fly in a straight line when it flies out of the corner.
+0
+0
+0
+0
+A comprehensive description of the maximum speed of a 4WD vehicle affected by speed, transmission efficiency, tire rolling friction, speed loss and gear ratio.
+A comprehensive description of the acceleration of a 4WD vehicle affected by torque, transmission efficiency, air resistance, tyre grip, torque loss, gear ratio.
+Affects the cornering ability during running. The greater the cornering ability value, the more stable the Mini  4WD vehicle is, and the stronger the resistance to cornering and landing rollover.
+When a 4WD is running, the durability will be consumed by a collision. The 4WD will over turn more easily when the endurance value drop to 0.
+Weight affects various conditions during the running process,In general, the higher the weight value, the lower the acceleration and the shorter the flying range of the 4WD.
+Aerodynamic Configurations
+Power loss
+Tire friction
+Score
+0
+Score
+Rotate speed
+Torque
+Cornering
+Endurance
+Weight
+Air down force
+Air resistance
+Electric saving
+Transmission efficiency
+Elasticity of tire
+Suspension
+Tire grip
+Tire rolling friction
+Rotate speed loss
+Torque loss
+Roller friction
+Roller elasticity
+Brake capability
+Gear wheel ratio
+Radius of tire
+Coefficient of tire recovery
+Diamter of tire
+Electric quantity consumption
+Barycenter X
+Barycenter Y
+Barycenter Z
+Overland capability
+Wave curve capability
+Angle curve capability
+Roller dip angle
+Leaning resistance
+Over-the-Wall resistance
+Wheel base
+The front width of the vehicle
+The rear width of the vehicle
+0
+Snow performance
+Surface performance
+Sand Performance
+grass performance
+Off-road performance
+Ice performance
+Sidewall support
+0
+0
+0
+0
+Speed
+Acceleration
+Cornering
+Endurance
+Weight
+Aerodynamic Configurations
+Power loss
+Tire friction
+Score
+Basic information
+Motor capability
+Tire capability
+Balance
+Friction resistance
+Power loss
+Control of flying
+Special features

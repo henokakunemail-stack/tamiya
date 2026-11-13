@@ -1,0 +1,40 @@
+--
+-----@class CarInfoViewAction:ViewBaseAction
+--CarInfoViewAction = class("CarInfoViewAction",ViewBaseAction)
+--
+--function CarInfoViewAction:initialize()
+--    ViewBaseAction.initialize(self)
+--end
+--
+--function CarInfoViewAction:OnRegisterEvents()
+--    self:AddNotificationEvent(UINotifyEvent.CarInfoView_SetMsgData, self.SetMsgData)
+--    self:AddNotificationEvent(UINotifyEvent.CarInfoView_SetCfgData, self.SetCfgData)
+--    self:AddNotificationEvent(UINotifyEvent.CarInfoView_SetCarReviewData, self.SetCarReviewData)
+--end
+--
+-----@return CarInfoView
+--function CarInfoViewAction:View()
+--    return self.view
+--end
+--
+--
+--function CarInfoViewAction:SetMsgData(data)
+--    if self:View() then
+--        self:View():SetMsgData(data)
+--    end
+--end
+--
+--function CarInfoViewAction:SetCfgData(param)
+--    if self:View() then
+--        self:View():SetCfgData(param)
+--    end
+--end
+--
+--function CarInfoViewAction:SetCarReviewData(data)
+--    if self:View() then
+--        self:View():SetCarReviewData(data)
+--    end
+--end
+--
+--
+--return CarInfoViewAction()

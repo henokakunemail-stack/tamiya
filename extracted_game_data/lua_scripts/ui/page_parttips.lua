@@ -1,0 +1,101 @@
+--
+--
+--
+-----@class Page_PartTipsUICache
+--Page_PartTipsUICache = class("Page_PartTipsUICache")
+--function Page_PartTipsUICache:initialize()
+--    self.type = -1
+--    self.isfeature = false
+--    self.name = ""
+--    self.desc = ""
+--end
+--
+--
+--
+-----@type parts_config_cell
+--local __PartCfg = nil
+--
+-----@type table<number, Page_PartTipsUICache>
+--local __DataList = {}
+--
+--
+-----@class Page_PartTips
+--Page_PartTips = class("Page_PartTips")
+--
+--function Page_PartTips:initialize()
+--
+--end
+--
+-----@param ArticleData ArticleCell
+--function Page_PartTips:SetArticleData(root, ArticleData)
+--    __PartCfg = ArticleData:GetPartConfig()
+--
+--    self:SetDataList()
+--
+--    self:SetUI(root)
+--end
+--
+-----@param cfg parts_config_cell
+--function Page_PartTips:SetCfgData(root, cfg)
+--    __PartCfg = cfg
+--
+--    self:SetDataList()
+--
+--    self:SetUI(root)
+--end
+--
+--
+--
+--
+--
+--function Page_PartTips:SetUI(root)
+--    local scrollview = UIUtil.GetTypeChildWightByParent("TitleScrollView", root, typeof(TitleScrollView))
+--
+--    local data = {"标题", #__DataList}
+--    CommonHelper:InitTitleScrollView(scrollview, data, 1, function(title, itemObj, dataIndex, scroll)
+--
+--        if dataIndex == -1 then
+--            local temp = UIUtil.GetChild("PartFeature", itemObj)
+--            CommonHelper:SetPartFeature(__PartCfg.type2, temp)
+--            return
+--        end
+--
+--        local data = __DataList[dataIndex + 1]
+--
+--        if data then
+--            CommonHelper:SetText("featurename", itemObj, ClientDataManager:GetTemplateString(data.name) )
+--            CommonHelper:SetText("desvalue", itemObj, ClientDataManager:GetTemplateString(data.desc))
+--            UIUtil.GetChild("parttitle", itemObj):SetActive(not data.isfeature)
+--            UIUtil.GetChild("shelltitle", itemObj):SetActive(data.isfeature)
+--            UIUtil.GetChild("partdesbg", itemObj):SetActive(not data.isfeature)
+--        end
+--
+--    end)
+--end
+--
+--function Page_PartTips:SetDataList()
+--    __DataList = {}
+--    if __PartCfg.type == PartType.Shell then
+--        ---@type carshell_config_cell
+--        local cfg = CommonHelper:GetTableDataByID(ConfigNames.carshell_config, __PartCfg.NewShellId)
+--        local temp = stringSplitToNumber(cfg.attr, ',')
+--        for i = 1, #temp do
+--            ---@type features_config_cell
+--            local featurecfg = CommonHelper:GetTableDataByID(ConfigNames.features_config, temp[i])
+--
+--            local cache = Page_PartTipsUICache()
+--            cache.type = __PartCfg.type
+--            cache.isfeature = true
+--            cache.name = featurecfg.name
+--            cache.desc = featurecfg.desc
+--            table.insert(__DataList, cache)
+--        end
+--    end
+--
+--    local cache1 = Page_PartTipsUICache()
+--    cache1.type = __PartCfg.type
+--    cache1.name = __PartCfg.name
+--    cache1.desc = __PartCfg.desc
+--    table.insert(__DataList, cache1)
+--
+--end

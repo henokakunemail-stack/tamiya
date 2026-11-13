@@ -1,0 +1,52 @@
+--
+--
+--
+-----@class Page_CarEquipment
+--Page_CarEquipment = class("Page_CarEquipment")
+--
+--function Page_CarEquipment:initialize()
+--
+--    ---@type EquipmentMap
+--    self.equipmentMap = nil
+--end
+--
+--
+-----@param cardata CarData
+--function Page_CarEquipment:SetCarData(root, cardata, uimodule)
+--    local obj =  UIUtil.GetChild("AssembleScrollView", root)
+--
+--    self.equipmentMap = EquipmentMapHelper:Get():CreateMap(obj)
+--    self.equipmentMap:SetCarData(obj, cardata, uimodule)
+--end
+--
+-----@param list table<number, SC_PartInfo>
+--function Page_CarEquipment:SetPlayerData(root, list, uimodule)
+--    local obj =  UIUtil.GetChild("AssembleScrollView", root)
+--
+--    self.equipmentMap = EquipmentMapHelper:Get():CreateMap(obj)
+--    self.equipmentMap:SetPlayerData(obj, list, uimodule)
+--end
+--
+-----@param data CarReviewData
+--function Page_CarEquipment:SetCarReviewData(root, data, uimodule)
+--    local obj =  UIUtil.GetChild("AssembleScrollView", root)
+--
+--    self.equipmentMap = EquipmentMapHelper:Get():CreateMap(obj)
+--    self.equipmentMap:SetCarReview(obj, data, uimodule)
+--end
+--
+--function Page_CarEquipment:SetCfgData(root, suitid, uimodule)
+--    local obj =  UIUtil.GetChild("AssembleScrollView", root)
+--
+--    self.equipmentMap = EquipmentMapHelper:Get():CreateMap(obj)
+--    self.equipmentMap:SetCfgData(obj, suitid, uimodule)
+--end
+--
+--function Page_CarEquipment:Release()
+--    if self.equipmentMap then
+--        EquipmentMapHelper:Get():Destory(self.equipmentMap)
+--        self.equipmentMap = nil
+--    end
+--end
+--
+--

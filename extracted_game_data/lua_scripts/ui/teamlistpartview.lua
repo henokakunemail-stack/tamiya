@@ -1,0 +1,119 @@
+--
+--local __MainView = -1 --1车库  2编队
+--local __SelectPosIdx = -1
+--
+--
+-----@class TeamListPartView : ViewBase
+--TeamListPartView = class("TeamListPartView", ViewBase)
+--
+--function TeamListPartView:initialize()
+--    print("---   TeamListPartView 初始化完成")
+--
+--    ViewBase.initialize(self)
+--    ViewBase.RegisteAction(self, "TeamListPartViewAction")
+--end
+--
+--function TeamListPartView:Awake()
+--    print("---   TeamListPartView awake")
+--    self.Toggles = {}
+--    for i = 1, 5 do
+--        --local toggle = LuaButtonManager:Get():AddButton("ToggleGroup/Team"..i, self.gameObject,UIModuleID.TeamListPart,self.OnClickToggle, i, self)
+--        --table.insert(self.Toggles, toggle)
+--    end
+--
+--    CommonHelper:HButtonSetCallback("BtnEditor", self.gameObject, function ()
+--        print("---   编辑队伍")
+--    end)
+--
+--
+--    local list = TeamManager:Get():GetTeamList()
+--    CommonHelper:SetScrollPointLayout("ScrollPoint", self.gameObject, #list, 70)
+--
+--    self.scrollview = UIUtil.GetTypeChildWightByParent("PageScrollHorizontal", self.gameObject, typeof(InfinityScrollViewPage))
+--    self:InitScroll_OneRow(self.scrollview, #list )
+--end
+--
+--function TeamListPartView:OnOpen()
+--
+--end
+--
+--function TeamListPartView:OnClose()
+--
+--end
+--
+--function TeamListPartView:InitScroll_OneRow(scroll, totleCount)
+--    local funcUpdateItem = function (dataIndex, itemObj, scroll)
+--        UINotify:Get():SendNotification(UINotifyEvent.TeamListPartView_SetTeam, {dataIndex + 1, itemObj})
+--    end
+--    --CommonHelper:InitScroll_OneRow(scroll, totleCount, funcUpdateItem)
+--end
+--
+--function TeamListPartView:SetTeam(teamIdx, itemObj)
+--    local team = TeamManager:Get():GetTeam(teamIdx)
+--    for i = 1, #team do
+--        local obj = UIUtil.GetChild("car"..i, itemObj)
+--        local teamdata = TeamManager:Get():GetTeamData(teamIdx, i)
+--        local cardata = team[i].carData
+--
+--        if cardata == nil then
+--            local param = Param_CarGroup()
+--            param.moduleId = UIModuleID.TeamListPart
+--            param.selectState = __SelectPosIdx == i
+--            param.clickfunc = self.OnClickBtn_Car
+--            param.clickparam = i
+--            param.clickclass = self
+--            CommonHelper:SetCarGroup(obj, param)
+--        else
+--            ---@type car_config_cell
+--            local carcfg = CommonHelper:GetTableDataByID(ConfigNames.car_config, teamdata.carID)
+--            local param = Param_CarGroup()
+--            param.moduleId = UIModuleID.TeamListPart
+--            param.carName = ClientDataManager:Get():GetTemplateString(carcfg.carNameid)
+--            --param.carIcon = "ui_3dicon_"..(carcfg.id)..".png"
+--            param.lv = "等级"..cardata.lv
+--            param.quality = carcfg.quality
+--            param.type = 1 % 3 + 1
+--            param.selectState = __SelectPosIdx == i
+--            param.star = cardata.star
+--            param.clickfunc = self.OnClickBtn_Car
+--            param.clickparam = i
+--            param.clickclass = self
+--
+--
+--            CommonHelper:SetCarGroup(obj, param)
+--        end
+--    end
+--
+--end
+--function TeamListPartView:UpdateUICache(posIdx)
+--    __SelectPosIdx = posIdx
+--    CommonHelper:RefreshCurItems(self.scrollview)
+--end
+--
+--function TeamListPartView:SetMainView(type)
+--    __MainView = type
+--end
+--
+--
+--
+--
+--function TeamListPartView:OnClickToggle(index)
+--    for i = 1, #self.Toggles do
+--        CommonHelper:SetToggleState(self.Toggles[i], (i == index))
+--    end
+--    CommonHelper:SetScrollPoint("ScrollPoint", self.gameObject, index - 1)
+--
+--    self.scrollview:MoveToPage(index - 1)
+--
+--    if __MainView == 1 then
+--        --UINotify:Get():SendNotification(UINotifyEvent.GarageView_SelectTeam, {index,-1})
+--    end
+--    if __MainView == 2 then
+--        UINotify:Get():SendNotification(UINotifyEvent.TeamView_SelectTeam, {index,-1})
+--    end
+--
+--end
+--function TeamListPartView:OnClickBtn_Car(posIdx)
+--
+--
+--end

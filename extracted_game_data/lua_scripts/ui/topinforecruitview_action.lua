@@ -1,0 +1,23 @@
+-----@class TopInfoRecruitViewAction:ViewBaseAction
+--TopInfoRecruitViewAction = class("TopInfoRecruitViewAction", ViewBaseAction)
+--
+--function TopInfoRecruitViewAction:initialize()
+--    ViewBaseAction.initialize(self)
+--end
+--
+--function TopInfoRecruitViewAction:OnRegisterEvents()
+--    self:AddNotificationEvent(UINotifyEvent.TopInfoRecruitView_InitViewInfo, self.InitViewInfo)
+--end
+--
+-----@return TopInfoRecruitView
+--function TopInfoRecruitViewAction:View()
+--    return self.view
+--end
+--
+--function TopInfoRecruitViewAction:InitViewInfo(recruitTicketTab)
+--    if self:View() then
+--        self:View():InitViewInfo(recruitTicketTab[1],recruitTicketTab[2])
+--    end
+--end
+--
+--return TopInfoRecruitViewAction()

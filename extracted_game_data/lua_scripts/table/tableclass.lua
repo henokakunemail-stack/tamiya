@@ -1,0 +1,2773 @@
+
+----------- 配置表类结构注释，不require
+
+
+---@class activityitem_config_cell
+---@field public C_ID
+---@field public activityid
+---@field public sort
+---@field public activityType
+---@field public timeType
+---@field public openTime
+---@field public endTime
+---@field public reward
+---@field public maxCount
+---@field public vip
+---@field public ejectPar
+---@field public nextId
+---@field public payId
+---@field public diamond
+---@field public giftIcon
+---@field public name
+---@field public title
+---@field public reference
+
+---@class act_activity_config_cell
+---@field public C_ID
+---@field public sort
+---@field public gifttype
+---@field public tab
+---@field public giftid
+
+---@class act_advance_notice_config_cell
+---@field public C_ID
+---@field public acttype
+---@field public orderseq
+---@field public actbg
+---@field public actname
+
+---@class act_bussiness_config_cell
+---@field public C_ID
+---@field public acttype
+---@field public begintime
+---@field public endtime
+---@field public actstyle
+---@field public itemids
+---@field public finishgift
+---@field public timeflag
+---@field public bday
+---@field public eday
+---@field public btime
+---@field public etime
+---@field public orderseq
+---@field public actbg
+---@field public actname
+
+---@class act_countcharge_config_cell
+---@field public C_ID
+---@field public acttype
+---@field public countno
+---@field public awardids
+---@field public awardnums
+
+---@class act_day_sign_config_cell
+---@field public C_ID
+---@field public begintime
+---@field public endtime
+---@field public dayawards
+---@field public awardnums
+---@field public exppay
+
+---@class act_firstcharge_config_cell
+---@field public C_ID
+---@field public chargetype
+---@field public dayno
+---@field public awardids
+---@field public awardnums
+---@field public dayname
+
+---@class act_gift_config_cell
+---@field public C_ID
+---@field public awardids
+---@field public awardnums
+---@field public buymax
+---@field public period
+---@field public begintime
+---@field public endtime
+---@field public bats
+---@field public hits
+---@field public timeflag
+---@field public bday
+---@field public eday
+---@field public linkitemid
+---@field public spokespersonicon
+---@field public giftIcon
+---@field public colorborder
+---@field public name
+---@field public title
+---@field public reference
+
+---@class act_growup_config_cell
+---@field public C_ID
+---@field public growtype
+---@field public lev
+---@field public awardids
+---@field public awardnums
+---@field public hawardids
+---@field public hawardnums
+
+---@class act_levelup_config_cell
+---@field public C_ID
+---@field public itemid
+---@field public lev
+---@field public awardids
+---@field public awardnums
+---@field public hawardids
+---@field public hawardnums
+
+---@class act_period_config_cell
+---@field public C_ID
+---@field public awardids
+---@field public awardnums
+---@field public rightids
+---@field public addday
+---@field public weekBg
+
+---@class act_shop_config_cell
+---@field public C_ID
+---@field public grid
+---@field public begintime
+---@field public endtime
+---@field public propsid
+---@field public exchid
+---@field public price
+---@field public limitnum
+
+---@class act_shop_item_config_cell
+---@field public C_ID
+---@field public grid
+---@field public begintime
+---@field public endtime
+---@field public propsid
+---@field public exchid
+---@field public price
+---@field public limitnum
+
+---@class act_sumcharge_config_cell
+---@field public C_ID
+---@field public sumtype
+---@field public CurrencyType
+---@field public sumval
+---@field public propsids
+---@field public propsnums
+---@field public boxid
+
+---@class act_timetoken_lev_config_cell
+---@field public C_ID
+---@field public tokenid
+---@field public lev
+---@field public nextexp
+---@field public awardids
+---@field public awardnums
+---@field public hawardids
+---@field public hawardnums
+---@field public ispreviewbonus
+
+---@class act_token_config_cell
+---@field public C_ID
+---@field public serverid
+---@field public tokenid
+---@field public timeflag
+---@field public begintime
+---@field public endtime
+---@field public chargeid
+---@field public bday
+---@field public eday
+---@field public btime
+---@field public etime
+
+---@class act_token_lev_config_cell
+---@field public C_ID
+---@field public serverid
+---@field public id
+---@field public tokenid
+---@field public lev
+---@field public nextexp
+---@field public awardids
+---@field public awardnums
+---@field public hawardids
+---@field public hawardnums
+
+---@class ambientsetting_config_cell
+---@field public C_ID
+---@field public colors
+---@field public mode
+
+---@class apcolor_config_cell
+---@field public C_ID
+---@field public name
+---@field public des
+---@field public quality
+---@field public basecolor
+---@field public ssscolor
+---@field public fakecolor
+---@field public metallic
+---@field public smoothness
+---@field public icon
+
+---@class apgrid_config_cell
+---@field public C_ID
+---@field public name
+---@field public des
+---@field public icon
+---@field public mat
+---@field public resid
+---@field public quality
+
+---@class apsticker_config_cell
+---@field public C_ID
+---@field public name
+---@field public des
+---@field public type
+---@field public mat
+---@field public mat2
+---@field public mesh
+---@field public stickerEffect
+---@field public ifPerson
+
+---@class assembledefaultmesh_config_cell
+---@field public C_ID
+---@field public point1
+---@field public offset1
+---@field public point2
+---@field public offset2
+
+---@class assemblelink_config_cell
+---@field public C_ID
+---@field public linkgroopid
+---@field public linkoffset
+
+---@class assemblerule_config_cell
+---@field public C_ID
+---@field public groove
+---@field public partsflag
+---@field public fflaglist
+---@field public hpoint
+---@field public offset
+---@field public offset1
+---@field public symhpoint
+---@field public symmetry
+---@field public linkid
+---@field public dyclinkid
+---@field public linkpoint
+---@field public linkptoffset
+---@field public symlinkpoint
+---@field public symptoffset
+---@field public scale
+---@field public symscale
+
+---@class assembleruleexpand_config_cell
+---@field public C_ID
+---@field public groove
+---@field public type
+---@field public param1
+---@field public param2
+---@field public param3
+
+---@class assemblerulewing_config_cell
+---@field public C_ID
+---@field public point
+---@field public offest
+---@field public rotate
+
+---@class attrfeature_config_cell
+---@field public C_ID
+---@field public attr
+---@field public type
+---@field public icon
+---@field public bg
+---@field public char
+---@field public desc
+---@field public isShow
+---@field public interval
+
+---@class attrtype_config_cell
+---@field public C_ID
+---@field public attrname
+---@field public attrtype
+---@field public tag
+---@field public tagName
+---@field public desc
+---@field public showradio
+---@field public format
+---@field public formula
+---@field public formulaparm
+---@field public interval
+---@field public init
+---@field public attrtrait
+
+---@class battleanim_config_cell
+---@field public C_ID
+---@field public type
+---@field public name
+---@field public cameratime
+---@field public time
+---@field public clicknum
+
+---@class bgm_config_cell
+---@field public C_ID
+---@field public type
+---@field public name
+
+---@class buyenergy_config_cell
+---@field public C_ID
+---@field public times
+---@field public cost
+
+---@class camera_config_cell
+---@field public C_ID
+---@field public scene_camera
+---@field public scene_camera_time
+---@field public battle_camera_mode
+---@field public start_camera
+---@field public end_camera
+---@field public cameraId
+
+---@class cameragroup_config_cell
+---@field public C_ID
+---@field public camera
+
+---@class cameratype_config_cell
+---@field public C_ID
+---@field public slots
+---@field public pointdesc
+---@field public cameradesc
+
+---@class carinspectattr_config_cell
+---@field public C_ID
+---@field public attr
+---@field public attrname
+---@field public attrdesc
+---@field public format
+---@field public attrcontrast
+---@field public unit
+
+---@class carshell_config_cell
+---@field public C_ID
+---@field public carNameid
+---@field public showcfg
+---@field public apshowcfg
+---@field public skill
+---@field public attr
+---@field public holder
+---@field public defaultSticker
+---@field public isColour
+---@field public stickerType
+---@field public shellhole
+---@field public aniEnter
+---@field public aniEnterTime
+---@field public audioGroup
+---@field public carNameIcon
+---@field public carNameEn
+---@field public 
+
+---@class championships_config_cell
+---@field public C_ID
+---@field public type
+---@field public week
+---@field public cost
+---@field public condition
+---@field public rules
+---@field public time
+---@field public duration
+---@field public times
+---@field public timeLimit
+---@field public price
+---@field public reward
+---@field public sceneId
+---@field public trackId
+---@field public name
+---@field public rulename
+---@field public icon
+
+---@class comic_config_cell
+---@field public C_ID
+---@field public stepids
+
+---@class comicaction_config_cell
+---@field public C_ID
+---@field public image
+---@field public tweentype
+---@field public size
+---@field public pos
+---@field public duration
+---@field public delay
+
+---@class comicstep_config_cell
+---@field public C_ID
+---@field public actionids
+---@field public isSkip
+---@field public duration
+
+---@class cup_config_cell
+---@field public C_ID
+---@field public name
+---@field public cupprefab
+---@field public animation
+---@field public param
+
+---@class dcitchapter_config_cell
+---@field public C_ID
+---@field public chaptertype
+---@field public initunlock
+---@field public sumstar
+---@field public mapidx
+---@field public mapname
+---@field public mapicon
+---@field public bg
+---@field public time
+---@field public desc
+---@field public prop
+
+---@class dict7daymission_config_cell
+---@field public C_ID
+---@field public missionids
+
+---@class dictactive_config_cell
+---@field public C_ID
+---@field public activeType
+---@field public activeval
+---@field public awardids
+---@field public awardnums
+
+---@class dictactivecopytask_config_cell
+---@field public C_ID
+---@field public copyid
+---@field public starid
+---@field public cond
+---@field public succval
+---@field public goodsids
+---@field public goodsnums
+---@field public sumpoint
+---@field public difficultylevel
+
+---@class dictactivitychapter_config_cell
+---@field public C_ID
+---@field public chaptertype
+---@field public timeflag
+---@field public batno
+---@field public begintime
+---@field public endtime
+---@field public needlev
+---@field public starover
+---@field public mapname
+---@field public mapicon
+
+---@class dictactivitycopy_config_cell
+---@field public C_ID
+---@field public copytype
+---@field public chapterid
+---@field public nextcopys
+---@field public name
+---@field public desc
+---@field public levelicon
+---@field public openflag
+---@field public unlockflag
+---@field public paypower
+---@field public sceneId
+---@field public trackid
+---@field public npcid
+---@field public playertrackno
+---@field public npctrackno
+---@field public round
+---@field public firstdown
+---@field public firstdownshow
+---@field public copydowns
+---@field public cameraId
+---@field public comicname
+---@field public racetype
+
+---@class dictactluckytask_config_cell
+---@field public C_ID
+---@field public actid
+---@field public actval
+---@field public propsid
+---@field public propnum
+
+---@class dictadlist_config_cell
+---@field public C_ID
+---@field public viewnum
+---@field public awardids
+---@field public awardnum
+---@field public limittime
+---@field public missionname
+---@field public missionmemo
+
+---@class dictarticle_config_cell
+---@field public C_ID
+---@field public propstype
+---@field public subtype
+---@field public propsgrade
+---@field public propsuse
+---@field public propsadd
+---@field public sprice
+---@field public maxnum
+---@field public sortinx
+---@field public exptime
+---@field public name
+---@field public description
+---@field public propname
+---@field public propdesc
+---@field public icon
+---@field public useType
+---@field public effectType
+---@field public effectObj
+---@field public effectPara
+---@field public existType
+---@field public existTime
+---@field public canSell
+---@field public sellItem
+---@field public autoUse
+---@field public articletype
+---@field public accessWay
+
+---@class dictasset_config_cell
+---@field public C_ID
+---@field public star
+---@field public cond
+---@field public succval
+---@field public star1
+---@field public cond1
+---@field public succval1
+---@field public star2
+---@field public cond2
+---@field public succval2
+---@field public star3
+---@field public cond3
+---@field public succval3
+
+---@class dictaward_config_cell
+---@field public C_ID
+---@field public awardid
+---@field public propsid
+---@field public propsnum
+---@field public prize
+
+---@class dictbacksign_config_cell
+---@field public C_ID
+---@field public awardids
+---@field public awardnums
+---@field public hawardids
+---@field public hawardnums
+
+---@class dictbattleaward_config_cell
+---@field public C_ID
+---@field public awardid
+---@field public speedfrom
+---@field public speedto
+---@field public awardids
+---@field public awardnums
+---@field public jackpottype
+---@field public jackpotper
+
+---@class dictbattlegov_config_cell
+---@field public C_ID
+---@field public battlename
+---@field public createtime
+---@field public resulttime
+---@field public overtime
+---@field public awardid
+---@field public trackid
+---@field public scienceid
+
+---@class dictbearaward_config_cell
+---@field public C_ID
+---@field public cardid
+---@field public cardnum
+---@field public cardprize
+
+---@class dictbearcard_config_cell
+---@field public C_ID
+---@field public cardtype
+---@field public cardlevel
+---@field public cardlvmax
+---@field public expropid
+---@field public expropnum
+
+---@class dictbearcopy_config_cell
+---@field public C_ID
+---@field public matchid
+---@field public matchtype
+---@field public blocknum
+---@field public matchtime
+---@field public begintime
+---@field public endtime
+---@field public linkid
+---@field public awardid
+
+---@class dictbearprop_config_cell
+---@field public C_ID
+---@field public copytype
+---@field public propnum
+---@field public spendid
+---@field public spendnum
+---@field public adtime
+
+---@class dictborrow_config_cell
+---@field public C_ID
+---@field public partid
+
+---@class dictboxloc_config_cell
+---@field public C_ID
+---@field public unlockcond
+---@field public consumenum
+---@field public boxlocconsum
+
+---@class dictbuilderlev_config_cell
+---@field public C_ID
+---@field public roficiencyname
+---@field public nextexp
+---@field public composeids
+---@field public uplevneed
+
+---@class dictcalc_config_cell
+---@field public C_ID
+---@field public varval
+---@field public memo
+
+---@class dictcapyactaward_config_cell
+---@field public C_ID
+---@field public awardid
+---@field public val
+---@field public award
+---@field public num
+
+---@class dictcapyactive_config_cell
+---@field public C_ID
+---@field public acttype
+---@field public btime
+---@field public etime
+---@field public overtime
+---@field public awardid
+---@field public actname
+---@field public acticon
+---@field public acttips
+
+---@class dictcar_config_cell
+---@field public C_ID
+---@field public carname
+---@field public cartype
+---@field public sort
+
+---@class dictcardetail_config_cell
+---@field public C_ID
+---@field public npcshow
+---@field public partseq
+---@field public partid
+
+---@class dictcarplan_config_cell
+---@field public C_ID
+---@field public initunlock
+---@field public openunlock
+---@field public openconsumeid
+
+---@class dictchapterunlock_config_cell
+---@field public C_ID
+---@field public needpass
+---@field public unlockids
+
+---@class dictcharge_config_cell
+---@field public C_ID
+---@field public areacode
+---@field public itemid
+---@field public innerid
+---@field public inneridios
+---@field public innerid3
+---@field public innerid4
+---@field public adjusttoken
+---@field public adjusttoken2
+---@field public adjusttoken3
+---@field public adjusttoken4
+---@field public adjusttoken5
+---@field public adjusttoken6
+---@field public adjusttoken7
+---@field public chargetype
+---@field public chargenum
+---@field public diamond
+---@field public addmoney
+---@field public acttype
+---@field public exnum
+---@field public currencyType
+---@field public pricename
+---@field public name
+---@field public icon
+---@field public brdesc
+
+---@class dictcollect_config_cell
+---@field public C_ID
+---@field public collectval
+---@field public icon
+---@field public portraiticon
+---@field public portraitname
+---@field public portraitdetail
+---@field public order
+
+---@class dictcollectgift_config_cell
+---@field public C_ID
+---@field public nextval
+---@field public awardids
+---@field public awardnums
+
+---@class dictcollecthistory_config_cell
+---@field public C_ID
+---@field public icon
+---@field public partname
+---@field public partdes
+---@field public year
+
+---@class dictcompose_config_cell
+---@field public C_ID
+---@field public addexp
+---@field public consumeids
+---@field public consumenums
+---@field public composegold
+---@field public breakrand
+
+---@class dictcompose1_config_cell
+---@field public C_ID
+---@field public addexp
+---@field public consumeids
+---@field public consumnums
+---@field public composegold
+---@field public breakrand
+
+---@class dictcomposenew_config_cell
+---@field public C_ID
+---@field public comptype
+---@field public propid
+---@field public proptype
+---@field public composegold
+---@field public consumeids
+---@field public consumenums
+---@field public consumeparts
+
+---@class dictconsume_config_cell
+---@field public C_ID
+---@field public consumeid
+---@field public propsid
+---@field public propsnum
+
+---@class dictcopy_config_cell
+---@field public C_ID
+---@field public copytype
+---@field public chapterid
+---@field public nextcopys
+---@field public precopys
+---@field public name
+---@field public minimap
+---@field public levelicon
+---@field public openflag
+---@field public needstar
+---@field public paypower
+---@field public unlockflag
+---@field public sceneId
+---@field public trackid
+---@field public npcid
+---@field public playertrackno
+---@field public npctrackno
+---@field public round
+---@field public superparts
+---@field public firstdown
+---@field public firstdownshow
+---@field public copydowns
+---@field public copydownsshow
+---@field public maxenter
+---@field public storygroup
+---@field public cameraId
+---@field public needlevel
+---@field public timescale
+---@field public racetype
+
+---@class dictcopygift_config_cell
+---@field public C_ID
+---@field public itemid
+
+---@class dictcupcollect_config_cell
+---@field public C_ID
+---@field public awardids
+---@field public awardnums
+---@field public name
+---@field public detail
+
+---@class dictcurrency_config_cell
+---@field public C_ID
+---@field public name
+---@field public description
+---@field public icon
+---@field public quality
+---@field public icon2
+
+---@class dictdecompose_config_cell
+---@field public C_ID
+---@field public id
+---@field public propsid
+---@field public propsnum
+---@field public weight
+
+---@class dictdesigngift_config_cell
+---@field public C_ID
+---@field public itemid
+---@field public gridno
+---@field public giftids
+---@field public giftnums
+
+---@class dictdirect_config_cell
+---@field public C_ID
+---@field public propid
+---@field public pays
+---@field public maxnum
+---@field public coinid
+---@field public limitnum
+
+---@class dictdonation_config_cell
+---@field public C_ID
+---@field public activity
+---@field public consume
+---@field public awardids
+---@field public awardnums
+
+---@class dictdown_config_cell
+---@field public C_ID
+---@field public id
+---@field public dropid
+---@field public propsid
+---@field public propsnum
+---@field public weight
+
+---@class dictexchgold_config_cell
+---@field public C_ID
+---@field public dianum
+---@field public goldnum
+---@field public batrands
+---@field public batvals
+
+---@class dictexhibit_config_cell
+---@field public C_ID
+---@field public configName
+---@field public childgroovegroup
+---@field public type
+---@field public params
+---@field public name
+---@field public desc
+---@field public icon
+
+---@class dictfairmatch_config_cell
+---@field public C_ID
+---@field public matchname
+---@field public timeflag
+---@field public begintime
+---@field public endtime
+---@field public finishtime
+---@field public bday
+---@field public eday
+---@field public fday
+---@field public btime
+---@field public etime
+---@field public ftime
+---@field public partgroup
+---@field public trackid
+---@field public scenceid
+---@field public awardid
+
+---@class dictfairmatchparts_config_cell
+---@field public C_ID
+---@field public partid
+---@field public partlev
+---@field public partstar
+---@field public partage
+---@field public partbreak
+---@field public partnum
+
+---@class dictfastaward_config_cell
+---@field public C_ID
+---@field public seasonid
+---@field public speedfrom
+---@field public speedto
+---@field public awardids
+---@field public awardnums
+
+---@class dictfastbox_config_cell
+---@field public C_ID
+---@field public awardids
+---@field public awardnums
+
+---@class dictfastdiff_config_cell
+---@field public C_ID
+---@field public low
+---@field public high
+---@field public point
+
+---@class dictfastlevel_config_cell
+---@field public C_ID
+---@field public levsection
+---@field public biglev
+---@field public trackids
+---@field public beginpoint
+---@field public endpoint
+---@field public awardids
+---@field public awardnums
+---@field public lev_name
+
+---@class dictfastloc_config_cell
+---@field public C_ID
+---@field public lrand
+---@field public mrand
+---@field public hrand
+---@field public srand
+---@field public upgradelow
+---@field public upgradehigh
+
+---@class dictfastnpc_config_cell
+---@field public C_ID
+---@field public npcids
+
+---@class dictfastseason_config_cell
+---@field public C_ID
+---@field public begintime
+---@field public endtime
+---@field public result1
+---@field public result2
+---@field public nextseason
+---@field public boxids
+---@field public boxpoints
+---@field public unusesubtype
+---@field public unusebasepartid
+
+---@class dictfifagroup_config_cell
+---@field public C_ID
+---@field public seasonid
+---@field public tpye
+---@field public matchgroup
+---@field public teama
+---@field public teamb
+---@field public day
+---@field public odds
+---@field public goala
+---@field public goalb
+---@field public winflag
+---@field public endtime
+---@field public teamnamea
+---@field public teamnameb
+---@field public competitionDes
+---@field public timeDes
+
+---@class dictfifaseason_config_cell
+---@field public C_ID
+---@field public btime
+---@field public championtime
+---@field public etime
+---@field public paystr
+---@field public champion
+---@field public championodds
+
+---@class dictgiftpack_config_cell
+---@field public C_ID
+---@field public begintime
+---@field public exptime
+---@field public packid
+
+---@class dictgiftpart_config_cell
+---@field public C_ID
+---@field public itemid
+---@field public partid
+---@field public basepartid
+---@field public partlev
+---@field public partstart
+---@field public partage
+---@field public partbreak
+---@field public entryids
+---@field public entrylevs
+---@field public entryqlys
+
+---@class dictgodaward_config_cell
+---@field public C_ID
+---@field public downid
+
+---@class dictgroove_config_cell
+---@field public C_ID
+---@field public parttype
+---@field public prepartseq
+---@field public linkpartseq
+---@field public unlockflag
+
+---@class dictguild_config_cell
+---@field public C_ID
+---@field public exp
+---@field public maxnum
+---@field public limitnum4
+---@field public limitnum3
+---@field public limitnum2
+---@field public maxdonation
+---@field public maxexch
+
+---@class dictguildlevel_config_cell
+---@field public C_ID
+---@field public guildexpe
+---@field public guildnum
+---@field public signgiftids
+---@field public signgiftnums
+
+---@class dictguildperson_config_cell
+---@field public C_ID
+---@field public awardids
+---@field public awardnums
+
+---@class dictguildpoint_config_cell
+---@field public C_ID
+---@field public awardids
+---@field public awardnums
+
+---@class dictguildprivilege_config_cell
+---@field public C_ID
+---@field public privs
+---@field public name
+---@field public positionlimit
+---@field public signawardids
+---@field public signawardnums
+
+---@class dictguildpveseason_config_cell
+---@field public C_ID
+---@field public start1
+---@field public start2
+---@field public result1
+---@field public result2
+---@field public nextseasonid
+---@field public sceneids
+---@field public trackids
+
+---@class dictguildspeed_config_cell
+---@field public C_ID
+---@field public trackid
+---@field public begintime
+---@field public endtime
+---@field public pointnum
+
+---@class dictgvgpointaward_config_cell
+---@field public C_ID
+---@field public seasonid
+---@field public pointfrom
+---@field public pointto
+---@field public awardids
+---@field public awardnums
+
+---@class dictgvgpointextpoint_config_cell
+---@field public C_ID
+---@field public rankid
+---@field public point
+
+---@class dictgvgpointgroupaward_config_cell
+---@field public C_ID
+---@field public seasonid
+---@field public winlose
+---@field public awardids
+---@field public awardnums
+
+---@class dictgvgpointguildaward_config_cell
+---@field public C_ID
+---@field public speedfrom
+---@field public speedto
+---@field public awardids
+---@field public awardnums
+
+---@class dictgvgpointseason_config_cell
+---@field public C_ID
+---@field public start1
+---@field public end1
+---@field public result1
+---@field public start2
+---@field public end2
+---@field public result2
+---@field public start3
+---@field public end3
+---@field public result3
+---@field public start4
+---@field public end4
+---@field public result4
+---@field public over1
+---@field public over2
+---@field public track1
+---@field public track2
+---@field public track3
+---@field public ground1
+---@field public racegvgapplication
+---@field public racegvgfirst
+---@field public racegvgsecond
+---@field public racegvgthird
+---@field public racegvgsettlement
+---@field public racegvgapplicationdes
+---@field public racegvgfirstdes
+---@field public racegvgseconddes
+---@field public racegvgthirddes
+---@field public racegvgsettlementdes
+
+---@class dictgvgpointspeed_config_cell
+---@field public C_ID
+---@field public trackid
+---@field public begintime
+---@field public endtime
+---@field public pointnum
+
+---@class dictgvgpointspeedaward_config_cell
+---@field public C_ID
+---@field public seasonid
+---@field public speedfrom
+---@field public speedto
+---@field public awardids
+---@field public awardnums
+
+---@class dictheadicon_config_cell
+---@field public C_ID
+---@field public headtype
+---@field public subtype
+---@field public unlocktype
+---@field public cond
+---@field public term
+---@field public endtime
+---@field public initunlock
+---@field public icon
+---@field public name
+
+---@class dicthidechapter_config_cell
+---@field public C_ID
+---@field public tebtype
+---@field public tebname
+---@field public chaptertype
+---@field public initunlock
+---@field public sumstar
+---@field public begintime
+---@field public endtime
+---@field public finishsum
+---@field public joinsum
+---@field public needlev
+---@field public mapidx
+---@field public mapname
+---@field public mapicon
+---@field public bg
+---@field public recommendicon
+---@field public hide
+
+---@class dicthidecopy_config_cell
+---@field public C_ID
+---@field public copytype
+---@field public chapterid
+---@field public nextcopys
+---@field public precopys
+---@field public name
+---@field public minimap
+---@field public levelicon
+---@field public needstar
+---@field public paypower
+---@field public openflag
+---@field public unlockflag
+---@field public sceneId
+---@field public trackid
+---@field public npcid
+---@field public playertrackno
+---@field public npctrackno
+---@field public round
+---@field public firstdown
+---@field public copydowns
+---@field public maxenter
+---@field public storygroup
+---@field public cameraId
+---@field public needlevel
+---@field public guideId
+---@field public GuideId
+
+---@class dicthirecoin_config_cell
+---@field public C_ID
+---@field public exchcoin
+---@field public neednum
+---@field public maxexch
+
+---@class dictinherit_config_cell
+---@field public C_ID
+---@field public inheritname
+---@field public attrids
+---@field public powlevs
+---@field public needexps
+---@field public attrvals
+---@field public reformvals
+---@field public consumepartid
+---@field public partnum
+---@field public skillbookid
+---@field public skillbooknum
+---@field public reformagainid
+---@field public reformagainsum
+
+---@class dictjcupseason_config_cell
+---@field public C_ID
+---@field public start1
+---@field public join1
+---@field public join2
+---@field public start2
+---@field public result1
+---@field public result2
+---@field public nextseasonid
+---@field public sceneid
+---@field public trackid
+---@field public needpart
+---@field public unpart
+---@field public taskids
+
+---@class dictjcupspeedaward_config_cell
+---@field public C_ID
+---@field public seasonid
+---@field public speedfrom
+---@field public speedto
+---@field public awardids
+---@field public awardnums
+
+---@class dictkilleraward_config_cell
+---@field public C_ID
+---@field public seasonid
+---@field public rankloc
+---@field public awardids
+---@field public awardnums
+---@field public mailid
+
+---@class dictkillerseason_config_cell
+---@field public C_ID
+---@field public starttime
+---@field public endtime
+---@field public nextseasonid
+
+---@class dictkillerstage_config_cell
+---@field public C_ID
+---@field public btime
+---@field public etime
+---@field public addstage
+---@field public addstage1
+---@field public stagetype
+---@field public matchstr
+---@field public selectn
+---@field public desc
+---@field public serverdesc
+---@field public stageday
+---@field public matchnum
+---@field public guesstype
+---@field public guessnum
+
+---@class dictkillertrack_config_cell
+---@field public C_ID
+---@field public scence
+---@field public tracktype
+
+---@class dictlabtag_config_cell
+---@field public C_ID
+---@field public targid
+---@field public articleid
+---@field public tag
+---@field public icon
+---@field public tagname
+---@field public projectname
+
+---@class dictlabtaglevup_config_cell
+---@field public C_ID
+---@field public targid
+---@field public taglev
+---@field public nextexp
+---@field public roficiencyname
+---@field public consumeids
+---@field public consumenums
+---@field public addexp
+---@field public uptime
+---@field public addval
+---@field public awardids
+---@field public awardnums
+
+---@class dictlevelup_config_cell
+---@field public C_ID
+---@field public needexp
+---@field public maxpower
+---@field public unlockfunc
+---@field public awardids
+---@field public awardnums
+---@field public maxreformlev
+---@field public addpower
+---@field public buffid
+---@field public energyrecovery
+---@field public energymax
+---@field public protect
+---@field public getawardids
+---@field public getawardnums
+---@field public itemid
+---@field public leveldesc
+
+---@class dictlosereason_config_cell
+---@field public C_ID
+---@field public startcopy
+---@field public itemid
+
+---@class dictluckytable_config_cell
+---@field public C_ID
+---@field public propsid
+---@field public propsnum
+---@field public randval
+---@field public hitflag
+---@field public hitsum
+
+---@class dictluckytablenew_config_cell
+---@field public C_ID
+---@field public tableid
+---@field public seq
+---@field public propsid
+---@field public propsnum
+---@field public randval
+---@field public hitflag
+---@field public hitsum
+
+---@class dictmail_config_cell
+---@field public C_ID
+---@field public icon
+---@field public title
+---@field public content
+---@field public sender
+
+---@class dictmainsceneinteraction_config_cell
+---@field public C_ID
+---@field public rootnode
+---@field public funtype
+---@field public unlockmaterial
+---@field public lockmaterial
+---@field public boxnode
+---@field public parentmapnode
+---@field public mapnode
+---@field public mapname
+---@field public params
+
+---@class dictmission_config_cell
+---@field public C_ID
+---@field public missiontype
+---@field public missionname
+---@field public missionmemo
+---@field public unlocklev
+---@field public pointval
+---@field public condtionid
+---@field public condtionkey
+---@field public succval
+---@field public firstval
+---@field public awardids
+---@field public awardnums
+---@field public nextmission
+---@field public initunlock
+---@field public tradeseq
+---@field public missionjump
+
+---@class dictnpc_config_cell
+---@field public C_ID
+---@field public score
+---@field public npclevel
+---@field public name
+---@field public suits
+---@field public hero
+---@field public npcskills
+---@field public attr1
+---@field public attr2
+---@field public attr3
+---@field public attr4
+---@field public attr5
+---@field public attr6
+---@field public attr7
+---@field public attr8
+---@field public attr9
+---@field public attr10
+---@field public attr11
+---@field public attr12
+---@field public attr13
+---@field public attr14
+---@field public attr15
+---@field public attr16
+---@field public attr17
+---@field public attr18
+---@field public attr19
+---@field public attr20
+---@field public attr21
+---@field public attr22
+---@field public attr23
+---@field public attr26
+---@field public attr27
+---@field public attr28
+---@field public attr29
+---@field public attr30
+---@field public attr31
+---@field public attr39
+---@field public attr40
+---@field public attr41
+---@field public attr42
+---@field public attr43
+---@field public attr44
+---@field public attr45
+---@field public attr46
+---@field public attr47
+---@field public attr48
+---@field public attr49
+
+---@class dictoptionalbox_config_cell
+---@field public C_ID
+---@field public propsids
+---@field public propsnums
+
+---@class dictpackage_config_cell
+---@field public C_ID
+---@field public packcode
+---@field public groupid
+---@field public propsid
+---@field public propsnum
+---@field public randval
+
+---@class dictpartage_config_cell
+---@field public C_ID
+---@field public basepartid
+---@field public partage
+---@field public neednum
+---@field public attrids
+---@field public attrvals
+---@field public basevals
+---@field public breakattrids
+---@field public breakattrvals
+---@field public breakvals
+---@field public breakgold
+---@field public needids
+---@field public needstone
+
+---@class dictpartbase_config_cell
+---@field public C_ID
+---@field public parttype
+---@field public subtype
+---@field public maxstar
+---@field public fabric
+---@field public para
+---@field public installid
+---@field public supplyid
+---@field public unlockids
+---@field public expireids
+---@field public debris
+---@field public score
+---@field public skillids
+---@field public parm1
+---@field public parm2
+---@field public parm3
+---@field public parm4
+---@field public parm5
+---@field public attrFeature
+---@field public chassisLimit
+---@field public centerIcon
+---@field public inheritexp
+---@field public inheritnum
+---@field public chassisSwitchFx
+
+---@class dictpartcell_config_cell
+---@field public C_ID
+---@field public carNameid
+---@field public showcfg
+---@field public apshowcfg
+---@field public attr
+---@field public holder
+---@field public defaultcolor
+---@field public defaultSticker
+---@field public isColour
+---@field public stickerType
+---@field public aniEnter
+---@field public aniEnterTime
+---@field public carNameIcon
+---@field public carNameEn
+---@field public bean
+---@field public cellcv
+---@field public cellDefaultEffect
+
+---@class dictpartlevel_config_cell
+---@field public C_ID
+---@field public changeval
+---@field public goldcost
+
+---@class dictparts_config_cell
+---@field public C_ID
+---@field public partname
+---@field public partdesc
+---@field public recource
+---@field public icon
+---@field public baseid
+---@field public defaultsticker
+---@field public lockstick
+---@field public defaultcolor
+---@field public lockcolor
+---@field public score
+---@field public sign
+---@field public shellhole
+---@field public recource2
+---@field public recource3
+---@field public recource4
+---@field public icon2
+---@field public icon3
+---@field public icon4
+---@field public descspecial
+---@field public descopen
+---@field public descclose
+---@field public ifcopy
+---@field public consumeids
+---@field public consumenums
+---@field public cellifcopy
+---@field public stickerType
+
+---@class dictpartsdevelop_config_cell
+---@field public C_ID
+---@field public basepartid
+---@field public entryid
+---@field public name
+---@field public desc
+---@field public rate
+---@field public attrids
+---@field public developattr
+---@field public attrvals
+---@field public excellent
+---@field public perfect
+---@field public costids
+---@field public perfectcost
+---@field public reformagain
+---@field public reformlevs
+---@field public upconsumes
+---@field public increase
+---@field public increaseIcon
+
+---@class dictpartstar_config_cell
+---@field public C_ID
+---@field public basepartid
+---@field public star
+---@field public specialid
+---@field public paynum
+---@field public commonid
+---@field public commonnum
+---@field public goldpay
+---@field public entrynum
+---@field public entries
+
+---@class dictpartyoke_config_cell
+---@field public C_ID
+---@field public linkpartids
+---@field public attrids
+---@field public attrvals
+---@field public yokedesc
+
+---@class dictpassaward_config_cell
+---@field public C_ID
+---@field public foundid
+---@field public foundtype
+---@field public subid
+---@field public level
+---@field public lvexp
+---@field public freeawards
+---@field public highawards
+---@field public linksub
+---@field public levelshow
+
+---@class dictpassfound_config_cell
+---@field public C_ID
+---@field public foundtype
+---@field public substart
+---@field public lvstart
+---@field public expstart
+---@field public foundtime
+---@field public buypasslv
+
+---@class dictpersonalhomeslot_config_cell
+---@field public C_ID
+---@field public type
+---@field public box_size
+---@field public point
+---@field public default_id
+
+---@class dictpowergift_config_cell
+---@field public C_ID
+---@field public begintime
+---@field public endtime
+---@field public powernum
+---@field public showTime1
+
+---@class dictquestion_config_cell
+---@field public C_ID
+---@field public questioninx
+---@field public questioncont
+---@field public option1
+---@field public option2
+---@field public option3
+---@field public rightoption
+
+---@class dictrankseason_config_cell
+---@field public C_ID
+---@field public start1
+---@field public start2
+---@field public result1
+---@field public result2
+---@field public trackids
+---@field public background
+---@field public rltrackids
+
+---@class dictrankseasonaward_config_cell
+---@field public C_ID
+---@field public rankidx
+---@field public star
+---@field public awards
+---@field public awardnums
+---@field public integral
+---@field public subpoint
+---@field public addpoint
+---@field public name
+---@field public icon
+
+---@class dictrecruit_config_cell
+---@field public C_ID
+---@field public serverid
+---@field public recruitid
+---@field public sort
+---@field public moneytype
+---@field public oneexpend
+---@field public tenexpend
+---@field public ticketid
+---@field public freecd
+---@field public timeflag
+---@field public begintime
+---@field public endtime
+---@field public bday
+---@field public eday
+---@field public btime
+---@field public etime
+---@field public tenexpendawardid
+---@field public prizenum
+---@field public appointawardid
+---@field public daysum
+---@field public prizeid
+---@field public hitpartid
+---@field public itemids
+---@field public numawards
+---@field public awardids
+---@field public awardnums
+---@field public taskids
+---@field public typeIcon
+---@field public currencyIcon
+---@field public ticketIcon
+---@field public drawIcon
+---@field public drawBack
+---@field public dictawardname
+---@field public dictawarddes
+---@field public noshare
+---@field public videoname
+---@field public selectpoint
+---@field public atttype
+---@field public showpart
+---@field public showrole
+---@field public maxname
+---@field public bannername
+
+---@class dictrecruitlab_config_cell
+---@field public C_ID
+---@field public recruitid
+---@field public awardid
+---@field public prize
+---@field public recruitlabDesc
+---@field public showFabric
+
+---@class dictreformlevelup_config_cell
+---@field public C_ID
+---@field public reformlev
+---@field public upconsume
+
+---@class dictscience_config_cell
+---@field public C_ID
+---@field public prelev
+---@field public consumeids
+---@field public consumenums
+---@field public initunlock
+---@field public techids
+---@field public name
+
+---@class dictseason_config_cell
+---@field public C_ID
+---@field public serverid
+---@field public seasonid
+---@field public bday
+---@field public start1
+---@field public eday
+---@field public start2
+---@field public bday2
+---@field public result1
+---@field public eday2
+---@field public result2
+---@field public nextseasonid
+---@field public groupnum
+---@field public sceneid
+---@field public trackid
+---@field public showflag
+
+---@class dictseasonaward_config_cell
+---@field public C_ID
+---@field public rankidx
+---@field public star
+---@field public rankid
+---@field public winaward
+---@field public winpoint
+---@field public integral
+---@field public name
+---@field public icon
+---@field public subpoint
+
+---@class dictseasonpointaward_config_cell
+---@field public C_ID
+---@field public seasonid
+---@field public pointfrom
+---@field public pointto
+---@field public awardids
+---@field public awardnums
+
+---@class dictseasonspeedaward_config_cell
+---@field public C_ID
+---@field public seasonid
+---@field public speedfrom
+---@field public speedto
+---@field public rlawardids
+---@field public rlawardnums
+---@field public awardids
+---@field public awardnums
+
+---@class dictsectionaward_config_cell
+---@field public C_ID
+---@field public awardno
+---@field public starsum
+---@field public dropid
+
+---@class dictshop_config_cell
+---@field public C_ID
+---@field public shoptype
+---@field public shopname
+---@field public coinid
+---@field public cycle
+---@field public freshcoin
+---@field public costs
+---@field public tabtype
+---@field public tabdes
+---@field public propid
+
+---@class dictshopgrid_config_cell
+---@field public C_ID
+---@field public grid
+---@field public groupid
+---@field public startsell
+---@field public endsell
+---@field public sort
+
+---@class dictshopitem_config_cell
+---@field public C_ID
+---@field public propsid
+---@field public weight
+---@field public cond
+---@field public condval
+---@field public coinid
+---@field public moneynum
+---@field public discount
+---@field public limitnum
+---@field public startsell
+---@field public endsell
+---@field public timeflag
+
+---@class dictsignday_config_cell
+---@field public C_ID
+---@field public propsid
+---@field public propsnum
+---@field public desc
+---@field public icon
+
+---@class dictsignmonth_config_cell
+---@field public C_ID
+---@field public monthnum
+---@field public daynum
+---@field public propsid
+---@field public propsnum
+---@field public batflag
+---@field public desc
+
+---@class dictspecial_config_cell
+---@field public C_ID
+---@field public consumeids
+---@field public consumenums
+---@field public composegold
+---@field public consumeparts
+---@field public breakrand
+---@field public unlockpic
+
+---@class dictsprintactivity_config_cell
+---@field public C_ID
+---@field public sprintstart
+---@field public startweek
+---@field public endweek
+---@field public sprintgift
+---@field public sprintshop
+---@field public sprintaward
+---@field public actname
+---@field public acticon
+---@field public acttips
+
+---@class dictsprintaward_config_cell
+---@field public C_ID
+---@field public awardid
+---@field public val
+---@field public award
+---@field public num
+
+---@class dictsupportloc_config_cell
+---@field public C_ID
+---@field public unlockcond
+---@field public cdtime
+---@field public freshday
+
+---@class dictsupportpart_config_cell
+---@field public C_ID
+---@field public partid
+---@field public partage
+---@field public initlev
+---@field public initstar
+---@field public breakflag
+---@field public stickerid
+---@field public colorid
+---@field public entryids
+
+---@class dicttech_config_cell
+---@field public C_ID
+---@field public name
+---@field public desc
+---@field public icon
+---@field public alivecd
+---@field public aliveconsumes
+---@field public alivenums
+---@field public proctracks
+---@field public floor
+
+---@class dicttempletstring_config_cell
+---@field public C_ID
+---@field public chs
+---@field public cht
+---@field public en
+---@field public tai
+---@field public ind
+---@field public pt_BR
+---@field public kr
+
+---@class dicttempletstringattr_config_cell
+---@field public C_ID
+---@field public chs
+---@field public cht
+---@field public en
+---@field public tai
+---@field public ind
+---@field public pt_BR
+---@field public kr
+
+---@class dicttempletstringattrfeature_config_cell
+---@field public C_ID
+---@field public chs
+---@field public cht
+---@field public en
+---@field public tai
+---@field public ind
+---@field public pt_BR
+---@field public kr
+
+---@class dicttempletstringpage_config_cell
+---@field public C_ID
+---@field public title
+---@field public desc
+
+---@class dicttempletstringparts_config_cell
+---@field public C_ID
+---@field public chs
+---@field public cht
+---@field public en
+---@field public tai
+---@field public ind
+---@field public pt_BR
+---@field public kr
+
+---@class dicttempletstringportrait_config_cell
+---@field public C_ID
+---@field public chs
+---@field public cht
+---@field public en
+---@field public tai
+---@field public ind
+---@field public pt_BR
+
+---@class dicttempletstringstory_config_cell
+---@field public C_ID
+---@field public chs
+---@field public cht
+---@field public en
+---@field public tai
+---@field public ind
+---@field public pt_BR
+---@field public kr
+
+---@class dicttempstringuistatic_config_cell
+---@field public C_ID
+---@field public chs
+---@field public cht
+---@field public en
+---@field public tai
+---@field public ind
+---@field public pt_BR
+---@field public kr
+
+---@class dicttimedown_config_cell
+---@field public C_ID
+---@field public dropids
+---@field public begintime
+---@field public endtime
+
+---@class dicttop32speedaward_config_cell
+---@field public C_ID
+---@field public seasonid
+---@field public speedfrom
+---@field public speedto
+---@field public awardids
+---@field public awardnums
+
+---@class dicttopbspeedaward_config_cell
+---@field public C_ID
+---@field public seasonid
+---@field public speedfrom
+---@field public speedto
+---@field public awardids
+---@field public awardnums
+
+---@class dicttopseason_config_cell
+---@field public C_ID
+---@field public seasonid
+---@field public daystart1
+---@field public start1
+---@field public dayend1
+---@field public end1
+---@field public dayresult1
+---@field public result1
+---@field public daystart2
+---@field public start2
+---@field public dayend2
+---@field public end2
+---@field public dayresult2
+---@field public result2
+---@field public daystart3
+---@field public start3
+---@field public dayend3
+---@field public end3
+---@field public dayresult3
+---@field public result3
+---@field public daystart4
+---@field public start4
+---@field public dayend4
+---@field public end4
+---@field public dayresult4
+---@field public result4
+---@field public daystart5
+---@field public start5
+---@field public dayend5
+---@field public end5
+---@field public dayresult5
+---@field public result5
+---@field public daystart6
+---@field public start6
+---@field public dayend6
+---@field public end6
+---@field public dayresult6
+---@field public result6
+---@field public dayover1
+---@field public over1
+---@field public dayover2
+---@field public over2
+---@field public trackA
+---@field public track32
+---@field public track16
+---@field public track8
+---@field public track4
+---@field public track2
+---@field public trackB
+---@field public ground1
+
+---@class dicttrackdifficulty_config_cell
+---@field public C_ID
+---@field public name
+
+---@class dicttrackprop_config_cell
+---@field public C_ID
+---@field public proptype
+---@field public proctrackgold
+---@field public proctime
+
+---@class dicttracksegmenttype_config_cell
+---@field public C_ID
+---@field public name
+
+---@class dicttracktrack_config_cell
+---@field public C_ID
+---@field public name
+---@field public icon
+---@field public type
+---@field public tracksource
+---@field public tracknum
+---@field public round
+---@field public configName
+---@field public resname
+---@field public scope
+---@field public start_camera
+---@field public end_camera
+---@field public length
+---@field public logo
+---@field public roomscope
+---@field public isfield
+---@field public qidongjiaConfigName
+---@field public qidongjiaRes
+---@field public bufftype
+---@field public bufftrack
+---@field public cameraDefaultPosition
+---@field public cameraDefaultRotation
+---@field public cameraDefaultLength
+
+---@class dicttrademission_config_cell
+---@field public C_ID
+---@field public missionids
+---@field public awardids
+---@field public awardnums
+---@field public nexttradeseq
+---@field public trademissionname
+
+---@class dictuefacountry_config_cell
+---@field public C_ID
+---@field public season_id
+---@field public name
+---@field public icon
+
+---@class dictvideocount_config_cell
+---@field public C_ID
+---@field public seq
+---@field public propsids
+---@field public propsnums
+
+---@class dictvideogift_config_cell
+---@field public C_ID
+---@field public propsids
+---@field public propsnums
+---@field public randvals
+---@field public maxplay
+
+---@class dictvideolucky_config_cell
+---@field public C_ID
+---@field public propsid
+---@field public propsnum
+---@field public randval
+---@field public hitflag
+---@field public hitsum
+
+---@class dictwordexch_config_cell
+---@field public C_ID
+---@field public exchpropid
+---@field public needprops
+---@field public exchlimit
+
+---@class dictworldtop32speedaward_config_cell
+---@field public C_ID
+---@field public seasonid
+---@field public speedfrom
+---@field public speedto
+---@field public awardids
+---@field public awardnums
+
+---@class dictworldtopbspeedaward_config_cell
+---@field public C_ID
+---@field public seasonid
+---@field public speedfrom
+---@field public speedto
+---@field public awardids
+---@field public awardnums
+
+---@class dictworldtopseason_config_cell
+---@field public C_ID
+---@field public btime
+---@field public daystart1
+---@field public start1
+---@field public dayend1
+---@field public end1
+---@field public dayresult1
+---@field public result1
+---@field public daystart2
+---@field public start2
+---@field public dayend2
+---@field public end2
+---@field public dayresult2
+---@field public result2
+---@field public daystart3
+---@field public start3
+---@field public dayend3
+---@field public end3
+---@field public dayresult3
+---@field public result3
+---@field public daystart4
+---@field public start4
+---@field public dayend4
+---@field public end4
+---@field public dayresult4
+---@field public result4
+---@field public daystart5
+---@field public start5
+---@field public dayend5
+---@field public end5
+---@field public dayresult5
+---@field public result5
+---@field public daystart6
+---@field public start6
+---@field public dayend6
+---@field public end6
+---@field public dayresult6
+---@field public result6
+---@field public dayover1
+---@field public over1
+---@field public dayover2
+---@field public over2
+---@field public trackA
+---@field public track32
+---@field public track16
+---@field public track8
+---@field public track4
+---@field public track2
+---@field public trackB
+---@field public ground1
+
+---@class dictxcupseason_config_cell
+---@field public C_ID
+---@field public start1
+---@field public join1
+---@field public join2
+---@field public start2
+---@field public result1
+---@field public result2
+---@field public nextseasonid
+---@field public sceneids
+---@field public trackids
+---@field public needpart
+---@field public unpart
+---@field public taskids
+
+---@class dictxcupspeedaward_config_cell
+---@field public C_ID
+---@field public seasonid
+---@field public speedfrom
+---@field public speedto
+---@field public awardids
+---@field public awardnums
+
+---@class dummy_config_cell
+---@field public C_ID
+---@field public resname
+
+---@class encyclopedia_config_cell
+---@field public C_ID
+---@field public page
+---@field public pageName
+---@field public type
+---@field public typeName
+---@field public name
+---@field public desc
+---@field public icon
+---@field public detail
+
+---@class escalate_config_cell
+---@field public C_ID
+---@field public level
+---@field public unlock
+---@field public lock
+
+---@class escalate_beta_config_cell
+---@field public C_ID
+---@field public level
+---@field public unlock
+---@field public lock
+
+---@class fogsetting_config_cell
+---@field public C_ID
+---@field public fog
+---@field public color
+---@field public mode
+---@field public startPoint
+---@field public endPoint
+---@field public density
+
+---@class freeskill_config_cell
+---@field public C_ID
+---@field public skillidtype
+---@field public name
+---@field public des
+---@field public icon
+---@field public cardicon
+---@field public heroId
+---@field public cardAimnTime
+---@field public skill_show_ui
+---@field public showinmatch
+---@field public cooldown
+---@field public addspeedlevel
+---@field public torqueaddpercent
+---@field public torqueaddvalue
+---@field public frictionaddpercent
+---@field public frictionaddvalue
+---@field public rpmaddpercent
+---@field public rpmaddvalue
+---@field public stableaddpercent
+---@field public stableaddvalue
+---@field public configtype
+---@field public startfx
+---@field public triggerfx
+---@field public lastfx
+---@field public lasttime
+---@field public endfx
+---@field public dirfttype
+---@field public audiofx
+---@field public cameragroup
+
+---@class functionlist_config_cell
+---@field public C_ID
+---@field public name
+---@field public icon
+---@field public newbieguideId
+
+---@class functionlist_beta_config_cell
+---@field public C_ID
+---@field public name
+---@field public icon
+---@field public newbieguideId
+
+---@class goodstype_config_cell
+---@field public C_ID
+---@field public type1
+---@field public typename1
+---@field public type2
+---@field public icon
+---@field public typename2
+---@field public type3
+---@field public typename3
+
+---@class grooveid_config_cell
+---@field public C_ID
+---@field public list
+---@field public partstype
+---@field public bgicon
+---@field public rotate
+---@field public notice
+---@field public camera
+---@field public noticeerror
+---@field public isbase
+---@field public replace
+---@field public name
+
+---@class guidegroup_config_cell
+---@field public C_ID
+---@field public steps
+---@field public NextGroup
+---@field public EndGroup
+
+---@class guidegroup_beta_config_cell
+---@field public C_ID
+---@field public steps
+---@field public NextGroup
+
+---@class hero_config_cell
+---@field public C_ID
+---@field public name
+---@field public quality
+---@field public normalpicture
+---@field public smallpicture
+---@field public confusepicture
+---@field public angrypicture
+---@field public shockpicture
+---@field public icon
+---@field public heroSkillPic
+
+---@class loadingtips_config_cell
+---@field public C_ID
+---@field public templestrid
+
+---@class mapnode_config_cell
+---@field public C_ID
+---@field public chapterid
+---@field public pos
+---@field public input
+---@field public output
+---@field public openstar
+---@field public openpass
+---@field public openother
+---@field public temppos
+
+---@class meshcfg_config_cell
+---@field public C_ID
+---@field public mesh
+---@field public mesh1
+---@field public initialmodel
+---@field public thickness
+---@field public showmodel
+---@field public flag
+---@field public meshcolor
+---@field public meshmatch
+
+---@class minicarvalue_config_cell
+---@field public C_ID
+---@field public value
+---@field public desc
+
+---@class minigame_config_cell
+---@field public C_ID
+---@field public cellid
+---@field public name
+
+---@class miniskill_config_cell
+---@field public C_ID
+---@field public name
+---@field public desc
+---@field public quality
+---@field public effectType
+---@field public triggerType
+---@field public condition
+---@field public distance
+---@field public time
+---@field public parameter
+---@field public triggerCD
+---@field public triggerCount
+---@field public maxStack
+---@field public costtype
+---@field public costvalue
+---@field public startFx
+---@field public runFx
+---@field public endFx
+---@field public triggerStartFx
+---@field public triggerRunFx
+---@field public triggerEndFx
+---@field public startAudio
+---@field public runAudio
+---@field public endAudio
+---@field public endbuffid
+---@field public closeupDuration
+---@field public runningAnimation
+---@field public isProtectCrash
+---@field public ifCellEffect
+---@field public type
+---@field public skillEquivalent
+---@field public bigIcon
+---@field public smallIcon
+
+---@class newbieguide_config_cell
+---@field public C_ID
+---@field public group
+---@field public step
+---@field public nextStep
+---@field public triggerType
+---@field public triggerPara
+---@field public BattleType
+---@field public BattleNoFail
+---@field public isContinueBattle
+---@field public type
+---@field public interfaceID
+---@field public isKey
+---@field public complettype
+---@field public completParam
+---@field public UiName
+---@field public completCon
+---@field public ScrollViewName
+---@field public Scrolltype
+---@field public ScrollMove
+---@field public ScrollIndex
+---@field public OpenPopupName
+---@field public ArrowTowards
+---@field public videoName
+---@field public NPC
+---@field public NPCPosX
+---@field public NPCPosY
+---@field public Desc
+---@field public DescType
+---@field public guideCV
+---@field public shrinkTime
+---@field public Iscollider
+---@field public dialogMask
+---@field public nextStepMask
+---@field public maskAnim
+---@field public nextLevelId
+---@field public curLoading
+
+---@class newbieguide_beta_config_cell
+---@field public C_ID
+---@field public group
+---@field public step
+---@field public nextStep
+---@field public triggerType
+---@field public triggerPara
+---@field public BattleType
+---@field public BattleNoFail
+---@field public isContinueBattle
+---@field public type
+---@field public interfaceID
+---@field public isKey
+---@field public complettype
+---@field public completParam
+---@field public UiName
+---@field public completCon
+---@field public ScrollViewName
+---@field public Scrolltype
+---@field public ScrollMove
+---@field public ScrollIndex
+---@field public OpenPopupName
+---@field public ArrowTowards
+---@field public videoName
+---@field public NPC
+---@field public NPCPosX
+---@field public NPCPosY
+---@field public Desc
+---@field public DescType
+---@field public guideCV
+---@field public shrinkTime
+---@field public Iscollider
+---@field public dialogMask
+---@field public nextStepMask
+---@field public maskAnim
+
+---@class notice_config_cell
+---@field public C_ID
+---@field public chatType
+---@field public sysType
+---@field public templetId
+---@field public showNum
+---@field public showTime
+---@field public banner
+---@field public parm
+---@field public remark
+
+---@class npcai_config_cell
+---@field public C_ID
+---@field public condition
+---@field public once
+---@field public twice
+---@field public threeTimes
+---@field public fourtimes
+---@field public default
+
+---@class npcshow_config_cell
+---@field public C_ID
+---@field public sticker
+---@field public shellhole
+---@field public gauce
+---@field public paint
+
+---@class pagedetails_config_cell
+---@field public C_ID
+---@field public title
+---@field public desc
+
+---@class partdummy_config_cell
+---@field public C_ID
+---@field public groove
+---@field public gravityx
+---@field public gravityy
+---@field public gravityz
+
+---@class paylist_config_cell
+---@field public C_ID
+---@field public type
+---@field public goodsid
+---@field public google
+---@field public goodsname
+---@field public icon
+---@field public currencyType
+---@field public price
+---@field public goodprice
+---@field public diamond
+---@field public firstGiftDiamond
+---@field public otherGiftDiamond
+---@field public last
+---@field public rewardId
+---@field public RMB
+
+---@class playerexchange_config_cell
+---@field public C_ID
+---@field public batno
+---@field public exptime
+---@field public packid
+---@field public exchrid
+---@field public exchtime
+
+---@class playertestgift_config_cell
+---@field public C_ID
+---@field public giftnum
+---@field public usedflag
+---@field public rid
+
+---@class plot_config_cell
+---@field public C_ID
+---@field public plotid
+---@field public stepid
+
+---@class plotaction_config_cell
+---@field public C_ID
+---@field public delay
+---@field public actiontype
+---@field public playerid
+---@field public joinmode
+---@field public picani
+---@field public iconani
+---@field public heropicidx
+---@field public hreopicid
+---@field public miniicon
+---@field public pos
+---@field public moveidx
+---@field public moveani
+---@field public gary
+---@field public front
+---@field public dialogtype
+---@field public dialogani
+---@field public contenttype
+---@field public content
+---@field public content_t
+
+---@class plotplayer_config_cell
+---@field public C_ID
+---@field public type
+---@field public name
+---@field public heroid
+---@field public icon
+
+---@class plotstep_config_cell
+---@field public C_ID
+---@field public during
+---@field public skiptype
+---@field public skipparam
+---@field public actions
+
+---@class qualifyingrank_config_cell
+---@field public C_ID
+---@field public name
+---@field public star
+---@field public integral
+---@field public reward
+---@field public icon
+---@field public rankidx
+
+---@class quickspeak_config_cell
+---@field public C_ID
+---@field public type
+---@field public content
+
+---@class racelog_config_cell
+---@field public C_ID
+---@field public isShow
+---@field public priority
+---@field public type
+---@field public desc
+---@field public param
+---@field public smallDesc
+
+---@class rawimagesize_config_cell
+---@field public C_ID
+---@field public name
+---@field public size
+
+---@class scene_config_cell
+---@field public C_ID
+---@field public name
+---@field public resName
+---@field public icon
+---@field public cupcamera
+---@field public camera
+---@field public isfield
+---@field public isroomtrack
+---@field public weather
+---@field public bgm
+---@field public scenebgm
+
+---@class scenechange_config_cell
+---@field public C_ID
+---@field public scenename
+---@field public sceneroot
+---@field public cameraroot
+---@field public fitenable
+---@field public cameraparammax
+---@field public cameraparammin
+---@field public cameraparam
+---@field public fog
+---@field public skybox
+---@field public environmentgradient
+---@field public environmenthdrcolor
+---@field public cubemap
+---@field public loginLoad
+
+---@class segementappearance_config_cell
+---@field public C_ID
+---@field public appearanceMat
+---@field public meshType
+---@field public bottomMatID
+
+---@class sign_config_cell
+---@field public C_ID
+---@field public name
+---@field public desc
+---@field public icon
+---@field public bg
+
+---@class skill_config_cell
+---@field public id
+---@field public skillidtype
+---@field public name
+---@field public des
+---@field public icon
+---@field public skill_show_ui
+---@field public showinmatch
+---@field public cooldown
+---@field public addspeedlevel
+---@field public torqueaddpercent
+---@field public torqueaddvalue
+---@field public frictionaddpercent
+---@field public frictionaddvalue
+---@field public rpmaddpercent
+---@field public rpmaddvalue
+---@field public stableaddpercent
+---@field public stableaddvalue
+---@field public configtype
+---@field public startfx
+---@field public triggerfx
+---@field public lastfx
+---@field public lasttime
+---@field public endfx
+---@field public dirfttype
+---@field public audiofx
+---@field public cameragroup
+---@field public 
+
+---@class soundeffect_config_cell
+---@field public C_ID
+---@field public type
+---@field public name
+---@field public name_kr
+---@field public volume
+---@field public mixtype
+---@field public cvwordid
+
+---@class startbattle_config_cell
+---@field public C_ID
+---@field public sceneId
+---@field public trackId
+---@field public round
+---@field public npcs
+---@field public track
+---@field public view
+
+---@class tempstringerrcode_config_cell
+---@field public C_ID
+---@field public chs
+---@field public cht
+---@field public en
+---@field public tai
+---@field public ind
+---@field public pt_BR
+---@field public kr
+
+---@class trackmaterial_config_cell
+---@field public C_ID
+---@field public fx
+---@field public dFriction
+---@field public staticFriction
+---@field public Restitution
+---@field public flyGravity
+---@field public gravity
+---@field public buffID
+---@field public speed
+
+---@class tracksegement_config_cell
+---@field public C_ID
+---@field public configName
+---@field public resname
+---@field public type
+---@field public numbers
+---@field public toward
+---@field public name
+---@field public desc
+---@field public material
+---@field public icon
+---@field public previewIcon
+---@field public appearance
+---@field public bottomMatID
+---@field public difficulty
+---@field public electricity
+---@field public freeflag
+---@field public editflag
+---@field public sort
+---@field public direction
+---@field public cv
+---@field public soundeffect
+
+---@class tracksegmentedit_config_cell
+---@field public C_ID
+---@field public segmentid
+
+---@class tracksegmentfactory_config_cell
+---@field public C_ID
+---@field public type
+---@field public typeDesc
+---@field public blue
+---@field public red
+---@field public white
+---@field public time
+---@field public cost
+---@field public technology
+
+---@class tracksegmentskill_config_cell
+---@field public C_ID
+---@field public name
+---@field public effectType
+---@field public triggerType
+---@field public condition
+---@field public distance
+---@field public time
+---@field public parameter
+---@field public triggerCD
+---@field public triggerCount
+---@field public maxStack
+---@field public costtype
+---@field public costvalue
+---@field public startFx
+---@field public runFx
+---@field public endFx
+---@field public triggerStartFx
+---@field public triggerRunFx
+---@field public triggerEndFx
+---@field public startAudio
+---@field public runAudio
+---@field public endAudio
+---@field public endbuffid
+---@field public type
+---@field public skillEquivalent
+---@field public bigIcon
+---@field public smallIcon
+
+---@class tracksuggest_config_cell
+---@field public C_ID
+---@field public track
+---@field public motor
+---@field public gear
+---@field public stabilizeMin
+---@field public stabilizeMax
+---@field public cushionMin
+---@field public cushionMax
+---@field public downforceMin
+---@field public downforceMax
+
+---@class weather_config_cell
+---@field public C_ID
+---@field public name
+---@field public desc
+---@field public icon
+---@field public resources
+---@field public buff
+
+---@class welfareswift_config_cell
+---@field public C_ID
+---@field public actname
+---@field public actswift
+---@field public redid

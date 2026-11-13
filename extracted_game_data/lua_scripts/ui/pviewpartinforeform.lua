@@ -1,0 +1,73 @@
+--
+--
+--
+-----@type ArticleCell
+--local ArticleData = nil
+--
+--
+-----@class PViewPartInfoReform : ViewBase
+--PViewPartInfoReform = class("PViewPartInfoReform", ViewBase)
+--
+--function PViewPartInfoReform:initialize()
+--    ViewBase.initialize(self)
+--    ViewBase.RegisteAction(self, "PViewPartInfoReformAction")
+--
+--    print("---   PViewPartInfoReform 初始化完成")
+--
+--    ---@type Page_PartInfo3
+--    self.Page = nil
+--    self.PagePrefab = nil
+--end
+--
+--function PViewPartInfoReform:Awake()
+--    print("---   PViewPartInfoReform awake")
+--
+--    self.PageRoot = UIUtil.GetChild("pagebase",self.gameObject)
+--end
+--
+--function PViewPartInfoReform:OnOpen()
+--
+--end
+--
+--function PViewPartInfoReform:OnClose()
+--
+--    if self.Page then
+--        self.Page:Release()
+--        self.Page = nil
+--    end
+--
+--    if self.PagePrefab then
+--        PrefabCacheMgr:Get():RecyclePrefab(self.PagePrefab)
+--        self.PagePrefab = nil
+--    end
+--
+--end
+--
+--function PViewPartInfoReform:OnOpenAnimEnd()
+--
+--
+--end
+--
+--function PViewPartInfoReform:SetData(data)
+--    ArticleData = data
+--
+--    self:SetPage()
+--end
+--
+--function PViewPartInfoReform:SetPage()
+--    PrefabCacheMgr:Get():SwapPrefabAsync("Page_PartInfo3.prefab", nil, nil, self.LoadPageFinish, nil, self)
+--end
+--
+--function PViewPartInfoReform:LoadPageFinish(param, obj)
+--    self.PagePrefab = obj
+--    UIUtil.SetParentGameObject(self.PageRoot, obj)
+--    self.Page = Page_PartInfo3()
+--    self.Page:SetArticleData(UIColor.Blue, obj,  ArticleData, UIModuleID.PViewPartInfo)
+--end
+--
+--function PViewPartInfoReform:UpdateMsg()
+--    if self.Page then
+--        self.Page:UpdateMsg()
+--    end
+--
+--end

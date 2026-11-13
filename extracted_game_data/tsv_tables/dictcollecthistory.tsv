@@ -1,0 +1,14 @@
+int	string	string	string	int
+0	0	0	0	0
+C_ID	icon	partname	partdes	year
+1	ui_3dicon_1000	dipanName_10010001	partdes_1994_1	1994
+2	ui_3dicon_10020101	dipanName_10020101	partdes_1994_2	1994
+3	ui_3dicon_10020106	dipanName_10020106	partdes_1994_3	1994
+4	ui_3dicon_1083	dipanName_10010084	partdes_1996_1	1996
+5	ui_3dicon_10020103	dipanName_10020103	partdes_1996_2	1996
+6	ui_3dicon_10020108	dipanName_10020108	partdes_1996_3	1996
+7	ui_3dicon_1093	dipanName_10010094	partdes_1997_1	1997
+8	ui_3dicon_10020203	dipanName_10020203	partdes_1998_1	1998
+9	ui_3dicon_10020209	dipanName_10020209	partdes_1998_2	1998
+10	ui_3dicon_1063	dipanName_10010064	partdes_1999_1	1999
+11	ui_3dicon_1103	dipanName_10010104	partdes_2005_1	2005

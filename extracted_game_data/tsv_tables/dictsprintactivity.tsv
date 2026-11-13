@@ -1,0 +1,5 @@
+INT	INT	INT	INT	string	INT	INT	string	string	string
+0	0	0	0	0	0	0	0	0	0
+C_ID	sprintstart	startweek	endweek	sprintgift	sprintshop	sprintaward	actname	acticon	acttips
+1	2145891661	1	3	30001:30002:30003:30004:30005:30006	21	0	actname_1001	acticon_1001	acttips_100101:acttips_100102
+2	2145891661	4	7	0	0	2001	actname_2001	acticon_2001	0

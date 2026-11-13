@@ -1,0 +1,22 @@
+INT	INT	STRING	INT	STRING	STRING	STRING	INT	STRING	INT	INT	INT	INT	STRING	INT
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+C_ID	type	goodsid	google	goodsname	icon	currencyType	price	goodprice	diamond	firstGiftDiamond	otherGiftDiamond	last	rewardId	RMB
+1000101	11	ma122na.sclb	0	首充礼包	uitex_sucai_rechargediamond_icon1.png	TWD	0	NT$ 0.00	0	0	0	0	-1	0
+10001001	1	ma122na.zs6	0	60钻石	uitex_sucai_rechargediamond_icon1.png	TWD	33	NT$ 33.00	60	60	30	0	-1	6
+10001002	1	ma122na.zs30	0	300钻石	uitex_sucai_rechargediamond_icon2.png	TWD	170	NT$ 170.00	300	300	150	0	-1	30
+10001003	1	ma122na.zs68	0	680钻石	uitex_sucai_rechargediamond_icon3.png	TWD	330	NT$ 330.00	680	680	340	0	-1	68
+10001004	1	ma122na.zs98	0	980钻石	uitex_sucai_rechargediamond_icon4.png	TWD	490	NT$ 490.00	980	980	490	0	-1	98
+10001005	1	ma122na.zs128	0	1280钻石	uitex_sucai_rechargediamond_icon5.png	TWD	670	NT$ 670.00	1280	1280	640	0	-1	128
+10001006	1	ma122na.zs168	0	1680钻石	uitex_sucai_rechargediamond_icon6.png	TWD	870	NT$ 870.00	1680	1680	840	0	-1	168
+10001007	1	ma122na.zs268	0	2680钻石	uitex_sucai_rechargediamond_icon7.png	TWD	1390	NT$ 1390.00	2680	2680	1340	0	-1	268
+10001008	1	ma122na.zs418	0	4180钻石	uitex_sucai_rechargediamond_icon8.png	TWD	2190	NT$ 2190.00	4180	4180	2090	0	-1	418
+10001009	1	ma122na.zs648	0	6480钻石	uitex_sucai_rechargediamond_icon8.png	TWD	3290	NT$ 3290.00	6480	6480	3240	0	-1	648
+10011001	11	ma122na.xslb30	0	新手礼包	uitex_sucai_rechargediamond_icon1.png	TWD	170	NT$ 170.00	0	0	0	0	-1	30
+10011002	11	ma122na.sdlb128	0	速度礼包	uitex_sucai_rechargediamond_icon1.png	TWD	670	NT$ 670.00	0	0	0	0	-1	128
+10011003	11	ma122na.wdlb128	0	弯道礼包	uitex_sucai_rechargediamond_icon1.png	TWD	670	NT$ 670.00	0	0	0	0	-1	128
+10011004	11	ma122na.ndlb98	0	扭蛋礼包	uitex_sucai_rechargediamond_icon1.png	TWD	490	NT$ 490.00	0	0	0	0	-1	98
+10011005	11	ma122na.tllb68	0	体力礼包	uitex_sucai_rechargediamond_icon1.png	TWD	330	NT$ 330.00	0	0	0	0	-1	68
+10011006	11	ma122na.hllb648	0	豪列大礼包	uitex_sucai_rechargediamond_icon1.png	TWD	3290	NT$ 3290.00	0	0	0	0	-1	648
+10011007	11	ma122na.gzlb30	0	改造礼包	uitex_sucai_rechargediamond_icon1.png	TWD	170	NT$ 170.00	0	0	0	0	-1	30
+10011008	11	ma122na.qhlb30	0	强化礼包	uitex_sucai_rechargediamond_icon1.png	TWD	170	NT$ 170.00	0	0	0	0	-1	30
+10011011	11	ma122na.hl2lb648	0	豪列大礼包	uitex_sucai_rechargediamond_icon1.png	TWD	3290	NT$ 3290.00	0	0	0	0	-1	648

@@ -1,0 +1,70 @@
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--local __Type = {
+--    TopButtom = 1,
+--
+--}
+--
+--
+--
+--------------------------------------------------------------action_bg
+-----@param config storyactionrendertexturebg_config_cell
+--function PlotView:SetRenderTextureBG(config , quick)
+--    --if config.Type == __Type.TopButtom then
+--    --    local tex = UIRenderTextureUtil.CreateTexture(nil,config.position1, config.rotation1, config.position2, config.rotation2)
+--    --    local rawBg = UIUtil.GetTypeChildWightInputPath("Center/rtbg",self.gameObject,typeof(RawImage))
+--    --    rawBg.texture = tex;
+--    --    rawBg:ColorAlpha(1)
+--    --end
+--end
+--------------------------------------------------------------

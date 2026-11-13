@@ -1,0 +1,52 @@
+--
+--
+--
+-----@class Page_CarBase
+--Page_CarBase = class("Page_CarBase")
+--
+--function Page_CarBase:initialize()
+--
+--    self.score = -1
+--    self.uimodule = nil
+--
+--    self.attrList = nil
+--end
+--
+-----@param cardata CarData
+--function Page_CarBase:SetCarData(root, cardata, uimodule)
+--    self.score    = cardata:GetScore()
+--    self.uimodule = uimodule
+--    self.attrList = cardata:GetAttrList()
+--
+--    self:SetUI(root)
+--end
+--
+--
+--function Page_CarBase:SetCustomData(root, uimodule)
+--
+--end
+--
+--function Page_CarBase:SetUI(root)
+--
+--    local numUp = 0
+--    local numDown = 0
+--    local numMid = 0
+--    local numSpecial = 0
+--    for i = 1, #self.attrList do
+--        if self.attrList[i].feature == AttrFeature.TypeUp then numUp = numUp + 1 end
+--        if self.attrList[i].feature == AttrFeature.TypeDown then numDown = numDown + 1 end
+--        if self.attrList[i].feature == AttrFeature.TypeMid then numMid = numMid + 1 end
+--        if self.attrList[i].feature == AttrFeature.TypeSpecial then numSpecial = numSpecial + 1 end
+--    end
+--
+--    CommonHelper:SetText("countup", root, tostring(numUp))
+--    CommonHelper:SetText("countdown", root, tostring(numDown))
+--    CommonHelper:SetText("countmid", root, tostring(numMid))
+--    CommonHelper:SetText("countspecial", root, tostring(numSpecial))
+--
+--    local group = UIUtil.GetChild("PartBaseAttrGroup", root)
+--    CommonHelper:SetPartBaseAttrGroup(group, self.attrList, self.uimodule)
+--
+--
+--    CommonHelper:SetText("carscore", root, tostring(self.score))
+--end

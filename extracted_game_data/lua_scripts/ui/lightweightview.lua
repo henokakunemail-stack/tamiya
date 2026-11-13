@@ -1,0 +1,181 @@
+--
+--
+--local __SelectIndex
+--local __CurIndex = -1
+--
+-----@class LightweightView : ViewBase
+--LightweightView = class("LightweightView", ViewBase)
+--
+--function LightweightView:initialize()
+--    ViewBase.initialize(self)
+--    ViewBase.RegisteAction(self, "LightweightViewAction")
+--
+--    print("---   LightweightView 初始化完成")
+--end
+--
+--function LightweightView:Awake()
+--    print("---   LightweightView awake")
+--    --self.CarTitle = UIUtil.GetChild("CarTitle",self.gameObject)
+--
+--    self.ScrollView = UIUtil.GetTypeChildWightByParent("MoreRowScrollView_V", self.gameObject, typeof(MoreRowScrollView))
+--
+--    CommonHelper:HButtonSetCallback("BtnBack",self.gameObject,function (hbtn)
+--        UIManager:Get():CloseView()
+--    end)
+--
+--    self.BtnSave = CommonHelper:HButtonSetCallback("BtnSaveHole",self.gameObject,function (hbtn)
+--        UINotify:Get():SendNotification(UINotifyEvent.LightweightView_OnClickSave, {dataIndex, itemObj})
+--    end)
+--
+--    --self.BoxGroup = self:GetChildWightByParent("BoxGroup", self.gameObject, typeof(CanvasGroup))
+--    --UIUtil.ShowCanvasGroup(self.BoxGroup, false)
+--
+--end
+--
+--function LightweightView:OnOpen()
+--    --LuaButtonManager:Get():AddButton("BoxGroup/BtnClose",self.gameObject, UIModuleID.Lightweight, self.CloseBox, nil, self)
+--    --LuaButtonManager:Get():AddButton("BoxGroup/BtnSave",self.gameObject, UIModuleID.Lightweight, self.OnClickBtn_Save, nil, self)
+--    --UIUtil.ShowCanvasGroup(self.BoxGroup, false)
+--
+--    self.BtnSave.gameObject:SetActive(false)
+--end
+--function LightweightView:ReOpen()
+--
+--end
+--
+--function LightweightView:OnAutoClose()
+--
+--end
+--function LightweightView:OnClose()
+--
+--    LuaButtonManager:Get():ReleasePool(UIModuleID.Lightweight)
+--    __SelectIndex = -1
+--
+--    self.ScrollView:OutAni_Alpha(0)
+--end
+--
+--function LightweightView:SetData(newcarid)
+--
+--    self.CurCar = CarDataManager:Get():GetCarDataByCarID(newcarid)
+--
+--
+--    ---@type table<number,number>
+--    self.HoleCfg = self.CurCar:GetShellCfg().NewShellHole
+--
+--    self:SetScrollView()
+--end
+--
+--function LightweightView:SetScrollView()
+--    CommonHelper:InitMoreRowScrollView(self.ScrollView, #self.HoleCfg, 1,function(dataIndex, itemObj, scroll)
+--        --print("---      更新item :    dataIndex = " ,dataIndex,"   itemObj = ", itemObj)
+--        UINotify:Get():SendNotification(UINotifyEvent.LightweightView_UpdateScrollView, {dataIndex, itemObj})
+--    end)
+--    self.ScrollView:EnterAni_Alpha(0.2)
+--end
+--
+--function LightweightView:UpdateScollView(dataIndex, itemObj)
+--    local data = self.HoleCfg[dataIndex + 1]
+--    if data == nil then return end
+--
+--    local idx = dataIndex + 1
+--
+--    CommonHelper:SetText("holename", itemObj, "孔位"..idx)
+--
+--    local state = CommonHelper:MathBitUtil_BitTrueInt(self.CurCar:GetLightweight(), idx - 1)
+--    local temp = UIUtil.GetChild("stateCanHole",itemObj)
+--    if temp then temp:SetActive(not state) end
+--
+--    temp = UIUtil.GetChild("stateHaveHole",itemObj)
+--    if temp then temp:SetActive(state) end
+--
+--    CommonHelper:HButtonSetCallback("BtnSure",itemObj,function (hbtn)
+--        UINotify:Get():SendNotification(UINotifyEvent.LightweightView_ClickHole, hbtn.intData, true)
+--    end, dataIndex)
+--
+--    --CommonHelper:HButtonSetCallback("BtnReset",itemObj,function (hbtn)
+--    --    UINotify:Get():SendNotification(UINotifyEvent.LightweightView_ClickHole, hbtn.intData, false)
+--    --end, idx)
+--
+--    local SelectGroup = UIUtil.GetChild("select",itemObj)
+--    if SelectGroup then  SelectGroup:SetActive(__SelectIndex == dataIndex + 1) end
+--
+--    --local gridbtn = CommonHelper:HButtonSetCallback("BtnGrid",itemObj,function (hbtn)
+--    --    UIManager:Get():OpenView("ShellGridView",CanvasType.MainCanvas,"ShellGridView")
+--    --    UINotify:Get():SendNotification(UINotifyEvent.ShellGridView_SetData, {hbtn.longData, hbtn.intData})
+--    --end, idx, nil, self.CurCar.carId)
+--
+--    --if temp then temp:SetActive(data == 2) end
+--    --CommonHelper:SetHButtonClick(gridbtn,data == 1, true)
+--
+--    --local gridlist = self.CurCar.appearanceData.GridList
+--    --temp = UIUtil.GetChild("GridStateAdd",itemObj)
+--    --if temp then temp:SetActive(gridlist[idx] == 0) end
+--    --temp = UIUtil.GetChild("GridStateChange",itemObj)
+--    --if temp then temp:SetActive(gridlist[idx] ~= 0) end
+--end
+--
+--function LightweightView:OnClickHole(idx, issave)
+--    __SelectIndex = idx + 1
+--
+--    CommonHelper:MoreRowView_RefreshCurList(self.ScrollView, false)
+--
+--    self.BtnSave.gameObject:SetActive(true)
+--
+--    local value = self.CurCar:GetLightweight()
+--    --value = CommonHelper:MathBitUtil_BitInt_Or(value, idx)
+--    UINotify:Get():SendNotification(UINotifyEvent.PViewAssembleCar_ReviewHole, {value, idx + 1})
+--end
+--
+--function LightweightView:OnClickBtn_Save()
+--    if __SelectIndex > 0 then
+--        local carshellid = self.CurCar.assembleMgr:GetNodeByGrooveID(PartGrooveID.Shell):GetBagID()
+--        AppearanceSubsystem:Get():SendMsg_Lightweight(carshellid , __SelectIndex)
+--    end
+--end
+--function LightweightView:UpdateHoleState()
+--    CommonHelper:MoreRowView_RefreshCurList(self.ScrollView, false)
+--    self.BtnSave.gameObject:SetActive(false)
+--    UINotify:Get():SendNotification(UINotifyEvent.PViewAssembleCar_Reset)
+--end
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--function LightweightView:OpenBox(idx)
+--    __CurIndex = idx
+--    UIUtil.ShowCanvasGroup(self.BoxGroup, true)
+--end
+--function LightweightView:CloseBox()
+--    UIUtil.ShowCanvasGroup(self.BoxGroup, false)
+--end
+--
+--
+--
+--function LightweightView:OnClickBtn_Grid()
+--
+--
+--end
+--
+--
+--function LightweightView:SetMesh(resetTween)
+--    UINotify:Get():SendNotification(UINotifyEvent.CarShowPartView_SetMesh, { self.CurCar.carIdx, resetTween})
+--end

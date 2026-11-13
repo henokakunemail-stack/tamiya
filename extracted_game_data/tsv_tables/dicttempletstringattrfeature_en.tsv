@@ -1,0 +1,100 @@
+string
+0
+en
+0
+0
+0
+0
+0
+0
+air downforce  feature
+air drag feature
+electricity feature
+transmission feature
+low- elasticity tire
+high- elasticity tire
+shock absorption feature
+tire grip feature
+tire rolling friction
+RPM loss feature
+torque loss feature
+rollers friction feature
+high- elasticity rollers
+low- elasticity rollers
+brake feature
+Gear ratio feature
+large DIA. tire
+middle DIA. tire
+small DIA. tire
+0
+0
+electricity consumption feature
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+The air downforce feature is used to indicate numerical value of air downforce. Accessories with high air downforce features are often used in the track where the 4WD car  needs to control its flight distance.
+Air drag feature are used to indicate the numerical value of air drag. The faster the 4WD car is, the greater the air drag is. Therefore, high speed racing car requires a higher level of air drag feature.
+Power saving feature are used to indicate the numerical value of power saving coefficient, and accessories with high power saving feature are often used in long distance track.
+Transmission feature are used to indicate the numerical value of transmission efficiency. High transmission feature will comprehensively improve the speed and acceleration of 4WD cars.
+The advantage of low elasticity tire is that it can reduce the bouncing of 4WD car, but it usually has large tire rolling friction, which is generally used in the track with jumping board.
+Although the high elasticity tire can't restrain the bouncing of the 4WD carwell, the appropriate tire grip and small tire rolling friction are more suitable for the race track that needs speed.
+The suspension feature are used to represent the numerical value of the suspension stats. When the 4WD car rollover after landing, a higher level of suspension feature is required.
+Tire grip feature are used to indicate the numerical value of tire grip, and accessories with high tire grip feature are commonly used on ramps.
+Tire rolling friction feature are used to indicate the numerical value of tire rolling friction. High level tire rolling friction feature can improve the acceleration of 4WD.
+The speed loss feature are used to indicate the numerical value of the speed loss. High level speed loss feature can improve the maximum speed of the 4WD.
+Torque loss feature are used to indicate the numerical value of torque loss. High level torque loss feature can improve the acceleration of 4WD cars.
+Rollers friction feature are used to indicate the numerical value of rollers friction. High level rollers friction feature can improve the acceleration of 4WD cars.
+High elasticity rollers are commonly used in corner curve and digital curve, which can effectively reduce the speed loss caused by collision.
+Low elasticicy rollers are generally light, and are often used in tracks that requires high speed.
+Braking feature are used to indicate the numerical value of braking force, and accessories with high braking feature are often used in the track where the speed of uphill and downhill needs to be controlled.
+Gear ratio feature is used to indicate the numerical value of gear ratio. The larger gear ratio is more likely to be used in the track that requires torque, and small ratio gear is more likely to be used in the track that requires RPM.
+Large DIA. tires can give full play to the speed advantage of the motor and are suitable for straight tracks.
+The performance of medium diameter tires is relatively comprehensive and suitable for most tracks.
+The small DIA. tires can give full play to the torque advantage of the motor, and are suitable for curves and ramps.
+0
+0
+Power consumption features are used to indicate the numerical value of power consumption. Long distance tracks require higher power consumption features.
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0

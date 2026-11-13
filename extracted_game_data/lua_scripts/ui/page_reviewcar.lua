@@ -1,0 +1,41 @@
+--
+--
+--
+-----@class Page_ReviewCar
+--Page_ReviewCar = class("Page_ReviewCar")
+--
+--function Page_ReviewCar:initialize()
+--    self.ModuleID = nil
+--    self.SelectCar = nil
+--    self.Type = -1
+--end
+--
+--function Page_ReviewCar:SetData(data, root, moduleid, type)
+--    self.ModuleID = moduleid
+--    self.Type = type
+--
+--    self:SetViewRect(root)
+--
+--    self:SetMesh(data)
+--
+--end
+--
+--
+--function Page_ReviewCar:SetViewRect(root)
+--    local fillbg =  UIUtil.GetTypeChildWightInputPath("bgtype_1/fillbg", root, typeof(RectTransform))
+--    local viewrect =  UIUtil.GetTypeChildWightInputPath("bgtype_1/viewroot", root, typeof(RectTransform))
+--    local viewbuttomrect =  UIUtil.GetTypeChildWightInputPath("bgtype_1/viewbuttom", root, typeof(RectTransform))
+--
+--    local rectvalue = viewrect.rect.height
+--    local fillvalue = (viewbuttomrect.rect.height - viewrect.rect.height )/ fillbg.rect.height
+--    CommonHelper:SetFillBg("bgtype_1/fillbg",root ,fillvalue ,rectvalue)
+--end
+--
+--function Page_ReviewCar:SetMesh(data)
+--    HomeSceneCarMeshHelper:Get():SetDataByCarReviewData(data, SceneHome_CarGroup_Garage_Blue, false)
+--    HomeSceneHelper:SetSelectCarBlue()
+--end
+--
+--function Page_ReviewCar:Release()
+--    HomeSceneCarMeshHelper:Get():ClearCache()
+--end

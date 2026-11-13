@@ -1,0 +1,75 @@
+--
+--
+--
+-----@class ShellGridViewAction:ViewBaseAction
+--ShellGridViewAction = class("ShellGridViewAction",ViewBaseAction)
+--
+--function ShellGridViewAction:initialize()
+--    ViewBaseAction.initialize(self)
+--end
+--
+--function ShellGridViewAction:OnRegisterEvents()
+--    self:AddNotificationEvent(UINotifyEvent.ShellGridView_SetData, self.SetData)
+--    self:AddNotificationEvent(UINotifyEvent.ShellGridView_UpdateScroll_Grid, self.UpdateScollView_Grid)
+--    self:AddNotificationEvent(UINotifyEvent.ShellGridView_ClickItem_Grid, self.ClickItem_Grid)
+--    self:AddNotificationEvent(UINotifyEvent.ShellGridView_ClickBtnSave, self.OnClickBtn_Save)
+--    self:AddNotificationEvent(UINotifyEvent.ShellGridView_ClickBtnReset, self.OnClickBtn_Reset)
+--    --self:AddNotificationEvent(UINotifyEvent.Msg_ShellGrid, self.UpdateMsg)
+--end
+--
+-----@return ShellGridView
+--function ShellGridViewAction:View()
+--    return self.view
+--end
+--
+--function ShellGridViewAction:SetData(node)
+--    if self:View() then
+--        self:View():SetData(node[1], node[2])
+--    end
+--end
+--
+----function ShellGridViewAction:UpdateScollView_Hole(node)
+----    if self:View() then
+----        self:View():UpdateScrollView_HoleList(node[1], node[2], node[3])
+----    end
+----end
+----
+----function ShellGridViewAction:ClickItem_Hole(index)
+----    if self:View() then
+----        self:View():ClickItem_HoleList(index)
+----    end
+----end
+--
+--function ShellGridViewAction:UpdateScollView_Grid(node)
+--    if self:View() then
+--        self:View():UpdateScollView_GridList(node[1], node[2], node[3])
+--    end
+--end
+--
+--function ShellGridViewAction:ClickItem_Grid(node)
+--    if self:View() then
+--        self:View():ClickItem_GridList(node[1], node[2])
+--    end
+--end
+--
+--function ShellGridViewAction:OnClickBtn_Reset()
+--    if self:View() then
+--        self:View():OnClickBtn_Reset()
+--    end
+--end
+--
+--function ShellGridViewAction:OnClickBtn_Save()
+--    if self:View() then
+--        self:View():OnClickBtn_Save()
+--    end
+--end
+--
+--function ShellGridViewAction:UpdateMsg()
+--    if self:View() then
+--        self:View():UpdateMsg()
+--    end
+--end
+--
+--
+--
+--return ShellGridViewAction()

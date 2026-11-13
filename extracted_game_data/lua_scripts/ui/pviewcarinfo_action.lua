@@ -1,0 +1,43 @@
+--
+--
+--
+-----@class PViewCarInfoAction:ViewBaseAction
+--PViewCarInfoAction = class("PViewCarInfoAction",ViewBaseAction)
+--
+--function PViewCarInfoAction:initialize()
+--    ViewBaseAction.initialize(self)
+--end
+--
+--function PViewCarInfoAction:OnRegisterEvents()
+--    self:AddNotificationEvent(UINotifyEvent.PViewCarInfo_SetData, self.SetData)
+--    self:AddNotificationEvent(UINotifyEvent.PViewCarInfo_ShowViewGroup, self.ShowViewGroup)
+--    self:AddNotificationEvent(UINotifyEvent.Msg_Assemble, self.UpdateMsg)
+--end
+--
+-----@return PViewCarInfo
+--function PViewCarInfoAction:View()
+--    return self.view
+--end
+--
+--function PViewCarInfoAction:SetData(data)
+--    if self:View() then
+--        self:View():SetData(data)
+--    end
+--end
+--
+--function PViewCarInfoAction:ShowViewGroup(isshow)
+--    if self:View() then
+--        self:View():ShowViewGroup(isshow)
+--    end
+--end
+--
+--function PViewCarInfoAction:UpdateMsg()
+--    if self:View() then
+--        self:View():UpdateMsg()
+--    end
+--
+--end
+--
+--
+--
+--return PViewCarInfoAction()

@@ -1,0 +1,11 @@
+INT	INT	INT	INT	INT	INT	INT
+0	0	0	0	0	0	0
+C_ID	lrand	mrand	hrand	srand	upgradelow	upgradehigh
+1	100	0	0	0	-20	20
+2	10	80	10	0	-20	20
+3	0	10	80	10	-20	20
+10	10	10	10	10	-20	20
+20	10	20	20	20	-20	20
+30	20	30	40	50	-20	20
+40	30	40	50	50	-20	20
+50	50	50	50	50	-20	20

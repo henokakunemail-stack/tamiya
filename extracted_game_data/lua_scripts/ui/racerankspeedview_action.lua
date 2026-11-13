@@ -1,0 +1,28 @@
+--
+--
+--
+-----@class RaceRankSpeedViewAction:ViewBaseAction
+--RaceRankSpeedViewAction = class("RaceRankSpeedViewAction",ViewBaseAction)
+--
+--function RaceRankSpeedViewAction:initialize()
+--    ViewBaseAction.initialize(self)
+--end
+--
+--function RaceRankSpeedViewAction:OnRegisterEvents()
+--    self:AddNotificationEvent(UINotifyEvent.RaceRankSpeedView_SetData, self.SetData)
+--end
+--
+-----@return RaceRankSpeedView
+--function RaceRankSpeedViewAction:View()
+--    return self.view
+--end
+--
+-----@param msg SC_GetGlobalRankRankInfoRes
+--function RaceRankSpeedViewAction:SetData(msg)
+--    if self:View() then
+--        self:View():SaveRankList(msg)
+--        self:View():UpdateCurRank(msg.trackId)
+--    end
+--end
+--
+--return RaceRankSpeedViewAction()

@@ -1,0 +1,17 @@
+--
+--
+--
+-----@class CommonBgOrangeView : ViewBase
+--CommonBgOrangeView = class("CommonBgOrangeView", ViewBase)
+--
+--function CommonBgOrangeView:initialize()
+--
+--end
+--
+--function CommonBgOrangeView:Awake()
+--
+--end
+--
+--function CommonBgOrangeView:OnOpen()
+--
+--end

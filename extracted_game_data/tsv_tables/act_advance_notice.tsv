@@ -1,0 +1,7 @@
+INT	INT	INT	STRING	STRING
+0	0	0	0	0
+C_ID	acttype	orderseq	actbg	actname
+6	1	1	actadvancenotice_1000	eventname_012
+3	1	2	actadvancenotice_1001	eventname_1800
+4	1	3	actadvancenotice_1002	eventname_1002
+7	1	4	actadvancenotice_1003	eventname_1003

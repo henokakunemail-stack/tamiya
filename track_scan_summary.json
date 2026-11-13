@@ -1,0 +1,395 @@
+{
+  "apk_path": "D:\\Henok\\Projects\\Game\\Mini4WD_16.0_APKPure(1)\\resource.apk",
+  "counts": {
+    "track_segment_meshes_3lane": 155,
+    "track_segment_meshes_5lane": 353,
+    "track_segment_prefabs_3lane": 26,
+    "track_segment_prefabs_5lane": 33,
+    "track_material_bundles": 1,
+    "track_core_texture_bundles": 20,
+    "scene_track_mesh_bundles": 67,
+    "scene_track_texture_bundles": 228,
+    "track_circuit_tables": 1276
+  },
+  "pieces_3lane_unique": 69,
+  "pieces_5lane_unique": 164,
+  "pieces_3lane_list": [
+    "abslope",
+    "bank_down_20",
+    "bank_up_20",
+    "baslope",
+    "catapult_platform_20",
+    "curve180",
+    "curve180_cant_left",
+    "curve180_cant_right",
+    "curve45_left",
+    "curve45_right",
+    "curve90_left",
+    "curve90_r2100_left",
+    "curve90_r2100_right",
+    "curve90_right",
+    "digitalcurve90_left",
+    "digitalcurve90_right",
+    "dragonback",
+    "fly_changer_10",
+    "flydragon_changer",
+    "jump_10",
+    "jump_20",
+    "jump_changer_10",
+    "jump_line",
+    "jump_line_7",
+    "lanechanger_10",
+    "line",
+    "line_grass",
+    "line_ice",
+    "line_pitch",
+    "line_qidongjia",
+    "line_qidongjia_low_mini_3_res",
+    "line_rock",
+    "line_sand",
+    "line_snow",
+    "line_start",
+    "line_swing",
+    "line_water",
+    "line_wind",
+    "line_wind_whole",
+    "niagaraslope_20_down",
+    "niagaraslope_20_up",
+    "niagaraslope_30_down",
+    "niagaraslope_30_up",
+    "rainbowchanger_20_left",
+    "rainbowchanger_20_right",
+    "rainbowchanger_30_left",
+    "rainbowchanger_30_right",
+    "round_down_four_28",
+    "round_down_one_7",
+    "round_down_three_21",
+    "round_down_two_14",
+    "round_up_four_28",
+    "round_up_one_3",
+    "round_up_one_7",
+    "round_up_three_21",
+    "round_up_two_14",
+    "single_bridge",
+    "slope",
+    "swing_changer_10",
+    "testmini_3_mesh",
+    "vertical_changer_right",
+    "vertical_changer_right_long",
+    "victoryjump",
+    "wave_bigleft",
+    "wave_bigright",
+    "wave_left",
+    "wave_right",
+    "yellowjump_one",
+    "yellowjump_two"
+  ],
+  "pieces_5lane_list": [
+    "abslope",
+    "abslope_test",
+    "alpur",
+    "angle_60",
+    "angle_60_left",
+    "angle_60_left_s",
+    "angle_60_right",
+    "angle_60_right_s",
+    "angle_slop_20",
+    "angle_slop_20_s",
+    "angle_slop_25",
+    "angle_slop_25_s",
+    "angle_slope_15",
+    "angle_slope_15_s",
+    "bankdown_half_15",
+    "bankdown_half_20",
+    "bankdown_half_30",
+    "bankdown_half_45",
+    "bankdown_quarter_15",
+    "bankdown_quarter_20",
+    "bankdown_quarter_30",
+    "bankdown_whole_20",
+    "bankdown_whole_30",
+    "bankdown_whole_45",
+    "bankup_half_15",
+    "bankup_half_15_0",
+    "bankup_half_20",
+    "bankup_half_20_0",
+    "bankup_half_30",
+    "bankup_half_30_0",
+    "bankup_half_45",
+    "bankup_half_45_0",
+    "bankup_quarter_15",
+    "bankup_quarter_15_0",
+    "bankup_quarter_20",
+    "bankup_quarter_20_0",
+    "bankup_quarter_30",
+    "bankup_quarter_30_0",
+    "bankup_whole_20",
+    "bankup_whole_20_0",
+    "bankup_whole_30",
+    "bankup_whole_30_0",
+    "bankup_whole_45",
+    "bankup_whole_45_0",
+    "baslope",
+    "baslope_test",
+    "burningchanger_30_left",
+    "burningchanger_60_right",
+    "catapult_platform_20",
+    "changer_high_cant_left",
+    "changer_high_cant_right",
+    "climb_changer",
+    "climb_changer_60",
+    "climb_changer_60_left",
+    "climb_changer_left",
+    "curve180_cant_left",
+    "curve180_cant_right",
+    "curve180_down_right",
+    "curve180_up_left",
+    "curve45_left",
+    "curve45_right",
+    "curve90_19_left",
+    "curve90_19_right",
+    "curve90_25_left",
+    "curve90_25_right",
+    "curve90_31_left",
+    "curve90_31_right",
+    "curve90_down_left",
+    "curve90_down_right",
+    "curve90_left",
+    "curve90_r2100_left",
+    "curve90_r2100_right",
+    "curve90_right",
+    "curve90_up_left",
+    "curve90_up_right",
+    "digitalcurve_left",
+    "digitalcurve_right",
+    "dragon_back",
+    "fly_changer",
+    "flydragon",
+    "flydragon_double",
+    "fork_curve_left",
+    "fork_curve_right",
+    "fork_eight",
+    "fork_long1",
+    "fujiyamachanger",
+    "incline_down_10",
+    "incline_up_10",
+    "jump_20",
+    "jump_all_left",
+    "jump_all_right",
+    "jump_line",
+    "jump_line_13",
+    "lanechanger_1",
+    "lanechanger_jump",
+    "leap_25.2",
+    "line_fork",
+    "line_grass_whole",
+    "line_half",
+    "line_ice_whole",
+    "line_ice_whole_mini_5_new_mesh",
+    "line_icenew_whole",
+    "line_pitch_whole",
+    "line_qidongjia",
+    "line_qidongjia_low",
+    "line_qidongjia_sector",
+    "line_quarter",
+    "line_quarter3",
+    "line_rock_whole",
+    "line_sand_whole",
+    "line_smooth_whole",
+    "line_snow_whole",
+    "line_start",
+    "line_swing_half",
+    "line_swing_quarter",
+    "line_swing_whole",
+    "line_water_whole",
+    "line_whole",
+    "line_whole_accelerate",
+    "line_whole_mini_csd_5_res",
+    "line_whole_mini_hhss_5_mesh",
+    "line_wider",
+    "line_wind",
+    "line_wind_whole",
+    "loose_road",
+    "mobius_changer",
+    "niagaraslope_10_down",
+    "niagaraslope_10_up",
+    "niagaraslope_20_down",
+    "niagaraslope_20_up",
+    "niagaraslope_30_down",
+    "niagaraslope_30_up",
+    "proudmoutain",
+    "reverse_bank_right",
+    "round_down_circle",
+    "round_down_mahua",
+    "round_down_one_7",
+    "round_down_two_13",
+    "round_up_mahua",
+    "round_up_one_7",
+    "round_up_two_13",
+    "screw",
+    "single_bridge",
+    "slope",
+    "slope_2014",
+    "slowplane_changer",
+    "spiral_360",
+    "supersolid_lanechanger_left",
+    "supersolid_lanechanger_right",
+    "sv_mountain_down",
+    "sv_mountain_up",
+    "swing_changer",
+    "tornado",
+    "vertical_changer_right",
+    "vertical_changer_right2",
+    "vertical_changer_right_long",
+    "victoryjump",
+    "victoryjump_35",
+    "victoryjump_long",
+    "victoryjump_long_all",
+    "wave_left",
+    "wave_right",
+    "yellowjump_three",
+    "yellowjump_two"
+  ],
+  "verified_samples": [
+    {
+      "bundle": "curve90_left_mini_3_mesh.ab",
+      "meshes": [
+        {
+          "mesh_name": "collider_custom",
+          "vertices": 104,
+          "faces": 52
+        },
+        {
+          "mesh_name": "track_mesh",
+          "vertices": 508,
+          "faces": 392
+        }
+      ]
+    },
+    {
+      "bundle": "bank_up_20_mini_3_mesh.ab",
+      "meshes": [
+        {
+          "mesh_name": "track_mesh",
+          "vertices": 269,
+          "faces": 204
+        },
+        {
+          "mesh_name": "collider_custom",
+          "vertices": 48,
+          "faces": 20
+        }
+      ]
+    },
+    {
+      "bundle": "abslope_mini_3_mesh.ab",
+      "meshes": [
+        {
+          "mesh_name": "track_mesh",
+          "vertices": 236,
+          "faces": 140
+        },
+        {
+          "mesh_name": "collider_custom",
+          "vertices": 43,
+          "faces": 20
+        }
+      ]
+    },
+    {
+      "bundle": "catapult_platform_20_mini_3_mesh.ab",
+      "meshes": [
+        {
+          "mesh_name": "collider_custom",
+          "vertices": 114,
+          "faces": 56
+        },
+        {
+          "mesh_name": "track_mesh",
+          "vertices": 472,
+          "faces": 268
+        }
+      ]
+    },
+    {
+      "bundle": "lanechanger_10_mini_3_mesh.ab",
+      "meshes": [
+        {
+          "mesh_name": "collider_custom",
+          "vertices": 191,
+          "faces": 88
+        },
+        {
+          "mesh_name": "track_mesh",
+          "vertices": 646,
+          "faces": 570
+        }
+      ]
+    },
+    {
+      "bundle": "wave_bigleft_mini_3_mesh.ab",
+      "meshes": [
+        {
+          "mesh_name": "track_mesh",
+          "vertices": 1088,
+          "faces": 1052
+        },
+        {
+          "mesh_name": "collider_custom",
+          "vertices": 250,
+          "faces": 236
+        }
+      ]
+    },
+    {
+      "bundle": "burningchanger_30_left_mini_5_mesh.ab",
+      "meshes": [
+        {
+          "mesh_name": "collider_custom",
+          "vertices": 676,
+          "faces": 312
+        },
+        {
+          "mesh_name": "track_mesh",
+          "vertices": 2014,
+          "faces": 1924
+        },
+        {
+          "mesh_name": "support_mesh",
+          "vertices": 607,
+          "faces": 826
+        }
+      ]
+    },
+    {
+      "bundle": "dragon_back_mini_5_mesh.ab",
+      "meshes": [
+        {
+          "mesh_name": "track_mesh",
+          "vertices": 596,
+          "faces": 444
+        },
+        {
+          "mesh_name": "collider_custom",
+          "vertices": 56,
+          "faces": 28
+        }
+      ]
+    },
+    {
+      "bundle": "alpur_mini_5_mesh.ab",
+      "meshes": [
+        {
+          "mesh_name": "collider_custom",
+          "vertices": 72,
+          "faces": 32
+        },
+        {
+          "mesh_name": "track_mesh",
+          "vertices": 1146,
+          "faces": 856
+        }
+      ]
+    }
+  ]
+}

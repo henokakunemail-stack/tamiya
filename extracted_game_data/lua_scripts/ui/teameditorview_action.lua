@@ -1,0 +1,52 @@
+--
+-----@class TeamEditorViewAction:ViewBaseAction
+--TeamEditorViewAction = class("TeamEditorViewAction",ViewBaseAction)
+--
+--function TeamEditorViewAction:initialize()
+--    ViewBaseAction.initialize(self)
+--end
+--
+--function TeamEditorViewAction:OnRegisterEvents()
+--    self:AddNotificationEvent(UINotifyEvent.TeamEditorView_UpdateScrollView, self.UpdateScrollView)
+--    self:AddNotificationEvent(UINotifyEvent.TeamEditorView_ClickPos, self.OnClickBtn_CarItem)
+--    self:AddNotificationEvent(UINotifyEvent.TeamEditorView_ClickDetail, self.OnClickBtn_Detail)
+--    self:AddNotificationEvent(UINotifyEvent.TeamEditorView_ClickCancel, self.OnClickBtn_Cancel)
+--    self:AddNotificationEvent(UINotifyEvent.TeamEditorView_RecvCmd_ChangeCar, self.ChangeCar)
+--end
+--
+-----@return TeamEditorView
+--function TeamEditorViewAction:View()
+--    return self.view
+--end
+--
+--function TeamEditorViewAction:UpdateScrollView(node)
+--    if self:View() then
+--        self:View():UpdateScrollView(node[1], node[2], node[3])
+--    end
+--end
+--
+--function TeamEditorViewAction:OnClickBtn_CarItem(idx)
+--    if self:View() then
+--        self:View():OnClickBtn_CarItem(idx)
+--    end
+--end
+--
+--function TeamEditorViewAction:OnClickBtn_Detail()
+--    if self:View() then
+--        self:View():OnClickBtn_Detail()
+--    end
+--end
+--
+--function TeamEditorViewAction:OnClickBtn_Cancel()
+--    if self:View() then
+--        self:View():OnClickBtn_Cancel()
+--    end
+--end
+--
+--function TeamEditorViewAction:ChangeCar()
+--    if self:View() then
+--        self:View():RecvCmd_ChangeCar()
+--    end
+--end
+--
+--return TeamEditorViewAction()

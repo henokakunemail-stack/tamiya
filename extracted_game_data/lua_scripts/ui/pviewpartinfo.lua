@@ -1,0 +1,94 @@
+--
+--
+--
+-----@type ArticleCell
+--local ArticleData = nil
+--
+--
+-----@class PViewPartInfo : ViewBase
+--PViewPartInfo = class("PViewPartInfo", ViewBase)
+--
+--function PViewPartInfo:initialize()
+--    ViewBase.initialize(self)
+--    ViewBase.RegisteAction(self, "PViewPartInfoAction")
+--
+--    print("---   PViewPartInfo 初始化完成")
+--
+--    ---@type Page_PartInfo4
+--    self.Page = nil
+--    self.PagePrefab = nil
+--end
+--
+--function PViewPartInfo:Awake()
+--    print("---   PViewPartInfo awake")
+--
+--    CommonHelper:HButtonSetCallback("BtnClose",self.gameObject,function (hbtn)
+--        UINotify:Get():SendNotification(UINotifyEvent.PViewPartInfo_ShowViewGroup, false)
+--    end)
+--    CommonHelper:HButtonSetCallback("BtnDetail",self.gameObject,function (hbtn)
+--        UINotify:Get():SendNotification(UINotifyEvent.PViewPartInfo_ShowViewGroup, true)
+--    end)
+--
+--    self.PageRoot = UIUtil.GetChild("pagebase",self.gameObject)
+--
+--    self.ViewGroup = UIUtil.GetChild("viewgroup",self.gameObject)
+--
+--end
+--
+--function PViewPartInfo:OnOpen()
+--
+--end
+--
+--function PViewPartInfo:OnClose()
+--
+--    if self.Page then
+--        self.Page:Release()
+--        self.Page = nil
+--    end
+--
+--    if self.PagePrefab then
+--        PrefabCacheMgr:Get():RecyclePrefab(self.PagePrefab)
+--        self.PagePrefab = nil
+--    end
+--
+--end
+--
+--function PViewPartInfo:OnOpenAnimEnd()
+--
+--
+--end
+--
+--function PViewPartInfo:SetData(data)
+--    ArticleData = data
+--
+--    self:SetPage()
+--end
+--
+--function PViewPartInfo:ShowViewGroup(isshow)
+--    self.ViewGroup:SetActive(isshow)
+--end
+--
+--function PViewPartInfo:SetPage()
+--    if self.Page then
+--        self.Page:SetArticleData(UIColor.Blue, self.PagePrefab,  ArticleData, UIModuleID.PViewPartInfo)
+--    else
+--        PrefabCacheMgr:Get():SwapPrefabAsync("Page_PartInfo4.prefab", nil, nil, self.LoadPageFinish, nil, self)
+--    end
+--
+--end
+--
+--function PViewPartInfo:LoadPageFinish(param, obj)
+--    self.PagePrefab = obj
+--    UIUtil.SetParentGameObject(self.PageRoot, obj)
+--    self.Page = Page_PartInfo4()
+--    self.Page:SetArticleData(UIColor.Blue, obj,  ArticleData, UIModuleID.PViewPartInfo)
+--end
+--
+--function PViewPartInfo:UpdateMsg()
+--    if self.Page then
+--        self.Page:UpdateMsg()
+--    end
+--end
+--
+--
+--

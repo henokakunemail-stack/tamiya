@@ -1,0 +1,88 @@
+--
+--
+--
+-----@type CarData
+--local __CarData = nil
+--
+--
+-----@class PViewCarInfo : ViewBase
+--PViewCarInfo = class("PViewCarInfo", ViewBase)
+--
+--function PViewCarInfo:initialize()
+--    ViewBase.initialize(self)
+--    ViewBase.RegisteAction(self, "PViewCarInfoAction")
+--
+--    ---@type Page_CarInfo4
+--    self.Page = nil
+--    self.PagePrefab = nil
+--end
+--
+--function PViewCarInfo:Awake()
+--    CommonHelper:HButtonSetCallback("BtnDetail",self.gameObject,function (hbtn)
+--        UINotify:Get():SendNotification(UINotifyEvent.PViewCarInfo_ShowViewGroup, true)
+--    end)
+--    CommonHelper:HButtonSetCallback("BtnClose",self.gameObject,function (hbtn)
+--        UINotify:Get():SendNotification(UINotifyEvent.PViewCarInfo_ShowViewGroup, false)
+--    end)
+--
+--
+--    self.PageRoot = UIUtil.GetChild("pagebase",self.gameObject)
+--
+--    self.ViewGroup = UIUtil.GetChild("viewgroup",self.gameObject)
+--
+--
+--end
+--
+--function PViewCarInfo:OnOpen()
+--
+--end
+--
+--function PViewCarInfo:OnClose()
+--    if self.Page then
+--        self.Page:Release()
+--        self.Page = nil
+--    end
+--
+--    if self.PagePrefab then
+--        PrefabCacheMgr:Get():RecyclePrefab(self.PagePrefab)
+--        self.PagePrefab = nil
+--    end
+--end
+--
+--
+--function PViewCarInfo:UpdateMsg()
+--    if self.Page then
+--        self.Page:UpdateMsg()
+--    end
+--end
+--
+-----@param data CarData
+--function PViewCarInfo:SetData(data)
+--    __CarData = data
+--
+--    self:SetPage()
+--end
+--
+--
+--
+--
+--function PViewCarInfo:SetPage()
+--    if self.Page then
+--        self.Page:SetCarData(UIColor.Blue, self.PagePrefab, __CarData, UIModuleID.PViewCarInfo)
+--    else
+--        PrefabCacheMgr:Get():SwapPrefabAsync("Page_CarInfo4.prefab", nil, nil, self.LoadPageFinish, nil, self)
+--    end
+--
+--end
+--
+--function PViewCarInfo:LoadPageFinish(param, obj)
+--    self.PagePrefab = obj
+--    UIUtil.SetParentGameObject(self.PageRoot, obj)
+--    self.Page = Page_CarInfo4()
+--    self.Page:SetCarData(UIColor.Blue, obj, __CarData, UIModuleID.PViewCarInfo)
+--end
+--
+--
+--function PViewCarInfo:ShowViewGroup(isshow)
+--    self.ViewGroup:SetActive(isshow)
+--end

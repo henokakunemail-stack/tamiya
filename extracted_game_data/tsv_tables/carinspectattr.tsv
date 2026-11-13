@@ -1,0 +1,13 @@
+int	string	string	string	STRING	int	string
+0	0	0	0	0	0	0
+C_ID	attr	attrname	attrdesc	format	attrcontrast	unit
+1	showMaxSpeed	car_inspect_name_1	car_inspect_desc_1	%0.2f	0	km/h
+2	showMaxStability	car_inspect_name_2	car_inspect_desc_2	%0.0f	3	0
+3	flyDistance	car_inspect_name_3	car_inspect_desc_3	%0.2f	0	0
+4	maxDamping	car_inspect_name_4	car_inspect_desc_4	%0.0f	11	0
+5	collisionSpeedReduction	car_inspect_name_5	car_inspect_desc_5	%0.2f	0	0
+6	grassMinSpeed	car_inspect_name_6	car_inspect_desc_6	%0.2f	0	km/h
+7	sandMinSpeed	car_inspect_name_7	car_inspect_desc_7	%0.2f	0	km/h
+8	waterMinSpeed	car_inspect_name_8	car_inspect_desc_8	%0.2f	0	km/h
+9	iceMinSpeed	car_inspect_name_9	car_inspect_desc_9	%0.2f	0	km/h
+10	snowMinSpeed	car_inspect_name_10	car_inspect_desc_10	%0.2f	0	km/h

@@ -1,0 +1,55 @@
+--
+--
+--
+-----@class ArticleInfoPartViewAction:ViewBaseAction
+--ArticleInfoPartViewAction = class("ArticleInfoPartViewAction",ViewBaseAction)
+--
+--function ArticleInfoPartViewAction:initialize()
+--    ViewBaseAction.initialize(self)
+--end
+--
+--function ArticleInfoPartViewAction:OnRegisterEvents()
+--    self:AddNotificationEvent(UINotifyEvent.ArticleInfoPartView_SetData, self.SetData)
+--    --self:AddNotificationEvent(UINotifyEvent.ArticleInfoPartView_ClickTog, self.ClickTog)
+--    --self:AddNotificationEvent(UINotifyEvent.ArticleInfoPartView_UpdateScrollAttr, self.UpdateScrollAttr)
+--    --self:AddNotificationEvent(UINotifyEvent.ArticleInfoPartView_UpdateScrollReform, self.UpdateScrollReform)
+--    --self:AddNotificationEvent(UINotifyEvent.ArticleInfoPartView_UpdateScrollInfo, self.UpdateScrollInfo)
+--end
+--
+-----@return ArticleInfoPartView
+--function ArticleInfoPartViewAction:View()
+--    return self.view
+--end
+--
+--function ArticleInfoPartViewAction:SetData(node)
+--    if self:View() then
+--        self:View():SetData(node[1], node[2])
+--    end
+--end
+--
+--function ArticleInfoPartViewAction:ClickTog(idx)
+--    if self:View() then
+--        self:View():OnClickTog(idx)
+--    end
+--end
+--
+--function ArticleInfoPartViewAction:UpdateScrollAttr(node)
+--    if self:View() then
+--        self:View():UpdatePageAttr(node[1], node[2])
+--    end
+--end
+--
+--function ArticleInfoPartViewAction:UpdateScrollReform(node)
+--    if self:View() then
+--        self:View():UpdatePageReform(node[1], node[2], node[3])
+--    end
+--end
+--
+--
+--function ArticleInfoPartViewAction:UpdateScrollInfo(node)
+--    if self:View() then
+--        self:View():UpdatePageInfo(node[1], node[2], node[3])
+--    end
+--end
+--
+--return ArticleInfoPartViewAction()

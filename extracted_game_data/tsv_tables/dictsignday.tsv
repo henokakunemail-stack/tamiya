@@ -1,0 +1,10 @@
+INT	INT	INT	STRING	STRING
+0	0	0	0	0
+C_ID	propsid	propsnum	desc	icon
+1	12040102	200	novicedailyreward_desc_1	login_icon_day_1_dt
+2	12040201	5	novicedailyreward_desc_2	articleIcon_12040201_dt
+3	10500102	1	novicedailyreward_desc_3	ui_3dicon_5102_dt
+4	12040201	5	novicedailyreward_desc_4	articleIcon_12040201_dt
+5	12040101	150000	novicedailyreward_desc_5	login_icon_day_5_dt
+6	12040201	10	novicedailyreward_desc_6	articleIcon_12040201_dt
+7	10080022	1	novicedailyreward_desc_7	ui_3dicon_8006.png

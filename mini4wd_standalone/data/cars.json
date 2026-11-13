@@ -1,0 +1,1418 @@
+[
+  {
+    "id": "25000000",
+    "name_en": "Magnum Saber",
+    "name_id": "Magnum Saber",
+    "icon": "shellnamepic_25000000.png",
+    "shell_id": "27000000",
+    "holder": "10002"
+  },
+  {
+    "id": "25000001",
+    "name_en": "VICTORY MAGNUM",
+    "name_id": "VICTORY MAGNUM",
+    "icon": "shellnamepic_25000001.png",
+    "shell_id": "27000001",
+    "holder": "10002"
+  },
+  {
+    "id": "25000002",
+    "name_en": "Cyclone Magnum",
+    "name_id": "Cyclone Magnum",
+    "icon": "shellnamepic_25000002.png",
+    "shell_id": "27000002",
+    "holder": "10002"
+  },
+  {
+    "id": "25000003",
+    "name_en": "Cyclone Magnum(gold)",
+    "name_id": "Cyclone Magnum(gold)",
+    "icon": "shellnamepic_25000003.png",
+    "shell_id": "27000003",
+    "holder": "10002"
+  },
+  {
+    "id": "25000004",
+    "name_en": "BEAT MAGNUM",
+    "name_id": "BEAT MAGNUM",
+    "icon": "shellnamepic_25000004.png",
+    "shell_id": "27000004",
+    "holder": "20102"
+  },
+  {
+    "id": "25000005",
+    "name_en": "SONIC SABER",
+    "name_id": "SONIC SABER",
+    "icon": "shellnamepic_25000005.png",
+    "shell_id": "27000005",
+    "holder": "10001"
+  },
+  {
+    "id": "25000006",
+    "name_en": "VANGUARD SONIC",
+    "name_id": "VANGUARD SONIC",
+    "icon": "shellnamepic_25000006.png",
+    "shell_id": "27000006",
+    "holder": "10001"
+  },
+  {
+    "id": "25000007",
+    "name_en": "Hurricane Sonic",
+    "name_id": "Hurricane Sonic",
+    "icon": "shellnamepic_25000007.png",
+    "shell_id": "27000007",
+    "holder": "10001"
+  },
+  {
+    "id": "25000008",
+    "name_en": "Hurricane Sonic(silver)",
+    "name_id": "Hurricane Sonic(silver)",
+    "icon": "shellnamepic_25000008.png",
+    "shell_id": "27000008",
+    "holder": "20101"
+  },
+  {
+    "id": "25000009",
+    "name_en": "BUSTER SONIC",
+    "name_id": "BUSTER SONIC",
+    "icon": "shellnamepic_25000009.png",
+    "shell_id": "27000009",
+    "holder": "20101"
+  },
+  {
+    "id": "25000010",
+    "name_en": "TRI DAGGER X",
+    "name_id": "TRI DAGGER X",
+    "icon": "shellnamepic_25000010.png",
+    "shell_id": "27000010",
+    "holder": "10003"
+  },
+  {
+    "id": "25000011",
+    "name_en": "NEO-TRIDAGGER ZMC",
+    "name_id": "NEO-TRIDAGGER ZMC",
+    "icon": "shellnamepic_25000011.png",
+    "shell_id": "27000011",
+    "holder": "10003"
+  },
+  {
+    "id": "25000012",
+    "name_en": "TRI DAGGER X(SPECIAL)",
+    "name_id": "TRI DAGGER X(SPECIAL)",
+    "icon": "shellnamepic_25000012.png",
+    "shell_id": "27000012",
+    "holder": "20103"
+  },
+  {
+    "id": "25000013",
+    "name_en": "SPIN-AXE",
+    "name_id": "SPIN-AXE",
+    "icon": "shellnamepic_25000013.png",
+    "shell_id": "27000013",
+    "holder": "10004"
+  },
+  {
+    "id": "25000014",
+    "name_en": "SPIN COBRA",
+    "name_id": "SPIN COBRA",
+    "icon": "shellnamepic_25000014.png",
+    "shell_id": "27000014",
+    "holder": "10004"
+  },
+  {
+    "id": "25000015",
+    "name_en": "Mini 4WD 25000015",
+    "name_id": "Mini 4WD 25000015",
+    "icon": "shellnamepic_25000015.png",
+    "shell_id": "27000015",
+    "holder": "20104"
+  },
+  {
+    "id": "25000016",
+    "name_en": "SPIN-VIPER",
+    "name_id": "SPIN-VIPER",
+    "icon": "shellnamepic_25000016.png",
+    "shell_id": "27000016",
+    "holder": "20104"
+  },
+  {
+    "id": "25000017",
+    "name_en": "PROTO SABER JB",
+    "name_id": "PROTO SABER JB",
+    "icon": "shellnamepic_25000017.png",
+    "shell_id": "27000017",
+    "holder": "10005"
+  },
+  {
+    "id": "25000018",
+    "name_en": "Proto Saber EVO",
+    "name_id": "Proto Saber EVO",
+    "icon": "shellnamepic_25000018.png",
+    "shell_id": "27000018",
+    "holder": "20105"
+  },
+  {
+    "id": "25000019",
+    "name_en": "Proto Saber EVO",
+    "name_id": "Proto Saber EVO",
+    "icon": "shellnamepic_25000019.png",
+    "shell_id": "27000019",
+    "holder": "20105"
+  },
+  {
+    "id": "25000020",
+    "name_en": "Proto Saber EVO.SHARK",
+    "name_id": "Proto Saber EVO.SHARK",
+    "icon": "shellnamepic_25000020.png",
+    "shell_id": "27000020",
+    "holder": "20105"
+  },
+  {
+    "id": "25000021",
+    "name_en": "BEAK SPIDER",
+    "name_id": "BEAK SPIDER",
+    "icon": "shellnamepic_25000021.png",
+    "shell_id": "27000021",
+    "holder": "10016"
+  },
+  {
+    "id": "25000022",
+    "name_en": "BEAK SPIDER (SPECIAL)",
+    "name_id": "BEAK SPIDER (SPECIAL)",
+    "icon": "shellnamepic_25000022.png",
+    "shell_id": "27000022",
+    "holder": "10016"
+  },
+  {
+    "id": "25000023",
+    "name_en": "BROCK GIGANT",
+    "name_id": "BROCK GIGANT",
+    "icon": "shellnamepic_25000023.png",
+    "shell_id": "27000023",
+    "holder": "10017"
+  },
+  {
+    "id": "25000024",
+    "name_en": "BLACK BROCK GIGANT",
+    "name_id": "BLACK BROCK GIGANT",
+    "icon": "shellnamepic_25000024.png",
+    "shell_id": "27000024",
+    "holder": "10017"
+  },
+  {
+    "id": "25000025",
+    "name_en": "RAY STINGER",
+    "name_id": "RAY STINGER",
+    "icon": "shellnamepic_25000025.png",
+    "shell_id": "27000025",
+    "holder": "10018"
+  },
+  {
+    "id": "25000026",
+    "name_en": "RAY STINGER",
+    "name_id": "RAY STINGER",
+    "icon": "shellnamepic_25000026.png",
+    "shell_id": "27000026",
+    "holder": "10018"
+  },
+  {
+    "id": "25000027",
+    "name_en": "DIOSPADA",
+    "name_id": "DIOSPADA",
+    "icon": "shellnamepic_25000027.png",
+    "shell_id": "27000027",
+    "holder": "20301"
+  },
+  {
+    "id": "25000028",
+    "name_en": "DIOSPADA",
+    "name_id": "DIOSPADA",
+    "icon": "shellnamepic_25000028.png",
+    "shell_id": "27000028",
+    "holder": "20302"
+  },
+  {
+    "id": "25000029",
+    "name_en": "DIOSPADA",
+    "name_id": "DIOSPADA",
+    "icon": "shellnamepic_25000029.png",
+    "shell_id": "27000029",
+    "holder": "20303"
+  },
+  {
+    "id": "25000030",
+    "name_en": "DIOSPADA",
+    "name_id": "DIOSPADA",
+    "icon": "shellnamepic_25000030.png",
+    "shell_id": "27000030",
+    "holder": "20305"
+  },
+  {
+    "id": "25000031",
+    "name_en": "DIOSPADA",
+    "name_id": "DIOSPADA",
+    "icon": "shellnamepic_25000031.png",
+    "shell_id": "27000031",
+    "holder": "20304"
+  },
+  {
+    "id": "25000032",
+    "name_en": "BERGKAISER",
+    "name_id": "BERGKAISER",
+    "icon": "shellnamepic_25000032.png",
+    "shell_id": "27000032",
+    "holder": "20501"
+  },
+  {
+    "id": "25000033",
+    "name_en": "BERGKAISER",
+    "name_id": "BERGKAISER",
+    "icon": "shellnamepic_25000033.png",
+    "shell_id": "27000033",
+    "holder": "20503"
+  },
+  {
+    "id": "25000034",
+    "name_en": "BERGKAISER",
+    "name_id": "BERGKAISER",
+    "icon": "shellnamepic_25000034.png",
+    "shell_id": "27000034",
+    "holder": "20502"
+  },
+  {
+    "id": "25000035",
+    "name_en": "BERGKAISER",
+    "name_id": "BERGKAISER",
+    "icon": "shellnamepic_25000035.png",
+    "shell_id": "27000000",
+    "holder": "20505"
+  },
+  {
+    "id": "25000036",
+    "name_en": "BERGKAISER",
+    "name_id": "BERGKAISER",
+    "icon": "shellnamepic_25000036.png",
+    "shell_id": "27000001",
+    "holder": "20504"
+  },
+  {
+    "id": "25000037",
+    "name_en": "BEAK SPIDER ZEBRA",
+    "name_id": "BEAK SPIDER ZEBRA",
+    "icon": "shellnamepic_25000037.png",
+    "shell_id": "27000002",
+    "holder": "20601"
+  },
+  {
+    "id": "25000038",
+    "name_en": "BEAK SPIDER ZEBRA",
+    "name_id": "BEAK SPIDER ZEBRA",
+    "icon": "shellnamepic_25000038.png",
+    "shell_id": "27000003",
+    "holder": "20605"
+  },
+  {
+    "id": "25000039",
+    "name_en": "BEAK SPIDER ZEBRA",
+    "name_id": "BEAK SPIDER ZEBRA",
+    "icon": "shellnamepic_25000039.png",
+    "shell_id": "27000004",
+    "holder": "20604"
+  },
+  {
+    "id": "25000040",
+    "name_en": "BEAK SPIDER ZEBRA",
+    "name_id": "BEAK SPIDER ZEBRA",
+    "icon": "shellnamepic_25000040.png",
+    "shell_id": "27000005",
+    "holder": "20603"
+  },
+  {
+    "id": "25000041",
+    "name_en": "BEAK SPIDER ZEBRA",
+    "name_id": "BEAK SPIDER ZEBRA",
+    "icon": "shellnamepic_25000041.png",
+    "shell_id": "27000006",
+    "holder": "20602"
+  },
+  {
+    "id": "25000042",
+    "name_en": "SHINING SCORPION",
+    "name_id": "SHINING SCORPION",
+    "icon": "shellnamepic_25000042.png",
+    "shell_id": "27000007",
+    "holder": "20401"
+  },
+  {
+    "id": "25000043",
+    "name_en": "SHINING SCORPION GOLD VERSION",
+    "name_id": "SHINING SCORPION GOLD VERSION",
+    "icon": "shellnamepic_25000043.png",
+    "shell_id": "27000008",
+    "holder": "20401"
+  },
+  {
+    "id": "25000044",
+    "name_en": "SHINING SCORPION VIOLET VERSION",
+    "name_id": "SHINING SCORPION VIOLET VERSION",
+    "icon": "shellnamepic_25000044.png",
+    "shell_id": "27000009",
+    "holder": "20401"
+  },
+  {
+    "id": "25000045",
+    "name_en": "SHINING SCORPION PINK VERSION",
+    "name_id": "SHINING SCORPION PINK VERSION",
+    "icon": "shellnamepic_25000045.png",
+    "shell_id": "27000010",
+    "holder": "20401"
+  },
+  {
+    "id": "25000046",
+    "name_en": "SHINING SCORPION RED VERSION",
+    "name_id": "SHINING SCORPION RED VERSION",
+    "icon": "shellnamepic_25000046.png",
+    "shell_id": "27000011",
+    "holder": "20401"
+  },
+  {
+    "id": "25000047",
+    "name_en": "GOD FATHER",
+    "name_id": "GOD FATHER",
+    "icon": "shellnamepic_25000047.png",
+    "shell_id": "27000012",
+    "holder": "-1"
+  },
+  {
+    "id": "25000048",
+    "name_en": "Jiromaru Special",
+    "name_id": "Jiromaru Special",
+    "icon": "shellnamepic_25000048.png",
+    "shell_id": "27000013",
+    "holder": "10008"
+  },
+  {
+    "id": "25000049",
+    "name_en": "Saber",
+    "name_id": "Saber",
+    "icon": "shellnamepic_25000049.png",
+    "shell_id": "27000014",
+    "holder": "10010"
+  },
+  {
+    "id": "25000050",
+    "name_en": "BATTLE GOD",
+    "name_id": "BATTLE GOD",
+    "icon": "shellnamepic_25000050.png",
+    "shell_id": "27000015",
+    "holder": "10007"
+  },
+  {
+    "id": "25000051",
+    "name_en": "BLACK SABER",
+    "name_id": "BLACK SABER",
+    "icon": "shellnamepic_25000051.png",
+    "shell_id": "27000016",
+    "holder": "10006"
+  },
+  {
+    "id": "25000052",
+    "name_en": "BLACK SABER(ONE)",
+    "name_id": "BLACK SABER(ONE)",
+    "icon": "shellnamepic_25000052.png",
+    "shell_id": "27000017",
+    "holder": "10006"
+  },
+  {
+    "id": "25000053",
+    "name_en": "BLACK SABER(TWO)",
+    "name_id": "BLACK SABER(TWO)",
+    "icon": "shellnamepic_25000053.png",
+    "shell_id": "27000018",
+    "holder": "21201"
+  },
+  {
+    "id": "25000054",
+    "name_en": "BLACK SABER(THREE)",
+    "name_id": "BLACK SABER(THREE)",
+    "icon": "shellnamepic_25000054.png",
+    "shell_id": "27000019",
+    "holder": "21202"
+  },
+  {
+    "id": "25000055",
+    "name_en": "BLACK SABER(FOUR)",
+    "name_id": "BLACK SABER(FOUR)",
+    "icon": "shellnamepic_25000055.png",
+    "shell_id": "27000020",
+    "holder": "21203"
+  },
+  {
+    "id": "25000056",
+    "name_en": "BLACK SABER(FIVE)",
+    "name_id": "BLACK SABER(FIVE)",
+    "icon": "shellnamepic_25000056.png",
+    "shell_id": "27000021",
+    "holder": "21204"
+  },
+  {
+    "id": "25000057",
+    "name_en": "BLACK SABER(SIX)",
+    "name_id": "BLACK SABER(SIX)",
+    "icon": "shellnamepic_25000057.png",
+    "shell_id": "27000022",
+    "holder": "21205"
+  },
+  {
+    "id": "25000058",
+    "name_en": "BLACK SABER(SEVEN)",
+    "name_id": "BLACK SABER(SEVEN)",
+    "icon": "shellnamepic_25000058.png",
+    "shell_id": "27000023",
+    "holder": "21206"
+  },
+  {
+    "id": "25000059",
+    "name_en": "PROTO-ASBER（green）",
+    "name_id": "PROTO-ASBER（green）",
+    "icon": "shellnamepic_25000059.png",
+    "shell_id": "27000024",
+    "holder": "21103"
+  },
+  {
+    "id": "25000060",
+    "name_en": "PROTO-ASBER（pink）",
+    "name_id": "PROTO-ASBER（pink）",
+    "icon": "shellnamepic_25000060.png",
+    "shell_id": "27000025",
+    "holder": "21104"
+  },
+  {
+    "id": "25000061",
+    "name_en": "PROTO-ASBER（red）",
+    "name_id": "PROTO-ASBER（red）",
+    "icon": "shellnamepic_25000061.png",
+    "shell_id": "27000026",
+    "holder": "21101"
+  },
+  {
+    "id": "25000062",
+    "name_en": "PROTO-ASBER（white）",
+    "name_id": "PROTO-ASBER（white）",
+    "icon": "shellnamepic_25000062.png",
+    "shell_id": "27000027",
+    "holder": "21102"
+  },
+  {
+    "id": "25000063",
+    "name_en": "PROTO-ASBER（yellow）",
+    "name_id": "PROTO-ASBER（yellow）",
+    "icon": "shellnamepic_25000063.png",
+    "shell_id": "27000028",
+    "holder": "21105"
+  },
+  {
+    "id": "25000064",
+    "name_en": "DIOSPADA(black)",
+    "name_id": "DIOSPADA(black)",
+    "icon": "shellnamepic_25000064.png",
+    "shell_id": "27000029",
+    "holder": "20301"
+  },
+  {
+    "id": "25000065",
+    "name_en": "BUCK BLADER",
+    "name_id": "BUCK BLADER",
+    "icon": "shellnamepic_25000065.png",
+    "shell_id": "27000030",
+    "holder": "20201"
+  },
+  {
+    "id": "25000066",
+    "name_en": "AVANTE",
+    "name_id": "AVANTE",
+    "icon": "shellnamepic_25000066.png",
+    "shell_id": "27000031",
+    "holder": "20201"
+  },
+  {
+    "id": "25000067",
+    "name_en": "FIGHTER MAGNUM VFX",
+    "name_id": "FIGHTER MAGNUM VFX",
+    "icon": "shellnamepic_25000067.png",
+    "shell_id": "27000032",
+    "holder": "20201"
+  },
+  {
+    "id": "25000068",
+    "name_en": "MAGNUM BATTLE GOD",
+    "name_id": "MAGNUM BATTLE GOD",
+    "icon": "shellnamepic_25000068.png",
+    "shell_id": "27000033",
+    "holder": "20201"
+  },
+  {
+    "id": "25000069",
+    "name_en": "SONIC BATTLE GOD",
+    "name_id": "SONIC BATTLE GOD",
+    "icon": "shellnamepic_25000069.png",
+    "shell_id": "27000034",
+    "holder": "20201"
+  },
+  {
+    "id": "25000070",
+    "name_en": "Saber",
+    "name_id": "Saber",
+    "icon": "shellnamepic_25000070.png",
+    "shell_id": "27000000",
+    "holder": "20201"
+  },
+  {
+    "id": "25000071",
+    "name_en": "Saber",
+    "name_id": "Saber",
+    "icon": "shellnamepic_25000071.png",
+    "shell_id": "27000001",
+    "holder": "20201"
+  },
+  {
+    "id": "25000073",
+    "name_en": "Saber",
+    "name_id": "Saber",
+    "icon": "shellnamepic_25000073.png",
+    "shell_id": "27000002",
+    "holder": "20201"
+  },
+  {
+    "id": "25000074",
+    "name_en": "Saber",
+    "name_id": "Saber",
+    "icon": "shellnamepic_25000074.png",
+    "shell_id": "27000003",
+    "holder": "20201"
+  },
+  {
+    "id": "25000075",
+    "name_en": "Saber",
+    "name_id": "Saber",
+    "icon": "shellnamepic_25000075.png",
+    "shell_id": "27000004",
+    "holder": "20201"
+  },
+  {
+    "id": "25000076",
+    "name_en": "Mini 4WD 25000076",
+    "name_id": "Mini 4WD 25000076",
+    "icon": "shellnamepic_25000076.png",
+    "shell_id": "27000004",
+    "holder": "20201"
+  },
+  {
+    "id": "25000077",
+    "name_en": "Mini 4WD 25000077",
+    "name_id": "Mini 4WD 25000077",
+    "icon": "shellnamepic_25000077.png",
+    "shell_id": "27000004",
+    "holder": "20201"
+  },
+  {
+    "id": "25000078",
+    "name_en": "Mini 4WD 25000078",
+    "name_id": "Mini 4WD 25000078",
+    "icon": "shellnamepic_25000078.png",
+    "shell_id": "27000004",
+    "holder": "20201"
+  },
+  {
+    "id": "25000079",
+    "name_en": "Mini 4WD 25000079",
+    "name_id": "Mini 4WD 25000079",
+    "icon": "shellnamepic_25000079.png",
+    "shell_id": "27000004",
+    "holder": "20201"
+  },
+  {
+    "id": "25000080",
+    "name_en": "Mini 4WD 25000080",
+    "name_id": "Mini 4WD 25000080",
+    "icon": "shellnamepic_25000080.png",
+    "shell_id": "27000004",
+    "holder": "20201"
+  },
+  {
+    "id": "25000081",
+    "name_en": "Mini 4WD 25000081",
+    "name_id": "Mini 4WD 25000081",
+    "icon": "shellnamepic_25000081.png",
+    "shell_id": "27000004",
+    "holder": "20201"
+  },
+  {
+    "id": "25000082",
+    "name_en": "Mini 4WD 25000082",
+    "name_id": "Mini 4WD 25000082",
+    "icon": "shellnamepic_25000082.png",
+    "shell_id": "27000004",
+    "holder": "20201"
+  },
+  {
+    "id": "25000083",
+    "name_en": "Mini 4WD 25000083",
+    "name_id": "Mini 4WD 25000083",
+    "icon": "shellnamepic_25000083.png",
+    "shell_id": "27000004",
+    "holder": "20201"
+  },
+  {
+    "id": "25000084",
+    "name_en": "Mini 4WD 25000084",
+    "name_id": "Mini 4WD 25000084",
+    "icon": "shellnamepic_25000084.png",
+    "shell_id": "27000004",
+    "holder": "20201"
+  },
+  {
+    "id": "25000085",
+    "name_en": "Mini 4WD 25000085",
+    "name_id": "Mini 4WD 25000085",
+    "icon": "shellnamepic_25000085.png",
+    "shell_id": "27000004",
+    "holder": "20201"
+  },
+  {
+    "id": "25000086",
+    "name_en": "Prince",
+    "name_id": "Prince",
+    "icon": "shellnamepic_25000086.png",
+    "shell_id": "27000004",
+    "holder": "20201"
+  },
+  {
+    "id": "25000087",
+    "name_en": "Mini 4WD 25000087",
+    "name_id": "Mini 4WD 25000087",
+    "icon": "shellnamepic_25000087.png",
+    "shell_id": "27000004",
+    "holder": "20201"
+  },
+  {
+    "id": "25000088",
+    "name_en": "Mini 4WD 25000088",
+    "name_id": "Mini 4WD 25000088",
+    "icon": "shellnamepic_25000088.png",
+    "shell_id": "27000004",
+    "holder": "20201"
+  },
+  {
+    "id": "25000089",
+    "name_en": "Mini 4WD 25000089",
+    "name_id": "Mini 4WD 25000089",
+    "icon": "shellnamepic_25000089.png",
+    "shell_id": "27000004",
+    "holder": "20201"
+  },
+  {
+    "id": "25000090",
+    "name_en": "Mini 4WD 25000090",
+    "name_id": "Mini 4WD 25000090",
+    "icon": "shellnamepic_25000090.png",
+    "shell_id": "27000013",
+    "holder": "20201"
+  },
+  {
+    "id": "25000091",
+    "name_en": "Mini 4WD 25000091",
+    "name_id": "Mini 4WD 25000091",
+    "icon": "shellnamepic_25000091.png",
+    "shell_id": "27000021",
+    "holder": "20201"
+  },
+  {
+    "id": "25000092",
+    "name_en": "Mini 4WD 25000092",
+    "name_id": "Mini 4WD 25000092",
+    "icon": "shellnamepic_25000092.png",
+    "shell_id": "27000021",
+    "holder": "20201"
+  },
+  {
+    "id": "25000093",
+    "name_en": "Mini 4WD 25000093",
+    "name_id": "Mini 4WD 25000093",
+    "icon": "shellnamepic_25000093.png",
+    "shell_id": "27000021",
+    "holder": "20201"
+  },
+  {
+    "id": "25000094",
+    "name_en": "Kong Long",
+    "name_id": "Kong Long",
+    "icon": "shellnamepic_25000094.png",
+    "shell_id": "27000021",
+    "holder": "20403"
+  },
+  {
+    "id": "25000095",
+    "name_en": "Fight Lady",
+    "name_id": "Fight Lady",
+    "icon": "shellnamepic_25000095.png",
+    "shell_id": "27000021",
+    "holder": "30009"
+  },
+  {
+    "id": "25000096",
+    "name_en": "Mini 4WD 25000096",
+    "name_id": "Mini 4WD 25000096",
+    "icon": "shellnamepic_25000096.png",
+    "shell_id": "27000021",
+    "holder": "20201"
+  },
+  {
+    "id": "25000097",
+    "name_en": "Spin Viper (Special·Black)",
+    "name_id": "Spin Viper (Special·Black)",
+    "icon": "shellnamepic_25000097.png",
+    "shell_id": "27000021",
+    "holder": "20104"
+  },
+  {
+    "id": "25000098",
+    "name_en": "Mini 4WD 25000098",
+    "name_id": "Mini 4WD 25000098",
+    "icon": "shellnamepic_25000098.png",
+    "shell_id": "27000021",
+    "holder": "20201"
+  },
+  {
+    "id": "25000099",
+    "name_en": "Mini 4WD 25000099",
+    "name_id": "Mini 4WD 25000099",
+    "icon": "shellnamepic_25000099.png",
+    "shell_id": "27000021",
+    "holder": "20201"
+  },
+  {
+    "id": "25000100",
+    "name_en": "SPIN-AXE",
+    "name_id": "SPIN-AXE",
+    "icon": "shellnamepic_25000100.png",
+    "shell_id": "27000021",
+    "holder": "10004"
+  },
+  {
+    "id": "25000101",
+    "name_en": "SPIN COBRA",
+    "name_id": "SPIN COBRA",
+    "icon": "shellnamepic_25000101.png",
+    "shell_id": "27000021",
+    "holder": "20201"
+  },
+  {
+    "id": "25000102",
+    "name_en": "SPIN-VIPER",
+    "name_id": "SPIN-VIPER",
+    "icon": "shellnamepic_25000102.png",
+    "shell_id": "27000021",
+    "holder": "20104"
+  },
+  {
+    "id": "25000103",
+    "name_en": "MAX BREAKER",
+    "name_id": "MAX BREAKER",
+    "icon": "shellnamepic_25000103.png",
+    "shell_id": "27000021",
+    "holder": "30001"
+  },
+  {
+    "id": "25000104",
+    "name_en": "AVANTE(SCUP)",
+    "name_id": "AVANTE(SCUP)",
+    "icon": "shellnamepic_25000104.png",
+    "shell_id": "27000021",
+    "holder": "10007"
+  },
+  {
+    "id": "25000105",
+    "name_en": "BEL·CYCLONE MAGNUM(Limited Edition)",
+    "name_id": "BEL·CYCLONE MAGNUM(Limited Edition)",
+    "icon": "shellnamepic_25000105.png",
+    "shell_id": "27000021",
+    "holder": "20102"
+  },
+  {
+    "id": "25000106",
+    "name_en": "FLOWER SPIN-AXE",
+    "name_id": "FLOWER SPIN-AXE",
+    "icon": "shellnamepic_25000106.png",
+    "shell_id": "27000021",
+    "holder": "10009"
+  },
+  {
+    "id": "25000107",
+    "name_en": "AVANTE",
+    "name_id": "AVANTE",
+    "icon": "shellnamepic_25000107.png",
+    "shell_id": "27000021",
+    "holder": "20201"
+  },
+  {
+    "id": "25000108",
+    "name_en": "KNUCKLE BREAKER",
+    "name_id": "KNUCKLE BREAKER",
+    "icon": "shellnamepic_25000108.png",
+    "shell_id": "27000021",
+    "holder": "30002"
+  },
+  {
+    "id": "25000109",
+    "name_en": "SHADOW BREAKER",
+    "name_id": "SHADOW BREAKER",
+    "icon": "shellnamepic_25000109.png",
+    "shell_id": "27000021",
+    "holder": "30002"
+  },
+  {
+    "id": "25000110",
+    "name_en": "Vise Intruder",
+    "name_id": "BROZOI RAKETA",
+    "icon": "shellnamepic_25000110.png",
+    "shell_id": "27000021",
+    "holder": "30008"
+  },
+  {
+    "id": "25000111",
+    "name_en": "Diomars-Nero",
+    "name_id": "OMEGA",
+    "icon": "shellnamepic_25000111.png",
+    "shell_id": "27000021",
+    "holder": "21001"
+  },
+  {
+    "id": "25000112",
+    "name_en": "PHANTOM BLADE",
+    "name_id": "PHANTOM BLADE",
+    "icon": "shellnamepic_25000112.png",
+    "shell_id": "27000021",
+    "holder": "30012"
+  },
+  {
+    "id": "25000113",
+    "name_en": "Basic Mini 4WD Car Box (Mini 4WD Station)",
+    "name_id": "FIRE STINGER",
+    "icon": "shellnamepic_25000113.png",
+    "shell_id": "27000021",
+    "holder": "30003"
+  },
+  {
+    "id": "25000114",
+    "name_en": "White Night",
+    "name_id": "White Night",
+    "icon": "shellnamepic_25000114.png",
+    "shell_id": "27000021",
+    "holder": "20705"
+  },
+  {
+    "id": "25000115",
+    "name_en": "RISING TRIGGER",
+    "name_id": "RISING TRIGGER",
+    "icon": "shellnamepic_25000115.png",
+    "shell_id": "27000021",
+    "holder": "20103"
+  },
+  {
+    "id": "25000116",
+    "name_en": "DragonAxe",
+    "name_id": "DragonAxe",
+    "icon": "shellnamepic_25000116.png",
+    "shell_id": "27000021",
+    "holder": "30014"
+  },
+  {
+    "id": "25000117",
+    "name_en": "BLAZING MAX",
+    "name_id": "BLAZING MAX",
+    "icon": "shellnamepic_25000117.png",
+    "shell_id": "27000021",
+    "holder": "30001"
+  },
+  {
+    "id": "25000118",
+    "name_en": "0",
+    "name_id": "0",
+    "icon": "shellnamepic_25000118.png",
+    "shell_id": "27000021",
+    "holder": "20201"
+  },
+  {
+    "id": "25000119",
+    "name_en": "0",
+    "name_id": "0",
+    "icon": "shellnamepic_25000119.png",
+    "shell_id": "27000021",
+    "holder": "20201"
+  },
+  {
+    "id": "25000120",
+    "name_en": "0",
+    "name_id": "0",
+    "icon": "shellnamepic_25000120.png",
+    "shell_id": "27000021",
+    "holder": "20201"
+  },
+  {
+    "id": "25000121",
+    "name_en": "0",
+    "name_id": "0",
+    "icon": "shellnamepic_25000121.png",
+    "shell_id": "27000021",
+    "holder": "20201"
+  },
+  {
+    "id": "25000122",
+    "name_en": "0",
+    "name_id": "0",
+    "icon": "shellnamepic_25000122.png",
+    "shell_id": "27000021",
+    "holder": "20201"
+  },
+  {
+    "id": "25000123",
+    "name_en": "BUCK BLADER(GAZER)",
+    "name_id": "BUCK BLADER(GAZER)",
+    "icon": "shellnamepic_25000123.png",
+    "shell_id": "27000021",
+    "holder": "20201"
+  },
+  {
+    "id": "25000124",
+    "name_en": "DIOSPADA(SPECIAL)",
+    "name_id": "DIOSPADA(SPECIAL)",
+    "icon": "shellnamepic_25000124.png",
+    "shell_id": "27000021",
+    "holder": "20301"
+  },
+  {
+    "id": "25000125",
+    "name_en": "Free Blade",
+    "name_id": "Free Blade",
+    "icon": "shellnamepic_25000125.png",
+    "shell_id": "27000021",
+    "holder": "30019"
+  },
+  {
+    "id": "25000126",
+    "name_en": "DIOMARS-NERO",
+    "name_id": "DIOMARS-NERO",
+    "icon": "shellnamepic_25000126.png",
+    "shell_id": "27000021",
+    "holder": "30018"
+  },
+  {
+    "id": "25000127",
+    "name_en": "0",
+    "name_id": "0",
+    "icon": "shellnamepic_25000127.png",
+    "shell_id": "27000021",
+    "holder": "20201"
+  },
+  {
+    "id": "25000128",
+    "name_en": "BUSTER SONIC(BLACK SPECIAL)",
+    "name_id": "BUSTER SONIC(BLACK SPECIAL)",
+    "icon": "shellnamepic_25000128.png",
+    "shell_id": "27000021",
+    "holder": "20201"
+  },
+  {
+    "id": "25000129",
+    "name_en": "STORM CRUISER",
+    "name_id": "STORM CRUISER",
+    "icon": "shellnamepic_25000129.png",
+    "shell_id": "27000021",
+    "holder": "30005"
+  },
+  {
+    "id": "25000130",
+    "name_en": "BEAK STINGER G",
+    "name_id": "BEAK STINGER G",
+    "icon": "shellnamepic_25000130.png",
+    "shell_id": "27000021",
+    "holder": "10018"
+  },
+  {
+    "id": "25000131",
+    "name_en": "CROSS HOME RUN",
+    "name_id": "CROSS HOME RUN",
+    "icon": "shellnamepic_25000131.png",
+    "shell_id": "27000021",
+    "holder": "10011"
+  },
+  {
+    "id": "25000132",
+    "name_en": "TRI DAGGER X",
+    "name_id": "TRI DAGGER X",
+    "icon": "shellnamepic_25000132.png",
+    "shell_id": "27000010",
+    "holder": "10003"
+  },
+  {
+    "id": "25000133",
+    "name_en": "Cyclone Magnum Test",
+    "name_id": "Cyclone Magnum Test",
+    "icon": "shellnamepic_25000133.png",
+    "shell_id": "27000021",
+    "holder": "10002"
+  },
+  {
+    "id": "25000134",
+    "name_en": "RED SCORPION",
+    "name_id": "RED SCORPION",
+    "icon": "shellnamepic_25000134.png",
+    "shell_id": "27000021",
+    "holder": "10016"
+  },
+  {
+    "id": "25000135",
+    "name_en": "Marine Blader",
+    "name_id": "Marine Blader",
+    "icon": "shellnamepic_25000135.png",
+    "shell_id": "27000021",
+    "holder": "30011"
+  },
+  {
+    "id": "25000136",
+    "name_en": "Air Blader",
+    "name_id": "Air Blader",
+    "icon": "shellnamepic_25000136.png",
+    "shell_id": "27000021",
+    "holder": "30015"
+  },
+  {
+    "id": "25000137",
+    "name_en": "Land Blader",
+    "name_id": "Land Blader",
+    "icon": "shellnamepic_25000137.png",
+    "shell_id": "27000021",
+    "holder": "30016"
+  },
+  {
+    "id": "25000138",
+    "name_en": "Brocken Harpoon",
+    "name_id": "Brocken Harpoon",
+    "icon": "shellnamepic_25000138.png",
+    "shell_id": "27000021",
+    "holder": "30010"
+  },
+  {
+    "id": "25000139",
+    "name_en": "GBS Formula",
+    "name_id": "GBS Formula",
+    "icon": "shellnamepic_25000139.png",
+    "shell_id": "27000021",
+    "holder": "30006"
+  },
+  {
+    "id": "25000140",
+    "name_en": "Gunbluster",
+    "name_id": "Gunbluster",
+    "icon": "shellnamepic_25000140.png",
+    "shell_id": "27000021",
+    "holder": "30017"
+  },
+  {
+    "id": "25000141",
+    "name_en": "EMPEROR",
+    "name_id": "EMPEROR",
+    "icon": "shellnamepic_25000141.png",
+    "shell_id": "27000021",
+    "holder": "30019"
+  },
+  {
+    "id": "25000142",
+    "name_en": "Phantom Blade (M3 Racing Edition)",
+    "name_id": "Phantom Blade (M5 Racing Edition)",
+    "icon": "shellnamepic_25000142.png",
+    "shell_id": "27000021",
+    "holder": "30012"
+  },
+  {
+    "id": "25000143",
+    "name_en": "VISE",
+    "name_id": "VISE",
+    "icon": "shellnamepic_25000143.png",
+    "shell_id": "27000021",
+    "holder": "30012"
+  },
+  {
+    "id": "25000144",
+    "name_en": "Armored Vanguard Sonic",
+    "name_id": "Armored Vanguard Sonic",
+    "icon": "shellnamepic_25000144.png",
+    "shell_id": "27000021",
+    "holder": "10001"
+  },
+  {
+    "id": "25000145",
+    "name_en": "Homerun Manta Ray",
+    "name_id": "Homerun Manta Ray",
+    "icon": "shellnamepic_25000145.png",
+    "shell_id": "27000021",
+    "holder": "10011"
+  },
+  {
+    "id": "25000146",
+    "name_en": "Armored Victory Magnum",
+    "name_id": "Armored Victory Magnum",
+    "icon": "shellnamepic_25000146.png",
+    "shell_id": "27000021",
+    "holder": "10002"
+  },
+  {
+    "id": "25000147",
+    "name_en": "Vise Intruder (Balanced Mode)",
+    "name_id": "Vise Intruder (Balanced Mode)",
+    "icon": "shellnamepic_25000147.png",
+    "shell_id": "27000021",
+    "holder": "30012"
+  },
+  {
+    "id": "25000148",
+    "name_en": "Vise Intruder (Combo Mode)",
+    "name_id": "Vise Intruder (Combo Mode)",
+    "icon": "shellnamepic_25000148.png",
+    "shell_id": "27000021",
+    "holder": "30012"
+  },
+  {
+    "id": "25000149",
+    "name_en": "Jamaica RG",
+    "name_id": "Jamaica RG",
+    "icon": "shellnamepic_25000149.png",
+    "shell_id": "27000021",
+    "holder": "20901"
+  },
+  {
+    "id": "25000150",
+    "name_en": "RAY STINGER (2025 Halloween Limited)",
+    "name_id": "RAY STINGER (2025 Halloween Limited)",
+    "icon": "shellnamepic_25000150.png",
+    "shell_id": "27000021",
+    "holder": "30020"
+  },
+  {
+    "id": "25000151",
+    "name_en": "BLUE SWARD",
+    "name_id": "BLUE SWARD",
+    "icon": "shellnamepic_25000151.png",
+    "shell_id": "27000021",
+    "holder": "30021"
+  },
+  {
+    "id": "25000152",
+    "name_en": "Knuckle Breaker Z-1 (2025 Christmas Limited)",
+    "name_id": "Knuckle Breaker Z-1 (2025 Christmas Limited)",
+    "icon": "shellnamepic_25000152.png",
+    "shell_id": "27000021",
+    "holder": "30022"
+  },
+  {
+    "id": "25000153",
+    "name_en": "MACH FRAME",
+    "name_id": "MACH FRAME",
+    "icon": "shellnamepic_25000153.png",
+    "shell_id": "27000021",
+    "holder": "30019"
+  },
+  {
+    "id": "25000154",
+    "name_en": "Plated Beat Magnum",
+    "name_id": "Plated Beat Magnum",
+    "icon": "shellnamepic_25000154.png",
+    "shell_id": "27000021",
+    "holder": "20102"
+  },
+  {
+    "id": "25000155",
+    "name_en": "MECHANICAL RACEHORSE",
+    "name_id": "MECHANICAL RACEHORSE",
+    "icon": "shellnamepic_25000155.png",
+    "shell_id": "27000021",
+    "holder": "10023"
+  },
+  {
+    "id": "25000156",
+    "name_en": "Spin Cobra(Front) – Spring",
+    "name_id": "Spin Cobra(Front) – Spring",
+    "icon": "shellnamepic_25000156.png",
+    "shell_id": "27000021",
+    "holder": "20201"
+  },
+  {
+    "id": "25000157",
+    "name_en": "GT-SHINING SCORPION",
+    "name_id": "GT-SHINING SCORPION",
+    "icon": "shellnamepic_25000157.png",
+    "shell_id": "27000021",
+    "holder": "20401"
+  },
+  {
+    "id": "25000158",
+    "name_en": "GT-SPIN-VIPER",
+    "name_id": "GT-SPIN-VIPER",
+    "icon": "shellnamepic_25000158.png",
+    "shell_id": "27000021",
+    "holder": "20104"
+  },
+  {
+    "id": "25000159",
+    "name_en": "GT-BEAK SPIDER ZEBRA",
+    "name_id": "GT-BEAK SPIDER ZEBRA",
+    "icon": "shellnamepic_25000159.png",
+    "shell_id": "27000021",
+    "holder": "20601"
+  },
+  {
+    "id": "25000160",
+    "name_en": "DANCING DOLL",
+    "name_id": "DANCING DOLL",
+    "icon": "shellnamepic_25000160.png",
+    "shell_id": "27000021",
+    "holder": "30023"
+  },
+  {
+    "id": "25000161",
+    "name_en": "RED SWARD",
+    "name_id": "RED SWARD",
+    "icon": "shellnamepic_25000161.png",
+    "shell_id": "27000021",
+    "holder": "30004"
+  },
+  {
+    "id": "25000162",
+    "name_en": "SHADOW BREAKER(Summer Exclusive)",
+    "name_id": "SHADOW BREAKER(Summer Exclusive)",
+    "icon": "shellnamepic_25000162.png",
+    "shell_id": "27000021",
+    "holder": "30002"
+  },
+  {
+    "id": "25000163",
+    "name_en": "HORIZON",
+    "name_id": "HORIZON",
+    "icon": "shellnamepic_25000163.png",
+    "shell_id": "27000021",
+    "holder": "30024"
+  },
+  {
+    "id": "25000164",
+    "name_en": "SHOOTING STAR",
+    "name_id": "SHOOTING STAR",
+    "icon": "shellnamepic_25000164.png",
+    "shell_id": "27000021",
+    "holder": "30025"
+  },
+  {
+    "id": "25000165",
+    "name_en": "BURNING SUN",
+    "name_id": "BURNING SUN",
+    "icon": "shellnamepic_25000165.png",
+    "shell_id": "27000021",
+    "holder": "30026"
+  },
+  {
+    "id": "25000166",
+    "name_en": "SUPER EMPEROR",
+    "name_id": "SUPER EMPEROR",
+    "icon": "shellnamepic_25000166.png",
+    "shell_id": "27000021",
+    "holder": "30027"
+  },
+  {
+    "id": "25000167",
+    "name_en": "GREAT EMPEROR",
+    "name_id": "GREAT EMPEROR",
+    "icon": "shellnamepic_25000167.png",
+    "shell_id": "27000021",
+    "holder": "30028"
+  },
+  {
+    "id": "25000168",
+    "name_en": "THUNDERSHOT (PINK)",
+    "name_id": "THUNDERSHOT (PINK)",
+    "icon": "shellnamepic_25000168.png",
+    "shell_id": "27000021",
+    "holder": "30029"
+  },
+  {
+    "id": "25000169",
+    "name_en": "CANNON BALL",
+    "name_id": "CANNON BALL",
+    "icon": "shellnamepic_25000169.png",
+    "shell_id": "27000021",
+    "holder": "30030"
+  },
+  {
+    "id": "25000170",
+    "name_en": "RISING EDGE",
+    "name_id": "RISING EDGE",
+    "icon": "shellnamepic_25000170.png",
+    "shell_id": "27000021",
+    "holder": "30031"
+  },
+  {
+    "id": "25000171",
+    "name_en": "SLASH REAPER",
+    "name_id": "SLASH REAPER",
+    "icon": "shellnamepic_25000171.png",
+    "shell_id": "27000021",
+    "holder": "30032"
+  },
+  {
+    "id": "25000172",
+    "name_en": "MANTA RAY MK.II",
+    "name_id": "MANTA RAY MK.II",
+    "icon": "shellnamepic_25000172.png",
+    "shell_id": "27000021",
+    "holder": "30033"
+  },
+  {
+    "id": "25000173",
+    "name_en": "AVATAR MK.III",
+    "name_id": "AVATAR MK.III",
+    "icon": "shellnamepic_25000173.png",
+    "shell_id": "27000021",
+    "holder": "30034"
+  },
+  {
+    "id": "25000174",
+    "name_en": "GT-DRAGONAXE",
+    "name_id": "GT-DRAGONAXE",
+    "icon": "shellnamepic_25000174.png",
+    "shell_id": "27000021",
+    "holder": "30014"
+  },
+  {
+    "id": "25000175",
+    "name_en": "GT-WHITE NIGHT",
+    "name_id": "GT-WHITE NIGHT",
+    "icon": "shellnamepic_25000175.png",
+    "shell_id": "27000021",
+    "holder": "20705"
+  },
+  {
+    "id": "25000176",
+    "name_en": "GT-BUCK BLADER",
+    "name_id": "GT-BUCK BLADER",
+    "icon": "shellnamepic_25000176.png",
+    "shell_id": "27000021",
+    "holder": "20201"
+  },
+  {
+    "id": "25000177",
+    "name_en": "GT-BROCK GIGANT",
+    "name_id": "GT-BROCK GIGANT",
+    "icon": "shellnamepic_25000177.png",
+    "shell_id": "27000021",
+    "holder": "10017"
+  }
+]

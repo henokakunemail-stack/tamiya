@@ -1,0 +1,26 @@
+--
+--
+--
+-----@class RaceRankRewardViewAction:ViewBaseAction
+--RaceRankRewardViewAction = class("RaceRankRewardViewAction",ViewBaseAction)
+--
+--function RaceRankRewardViewAction:initialize()
+--    ViewBaseAction.initialize(self)
+--end
+--
+--function RaceRankRewardViewAction:OnRegisterEvents()
+--    self:AddNotificationEvent(UINotifyEvent.RaceRankRewardView_UpdateState, self.UpdateRewardState)
+--end
+--
+-----@return RaceRankRewardView
+--function RaceRankRewardViewAction:View()
+--    return self.view
+--end
+--
+--function RaceRankRewardViewAction:UpdateRewardState()
+--    if self:View() then
+--        self:View():UpdateRewardState()
+--    end
+--end
+--
+--return RaceRankRewardViewAction()

@@ -1,0 +1,162 @@
+--
+--
+--
+-----@class HomeSceneShowCarRoom
+--HomeSceneShowCarRoom = class("HomeSceneShowCarRoom")
+--
+--function HomeSceneShowCarRoom:initialize()
+--    self.IsLoading = false
+--
+--    ---@type table<number, CarReviewData>
+--    self.CarList = {}
+--    self.BuildIDs = {}
+--
+--    self.LoadFinishCount = 0
+--    self.Max = 0
+--end
+-----@return HomeSceneShowCarRoom
+--function HomeSceneShowCarRoom:Get()
+--    if self._instance == nil then
+--        self._instance = HomeSceneShowCarRoom()
+--    end
+--    return self._instance
+--end
+--
+--
+----{{{接口
+-----@param list table<number, CarReviewData>
+--function HomeSceneShowCarRoom:Show(list)
+--    if list == nil then log("---   error:HomeSceneShowCarRoom   list == nil") return end
+--    if #list > 5 then log("---   error:HomeSceneShowCarRoom   count > 5") return end
+--    if self.IsLoading then log("---   error:HomeSceneShowCarRoom.Show   loading...") return end
+--
+--    self:CheckAutoRecycle()
+--
+--    self:ClearCache()
+--
+--    self:SetCache(list)
+--
+--    self:BeginLoad()
+--end
+--function HomeSceneShowCarRoom:Recycle()
+--    if self.IsLoading then log("---   error:HomeSceneShowCarRoom.Recycle   loading...") return end
+--
+--    for i = 1, #self.BuildIDs do
+--        CarBuilderManager:Get():Recycle(self.BuildIDs[i])
+--    end
+--
+--    self:ClearCache()
+--end
+----}}}
+--
+-----@param list table<number, CarReviewData>
+--function HomeSceneShowCarRoom:SetCache(list)
+--    local max = 0
+--    for i = 1, #list do
+--        if list[i] ~= nil then
+--            max = max + 1
+--        end
+--    end
+--    self.Max = max
+--    self.CarList = list
+--end
+--
+--function HomeSceneShowCarRoom:BeginLoad()
+--    self:BeginWaitingTimer()
+--
+--    self.IsLoading = true
+--
+--    for i = 1, #self.CarList do
+--        local data = self.CarList[i]
+--        if data ~= nil then
+--            local buildid = self:LoadCar(data, i)
+--            table.insert(self.BuildIDs, buildid)
+--        end
+--    end
+--end
+--
+-----@param data CarReviewData
+--function HomeSceneShowCarRoom:LoadCar(data, idx)
+--    local param = CarBuilderParam()
+--    param.buildType = CarBuilderType.Data
+--    param.combineType = CombineType.OnceVertexBaker
+--    param.parts = data:GetPartList()
+--    param.lightweight = data:GetLightweight()
+--    param.grids = data:GetGrids()
+--    param.colorid = data:GetColorId()
+--    param.stickerid = data:GetStickerid()
+--    param.parent = self:GetCarRoot(idx)
+--    param.finishEvt = function(id, obj)
+--        log("----   HomeSceneShowCarRoom.LoadCar   ", id, obj)
+--        self.LoadFinishCount = self.LoadFinishCount + 1
+--        if self.LoadFinishCount >= self.Max then
+--            self:LoadFinish()
+--        end
+--    end
+--    local buildid = CarBuilderManager:Get():BuildCar(param)
+--    return buildid
+--end
+--
+--function HomeSceneShowCarRoom:GetCarRoot(idx)
+--    local root = SceneManager:Get():GetMainCityScenePrefab(SceneChangeID.Room)
+--    local obj = UIUtil.GetChild(SceneHome_CarRoot..idx, root)
+--    return obj
+--end
+--
+--function HomeSceneShowCarRoom:LoadFinish()
+--    self.IsLoading = false
+--    self:StopTimer()
+--end
+--
+--function HomeSceneShowCarRoom:ClearCache()
+--    self.IsLoading = false
+--    self.CarList = {}
+--    self.BuildIDs = {}
+--    self.LoadFinishCount = 0
+--    self.Max = 0
+--end
+--
+--function HomeSceneShowCarRoom:ErrorEnd()
+--    log("---   Error:HomeSceneShowCarRoom:ErrorEnd")
+--    self:ClearCache()
+--    self:StopTimer()
+--end
+--
+--function HomeSceneShowCarRoom:CheckAutoRecycle()
+--    if #self.BuildIDs > 0 then
+--        logError("---   Error:HomeSceneShowCarRoom   没有正确回收车，自动回收")
+--        self:Recycle()
+--    end
+--end
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--function HomeSceneShowCarRoom:BeginWaitingTimer()
+--    self:StopTimer()
+--    self.timerId = TimerManager:Get():CreateTimer(10, function(class)
+--        self:WaitingOvertime()
+--    end)
+--    CommonHelper:PlayScreenEffectNull(true)
+--end
+--function HomeSceneShowCarRoom:WaitingOvertime()
+--    self:StopTimer()
+--    log("---   error:HomeSceneShowCarRoom overtime... ")
+--    self:ErrorEnd()
+--end
+--function HomeSceneShowCarRoom:StopTimer()
+--    TimerManager:Get():StopTimer(self.timerId)
+--    self.timerId = -1
+--    CommonHelper:PlayScreenEffectNull(false)
+--end

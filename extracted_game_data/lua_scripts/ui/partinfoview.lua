@@ -1,0 +1,126 @@
+--
+--
+--
+--
+--
+-----@class PartInfoView : ViewBase
+--PartInfoView = class("PartInfoView", ViewBase)
+--
+--function PartInfoView:initialize()
+--    ViewBase.initialize(self)
+--    ViewBase.RegisteAction(self, "PartInfoViewAction")
+--
+--    ---@type Page_PartInfo3
+--    self.Page = nil
+--    self.PagePrefab = nil
+--
+--    ---@type parts_config_cell
+--    self.PartCfg = nil
+--
+--    ---@type ArticleCell
+--    self.ArticleData=nil
+--
+--    self.colorType = UIColor.Blue
+--    self.moduleId = UIModuleID.None
+--end
+--
+--function PartInfoView:Awake()
+--    CommonHelper:HButtonSetCallback("BtnClose",self.gameObject,function (hbtn)
+--        UIManager:Get():ClosePopup()
+--    end)
+--
+--    self.PageRoot = UIUtil.GetChild("pagebase",self.gameObject)
+--    self.BgGroup = UIUtil.GetChild("WindowBgWhite_1", self.gameObject)
+--
+--    CommonHelper:SetRawimageRenderTexture("particon", self.gameObject)
+--
+--end
+--
+--function PartInfoView:OnOpen()
+--    HomeSceneHelper:SetArticleInfo()
+--
+--end
+--
+--function PartInfoView:OnClose()
+--    PartBuilder:Get():RecyclePart()
+--    CameraStackHelper:SetUIDefaultGroup()
+--
+--
+--    if self.Page then
+--        self.Page:Release()
+--        self.Page = nil
+--    end
+--
+--    if self.PagePrefab then
+--        PrefabCacheMgr:Get():RecyclePrefab(self.PagePrefab)
+--        self.PagePrefab = nil
+--    end
+--end
+--
+--function PartInfoView:OnAutoClose()
+--    PartBuilder:Get():RecyclePart()
+--    CameraStackHelper:SetUIDefaultGroup()
+--end
+--
+--function PartInfoView:SetData(colortype, data, composeids)
+--    self.PartCfg = data
+--    self.colorType = colortype
+--
+--
+--    self:SetMesh(composeids)
+--
+--    CommonHelper:SetComponentPartStar("PartStarCompoent",self.gameObject, self.PartCfg.quality,100)
+--
+--    CommonHelper:SetColorSystem_WindowBg1(self.BgGroup, colortype)
+--
+--    self:SetPage()
+--end
+--
+-----@param data ArticleCell
+--function PartInfoView:SetArticleData(colortype, data)
+--    self.ArticleData = data
+--    self.colorType = colortype
+--
+--
+--    self:SetMesh(data:GetPartComposeIds())
+--
+--    CommonHelper:SetComponentPartStar("PartStarCompoent",self.gameObject, self.ArticleData:GetPartQuality(),100)
+--
+--    CommonHelper:SetColorSystem_WindowBg1(self.BgGroup, colortype)
+--
+--    self:SetPage()
+--end
+--
+--
+--function PartInfoView:SetPage()
+--    PrefabCacheMgr:Get():SwapPrefabAsync("Page_PartInfo3.prefab", nil, nil, self.LoadPageFinish, nil, self)
+--end
+--
+--function PartInfoView:LoadPageFinish(param, obj)
+--    self.PagePrefab = obj
+--    UIUtil.SetParentGameObject(self.PageRoot, obj)
+--    self.Page = Page_PartInfo3()
+--    if self.ArticleData==nil then
+--        self.Page:SetCfgData(self.colorType, obj,  self.PartCfg, UIModuleID.ArticleInfo)
+--    else
+--        self.Page:SetArticleData(self.colorType, obj,  self.ArticleData, UIModuleID.ArticleInfo)
+--    end
+--
+--end
+--
+--function PartInfoView:SetMesh(composeids)
+--    local parent = UIUtil.GetChild("ArticleInfo", UIManager:Get():GetMeshCanvasRoot())
+--    local partId=self.ArticleData==nil and self.PartCfg.id or self.ArticleData:GetPartConfig().id
+--    if composeids ~= nil and #composeids > 0 then
+--
+--        PartBuilder:Get():BuildPart(partId, composeids, parent)
+--    else
+--        PartBuilder:Get():BuildPart(partId, nil, parent)
+--    end
+--
+--end
+--
+--
+--
+--
+--

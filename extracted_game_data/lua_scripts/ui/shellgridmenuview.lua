@@ -1,0 +1,87 @@
+--
+--
+--local __SelectIndex = -1
+--local __CurHoldIndex = -1
+--
+-----@class ShellGridMenuView : ViewBase
+--ShellGridMenuView = class("ShellGridMenuView", ViewBase)
+--
+--function ShellGridMenuView:initialize()
+--    ViewBase.initialize(self)
+--    ViewBase.RegisteAction(self, "ShellGridMenuViewAction")
+--
+--    print("---   ShellGridMenuView 初始化完成")
+--end
+--
+--function ShellGridMenuView:Awake()
+--    print("---   ShellGridMenuView awake")
+--    self.ScrollView = UIUtil.GetTypeChildWightByParent("MoreRowScrollView_V", self.gameObject, typeof(MoreRowScrollView))
+--
+--
+--end
+--
+--function ShellGridMenuView:OnOpen()
+--
+--end
+--
+--function ShellGridMenuView:ReOpen()
+--    self.ScrollView:EnterAni_Alpha(0.2)
+--end
+--
+--function ShellGridMenuView:OnAutoClose()
+--    self.ScrollView:OutAni_Alpha(0)
+--end
+--
+--function ShellGridMenuView:OnClose()
+--    self.ScrollView:OutAni_Alpha(0)
+--end
+--
+--function ShellGridMenuView:SetData(carid)
+--
+--    self.CurCar = CarDataManager:Get():GetCarDataByCarID(carid)
+--
+--    --local partcfg = self.CurCar.assembleMgr:GetNodeByGrooveID(PartGrooveID.Shell):GetPartCfg()
+--    -----@type carshell_config_cell
+--    --local carcfg = CommonHelper:GetTableDataByID(ConfigNames.carshell_config, partcfg.NewShellId)
+--    ---@type table<number,number>
+--    self.HoleCfg = self.CurCar:GetShellCfg().NewShellHole
+--
+--    self:SetScrollView()
+--end
+--
+--
+--function ShellGridMenuView:SetScrollView()
+--    CommonHelper:InitMoreRowScrollView(self.ScrollView, #self.HoleCfg, 1,function(dataIndex, itemObj, scroll)
+--        --print("---      更新item :    dataIndex = " ,dataIndex,"   itemObj = ", itemObj)
+--        UINotify:Get():SendNotification(UINotifyEvent.ShellGridMenuView_UpdateScroll, {dataIndex, itemObj})
+--    end)
+--    self.ScrollView:EnterAni_Alpha(0.2)
+--end
+--
+--function ShellGridMenuView:UpdateScrollView(dataIndex, itemObj)
+--    local data = self.HoleCfg[dataIndex + 1]
+--    if data == nil then return end
+--
+--    local idx = dataIndex + 1
+--
+--    CommonHelper:SetText("holename", itemObj, "孔位"..idx)
+--
+--    local state = CommonHelper:MathBitUtil_BitTrueInt(self.CurCar:GetLightweight(), idx - 1)
+--    local temp = UIUtil.GetChild("stateCanGrid",itemObj)
+--    if temp then temp:SetActive( state) end
+--
+--    temp = UIUtil.GetChild("stateHaveGrid",itemObj)
+--    if temp then temp:SetActive(not state) end
+--
+--    CommonHelper:HButtonSetCallback("BtnSelect",itemObj,function (hbtn)
+--        UINotify:Get():SendNotification(UINotifyEvent.ShellGridMenuView_ClickItem, hbtn.intData)
+--    end, dataIndex)
+--
+--end
+--
+--function ShellGridMenuView:ClickItem(idx)
+--    --self.HoleIdx = idx
+--    --self:ChangePanel(false)
+--    UIManager:Get():OpenView("ShellGridView",CanvasType.MainCanvas,"ShellGridView")
+--    UINotify:Get():SendNotification(UINotifyEvent.ShellGridView_SetData,{ self.CurCar.carIdx, idx} )
+--end

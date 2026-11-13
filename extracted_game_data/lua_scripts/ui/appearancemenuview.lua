@@ -1,0 +1,70 @@
+--
+--
+--
+-----@class AppearanceMenuView : ViewBase
+--AppearanceMenuView = class("AppearanceMenuView", ViewBase)
+--
+--function AppearanceMenuView:initialize()
+--    ViewBase.initialize(self)
+--    ViewBase.RegisteAction(self, "AppearanceMenuViewAction")
+--    print("---   AppearanceMenuView 初始化完成")
+--end
+--
+--function AppearanceMenuView:Awake()
+--    print("---   AppearanceMenuView awake")
+--    CommonHelper:HButtonSetCallback("BtnBack",self.gameObject, function ()
+--        UIManager:Get():CloseView()
+--    end)
+--end
+--
+--function AppearanceMenuView:OnOpen()
+--
+--end
+--
+--function AppearanceMenuView:ReOpen()
+--    UINotify:Get():SendNotification(UINotifyEvent.PViewAssembleCar_Reset)
+--end
+--
+--function AppearanceMenuView:OnClose()
+--
+--end
+--
+--function AppearanceMenuView:SetData(carid)
+--    self.carID = carid
+--
+--
+--    CommonHelper:HButtonSetCallback("BtnLightweight",self.gameObject, function (hbtn)
+--        UIManager:Get():OpenView("LightweightView",CanvasType.MainCanvas,"LightweightView")
+--        UINotify:Get():SendNotification(UINotifyEvent.LightweightView_SetData, hbtn.longData)
+--    end,nil,nil, self.carID)
+--
+--    CommonHelper:HButtonSetCallback("BtnShellGrid",self.gameObject, function (hbtn)
+--        UIManager:Get():OpenView("ShellGridMenuView",CanvasType.MainCanvas,"ShellGridMenuView")
+--        UINotify:Get():SendNotification(UINotifyEvent.ShellGridMenuView_SetData, hbtn.longData)
+--    end,nil,nil, self.carID)
+--
+--    CommonHelper:HButtonSetCallback("BtnShellColor",self.gameObject, function (hbtn)
+--        UIManager:Get():OpenView("ShellColorView",CanvasType.MainCanvas,"ShellColorView")
+--        UINotify:Get():SendNotification(UINotifyEvent.ShellColorView_SetData, hbtn.longData)
+--    end,nil,nil, self.carID)
+--
+--    CommonHelper:HButtonSetCallback("BtnShellSticker",self.gameObject, function (hbtn)
+--        UIManager:Get():OpenView("ShellStickerView",CanvasType.MainCanvas,"ShellStickerView")
+--        UINotify:Get():SendNotification(UINotifyEvent.ShellStickerView_SetData, hbtn.longData)
+--    end,nil,nil, self.carID)
+--
+--
+--
+--    --CommonHelper:HButtonSetCallback("BtnAssemble",self.gameObject, function (hbtn)
+--    --    UIManager:Get():OpenView("TransformView",CanvasType.MainCanvas,"TransformView")
+--    --    UINotify:Get():SendNotification(UINotifyEvent.TransformView_SetData, {hbtn.longData, true})
+--    --end,nil,nil, self.carID)
+--    --
+--    --CommonHelper:HButtonSetCallback("BtnAR",self.gameObject, function (hbtn)
+--    --    UIManager:Get():OpenView("ARView",CanvasType.MainCanvas,"ARView")
+--    --    ARManager:Get():SetARCar(hbtn.longData)
+--    --end,nil,nil, self.carID)
+--
+--
+--    UINotify:Get():SendNotification(UINotifyEvent.PViewAssembleCar_SetData, {carid, CarBuilderType.Assemble})
+--end

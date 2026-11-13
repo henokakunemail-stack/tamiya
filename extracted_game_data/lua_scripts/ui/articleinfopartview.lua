@@ -1,0 +1,110 @@
+--
+--
+-----@type ArticleCell
+--local ArticleData = nil
+--
+--
+--
+--
+-----@class ArticleInfoPartView : ViewBase
+--ArticleInfoPartView = class("ArticleInfoPartView", ViewBase)
+--
+--function ArticleInfoPartView:initialize()
+--    ViewBase.initialize(self)
+--    ViewBase.RegisteAction(self, "ArticleInfoPartViewAction")
+--
+--    ---@type Page_PartInfo4
+--    self.Page = nil
+--    self.PagePrefab = nil
+--end
+--
+--function ArticleInfoPartView:Awake()
+--    self.PageRoot = UIUtil.GetChild("pagebase",self.gameObject)
+--
+--    CommonHelper:HButtonSetCallback("BtnClose",self.gameObject,function (hbtn)
+--        UIManager:Get():ClosePopup()
+--    end)
+--
+--    CommonHelper:SetRawimageRenderTexture("particon", self.gameObject)
+--
+--    --CommonHelper:HButtonSetCallback("BtnReform",self.gameObject,function (hbtn)
+--    --    UIManager:Get():ClosePopup()
+--    --    UIManager:Get():OpenView("ReformView",CanvasType.MainCanvas,"ReformView")
+--    --    UINotify:Get():SendNotification(UINotifyEvent.ReformView_SetData, ArticleData)
+--    --
+--    --    local data = CarDataManager:Get():GetCarDataByIndex(1)
+--    --    UINotify:Get():SendNotification(UINotifyEvent.PViewAssembleCar_SetData, data.carId)
+--    --end)
+--
+--
+--end
+--
+--function ArticleInfoPartView:OnOpen()
+--    HomeSceneHelper:SetArticleInfo()
+--
+--end
+--
+--function ArticleInfoPartView:OnClose()
+--    PartBuilder:Get():RecyclePart()
+--    CameraStackHelper:SetUIDefaultGroup()
+--
+--    if self.Page then
+--        self.Page:Release()
+--        self.Page = nil
+--    end
+--    if self.PagePrefab then
+--        PrefabCacheMgr:Get():RecyclePrefab(self.PagePrefab)
+--        self.PagePrefab = nil
+--    end
+--end
+--
+--function ArticleInfoPartView:OnAutoClose()
+--    PartBuilder:Get():RecyclePart()
+--    CameraStackHelper:SetUIDefaultGroup()
+--
+--    if self.Page then
+--        self.Page:Release()
+--        self.Page = nil
+--    end
+--    if self.PagePrefab then
+--        PrefabCacheMgr:Get():RecyclePrefab(self.PagePrefab)
+--        self.PagePrefab = nil
+--    end
+--end
+--
+--function ArticleInfoPartView:SetData(cellid, composeids)
+--    ArticleData = KnapsackDataManager:Get():GetArticleByCellID(cellid)
+--
+--    self:SetPage()
+--
+--    self:SetMesh(composeids)
+--
+--    CommonHelper:SetComponentPartStar("PartStarCompoent",self.gameObject, ArticleData:GetPartStar(),100)
+--end
+--
+--function ArticleInfoPartView:SetMesh(composeids)
+--    local parent = UIUtil.GetChild("ArticleInfo", UIManager:Get():GetMeshCanvasRoot())
+--    if composeids ~= nil and #composeids > 0 then
+--        PartBuilder:Get():BuildPart(ArticleData:GetArticleID(), composeids, parent)
+--    else
+--        PartBuilder:Get():BuildPart(ArticleData:GetArticleID(), nil, parent)
+--    end
+--end
+--
+--function ArticleInfoPartView:SetPage()
+--    if self.Page then
+--        self.Page:SetArticleData(UIColor.Green, self.PagePrefab,  ArticleData, UIModuleID.ArticleInfo)
+--    else
+--        PrefabCacheMgr:Get():SwapPrefabAsync("Page_PartInfo4.prefab", nil, nil, self.LoadPageFinish, nil, self)
+--    end
+--
+--end
+--
+--function ArticleInfoPartView:LoadPageFinish(param, obj)
+--    self.PagePrefab = obj
+--    UIUtil.SetParentGameObject(self.PageRoot, obj)
+--    self.Page = Page_PartInfo4()
+--    self.Page:SetArticleData(UIColor.Green, obj,  ArticleData, UIModuleID.ArticleInfo, function()
+--        UIManager:Get():ClosePopup()
+--    end)
+--end

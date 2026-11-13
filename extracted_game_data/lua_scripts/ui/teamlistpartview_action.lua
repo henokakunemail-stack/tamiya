@@ -1,0 +1,18 @@
+--
+--
+--
+--
+-----@class TeamListPartViewAction:ViewBaseAction
+--TeamListPartViewAction = class("TeamListPartViewAction",ViewBaseAction)
+--
+--function TeamListPartViewAction:initialize()
+--    ViewBaseAction.initialize(self)
+--end
+--
+--function TeamListPartViewAction:OnRegisterEvents()
+--
+--end
+--
+--
+--
+--return TeamListPartViewAction()

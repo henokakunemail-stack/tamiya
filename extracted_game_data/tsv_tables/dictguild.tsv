@@ -1,0 +1,12 @@
+int	int	int	int	int	int	int	int
+0	0	0	0	0	0	0	0
+C_ID	exp	maxnum	limitnum4	limitnum3	limitnum2	maxdonation	maxexch
+1	1000	20	18	1	1	6	3
+2	2000	25	23	1	1	6	3
+3	5000	30	27	2	1	6	3
+4	10000	35	32	2	1	6	3
+5	20000	40	37	2	1	6	3
+6	50000	45	41	3	1	6	3
+7	100000	50	46	3	1	6	3
+8	200000	55	51	3	1	6	3
+9	0	60	56	3	1	6	3

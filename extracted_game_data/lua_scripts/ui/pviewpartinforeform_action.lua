@@ -1,0 +1,34 @@
+--
+-----@class PViewPartInfoReformAction:ViewBaseAction
+--PViewPartInfoReformAction = class("PViewPartInfoReformAction",ViewBaseAction)
+--
+--function PViewPartInfoReformAction:initialize()
+--    ViewBaseAction.initialize(self)
+--end
+--
+--function PViewPartInfoReformAction:OnRegisterEvents()
+--    self:AddNotificationEvent(UINotifyEvent.PViewPartInfoReform_SetData, self.SetData)
+--    self:AddNotificationEvent(UINotifyEvent.Msg_PartReformLvup, self.UpdateMsg)
+--    self:AddNotificationEvent(UINotifyEvent.Msg_PartReform, self.UpdateMsg)
+--end
+--
+-----@return PViewPartInfoReform
+--function PViewPartInfoReformAction:View()
+--    return self.view
+--end
+--
+--function PViewPartInfoReformAction:SetData(data)
+--    if self:View() then
+--        self:View():SetData(data)
+--    end
+--end
+--
+--
+--
+--function PViewPartInfoReformAction:UpdateMsg()
+--    if self:View() then
+--        self:View():UpdateMsg()
+--    end
+--end
+--
+--return PViewPartInfoReformAction()

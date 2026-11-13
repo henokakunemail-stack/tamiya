@@ -1,0 +1,126 @@
+string
+0
+pt_BR
+pontuação
+Afetam diretamente a velocidade máxima, quanto maior a velocidade, maior a velocidade máxima.
+Afeta diretamente a aceleração máxima, quanto maior o torque, maior a aceleração máxima.
+Afeta a habilidade de fazer curvas durante a corrida. Quanto maior o valor da habilidade de fazer curvas, mais estável o veículo Mini 4WD é, e mais forte a resistência a curvas e capotamento.
+As colisões durante o funcionamento do veículo com tração nas quatro rodas consumirão o valor de durabilidade. Depois que o valor de durabilidade for reduzido a 0, o veículo com tração nas quatro rodas terá maior probabilidade de capotar.
+O peso afetará várias situações no processo de rodagem.Em geral, quanto maior o valor do peso, menor a aceleração e menor a distância de voo do veículo com tração nas quatro rodas.
+A influência do ar no veículo com tração nas quatro rodas na direção vertical, quanto maior a força descendente do ar, menor a distância de voo.
+A influência do ar no veículo com tração nas quatro rodas no sentido horizontal, quanto maior o valor, maior a resistência.
+Afeta o consumo de energia dos veículos com tração nas quatro rodas. Quanto maior o valor, menor o consumo de energia nas mesmas circunstâncias.
+Afeta diretamente a transmissão de torque e velocidade pelo sistema de transmissão de tração nas quatro rodas, quanto maior a eficiência da transmissão, menor a perda de velocidade e torque.
+elasticidade do pneu afetará a estabilidade do veículo com tração nas quatro rodas quando ele pousar. Quanto maior o valor da elasticidade, menos estável é, mas mais fácil é acelerar.
+Ele tem um efeito de restrição no rebote da carroceria em queda do veículo com tração nas quatro rodas. Quanto maior o valor, menor a probabilidade de ressalto.
+Afeta diretamente o limite superior de tração quando a tração nas quatro rodas está funcionando normalmente, quanto maior o valor, maior o limite superior de tração.
+Ele afeta diretamente a resistência ao atrito encontrada pelo veículo com tração nas quatro rodas durante o funcionamento normal. Quanto maior o valor, maior a força de atrito.
+Afeta a perda de velocidade durante o processo de transmissão, quanto maior o valor, maior a perda de velocidade.
+Afeta a perda de torque durante o processo de transmissão, quanto maior o valor, mais perda de torque.
+Afeta a quantidade de atrito quando a roda guia roça contra a parede da pista. Quanto maior o valor, maior será o atrito. Existe um valor limite para o atrito da roda guia. Quando é reduzido ao limite, a redução do valor não será mais ter algum efeito.
+Afeta o efeito de amortecimento quando a roda guia colide com a parede da pista. Quanto maior o valor, menor a taxa de desaceleração. O efeito elástico tem um valor limite. Quando for excedido, não terá mais efeito.
+Afeta a resistência ao atrito quando a tração nas quatro rodas freia, quanto maior o valor, melhor o efeito de frenagem.
+relação de transmissão refere-se à relação entre o diâmetro do eixo acionado e o eixo motriz, que é a chave para a interação entre o motor e o pneu. Em geral, quanto maior a relação de transmissão, menor a velocidade, mas maior o aceleração.
+O diâmetro do pneu afetará a velocidade máxima do veículo com tração nas quatro rodas, quanto maior o raio, maior a velocidade, mas menor a aceleração.
+Coeficiente de restituição do pneu
+O diâmetro da roda guia, a roda guia de pequeno diâmetro é geralmente instalada na torneira do veículo com tração nas quatro rodas, e a roda guia de grande diâmetro geralmente é instalada na cauda da fênix.
+O consumo de energia do veículo com tração nas quatro rodas durante a corrida, quanto maior o valor, maior o consumo de energia.
+Centro de gravidade X
+Centro de gravidade Y
+Centro de gravidade Z
+desempenho fora de estrada
+Desempenho de dobra de onda
+Desempenho de canto
+Inclinação da roda guia
+Pode reduzir o impacto negativo do carro na pista inclinada, para que o carro possa passar em alta velocidade
+resistência da parede
+distância entre eixos
+largura frontal
+largura traseira
+0
+Afeta de forma abrangente os vários desempenhos do carro no ambiente de neve
+Aumenta a velocidade do carro na água
+Aumenta a velocidade do carro na areia
+Aumenta a velocidade na grama
+Aumenta a velocidade em terreno rochoso
+Aumenta a velocidade no gelo
+Este atributo indica se o carro tem força suficiente para voar em linha reta ao sair da curva.
+0
+0
+0
+0
+Uma descrição abrangente da velocidade máxima de um veículo com tração nas quatro rodas, afetada pela velocidade, eficiência da transmissão, atrito do rolamento dos pneus, perda de velocidade e relação de transmissão.
+Uma descrição abrangente da aceleração de um veículo 4WD, afetada pelo torque, eficiência da transmissão, resistência do ar, aderência dos pneus, perda de torque e relação de transmissão.
+Afeta a habilidade de fazer curvas durante a corrida. Quanto maior o valor da habilidade de fazer curvas, mais estável o veículo Mini 4WD é, e mais forte a resistência a curvas e capotamento.
+As colisões durante o funcionamento do veículo com tração nas quatro rodas consumirão o valor de durabilidade. Depois que o valor de durabilidade for reduzido a 0, o veículo com tração nas quatro rodas terá maior probabilidade de capotar.
+O peso afetará várias situações no processo de rodagem.Em geral, quanto maior o valor do peso, menor a aceleração e menor a distância de voo do veículo com tração nas quatro rodas.
+Forma aerodinâmica
+perda de energia
+fricção dos pneus
+Pontuação
+0
+pontuação
+Velocidade de rotação
+torque
+Curvas
+durável
+peso
+downforce aéreo
+a resistência do ar
+economize eletricidade
+eficiência de transmissão
+elasticidade do pneu
+amortecedor
+aderência do pneu
+fricção de rolamento de pneu
+perda de velocidade
+perda de torque
+Fricção da roda guia
+Elasticidade da roda guia
+desempenho de frenagem
+relação de transmissão
+raio do pneu
+Coeficiente de restituição do pneu
+Diâmetro da roda guia
+consumo de energia
+Centro de gravidade X
+Centro de gravidade Y
+Centro de gravidade Z
+desempenho fora de estrada
+Desempenho de dobra de onda
+Desempenho de canto
+Inclinação da roda guia
+suporte de parede lateral
+Resistência da parede
+Distância entre eixos
+Largura frontal
+Largura traseira
+0
+desempenho na neve
+Desempenho de superfície
+Desempenho na areia
+Desempenho na grama
+Desempenho fora de estrada
+Desempenho no gelo
+Suporte lateral
+0
+0
+0
+0
+velocidade
+acelerar
+Curvas
+durável
+peso
+Forma aerodinâmica
+Perda de poder
+Fricção dos pneus
+Pontuação
+Informação básica
+desempenho motor
+desempenho do pneu
+equilíbrio
+resistência ao atrito
+perda de energia
+controle de voo
+Características especiais

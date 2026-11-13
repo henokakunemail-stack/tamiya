@@ -1,0 +1,26 @@
+--
+-----@class AppearanceMenuViewAction:ViewBaseAction
+--AppearanceMenuViewAction = class("AppearanceMenuViewAction",ViewBaseAction)
+--
+--function AppearanceMenuViewAction:initialize()
+--    ViewBaseAction.initialize(self)
+--end
+--
+--function AppearanceMenuViewAction:OnRegisterEvents()
+--    self:AddNotificationEvent(UINotifyEvent.AppearanceMenuView_SetData, self.SetData)
+--end
+--
+-----@return AppearanceMenuView
+--function AppearanceMenuViewAction:View()
+--    return self.view
+--end
+--
+--function AppearanceMenuViewAction:SetData(carid)
+--    if self:View() then
+--        self:View():SetData(carid)
+--    end
+--end
+--
+--
+--
+--return AppearanceMenuViewAction()

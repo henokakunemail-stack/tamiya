@@ -1,0 +1,6 @@
+INT	INT	INT	INT
+0	0	0	0
+C_ID	unlockcond	cdtime	freshday
+1	0	0	14
+2	1	1209600	14
+3	2	2419200	14

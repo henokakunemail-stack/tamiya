@@ -1,0 +1,57 @@
+--
+-----@class ShellStickerViewAction:ViewBaseAction
+--ShellStickerViewAction = class("ShellStickerViewAction",ViewBaseAction)
+--
+--function ShellStickerViewAction:initialize()
+--    ViewBaseAction.initialize(self)
+--end
+--
+--function ShellStickerViewAction:OnRegisterEvents()
+--    self:AddNotificationEvent(UINotifyEvent.ShellStickerView_UpdateScrollView, self.UpdateScollView)
+--    self:AddNotificationEvent(UINotifyEvent.ShellStickerView_ClickItem, self.ClickItem)
+--    self:AddNotificationEvent(UINotifyEvent.ShellStickerView_SetData, self.SetData)
+--    self:AddNotificationEvent(UINotifyEvent.ShellStickerView_ClickBtnReset, self.OnClickBtn_Reset)
+--    self:AddNotificationEvent(UINotifyEvent.ShellStickerView_ClickBtnSave, self.OnClickBtn_Save)
+--    self:AddNotificationEvent(UINotifyEvent.Msg_ShellSticker, self.UpdateMsg)
+--end
+--
+-----@return ShellStickerView
+--function ShellStickerViewAction:View()
+--    return self.view
+--end
+--
+--function ShellStickerViewAction:UpdateScollView( node)
+--    if self:View() then
+--        self:View():UpdateScollView(node[1], node[2], node[3])
+--    end
+--end
+--
+--function ShellStickerViewAction:ClickItem(node)
+--    if self:View() then
+--        self:View():ClickItem(node[1], node[2])
+--    end
+--end
+--
+--function ShellStickerViewAction:SetData(carid)
+--    if self:View() then
+--        self:View():SetData(carid)
+--    end
+--end
+--
+--function ShellStickerViewAction:OnClickBtn_Save()
+--    if self:View() then
+--        self:View():OnClickBtn_Save()
+--    end
+--end
+--function ShellStickerViewAction:OnClickBtn_Reset()
+--    if self:View() then
+--        self:View():OnClickBtn_Reset()
+--    end
+--end
+--function ShellStickerViewAction:UpdateMsg()
+--    if self:View() then
+--        self:View():UpdateMsg()
+--    end
+--end
+--
+--return ShellStickerViewAction()

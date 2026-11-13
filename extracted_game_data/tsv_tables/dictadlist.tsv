@@ -1,0 +1,9 @@
+int	int	STRING	STRING	int	STRING	STRING	STRING
+0	0	0	0	0	0	0	0
+C_ID	viewnum	awardids	awardnum	limittime	missionname	missionmemo	adcard
+900001	1	12040114:12040201	1:1	15	ADmissionname_001	missionmemo_001	2003
+900002	3	12040114:12040101	1:2000	15	ADmissionname_001	missionmemo_001	2003
+900003	1	12040114:12040102	1:200	15	ADmissionname_001	missionmemo_001	2003
+900004	2	12040114:17100020	1:1	15	ADmissionname_001	missionmemo_001	2003
+900005	2	12040114:17100035	1:1	15	ADmissionname_001	missionmemo_001	2003
+900006	1	12040114:17100016	1:1	15	ADmissionname_001	missionmemo_001	2003

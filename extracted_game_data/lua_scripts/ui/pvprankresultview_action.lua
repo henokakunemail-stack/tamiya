@@ -1,0 +1,29 @@
+--
+--
+--
+-----@class PVPRankResultViewAction:ViewBaseAction
+--PVPRankResultViewAction = class("PVPRankResultViewAction",ViewBaseAction)
+--
+--function PVPRankResultViewAction:initialize()
+--    ViewBaseAction.initialize(self)
+--end
+--
+--function PVPRankResultViewAction:OnRegisterEvents()
+--    --self:AddNotificationEvent(UINotifyEvent.PVPRankResultView_ClickCarInfo, self.ClickCarInfo)
+--
+--end
+--
+-----@return PVPRankResultView
+--function PVPRankResultViewAction:View()
+--    return self.view
+--end
+--
+--
+--function PVPRankResultViewAction:ClickCarInfo(idx)
+--    if self:View() then
+--        --self:View():OnClickBtn_CarInfo(idx)
+--    end
+--end
+--
+--
+--return PVPRankResultViewAction()

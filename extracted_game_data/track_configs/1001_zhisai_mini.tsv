@@ -1,0 +1,9 @@
+{
+	"ObjectType":"Horizon.Game.LogicLayer.MiniTrackData",
+	"System.String,trackName":"1001_zhisai_mini",
+	"Horizon.Game.LogicLayer.LineNumber,miniTrackLineType":"Three",
+	"System.Collections.Generic.List`1[Horizon.Game.LogicLayer.MiniSegmentData],configIds":[],
+	"System.Int16,startAngle":0,
+	"UnityEngine.Vector3,startOffset":"(0,0.8,0)",
+	"Horizon.Game.LogicLayer.MiniTrackClosedType,closedType":"NotClosed"
+}

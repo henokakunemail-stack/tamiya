@@ -1,0 +1,17 @@
+--
+--
+--
+-----@class CommonBgRedView : ViewBase
+--CommonBgRedView = class("CommonBgRedView", ViewBase)
+--
+--function CommonBgRedView:initialize()
+--
+--end
+--
+--function CommonBgRedView:Awake()
+--
+--end
+--
+--function CommonBgRedView:OnOpen()
+--
+--end
